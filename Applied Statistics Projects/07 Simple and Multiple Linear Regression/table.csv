@@ -1,0 +1,6 @@
+File,Description
+,"Phase-by-phase checklist covering research design, data prep, simple OLS, multiple OLS, diagnostics, model-building strategies, interpretation rules, and final quality gates"
+,"Professional internal memo proposing the project (objective, rationale, scope, methodological guardrails, deliverables, recommendation)"
+,"11-slide deck covering why regression matters, least-squares principle, R² vs Adj. R², simple vs multiple, context-dependency, Python workflow, model-building strategies, key cautions, and project deliverables"
+,"Reusable Jupyter notebook template with sections for setup, data loading/EDA, simple OLS, multiple OLS, residual diagnostics + VIF, predictions, model comparison, and a reporting checklist"
+,"Five additional high-value domains that can use the same methodology (educational assessment, health risk-factor modeling, business/operational metrics, environmental/agricultural yield, social/behavioral outcomes)"
