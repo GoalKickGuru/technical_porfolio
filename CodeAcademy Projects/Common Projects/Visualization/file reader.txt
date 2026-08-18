@@ -1,0 +1,53 @@
+import csv
+
+with open('employees.csv', mode='r') as file:
+    csv_reader = csv.DictReader(file)
+    
+    for row in csv_reader:
+        name = row['Name']
+        phone = row['Phone Number']
+        print(f"{name}: {phone}")
+
+
+import csv
+
+with open("employees.csv", newline="") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        print(f"{row['Name']}: {row['Phone Number']}")
+
+
+import csv
+
+with open("employees.csv", newline="") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        print(row["Name"] + ": " + row["Phone Number"])
+
+
+transaction_id,transaction_date,transaction_time,sales_outlet_id,staff_id,customer_id
+
+
+
+transaction_id → Serial / Integer → Primary Key
+transaction_date → Date
+transaction_time → Time (or Timestamp)
+sales_outlet_id → Integer → Foreign Key (will link later)
+staff_id → Integer → Foreign Key
+customer_id → Integer → Foreign Key
+
+
+product_id → Serial → PK
+product_category
+product_type
+product_name
+description
+price
+
+
+Binomial Test
+Anova
+Two-sample t-test
+Chi-Square test
+
+~~strikethrough~~

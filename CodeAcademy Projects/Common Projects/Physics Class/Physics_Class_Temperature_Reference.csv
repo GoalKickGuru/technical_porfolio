@@ -1,0 +1,7 @@
+Fahrenheit_F,Celsius_C,Kelvin_K,Description
+-40,-40,233.15,Same number in F and C
+32,0,273.15,Freezing point of water
+68,20,293.15,Room temperature approx.
+98.6,37,310.15,Body temperature
+100,37.77777777777778,310.9277777777778,Test value from project
+212,100,373.15,Boiling point of water

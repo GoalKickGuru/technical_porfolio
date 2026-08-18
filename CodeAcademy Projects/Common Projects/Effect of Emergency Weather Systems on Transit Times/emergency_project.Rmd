@@ -1,0 +1,119 @@
+---
+title: "Commute Times"
+output: html-notebook
+---
+
+```{r, message=FALSE}
+# load libraries
+library(ggplot2)
+library(dplyr)
+library(rdd)
+```
+
+# Task 1
+```{r}
+# load file as dataframe
+snow_df <- read.csv("snow.csv")
+```
+
+# Task 2
+```{r}
+# inspect dataframe
+head(snow_df)
+```
+
+# Task 3
+```{r}
+# create base plot
+scatter_base <- ggplot(
+  data = snow_df,
+  aes(
+    x = snowfall, #forcing variable
+    y = minutes, #outcome variable
+    color = emergency,
+    shape = emergency
+  )
+) +
+geom_point() #add points
+
+# print plot
+scatter_base
+```
+
+# Task 4
+```{r}
+# update base plot with line at cutpoint
+scatter_cutpoint <- 
+scatter_base + #original plot
+geom_vline(
+  xintercept = 4, #vertical line at cutpoint
+  linetype = "dashed")
+
+# print plot
+scatter_cutpoint
+```
+
+# Task 5
+```{r, message = FALSE}
+# add linear best fit lines for each group
+scatter_lines <- scatter_cutpoint +
+geom_smooth(aes(group = emergency), method = "lm")
+
+# print plot
+scatter_lines
+```
+
+# Task 6
+```{r, message=FALSE}
+# calculate bandwidth
+snow_ik_bw <- IKbandwidth(
+  X = snow_df$snowfall, #forcing variable
+  Y = snow_df$minutes, #outcome variable
+  cutpoint = 4 #cutpoint
+)
+
+# print bandwidth
+snow_ik_bw
+```
+
+# Task 7
+```{r}
+# add bandwidth lines to plot
+scatter_bw <- 
+scatter_cutpoint + #previous plot
+geom_vline( #add solid lines
+  #lines one bandwidth above or below 4
+  xintercept = 4 + c(-snow_ik_bw, snow_ik_bw))
+
+# print plot
+scatter_bw
+```
+
+# Task 8
+```{r, message=FALSE}
+# fit local linear regression model
+snow_rdd <- RDestimate(
+  formula = minutes ~ snowfall, #outcome model
+  cutpoint = 4, #cutpoint
+  bw = snow_ik_bw, #bandwidth
+  data = snow_df #data
+)
+```
+
+# Task 9
+```{r}
+# results of local linear regression model
+snow_rdd
+```
+
+# Task 10
+```{r}
+# print the number of observations
+snow_rdd$obs
+```
+
+# Task 11
+```{r}
+# print the standard errors
+snow_rdd$se
+```

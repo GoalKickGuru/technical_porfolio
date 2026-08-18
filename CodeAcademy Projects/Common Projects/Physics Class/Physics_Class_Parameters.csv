@@ -1,0 +1,10 @@
+Parameter,Value,Unit,Description
+train_mass,22680,kg,Mass of the GE locomotive
+train_acceleration,10,m/s²,Acceleration of the train
+train_distance,100,m,Distance over which work is calculated
+bomb_mass,1,kg,Mass used for rest-energy example
+c,300000000,m/s,Speed of light (default)
+G,6.6743e-11,m³ kg⁻¹ s⁻²,Gravitational constant
+earth_mass,5.972e+24,kg,Approximate mass of Earth
+moon_mass,7.348e+22,kg,Approximate mass of Moon
+earth_moon_distance,384400000.0,m,Average Earth-Moon distance

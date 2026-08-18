@@ -1,0 +1,67 @@
+Which type of charts would you recommend for visualizing some interesting possible patterns in this data?
+
+My colleague is considering creating a scatterplot to analyze booking cancellation rates across different room types. Rate this approach on a scale of 1 to 10 and explain your reasoning.
+
+Which charts would you recommend to help my non-technical stakeholders best understand the different factors affecting cancellation rates?
+
+Help me create a visualization for the average number of special requests by booking status using Google Sheets. I want named axes and a title. Provide succinct instructions for creating this visualization.
+
+Help me create a stacked bar chart of Cancellation Rate by Market Segment with axes names and a title using Google Sheets. I want canceled reservations to show in orange and not canceled reservations in blue.
+
+I am conducting some data analytics work for a company that creates video games with the goal of conducting market research to identify the most in demand video games. Your task is to help me explore a dataset I have identified to help with this market research. I am working with a dataset of cumulative video game sales based on a game's year of release. You have access to the first rows of this dataset. You will help me better understand this dataset. Please summarize your task so I know you understand.
+
+Prompting process
+Paste in your prompt and submit it.
+Evaluate the response. Was it accurate to the data? Was it helpful?
+Ask a follow up question or revise your prompt.
+If the LLM appears to be wrong: "Are you sure about that? Explain your answer"
+If the LLM didn't answer your question: "I was actually asking [clearly stated request]. Does this change your answer?"
+Instructions
+Try at least 3 of the prompts below, and feel free to create your own based on the lectures you watched!
+
+👤💬 Prompt 1
+How is this data generated?
+
+👤💬 Prompt 2
+Summarize the mix of numeric and categorical features.
+
+👤💬 Prompt 3
+What are some relationships you can infer between the features based on how they are defined?
+
+👤💬 Prompt 4
+What do you suspect is the general quality of this data and why?
+
+👤💬 Prompt 5
+What summary statistics should I calculate about this dataset in order to better understand it?
+
+👤💬 Prompt 6
+What data processing steps do you recommend from this list: categorical grouping, text processing, binning?
+
+👤💬 Prompt 7
+Considering the goals of this project, if you were to collect more data, what information would be most valuable to add to this dataset? You can also suggest an additional dataset that would be more helpful.
+
+Step 4: Break the LLM
+As you learned in earlier lectures, LLMs can hallucinate, so don't take every answer as fact. While an LLM is a good assistant for when you're first tackling a problem, you should be mindful of its strengths and weaknesses.
+
+Below, you'll find some prompts that some LLMs may not be able to answer well. See if the one you're using can handle them. Note that responses may differ each time.
+
+Instructions
+Ask the LLM each prompt and evaluate its answer.
+
+👤💬 Prompt 1
+What is the sum of all the global sales for the first 10 games?
+
+Correct answer: 160.67
+
+👤💬 Prompt 2
+How old was the president of Nintendo in 2023?
+
+Correct answer: 51
+
+👤💬 Prompt 3
+How many years is there between the earliest and latest game published, considering only the first 10 games?
+
+Correct answer: 5
+
+Congratulations!
+

@@ -1,0 +1,24 @@
+def calculate_smartphone_cost(model, price, quantity=1, discount=0):
+    total_cost = price * quantity
+    discount_amount = total_cost * (discount / 100)
+    discounted_cost = total_cost - discount_amount
+    
+    print(f'Model: {model}')
+    print(f'Unit price: ${price}')
+    print(f'Quantity: {quantity}')
+    print(f'Total cost before discount: ${total_cost}')
+    
+    if discount > 0:
+        print(f'Discount: {discount}%')
+        print(f'Discount amount: ${discount_amount}')
+        print(f'Discounted cost: ${discounted_cost}')
+    else:
+        print('No discount applied.')
+        print(f'Final cost: ${discounted_cost}')
+    
+    print()
+
+# Examples of using the function
+calculate_smartphone_cost('iPhone 13', 1099, 2)
+calculate_smartphone_cost('Samsung Galaxy S21', 999, 1, 10)
+calculate_smartphone_cost('Google Pixel 6', 799, quantity=3, discount=5)

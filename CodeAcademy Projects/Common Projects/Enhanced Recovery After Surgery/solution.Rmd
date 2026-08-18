@@ -1,0 +1,81 @@
+---
+title: "Enhanced Recovery After Surgery"
+output: html-notebook
+---
+
+```{r, message=FALSE}
+library(dplyr)
+library(ggplot2)
+```
+# Task 1
+```{r}
+# read in data
+eras <- read.csv("eras_df.csv")
+```
+# Task 2
+```{r}
+# print head of dataset
+head(eras)
+```
+# Task 3
+```{r}
+# line plot for hospital B
+eras %>%
+  #filter to only hospital B
+  filter(hospital == "Hospital B") %>% 
+  #los over time
+  ggplot(aes(x = year, y = los)) + 
+  #line plot
+  geom_line() +
+  #vertical line at 2014
+  geom_vline(xintercept = 2014, linetype = "dashed") +
+  #set x scale
+  scale_x_continuous(breaks = c(2010:2019))
+  ```
+# Task 4
+```{r}
+# line plot for both hospitals
+ggplot(
+  data = eras, 
+  aes(x = year, y = los, color = hospital, linetype = hospital) # use different line types/colors to distinguish hospitals
+  ) +
+  geom_line() +
+  geom_vline(xintercept = 2014, linetype = "dashed") +
+  scale_x_continuous(breaks = c(2010:2019))
+```
+# Task 5
+```{r}
+# restrict data to 2014-2015
+eras2 <- eras %>% filter(year == 2014 | year == 2015)
+# view dataset
+eras2
+```
+# Task 6
+```{r}
+# calculate differences within hospitals
+Bdiff <- eras2$los[4] - eras2$los[2]
+Adiff <- eras2$los[3] - eras2$los[1]
+```
+# Task 7
+```{r}
+# calculate difference in differences
+Bdiff - Adiff
+```
+# Task 8
+```{r}
+# create indicators
+eras2$treat <- ifelse(eras2$hospital == "Hospital B",1,0)
+eras2$time <- ifelse(eras2$year == 2015,1,0)
+```
+# Task 9
+```{r}
+# fit linear model with interaction between treat and time
+hospital_model <- lm(los ~ treat * time, data = eras2)
+# view model
+hospital_model
+```
+# Task 10
+```{r}
+# print ATT
+hospital_model$coefficients[4]
+```

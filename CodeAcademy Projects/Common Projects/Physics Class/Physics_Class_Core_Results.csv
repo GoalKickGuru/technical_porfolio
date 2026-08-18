@@ -1,0 +1,9 @@
+Metric,Value,Unit,Formula / Notes
+100 °F to Celsius,37.77777777777778,°C,C = (F - 32) * 5/9
+0 °C to Fahrenheit,32.0,°F,F = C * (9/5) + 32
+Train Force,226800,N,F = mass * acceleration
+Bomb Energy,90000000000000000,J,E = mass * c^2  (c = 3e8)
+Train Work,22680000,J,W = force * distance
+Kinetic Energy (20 m/s),4536000,J,KE = 0.5 * m * v^2
+Power (work in 10 s),2268000,W,P = work / time
+Earth-Moon Gravity,1.98211072907925e+20,N,F = G * m1 * m2 / r^2

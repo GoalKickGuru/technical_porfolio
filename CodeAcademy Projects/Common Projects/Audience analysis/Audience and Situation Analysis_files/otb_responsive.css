@@ -1,0 +1,86 @@
+header, hgroup, main, sidebar, aside, footer {display: block;}
+* {font-family: Verdana;}
+	
+.wrapper {width: 80%; margin: 0 auto; max-width: 1200px;}
+
+.row {clear: both;}
+
+.nested_list {margin-left: 0.0in;}
+.runin_heading {color: blue; font-weight: bold;}
+.runin_heading_bold {color: blue; font-weight: bold;}
+.runin_heading_bold_blue {color: blue; font-weight: bold;}
+.runin_heading_ital {color: blue; font-style: italics;}
+.subrunin_heading {color: blue; font-style: italic;}
+.pull_quote {float: right; max-width: 300px; font-size: 30px; line-height: 130%; font-style: italic; padding-top: 5px; padding-bottom: 5px; margin-left: 15px; margin-right: -70px; margin-bottom: 10px;}
+.figure_label {color: blue; font-style: italic;}
+.figure_label_blue {color: blue; font-style: italic;}
+.example_text {font-family: Courier New;} 
+
+.half_skip {margin-top: 0.1in; margin-bottom: 0.1in;} 
+.half_skip0 {margin-top: 0.1in; margin-left: 0.0in; margin-bottom: 0.1in;} 
+.half_skip1 {margin-top: 0.1in; margin-left: 1.0in; margin-bottom: 0.1in;} 
+.half_skip125 {margin-top: 0.1in; margin-left: 1.25in; margin-bottom: 0.1in;} 
+
+#header .byline {font-style: italic; font-size: 8pt; margin: 3px; text-align: center;}
+#header h1 {margin: 0px; color: black; font-size: 16pt; text-align: center;}
+#header h2 {margin: 0px; padding: 0px; color: black; font-size: 14pt; text-align: center;}
+#header {float: left; border: thin black solid; width: 100%; background-color: ivory;}
+
+#sidebar  {float: left; border: thin black solid; padding: 6px; background-color: ivory; margin-top: 12px; margin-bottom: 12px; margin-right: 12px;}
+/*#sidebar .toc_sublevel {margin-top: -3pt; margin-bottom: 3pt; margin-left: 12px; font-size: 8pt;}
+#sidebar .li_toc {margin-left: -28px; margin-bottom: 6pt;}
+#sidebar h2 {margin: 0px; padding: 0px; color: blue; font-size: 11pt;}
+#sidebar p {text-decoration: none; font-size: 8pt;}
+#sidebar a {text-decoration: none; border-bottom: 1px dotted black;}*/
+
+#main {float: left;}
+#main p {margin-left: 0.5in; margin-top: 12pt; margin-right: 0.5in; line-height: 14pt; font-size: 10pt;} 
+#main h2 {margin-left: 0.5in;}
+#main h3 {margin-left: 0.5in;}
+#main li {margin-left: 0.5in; font-size: 10pt; margin-bottom: 8pt;}
+
+#footer {font-size: 8pt; text-align: center; color: black; background-color: ivory; padding: 9px 9px 9px 9px; border: thin black solid;}
+
+#aside {float: left; border: thin black solid; padding: 6px; background-color: ivory; margin-top: 12px; margin-bottom: 12px; margin-right: 12px;}
+
+#main .floatRight {
+float: right;
+margin: 36px;
+background-color: silver;
+border: 3px solid red; padding: 0.15in;
+font-family: Verdana;
+font-size: 9pt;
+}
+
+a {text-decoration: none; border-bottom: 1px dotted #6D006D;}
+
+A {text-decoration: none; border-bottom: 1px dotted #6D006D;}
+
+/* smartphone */
+@media (max-width: 767px) 
+{
+
+  #header  {width: 100%;}
+  #main {width: 60%;}
+  #main p {font-size: 9pt; }
+  #sidebar {width: 30%;}
+  #footer  {width: 100%;}
+}
+
+/* Medium screens */
+@media (min-width: 768px) 
+{
+  #header  {width: 100%;}
+  #main {width: 68%;}
+  #sidebar   {width: 30%;}
+  #footer  {width: 100%;}
+}
+
+/* Large screens */
+@media (min-width: 1000px) 
+{
+  #header  {width: 100%;}
+  #sidebar {width: 15%;}
+  #main {width: 70%;}
+  #footer  {width: 100%;}
+}

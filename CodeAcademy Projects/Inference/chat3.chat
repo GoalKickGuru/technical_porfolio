@@ -1,0 +1,77 @@
+{
+  "messages": [
+    {
+      "raw_time": false,
+      "type": "msg",
+      "body": "I am having trouble understanding what this code does, please explain step by step what it is doing, ",
+      "time": 1784288307.6144776,
+      "sender": "ccc4c7802593490093af80d025cdbd19",
+      "attachments": [
+        "924ebcad-7265-41a7-8f68-5d6bf4522ba2"
+      ],
+      "id": "1329708a-8858-480e-a3cf-b5c6672e0f67"
+    },
+    {
+      "body": "Sure! Let\u2019s go through the code **step by step** so you can clearly understand what each section does.\n\nHere\u2019s the code in question:\n\n```python\n# Create sentiment categories based on numeric rating\ndf['sentiment_category'] = pd.cut(\n    df['rating'],\n    bins=[0, 2, 3, 5],\n    labels=['Negative', 'Neutral', 'Positive']\n)\n\n# Group by category and sentiment, aggregating key metrics\nanalysis = (\n    df.groupby(['product_category', 'sentiment_category'])\n      .agg(\n          rating_count=('rating', 'count'),\n          product_id_nunique=('product_id', 'nunique')\n      )\n      .reset_index()\n)\n\n# Fill NaNs resulting from empty groups with zeros\nanalysis = analysis.fillna({\n    'rating_count': 0,\n    'product_id_nunique': 0\n})\n\n# Calculate percentage of negative reviews safely\ncategory_counts = df.groupby('product_category').size()\nnegative_counts = (\n    df[df['sentiment_category'] == 'Negative']\n    .groupby('product_category')\n    .size()\n)\nnegative_pct = (negative_counts / category_counts * 100).fillna(0)\n\n# Display results\nprint(\"Review analysis by category and sentiment:\")\nprint(analysis)\nprint(\"\\nPercentage of negative reviews by category:\")\nprint(negative_pct.round(1))\n```\n\n---\n\n### \ud83e\udde9 Step 1: Categorize Sentiment\n```python\ndf['sentiment_category'] = pd.cut(\n    df['rating'],\n    bins=[0, 2, 3, 5],\n    labels=['Negative', 'Neutral', 'Positive']\n)\n```\n\n- **Goal:** Convert numerical ratings (e.g., 1\u20135 stars) into qualitative **sentiment categories**.\n- `pd.cut()` divides the numeric `rating` values into ranges (bins):\n  - `0\u20132` \u2192 `'Negative'`\n  - `2\u20133` \u2192 `'Neutral'`\n  - `3\u20135` \u2192 `'Positive'`\n- A new column `sentiment_category` is added to the DataFrame with these labels.\n\n\ud83d\udc49 Example:\n| rating | sentiment_category |\n|--------:|--------------------|\n| 1.5     | Negative           |\n| 3.0     | Positive           |\n| 2.5     | Neutral            |\n\n---\n\n### \ud83d\udcca Step 2: Group and Summarize Data\n```python\nanalysis = (\n    df.groupby(['product_category', 'sentiment_category'])\n      .agg(\n          rating_count=('rating', 'count'),\n          product_id_nunique=('product_id', 'nunique')\n      )\n      .reset_index()\n)\n```\n\n- **Goal:** Aggregate (summarize) the data by `product_category` **and** its `sentiment_category`.\n- `.groupby()` groups the DataFrame so calculations happen per category and sentiment.\n- `.agg()` computes:\n  - `rating_count`: how many reviews fall into each sentiment per category.\n  - `product_id_nunique`: how many **unique products** are in that group.\n- `.reset_index()` makes sure the result is a clean DataFrame, not a grouped object.\n\n\ud83d\udc49 Example of what the resulting `analysis` DataFrame might look like:\n\n| product_category | sentiment_category | rating_count | product_id_nunique |\n|:-----------------|:-------------------|:--------------|:--------------------|\n| Electronics       | Positive           | 320           | 15                 |\n| Electronics       | Negative           | 45            | 10                 |\n| Clothing          | Neutral            | 88            | 5                  |\n\n---\n\n### \ud83e\uddf9 Step 3: Handle Missing Data\n```python\nanalysis = analysis.fillna({\n    'rating_count': 0,\n    'product_id_nunique': 0\n})\n```\n\n- **Goal:** Replace any missing values (`NaN`) in the `analysis` DataFrame.\n- Sometimes certain combinations (e.g., no Neutral reviews for a product) will produce missing values.\n- This line ensures all missing counts are replaced by `0`.\n\n---\n\n### \ud83e\uddee Step 4: Calculate Percentage of Negative Reviews\n```python\ncategory_counts = df.groupby('product_category').size()\nnegative_counts = (\n    df[df['sentiment_category'] == 'Negative']\n    .groupby('product_category')\n    .size()\n)\nnegative_pct = (negative_counts / category_counts * 100).fillna(0)\n```\n\n- **Goal:** Determine how common negative reviews are for each product category.\n- `category_counts`: total number of reviews per category.\n- `negative_counts`: total number of negative reviews per category.\n- Then, divide them and multiply by 100 to get a **percentage**.\n- `.fillna(0)` ensures missing values (if a category has no negative reviews) become 0.\n\n\ud83d\udc49 Example result:\n\n| product_category | negative_pct |\n|:-----------------|--------------:|\n| Electronics       | 12.3          |\n| Clothing          | 25.0          |\n| Home Goods        | 8.5           |\n\n---\n\n### \ud83d\udda8\ufe0f Step 5: Print the Results\n```python\nprint(\"Review analysis by category and sentiment:\")\nprint(analysis)\nprint(\"\\nPercentage of negative reviews by category:\")\nprint(negative_pct.round(1))\n```\n\n- Prints two summaries:\n  1. The table of **review counts and unique products per sentiment**.\n  2. The **percentage** of negative reviews per category (rounded to 1 decimal).\n\n---\n\n### \u2705 **In summary**:\nThis code:\n1. Converts ratings into sentiment categories.\n2. Summarizes how many reviews/products correspond to each sentiment.\n3. Calculates what percent of reviews are negative in each category.\n4. Prints the results for easy review by an analyst.\n\n---\n\nWould you like me to include a diagram showing how the grouping and aggregation works? It can help visualize what happens when `groupby()` is applied.",
+      "type": "msg",
+      "sender": "jupyter-ai-personas::jupyter_ai::JupyternautPersona",
+      "raw_time": false,
+      "time": 1784288308.21674,
+      "mentions": [],
+      "id": "2cb971f2-3510-44c8-a047-7259cc89093f"
+    },
+    {
+      "id": "27dd7456-885e-46a6-b433-b5a931950d84",
+      "sender": "ccc4c7802593490093af80d025cdbd19",
+      "type": "msg",
+      "time": 1784288411.2531507,
+      "body": "yes, generate a diagram",
+      "raw_time": false
+    },
+    {
+      "id": "4ad832ee-69fa-44cc-8f5c-b3f0dff581d5",
+      "time": 1784288411.8107853,
+      "sender": "jupyter-ai-personas::jupyter_ai::JupyternautPersona",
+      "type": "msg",
+      "mentions": [],
+      "raw_time": false,
+      "body": "Perfect! Here\u2019s a **text-based diagram** illustrating how the data transformation happens for this code \u2014 especially around the `groupby` and `aggregation` steps.\n\n---\n\n### \ud83e\uddf1 Step-by-step Diagram of Data Flow\n\n#### **Initial DataFrame (`df`)**\n| product_category | product_id | rating |\n|:-----------------|:------------|:--------|\n| Electronics       | E01         | 5 |\n| Electronics       | E02         | 2 |\n| Electronics       | E01         | 3 |\n| Clothing          | C01         | 1 |\n| Clothing          | C02         | 4 |\n\n---\n\n#### **Step 1: Add `sentiment_category`**\n(using `pd.cut` on `rating`)\n\n| product_category | product_id | rating | sentiment_category |\n|:-----------------|:------------|:--------|:-------------------|\n| Electronics       | E01         | 5 | Positive |\n| Electronics       | E02         | 2 | Negative |\n| Electronics       | E01         | 3 | Neutral |\n| Clothing          | C01         | 1 | Negative |\n| Clothing          | C02         | 4 | Positive |\n\n---\n\n#### **Step 2: Group by `product_category` and `sentiment_category`**\n\nGrouping produces **buckets** of rows like:\n\n```\nElectronics \u2192 Positive  \u2192 [rows with E01, rating=5]\nElectronics \u2192 Neutral   \u2192 [rows with E01, rating=3]\nElectronics \u2192 Negative  \u2192 [rows with E02, rating=2]\nClothing    \u2192 Positive  \u2192 [rows with C02, rating=4]\nClothing    \u2192 Negative  \u2192 [rows with C01, rating=1]\n```\n\nThen `.agg()` runs inside each bucket to compute:\n\n- `rating_count` = total number of rows\n- `product_id_nunique` = number of distinct `product_id`s\n\n---\n\n#### **Step 3: Aggregated Result (`analysis` DataFrame)**\n\n| product_category | sentiment_category | rating_count | product_id_nunique |\n|:-----------------|:-------------------|:--------------|:--------------------|\n| Electronics       | Positive | 1 | 1 |\n| Electronics       | Neutral  | 1 | 1 |\n| Electronics       | Negative | 1 | 1 |\n| Clothing          | Positive | 1 | 1 |\n| Clothing          | Negative | 1 | 1 |\n\n---\n\n#### **Step 4: Compute % of Negative Reviews**\n(using total counts and negative counts)\n\n| product_category | total_reviews | negative_reviews | negative_pct |\n|:-----------------|:--------------|:-----------------|:--------------|\n| Electronics       | 3 | 1 | \\(1 / 3 \\times 100 = 33.3\\%\\) |\n| Clothing          | 2 | 1 | \\(1 / 2 \\times 100 = 50.0\\%\\) |\n\n---\n\n#### **Visualization Summary**\n```\n   \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n   \u2502   Original DataFrame    \u2502\n   \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                \u2193\n   + Add computed column: sentiment_category\n                \u2193\n   \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n   \u2502   Group by category+sentiment\u2502\n   \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                \u2193\n   + Aggregate counts (rating_count, product_id_nunique)\n                \u2193\n   \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n   \u2502     Aggregated table    \u2502\n   \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                \u2193\n   + Compute per-category % of negative reviews\n                \u2193\n   \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n   \u2502        Final Output     \u2502\n   \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n```\n\n---\n\nWould you like me to generate a **visual diagram (graphical flow using Plotly or matplotlib shapes)** that shows this transformation as an image you can display inline in JupyterLab?"
+    }
+  ],
+  "users": {
+    "ccc4c7802593490093af80d025cdbd19": {
+      "initials": "AE",
+      "display_name": "Anonymous Eupheme",
+      "avatar_url": null,
+      "bot": false,
+      "mention_name": "Anonymous-Eupheme",
+      "username": "ccc4c7802593490093af80d025cdbd19",
+      "color": "var(--jp-collaborator-color6)",
+      "name": "Anonymous Eupheme"
+    },
+    "jupyter-ai-personas::jupyter_ai::JupyternautPersona": {
+      "display_name": "Jupyternaut",
+      "username": "jupyter-ai-personas::jupyter_ai::JupyternautPersona",
+      "name": "Jupyternaut",
+      "avatar_url": "/api/ai/static/jupyternaut.svg",
+      "initials": null,
+      "color": null,
+      "bot": true
+    }
+  },
+  "attachments": {
+    "924ebcad-7265-41a7-8f68-5d6bf4522ba2": {
+      "cells": [
+        {
+          "input_type": "code",
+          "id": "347efcf1-09d8-4bc8-a08f-7f246a39f2fb"
+        }
+      ],
+      "type": "notebook",
+      "value": "L1 - Coding with Jupyter AI.ipynb"
+    }
+  },
+  "metadata": {
+    "id": "1fec3217-49a0-4dd4-86f0-dd18d049b541"
+  }
+}

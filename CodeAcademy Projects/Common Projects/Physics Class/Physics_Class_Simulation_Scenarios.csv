@@ -1,0 +1,7 @@
+Scenario,Mass_kg,Acceleration_m_s2,Distance_m,Force_N,Work_J,Notes
+Original GE Train,22680,10,100,226800,22680000,Codecademy original values
+Light metro,5000,8,80,40000,3200000,Urban short-haul
+Heavy freight,40000,3,150,120000,18000000,Long heavy train
+High-speed,18000,12,120,216000,25920000,Faster acceleration
+Custom 1,15000,7,90,105000,9450000,Editable example
+Custom 2,30000,5,200,150000,30000000,Editable example

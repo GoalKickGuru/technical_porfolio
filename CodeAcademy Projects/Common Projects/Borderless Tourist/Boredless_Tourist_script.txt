@@ -1,0 +1,366 @@
+#!/usr/bin/env python3
+"""
+The Boredless Tourist
+=====================
+An online recommendation engine that matches a traveler's interests
+to attractions in the city they are currently visiting.
+
+This script follows the original Codecademy project steps and includes
+the git reminders as comments so you can practice version control
+alongside the Python logic.
+
+Extended features added:
+- Alternate implementations (list comprehension, dict storage, f-strings)
+- Batch recommendations for multiple travelers
+- attractions_by_tag helper
+- Interactive simulation section (edit values and re-run)
+"""
+
+# =============================================================================
+# Setting Up Your Project  (Tasks 1-7)
+# =============================================================================
+
+# 1. We here at The Boredless Tourist believe that mistakes should be easily
+#    corrected, so we keep all of our code version controlled using git.
+#    Start by running:  git init
+
+# 2. We'll be doing most of our coding in script.py so we want to make sure
+#    that we are tracking that in git.
+#    Add script.py to git's staging area:
+#        git add script.py   (or git add Boredless_Tourist.py)
+
+# 3. Let's create the first commit for this project.
+#        git commit -m "initial commit"
+
+# 4. Now let's create some data that we're going to use to test the
+#    functionality that we create for The Boredless Tourist.
+#    The first is our list of destinations that we're going to be using.
+
+destinations = [
+    "Paris, France",
+    "Shanghai, China",
+    "Los Angeles, USA",
+    "São Paulo, Brazil",
+    "Cairo, Egypt",
+]
+
+# 5. And let's define a test traveler to see how our functionality is working
+#    so far. This is a traveler whose name is Erin Wilkes who likes historical
+#    buildings and art. Erin is in China right now.
+
+test_traveler = ["Erin Wilkes", "Shanghai, China", ["historical site", "art"]]
+
+# 6. Looks like we've got some good sample data to get started with.
+#    Let's commit these changes.
+#        git add script.py
+# 7. Next, perform a git commit with the message "Added test objects"
+#        git commit -m "Added test objects"
+
+print("=" * 60)
+print("THE BOREDLESS TOURIST - Recommendation Engine")
+print("=" * 60)
+print("\nDestinations:", destinations)
+print("Test traveler:", test_traveler)
+
+
+# =============================================================================
+# Travelling To Faraway Lands  (Tasks 8-23)
+# =============================================================================
+
+# 8-10. Define a function called get_destination_index().
+#       It should take a single parameter, destination, the destination as a string.
+#       Find the index of destination and return it.
+
+def get_destination_index(destination):
+    """Return the index of the given destination in the destinations list."""
+    destination_index = destinations.index(destination)
+    return destination_index
+
+
+# 11. Test: "Los Angeles, USA" should return 2
+print("\n--- get_destination_index tests ---")
+print('get_destination_index("Los Angeles, USA") →', get_destination_index("Los Angeles, USA"))
+
+# 12. "Paris, France" should return 0
+print('get_destination_index("Paris, France")    →', get_destination_index("Paris, France"))
+
+# 13-14. Calling with a missing destination raises ValueError (intentionally left alone)
+try:
+    get_destination_index("Hyderabad, India")
+except ValueError:
+    print('get_destination_index("Hyderabad, India") correctly raised ValueError')
+
+
+# 15-18. Define get_traveler_location(traveler)
+def get_traveler_location(traveler):
+    """Return the destination index for the given traveler."""
+    traveler_destination = traveler[1]
+    traveler_destination_index = get_destination_index(traveler_destination)
+    return traveler_destination_index
+
+
+# 19-21. Test with our test_traveler (should be 1 for Shanghai)
+test_destination_index = get_traveler_location(test_traveler)
+print("\ntest_destination_index (Erin in Shanghai) →", test_destination_index)
+
+# 22-23. Save work to git
+#        git add script.py
+#        git commit -m "Added logic to find traveler destinations and convert to internal data"
+
+
+# =============================================================================
+# Visiting Interesting Places  (Tasks 24-37)
+# =============================================================================
+
+# 24-26. Create attractions as a list of empty lists (one per destination).
+#        Preferred: list comprehension (also possible with a loop).
+
+attractions = [[] for _ in destinations]
+print("\nattractions (empty):", attractions)
+
+
+# 27-32. Define add_attraction(destination, attraction)
+def add_attraction(destination, attraction):
+    """Append an attraction to the list that belongs to the given destination."""
+    destination_index = get_destination_index(destination)
+    attractions_for_destination = attractions[destination_index]
+    attractions_for_destination.append(attraction)
+
+
+# 33-34. First test: add Venice Beach to Los Angeles
+add_attraction("Los Angeles, USA", ["Venice Beach", ["beach"]])
+print("\nAfter adding Venice Beach:", attractions)
+
+# 35. Add the rest of the attractions from the original project
+add_attraction("Paris, France", ["the Louvre", ["art", "museum"]])
+add_attraction("Paris, France", ["Arc de Triomphe", ["historical site", "monument"]])
+add_attraction("Shanghai, China", ["Yu Garden", ["garden", "historical site"]])
+add_attraction("Shanghai, China", ["Yuz Museum", ["art", "museum"]])
+add_attraction("Shanghai, China", ["Oriental Pearl Tower", ["skyscraper", "viewing deck"]])
+add_attraction("Los Angeles, USA", ["LACMA", ["art", "museum"]])
+add_attraction("São Paulo, Brazil", ["São Paulo Zoo", ["zoo"]])
+add_attraction("São Paulo, Brazil", ["Pátio do Colégio", ["historical site"]])
+add_attraction("Cairo, Egypt", ["Pyramids of Giza", ["monument", "historical site"]])
+add_attraction("Cairo, Egypt", ["Egyptian Museum", ["museum"]])
+
+print("\nFull attractions table:")
+for city, atts in zip(destinations, attractions):
+    print(f"  {city}: {atts}")
+
+# 36-37. Commit
+#        git add script.py
+#        git commit -m "Created attractions and functionality for adding new attractions"
+
+
+# =============================================================================
+# Finding the Best Places to Go  (Tasks 38-52)
+# =============================================================================
+
+# 38-46. Define find_attractions(destination, interests)
+def find_attractions(destination, interests):
+    """Return a list of attraction *names* that match any of the given interests."""
+    destination_index = get_destination_index(destination)
+    attractions_in_city = attractions[destination_index]
+    attractions_with_interest = []
+
+    for possible_attraction in attractions_in_city:
+        attraction_tags = possible_attraction[1]
+        for interest in interests:
+            if interest in attraction_tags:
+                # Append only the name (task 49)
+                attractions_with_interest.append(possible_attraction[0])
+                break  # avoid adding the same attraction twice
+    return attractions_with_interest
+
+
+# 47-48 / 50. Test
+la_arts = find_attractions("Los Angeles, USA", ["art"])
+print("\n--- find_attractions tests ---")
+print("LA art attractions:", la_arts)  # expected: ['LACMA']
+
+# 51-52. Commit
+#        git add script.py
+#        git commit -m "Added interest finder logic"
+
+
+# =============================================================================
+# See The Parts of a City You Want to See  (Tasks 53-64)
+# =============================================================================
+
+# 53-60. Define get_attractions_for_traveler(traveler)
+def get_attractions_for_traveler(traveler):
+    """Build and return a friendly recommendation message for the traveler."""
+    traveler_destination = traveler[1]
+    traveler_interests = traveler[2]
+    traveler_attractions = find_attractions(traveler_destination, traveler_interests)
+
+    interests_string = "Hi " + traveler[0]
+    interests_string += ", we think you'll like these places around "
+    interests_string += traveler_destination + ": "
+    interests_string += ", ".join(traveler_attractions)
+    return interests_string
+
+
+# 61-62. Test with Dereck Smill
+smills_france = get_attractions_for_traveler(
+    ["Dereck Smill", "Paris, France", ["monument"]]
+)
+print("\n--- get_attractions_for_traveler tests ---")
+print(smills_france)
+# expected: Hi Dereck Smill, we think you'll like these places around Paris, France: Arc de Triomphe
+
+# Full pipeline with Erin
+print(get_attractions_for_traveler(test_traveler))
+# expected: Hi Erin Wilkes, we think you'll like these places around Shanghai, China: Yu Garden, Yuz Museum
+
+# 63-64. Final commit of the original project
+#        git add script.py
+#        git commit -m "Added function to generate message for traveler and present attractions they might be interested in."
+
+
+# =============================================================================
+# EXTENDED FEATURES
+# =============================================================================
+
+print("\n" + "=" * 60)
+print("EXTENDED FEATURES")
+print("=" * 60)
+
+# --- Alternate 1: list comprehension + any() ---
+def find_attractions_alt(destination, interests):
+    """Alternate implementation using list comprehension and any()."""
+    destination_index = get_destination_index(destination)
+    attractions_in_city = attractions[destination_index]
+    return [
+        name
+        for name, tags in attractions_in_city
+        if any(interest in tags for interest in interests)
+    ]
+
+
+print("\nAlternate find_attractions (LA art):", find_attractions_alt("Los Angeles, USA", ["art"]))
+
+
+# --- Alternate 2: dictionary-based storage ---
+attractions_dict = {city: [] for city in destinations}
+
+def add_attraction_dict(destination, attraction):
+    attractions_dict[destination].append(attraction)
+
+def find_attractions_dict(destination, interests):
+    return [
+        name
+        for name, tags in attractions_dict[destination]
+        if any(interest in tags for interest in interests)
+    ]
+
+# Populate the dict from the existing list structure
+for city, atts in zip(destinations, attractions):
+    for att in atts:
+        add_attraction_dict(city, att)
+
+print("Dict version – Shanghai art/historical:",
+      find_attractions_dict("Shanghai, China", ["art", "historical site"]))
+
+
+# --- Alternate 3: cleaner f-string message ---
+def get_attractions_for_traveler_f(traveler):
+    name, dest, interests = traveler
+    places = find_attractions(dest, interests)
+    place_list = ", ".join(places) if places else "nothing we currently have tagged"
+    return f"Hi {name}, we think you'll like these places around {dest}: {place_list}"
+
+
+print("f-string version:", get_attractions_for_traveler_f(["Dereck Smill", "Paris, France", ["monument"]]))
+
+
+# --- Batch recommendations ---
+extra_travelers = [
+    ["Alex Rivera", "Cairo, Egypt", ["historical site", "monument"]],
+    ["Priya Patel", "Paris, France", ["art", "museum"]],
+    ["Sam Okonkwo", "Los Angeles, USA", ["beach", "art"]],
+    ["Jordan Lee", "São Paulo, Brazil", ["zoo", "historical site"]],
+]
+
+
+def recommend_for_all(travelers):
+    """Print a personalized message for every traveler in the list."""
+    for t in travelers:
+        print(get_attractions_for_traveler(t))
+        print("---")
+
+
+print("\n=== Batch recommendations ===")
+recommend_for_all([test_traveler] + extra_travelers)
+
+
+# --- Tag helper ---
+def attractions_by_tag(tag):
+    """Return {city: [attraction names]} for every attraction containing the tag."""
+    result = {}
+    for city, atts in zip(destinations, attractions):
+        matched = [name for name, tags in atts if tag in tags]
+        if matched:
+            result[city] = matched
+    return result
+
+
+print("\nAttractions tagged 'museum':")
+print(attractions_by_tag("museum"))
+print("\nAttractions tagged 'historical site':")
+print(attractions_by_tag("historical site"))
+
+
+# =============================================================================
+# INTERACTIVE SIMULATION
+# =============================================================================
+# Edit the three variables below and re-run the script (or just this section)
+# to obtain different recommendations.
+
+print("\n" + "=" * 60)
+print("INTERACTIVE SIMULATION")
+print("=" * 60)
+
+# --- Controls (change these values) ---
+sim_traveler_name = "Erin Wilkes"
+sim_destination = "Shanghai, China"
+sim_interests = ["historical site", "art"]  # try ["museum"] or ["garden"] or ["skyscraper"]
+
+sim_traveler = [sim_traveler_name, sim_destination, sim_interests]
+print("Simulation traveler:", sim_traveler)
+print("Recommendation:")
+print(get_attractions_for_traveler(sim_traveler))
+
+print("\nAttractions count per city:")
+for city, atts in zip(destinations, attractions):
+    print(f"  {city}: {len(atts)}")
+
+
+# Scenario: traveler with no matching tags
+print("\nNo-match scenario:")
+print(get_attractions_for_traveler(["Casey Kim", "Los Angeles, USA", ["hiking", "nightlife"]]))
+
+
+# Scenario: dynamically add a new destination
+print("\nAdding Tokyo, Japan on the fly...")
+new_city = "Tokyo, Japan"
+if new_city not in destinations:
+    destinations.append(new_city)
+    attractions.append([])
+    attractions_dict[new_city] = []
+
+add_attraction(new_city, ["Senso-ji Temple", ["historical site", "temple"]])
+add_attraction(new_city, ["teamLab Borderless", ["art", "museum", "digital"]])
+add_attraction_dict(new_city, ["Senso-ji Temple", ["historical site", "temple"]])
+add_attraction_dict(new_city, ["teamLab Borderless", ["art", "museum", "digital"]])
+
+tokyo_traveler = ["Yuki Tanaka", "Tokyo, Japan", ["art", "historical site"]]
+print(get_attractions_for_traveler(tokyo_traveler))
+print("Tokyo attractions now:", attractions[-1])
+
+
+print("\n" + "=" * 60)
+print("Script finished. You can now commit the final version:")
+print('  git add Boredless_Tourist.py')
+print('  git commit -m "Completed Boredless Tourist with extended features"')
+print("=" * 60)
