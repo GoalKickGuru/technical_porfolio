@@ -1,0 +1,131 @@
+Now let's dive more deeply into gradient descent to gain better intuition about what it's doing and why it might make sense.
+0:09
+Here's the gradient descent algorithm that you saw in the previous video.
+0:14
+And as a reminder, this variable, this Greek symbol alpha, is the learning rate.
+0:20
+And the learning rate controls how big of a step you take when updating the model's parameters w and b.
+0:27
+So this term here, this d over dw, this is the derivative term.
+0:33
+And by convention in math, this d is written with this funny font here.
+0:39
+And in case anyone watching this has a PhD in math or is an expert in multivariate calculus,
+0:44
+they may be wondering, that's not the derivative, that's the partial derivative.
+0:48
+And yes, they'd be right.
+0:49
+But for the purposes of implementing a machine learning algorithm, I'm just going to call it derivative.
+0:55
+And don't worry about these little distinctions.
+0:59
+So what we're going to focus on now is get more intuition about what this learning rate and what this derivative are doing,
+1:08
+and why, when multiplied together like this, it results in updates to parameters w and b that make sense.
+1:16
+In order to do this, let's use a slightly simpler example where we work on minimizing just one parameter.
+1:25
+So let's say that you have a cost function J of just one parameter w, where w is a number.
+1:33
+This means that gradient descent now looks like this.
+1:36
+w is updated to w minus the learning rate alpha times d over dw of J of w.
+1:45
+And you're trying to minimize the cost by adjusting the parameter w.
+1:51
+So this is like our previous example where we had temporarily set b equal to zero.
+1:58
+With one parameter w instead of two, you can look at two-dimensional graphs of the cost function J instead of three-dimensional graphs.
+2:07
+Let's look at what gradient descent does on this function J of w.
+2:14
+Here on the horizontal axis is parameter w, and on the vertical axis is the cost J of w.
+2:22
+Now let's initialize gradient descent with some starting value for w.
+2:27
+Let's initialize it at this location.
+2:30
+So imagine that you start off at this point right here on the function J.
+2:35
+What gradient descent will do is it will update w to be w minus learning rate alpha times d over dw of J of w.
+2:47
+Let's look at what this derivative term here means.
+2:51
+A way to think about the derivative at this point on the line is to draw a tangent line, which is a straight line that touches this curve at that point.
+3:03
+In math, the slope of this line is the derivative of the function J at this point.
+3:09
+And to get the slope, you can draw a little triangle like this.
+3:14
+And if you compute the height divided by the width of this triangle, that is the slope.
+3:20
+For example, the slope might be 2 over 1, for instance.
+3:26
+And when the tangent line is pointing up and to the right, the slope is positive, which means that this derivative is a positive number.
+3:35
+So it's greater than zero.
+3:38
+And so the updated w is going to be w minus the learning rate times some positive number.
+3:46
+The learning rate is always a positive number.
+3:49
+So if you take w minus a positive number, you end up with a new value for w that is smaller.
+3:57
+So on the graph, we are moving to the left.
+4:01
+You're decreasing the value of w.
+4:04
+And you may notice that this is the right thing to do if your goal is to decrease the cost J.
+4:10
+Because when we move toward the left on this curve, the cost J decreases and you're getting closer to the minimum for J, which is over here.
+4:19
+So, so far, gradient descent seems to be doing the right thing.
+4:24
+Now, let's look at another example.
+4:27
+Let's take the same function J of w as above.
+4:30
+And now let's say that you initialize gradient descent at a different location.
+4:35
+Say, by choosing a starting value for w that's over here on the left.
+4:41
+So that's this point on the function J.
+4:44
+Now, the derivative term, remember, is d over dw of J of w.
+4:52
+And when we look at the tangent line at this point over here, the slope of this line is the derivative of J at this point.
+4:59
+But this tangent line is sloping down into the right.
+5:03
+And so this line sloping down into the right has a negative slope.
+5:08
+In other words, the derivative J at this point is a negative number.
+5:13
+For instance, if you draw a triangle, then the height like this is negative 2 and the width is 1.
+5:20
+So the slope is negative 2 divided by 1, which is negative 2, which is a negative number.
+5:27
+So when you update w, you get w minus the learning rate times a negative number.
+5:34
+And so this means you subtract from w a negative number.
+5:39
+But subtracting a negative number means adding a positive number.
+5:45
+And so you end up increasing w.
+5:49
+Because subtracting a negative number is the same as adding a positive number to w.
+5:56
+So this step of gradient descent causes w to increase, which means you're moving to the right of the graph and your cos J has decreased down to here.
+6:08
+And again, it looks like gradient descent is doing something reasonable. It's getting you closer to the minimum.
+6:16
+So hopefully these last two examples show some of the intuition behind what the derivative term is doing and why this helps gradient descent change w to get you closer to the minimum.
+6:30
+I hope this video gave you some sense for why the derivative term in gradient descent makes sense.
+6:37
+One other key quantity in the gradient descent algorithm is the learning rate alpha.
+6:42
+How do you choose alpha? What happens if it's too small or what happens if it's too big?
+6:46
+In the next video, let's take a deeper look at the parameter alpha to help build intuitions about what it does, as well as how to make a good choice for a good value of alpha for your implementation of gradient descent.

@@ -1,0 +1,59 @@
+Step 1: Create a copy of the dataset
+Instructions
+Create a copy of the dataset file using this link.
+Inspect the observations and features to familiarize yourself with the dataset.
+Note: if you are using a different LLM, you will need to download this file to upload to the LLM for context.
+
+Step 2: Verify dataset understanding
+The LLM interface you are working with has been pre-loaded with the dataset for this lab.
+
+Instructions
+Write the following prompt:
+👤💬 Prompt 1
+I am working with the pre-loaded dataset with records of sleep parameters to help my friend understand whether they are experiencing stress while they sleep. Explain the dataset to me so I know you understand it.
+
+Step 3: Understanding confidence intervals
+Background
+You can now work with the LLM to help you interpret the confidence intervals you constructed previously in the practice labs.
+
+Here is a good process for prompting:
+
+Paste in your prompt and submit it.
+Evaluate the response. Was it accurate to the data? Was it helpful?
+Ask a follow up question or revise your prompt.
+If the LLM appears to be wrong: "Are you sure about that? Explain your answer", or point out where it is wrong. Sometimes it will give you solutions using features for a tool you're not working with (such as Microsoft Excel rather than Google Sheets), be on the lookout for those!
+If the LLM didn't answer your question. "I was actually asking [clearly stated request]. Does this change your answer?"
+Instructions
+Ask the LLM help with interpreting your results from the Google Sheets lab.
+
+👤💬 Prompt 1
+I constructed a 95% confidence interval for the mean REM sleep. The interval is [18.817,19.964]. Explain what these results mean.
+
+Follow-up: How can I visualize this information to present it clearly? Which elements should the visualization have?
+
+👤💬 Prompt 2
+I also found the 90% confidence interval, being [18.910, 19.872]. Can you help me interpret this interval? How does it compare to the 95% interval?
+
+Step 4: Building a confidence interval
+You want to analyze the sleep score during weekdays, which is when your friend is more active and needs a better rest.
+
+Instructions
+Try Prompt 1 to get a confidence interval
+Did the LLM run any code? Do you trust the results?
+Try Prompt 2, to get step by step instructions. Try the solution in Google Sheets.
+If something doesn't work, iterate with the LLM until you get a working result. Depending on the problem, try with prompts like:
+"There is an error in the formula. This is the message I am getting: [copy error message]. Please help me fix it"
+The function [function name] does not exist in Google Sheets. Please help me fix that.
+"This is too elaborate. Can you suggest a simpler method?"
+Were the initial results of the LLM correct?
+👤💬 Prompt 1
+Based on the data provided, provide me with the 95% confidence interval of the SLEEP SCORE during weekdays.
+
+Follow-up: Are you certain about your calculations?
+
+👤💬 Prompt 2
+Can you please provide clear step by step instructions on how to calculate that confidence interval using Google Sheets?
+
+Follow-up: Are there any common errors I should watch out for when calculating confidence intervals in Sheets?
+
+Congratulations!
