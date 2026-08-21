@@ -1,0 +1,40 @@
+{
+  "project_metadata": {
+    "title": "Generic Hypothesis Testing Framework for Industrial Analytics",
+    "domain": "Automobile / Manufacturing",
+    "version": "1.0",
+    "author": "Data Analytics Team"
+  },
+  "workflow_stages": [
+    {
+      "stage_id": 1,
+      "stage_name": "Data Ingestion & Verification",
+      "required_inputs": ["Rda_files", "csv_telemetry"],
+      "operations": ["check_missing_values", "verify_sample_independence"]
+    },
+    {
+      "stage_id": 2,
+      "stage_name": "Exploratory Data Analysis",
+      "operations": ["mean()", "sd()", "hist()"],
+      "validation_criteria": "Ratio of SDs across groups within 10% threshold"
+    },
+    {
+      "stage_id": 3,
+      "stage_name": "Hypothesis Testing Execution",
+      "test_routing": {
+        "one_sample": "t.test(x, mu)",
+        "two_sample": "t.test(x, y)",
+        "multi_group": "aov(formula, data)"
+      }
+    },
+    {
+      "stage_id": 4,
+      "stage_name": "Decision Formulation",
+      "evaluation_rules": {
+        "p_value_threshold": 0.05,
+        "action_p_less_than_alpha": "Reject Null Hypothesis",
+        "action_p_greater_than_alpha": "Fail to Reject Null Hypothesis"
+      }
+    }
+  ]
+}

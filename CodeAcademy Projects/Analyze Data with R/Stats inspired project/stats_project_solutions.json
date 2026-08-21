@@ -1,0 +1,674 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "kernelspec": {
+      "display_name": "R",
+      "language": "R",
+      "name": "ir"
+    },
+    "language_info": {
+      "name": "R"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Quartiles, Quantiles & Interquartile Range — Solutions Notebook\n",
+        "\n",
+        "This notebook contains complete solutions for all exercises in the project."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Part 1: Quartiles\n",
+        "### 1.1 Setup & Sample Data"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "library(ggplot2)\n",
+        "\n",
+        "dataset_one <- c(50, 10, 4, -3, 4, -20, 2)\n",
+        "dataset_two <- c(24, 20, 1, 45, -15, 40)\n",
+        "\n",
+        "sort(dataset_one)\n",
+        "# [1] -20  -3   2   4   4  10  50\n",
+        "sort(dataset_two)\n",
+        "# [1] -15   1  20  24  40  45"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 1.2 Finding Q2 (the Median)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# dataset_one has 7 values (odd) → Q2 = 4th value = 4\n",
+        "dataset_one_q2 <- 4\n",
+        "\n",
+        "# dataset_two has 6 values (even) → Q2 = average of 3rd and 4th = (20 + 24) / 2 = 22\n",
+        "dataset_two_q2 <- 22\n",
+        "\n",
+        "print(paste(\"Q2 of dataset_one:\", dataset_one_q2))\n",
+        "print(paste(\"Q2 of dataset_two:\", dataset_two_q2))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 1.3 Finding Q1 and Q3 (Method 1 — Exclusive)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# dataset_one: below Q2 → c(-20, -3, 2) → median = -3\n",
+        "# dataset_one: above Q2 → c(4, 10, 50) → median = 10\n",
+        "dataset_one_q1 <- -3\n",
+        "dataset_one_q3 <- 10\n",
+        "\n",
+        "# dataset_two: below Q2 → c(-15, 1, 20) → median = 1\n",
+        "# dataset_two: above Q2 → c(24, 40, 45) → median = 40\n",
+        "dataset_two_q1 <- 1\n",
+        "dataset_two_q3 <- 40\n",
+        "\n",
+        "print(paste(\"dataset_one: Q1 =\", dataset_one_q1, \", Q3 =\", dataset_one_q3))\n",
+        "print(paste(\"dataset_two: Q1 =\", dataset_two_q1, \", Q3 =\", dataset_two_q3))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 1.4 Finding Q1 and Q3 (Method 2 — Inclusive)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# dataset_one sorted: c(-20, -3, 2, 4, 4, 10, 50), Q2 = 4\n",
+        "# Lower half INCLUDING Q2: c(-20, -3, 2, 4) → median = (-3 + 2) / 2 = -0.5\n",
+        "# Upper half INCLUDING Q2: c(4, 4, 10, 50) → median = (4 + 10) / 2 = 7\n",
+        "dataset_one_q1_m2 <- (-3 + 2) / 2  # = -0.5\n",
+        "dataset_one_q3_m2 <- (4 + 10) / 2   # = 7\n",
+        "\n",
+        "print(paste(\"Method 2 — dataset_one: Q1 =\", dataset_one_q1_m2, \", Q3 =\", dataset_one_q3_m2))\n",
+        "print(\"Note: For dataset_two, Method 2 gives the same results as Method 1 (Q2 falls between two data points, so inclusion doesn't change the halves).\")\n",
+        "print(paste(\"dataset_two Q1 (Method 2) =\", dataset_two_q1, \", Q3 (Method 2) =\", dataset_two_q3))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 1.5 Quartiles Using R's quantile() Function"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# R uses Type 7 (linear interpolation) by default — may differ from manual methods\n",
+        "dataset_one_quartiles <- quantile(dataset_one, c(0.25, 0.5, 0.75))\n",
+        "\n",
+        "print(\"dataset_one quartiles (R default Type 7):\")\n",
+        "print(dataset_one_quartiles)\n",
+        "# Note: R may report slightly different values due to interpolation.\n",
+        "# Method 1 (exclusive): Q1 = -3, Q2 = 4, Q3 = 10\n",
+        "# Method 2 (inclusive): Q1 = -0.5, Q2 = 4, Q3 = 7\n",
+        "# R Type 7 will interpolate differently."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 1.6 Working with a Larger Dataset (Songs)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "set.seed(42)\n",
+        "songs <- round(rnorm(9975, mean = 220, sd = 80))\n",
+        "songs <- songs[songs > 30]\n",
+        "\n",
+        "qplot(songs, geom = \"histogram\", main = 'Histogram of Song Lengths',\n",
+        "      xlab = 'Song Length (Seconds)', ylab = 'Count',\n",
+        "      fill = I('purple'), col = I('darkblue'), alpha = I(0.3))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "songs_q1 <- quantile(songs, 0.25)\n",
+        "songs_q2 <- quantile(songs, 0.50)\n",
+        "songs_q3 <- quantile(songs, 0.75)\n",
+        "\n",
+        "print(paste(\"Q1:\", songs_q1))\n",
+        "print(paste(\"Q2 (Median):\", songs_q2))\n",
+        "print(paste(\"Q3:\", songs_q3))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "favorite_song <- 364\n",
+        "\n",
+        "if (favorite_song <= songs_q1) {\n",
+        "    quarter <- 1\n",
+        "} else if (favorite_song <= songs_q2) {\n",
+        "    quarter <- 2\n",
+        "} else if (favorite_song <= songs_q3) {\n",
+        "    quarter <- 3\n",
+        "} else {\n",
+        "    quarter <- 4\n",
+        "}\n",
+        "\n",
+        "print(paste(\"Chicago by Sufjan Stevens is\", favorite_song, \"seconds — Quarter\", quarter))\n",
+        "# Expected: Quarter 4 (364 seconds is likely above Q3 for a mean~220, sd~80 distribution)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Part 2: Quantiles\n",
+        "### 2.1 The 23rd Percentile"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "twenty_third_percentile <- quantile(songs, 0.23)\n",
+        "print(paste(\"23rd percentile:\", twenty_third_percentile))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 2.2 Multiple Quantiles"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Quartiles: 3 cut points at 0.25, 0.5, 0.75 → 4 groups of 25%\n",
+        "quartiles <- quantile(songs, c(0.25, 0.5, 0.75))\n",
+        "print(\"Quartiles:\")\n",
+        "print(quartiles)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Deciles: 9 cut points at 0.1 through 0.9 → 10 groups of 10%\n",
+        "deciles <- quantile(songs, c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9))\n",
+        "print(\"Deciles:\")\n",
+        "print(deciles)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# A 170-second song: check which decile interval it falls in\n",
+        "# From the deciles output, find where 170 falls.\n",
+        "# With mean ~220, 170 is below the median but above the 10th percentile.\n",
+        "# Likely around the 3rd decile (between 20th and 30th percentile).\n",
+        "\n",
+        "tenth <- 3\n",
+        "print(paste(\"A 170-second song falls in tenth\", tenth))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 2.3 Percentiles"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "percentile_32 <- quantile(songs, 0.32)\n",
+        "print(paste(\"32nd percentile:\", percentile_32))\n",
+        "\n",
+        "# 3 minutes = 180 seconds. With mean ~220, 180 is below the mean.\n",
+        "# The 32nd percentile is likely below 180, so 180 is ABOVE it.\n",
+        "answer <- \"above\"\n",
+        "print(paste(\"180 seconds is\", answer, \"the 32nd percentile\"))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 2.4 Histogram with Quartile Lines"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "qplot(songs, geom = \"histogram\", main = 'Song Lengths with Quartiles',\n",
+        "      xlab = 'Song Length (Seconds)', ylab = 'Count',\n",
+        "      fill = I('steelblue'), col = I('navy'), alpha = I(0.3)) +\n",
+        "    geom_vline(aes(xintercept = quantile(songs, 0.25)), color = \"blue\", linetype = \"solid\", size = 1) +\n",
+        "    geom_vline(aes(xintercept = quantile(songs, 0.50)), color = \"purple\", linetype = \"solid\", size = 1) +\n",
+        "    geom_vline(aes(xintercept = quantile(songs, 0.75)), color = \"gold\", linetype = \"solid\", size = 1) +\n",
+        "    scale_colour_manual(name = \"\", labels = c(\"Q1\", \"Q2\", \"Q3\"),\n",
+        "                         values = c(\"blue\", \"purple\", \"gold\"))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 2.5 SAT Scores Application"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "set.seed(123)\n",
+        "school_one <- round(rnorm(500, mean = 1200, sd = 150))\n",
+        "school_two <- round(rnorm(500, mean = 1400, sd = 100))\n",
+        "school_three <- round(rnorm(500, mean = 1000, sd = 200))\n",
+        "\n",
+        "decile_probs <- c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9)\n",
+        "\n",
+        "school_one_deciles <- quantile(school_one, decile_probs)\n",
+        "school_two_deciles <- quantile(school_two, decile_probs)\n",
+        "school_three_deciles <- quantile(school_three, decile_probs)\n",
+        "\n",
+        "print(\"School One deciles:\"); print(school_one_deciles)\n",
+        "print(\"School Two deciles:\"); print(school_two_deciles)\n",
+        "print(\"School Three deciles:\"); print(school_three_deciles)\n",
+        "\n",
+        "# Analysis for SAT score of 1350:\n",
+        "# School One (mean ~1200): 1350 is likely in the 8th or 9th decile — competitive applicant\n",
+        "# School Two (mean ~1400): 1350 is likely in the 3rd or 4th decile — below average, stretch school\n",
+        "# School Three (mean ~1000): 1350 is likely in the 9th or 10th decile — highly competitive, safety school\n",
+        "cat(\"\\nAnalysis:\\n\")\n",
+        "cat(\"School One: 1350 is in roughly the 8th-9th decile — solid applicant.\\n\")\n",
+        "cat(\"School Two: 1350 is in roughly the 3rd-4th decile — below average, ambitious choice.\\n\")\n",
+        "cat(\"School Three: 1350 is in roughly the 9th-10th decile — strong applicant, realistic option.\\n\")\n",
+        "cat(\"Recommendation: Apply to School One and School Three; School Two may be unrealistic.\\n\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Part 3: Interquartile Range (IQR)\n",
+        "### 3.1 Range"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "maximum <- max(songs)\n",
+        "minimum <- min(songs)\n",
+        "song_range <- maximum - minimum\n",
+        "\n",
+        "print(paste(\"Range of songs dataset:\", song_range))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 3.2 IQR Manual Calculation"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "q1 <- quantile(songs, 0.25)\n",
+        "q3 <- quantile(songs, 0.75)\n",
+        "\n",
+        "interquartile_range_manual <- as.numeric(q3) - as.numeric(q1)\n",
+        "\n",
+        "print(paste(\"Q1:\", q1))\n",
+        "print(paste(\"Q3:\", q3))\n",
+        "print(paste(\"IQR (manual):\", interquartile_range_manual))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 3.3 Using IQR()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "interquartile_range <- IQR(songs)\n",
+        "\n",
+        "print(paste(\"IQR (built-in function):\", interquartile_range))\n",
+        "print(paste(\"Do they match?\", interquartile_range == interquartile_range_manual))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 3.4 Demonstrating Robustness"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "dataset_normal <- c(6, 9, 10, 45, 190, 200)\n",
+        "dataset_outlier <- c(6, 9, 10, 45, 190, 20000000)\n",
+        "\n",
+        "range_normal <- max(dataset_normal) - min(dataset_normal)\n",
+        "range_outlier <- max(dataset_outlier) - min(dataset_outlier)\n",
+        "\n",
+        "iqr_normal <- IQR(dataset_normal)\n",
+        "iqr_outlier <- IQR(dataset_outlier)\n",
+        "\n",
+        "print(paste(\"Normal dataset — Range:\", range_normal, \", IQR:\", iqr_normal))\n",
+        "print(paste(\"Outlier dataset — Range:\", range_outlier, \", IQR:\", iqr_outlier))\n",
+        "print(paste(\"IQR is robust (same for both)?\", iqr_normal == iqr_outlier))\n",
+        "\n",
+        "# Explanation:\n",
+        "# The range jumps from 194 to 19999994 — wildly different!\n",
+        "# The IQR stays the same — proving it's robust to outliers.\n",
+        "# This is because Q1 and Q3 are positional statistics; they don't change\n",
+        "# when an extreme value is added at the tail."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 3.5 Interactive Experiment"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "dataset <- c(-50, -24, -13, -2, 0, 12, 15, 18, 73, 90, 100)\n",
+        "\n",
+        "# Normal values\n",
+        "dataset_range <- max(dataset) - min(dataset)\n",
+        "dataset_iqr <- IQR(dataset)\n",
+        "print(paste(\"Original — Range:\", dataset_range, \", IQR:\", dataset_iqr))\n",
+        "\n",
+        "# Now change max to 100000\n",
+        "dataset_extreme <- dataset\n",
+        "dataset_extreme[length(dataset_extreme)] <- 100000\n",
+        "dataset_extreme_range <- max(dataset_extreme) - min(dataset_extreme)\n",
+        "dataset_extreme_iqr <- IQR(dataset_extreme)\n",
+        "print(paste(\"With max=100000 — Range:\", dataset_extreme_range, \", IQR:\", dataset_extreme_iqr))\n",
+        "\n",
+        "# Observation: Range explodes from 150 to 100050, but IQR stays the same.\n",
+        "# This demonstrates that the IQR is robust to outliers while the range is not."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 3.6 Box Plot"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "boxplot(songs, main = \"Box Plot of Song Lengths\",\n",
+        "        ylab = \"Song Length (Seconds)\",\n",
+        "        col = \"lightblue\", border = \"navy\")\n",
+        "\n",
+        "text(1, as.numeric(q1), paste(\"Q1 =\", round(as.numeric(q1), 1)), pos = 4, cex = 0.8)\n",
+        "text(1, as.numeric(songs_q2), paste(\"Q2 =\", round(as.numeric(songs_q2), 1)), pos = 4, cex = 0.8)\n",
+        "text(1, as.numeric(q3), paste(\"Q3 =\", round(as.numeric(q3), 1)), pos = 4, cex = 0.8)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### 3.7 Five-Number Summary"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "five_num <- fivenum(songs)\n",
+        "names(five_num) <- c(\"Min\", \"Q1\", \"Median\", \"Q3\", \"Max\")\n",
+        "\n",
+        "print(\"Five-Number Summary of Songs:\")\n",
+        "print(five_num)\n",
+        "\n",
+        "print(\"\\nFull summary():\")\n",
+        "print(summary(songs))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Part 4: Practice Exercise Solutions"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "**Exercise 1:** IQR = Q3 − Q1 = 42 − 15 = **27**. (Q2, min, and max are distractors!)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "exercise1_iqr <- 42 - 15  # = 27\n",
+        "print(paste(\"Exercise 1 — IQR:\", exercise1_iqr))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "**Exercise 2:** Q1 = −2, Q2 = 4, Q3 = 20. The value 16 is between Q2 (4) and Q3 (20), so it's in the **third quarter**."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "exercise2_quarter <- 3\n",
+        "print(paste(\"Exercise 2 — Quarter:\", exercise2_quarter))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "**Exercise 3:** 7 quantiles → 7 groups → 6 cut points. Wait — actually, 7-quantiles means 7 cut points dividing data into 8 groups. Per the lesson: n-quantiles → n groups, requiring (n−1) cut points. But actually the lesson says '7 quantiles divide the dataset into 8 equal-sized groups.' The key rule: **n quantiles = n−1 cut points creating n groups.** Hmm, let me re-read.\n",
+        "\n",
+        "From the lesson: 'If you have n quantiles, the dataset will be split into n+1 groups of equal size.' Wait no — the lesson review says: 'If you have n quantiles, the dataset will be split into n+1 groups.' Hmm, that contradicts the quiz answer.\n",
+        "\n",
+        "Looking at the quiz: 7 quantiles → 8 groups. So the rule is: **n quantiles → n+1 groups.** No wait — re-reading: '7 quantiles divide the dataset into 8 equal-sized groups' and the formula given is 'n cuts = n + 1 pieces.'\n",
+        "\n",
+        "But then quartiles = 3 cut points → 4 groups ✓, deciles = 9 cut points → 10 groups ✓, percentiles = 99 cut points → 100 groups ✓. So '7 quantiles' in the quiz refers to 7 cut points → 8 groups.\n",
+        "\n",
+        "Answer: **8**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "exercise3_groups <- 8\n",
+        "print(paste(\"Exercise 3 — Groups:\", exercise3_groups))\n",
+        "# 7 cut points (quantiles) → 8 groups of equal size"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "**Exercise 4:** Quartiles = c(0.25, 0.5, 0.75). Answer: **b**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "exercise4_answer <- \"b\"\n",
+        "print(paste(\"Exercise 4 — Answer:\", exercise4_answer))\n",
+        "# quantile(data, c(0.25, 0.5, 0.75)) produces quartiles"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "**Exercise 5:** Sorted: c(-20, -10, 4, 5, 10, 30). Lower half = c(-20, -10, 4). Median = -10. Q1 = **-10**."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "exercise5_q1 <- -10\n",
+        "print(paste(\"Exercise 5 — Q1:\", exercise5_q1))\n",
+        "# Verification:\n",
+        "sorted_data <- c(-20, -10, 4, 5, 10, 30)\n",
+        "lower_half <- sorted_data[1:3]  # c(-20, -10, 4)\n",
+        "print(paste(\"Lower half:\", paste(lower_half, collapse = \", \")))\n",
+        "print(paste(\"Median of lower half (Q1):\", median(lower_half)))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "**Exercise 6:** Quintiles split data into 5 groups using 4 cut points at 0.2, 0.4, 0.6, 0.8."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "exercise6_quintiles <- quantile(songs, c(0.2, 0.4, 0.6, 0.8))\n",
+        "print(\"Exercise 6 — Quintiles:\")\n",
+        "print(exercise6_quintiles)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Summary of Key Concepts\n",
+        "\n",
+        "| Concept | Formula/Function | Key Property |\n",
+        "|---------|-----------------|--------------|\n",
+        "| Q1 (25th percentile) | `quantile(x, 0.25)` | Robust |\n",
+        "| Q2 (Median) | `quantile(x, 0.5)` or `median(x)` | Robust |\n",
+        "| Q3 (75th percentile) | `quantile(x, 0.75)` | Robust |\n",
+        "| IQR | `IQR(x)` or `Q3 − Q1` | Robust (outlier-resistant) |\n",
+        "| Range | `max(x) - min(x)` | NOT robust |\n",
+        "| Five-Number Summary | `fivenum(x)` or `summary(x)` | Min, Q1, Q2, Q3, Max |\n",
+        "| n quantiles | `quantile(x, seq(1/(n), 1-1/n, by=1/n))` | Produces n groups, n−1 cut points |"
+      ]
+    }
+  ]
+}

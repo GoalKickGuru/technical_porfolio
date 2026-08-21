@@ -1,0 +1,108 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# AeroDrive Motors: Statistical Performance & Quality Analysis\n",
+    "## Environment Setup & Data Loading\n",
+    "Import vehicle telemetry and test bench datasets for analysis."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Load required libraries and datasets\n",
+    "load(\"eco_trim_mpg.Rda\")\n",
+    "load(\"sport_trim_mpg.Rda\")\n",
+    "load(\"factory_battery_data.Rda\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 1: One-Sample T-Test (Eco-Trim Benchmark)\n",
+    "Target Benchmark: 35.0 MPG. Calculate sample metrics and run a one-sample t-test."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# View eco_trim_mpg vector\n",
+    "\n",
+    "# Calculate and print mean MPG for Eco-Trim\n",
+    "eco_mpg_mean <-\n",
+    "\n",
+    "# Calculate and print standard deviation for Eco-Trim\n",
+    "eco_mpg_sd <-\n",
+    "\n",
+    "# Perform One-Sample T-Test against mu = 35.0\n",
+    "eco_benchmark_test <-\n",
+    "eco_benchmark_test"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 2: Two-Sample T-Test (Eco-Trim vs. Sport-Trim)\n",
+    "Compare fuel efficiency distributions between Eco-Trim and Sport-Trim."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# View sport_trim_mpg vector\n",
+    "\n",
+    "# Calculate and print mean MPG for Sport-Trim\n",
+    "sport_mpg_mean <-\n",
+    "\n",
+    "# Calculate and print standard deviation for Sport-Trim\n",
+    "sport_mpg_sd <-\n",
+    "\n",
+    "# Perform Two-Sample T-Test comparing eco_trim_mpg and sport_trim_mpg\n",
+    "trim_comparison_test <-\n",
+    "trim_comparison_test"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 3: Analysis of Variance - ANOVA (Plant-wise Battery Durability)\n",
+    "Test for variance in battery lifespan across Plant A, Plant B, and Plant C."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Inspect factory_battery_data data frame\n",
+    "\n",
+    "# Perform One-Way ANOVA (lifespan ~ plant)\n",
+    "anova_battery_results <-\n",
+    "\n",
+    "# Output ANOVA summary table\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "R"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

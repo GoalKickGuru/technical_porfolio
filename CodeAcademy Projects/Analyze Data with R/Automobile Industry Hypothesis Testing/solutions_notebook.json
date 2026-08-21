@@ -1,0 +1,126 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# AeroDrive Motors: Statistical Performance & Quality Analysis (Solutions)\n",
+    "## Environment Setup & Data Loading"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "library(tidyr)\n",
+    "load(\"eco_trim_mpg.Rda\")\n",
+    "load(\"sport_trim_mpg.Rda\")\n",
+    "load(\"factory_battery_data.Rda\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 1: One-Sample T-Test (Eco-Trim Benchmark)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# View sample vector\n",
+    "head(eco_trim_mpg)\n",
+    "\n",
+    "# Calculate mean and standard deviation\n",
+    "eco_mpg_mean <- mean(eco_trim_mpg)\n",
+    "print(paste(\"Eco-Trim Mean MPG:\", eco_mpg_mean))\n",
+    "\n",
+    "eco_mpg_sd <- sd(eco_trim_mpg)\n",
+    "print(paste(\"Eco-Trim Standard Deviation:\", eco_mpg_sd))\n",
+    "\n",
+    "# One-Sample T-Test\n",
+    "eco_benchmark_test <- t.test(eco_trim_mpg, mu = 35.0)\n",
+    "eco_benchmark_test"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Interpretation**: If $p < 0.05$, we reject $H_0$ and confirm that the Eco-Trim engine performance statistically deviates from the 35.0 MPG benchmark."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 2: Two-Sample T-Test (Eco-Trim vs. Sport-Trim)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "head(sport_trim_mpg)\n",
+    "\n",
+    "sport_mpg_mean <- mean(sport_trim_mpg)\n",
+    "print(paste(\"Sport-Trim Mean MPG:\", sport_mpg_mean))\n",
+    "\n",
+    "sport_mpg_sd <- sd(sport_trim_mpg)\n",
+    "print(paste(\"Sport-Trim Standard Deviation:\", sport_mpg_sd))\n",
+    "\n",
+    "# Two-Sample T-Test\n",
+    "trim_comparison_test <- t.test(eco_trim_mpg, sport_trim_mpg)\n",
+    "trim_comparison_test"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Interpretation**: Evaluating the $p$-value determines whether fuel efficiency differs significantly between engine trims, guiding market positioning."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 3: Analysis of Variance - ANOVA (Plant-wise Battery Durability)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "head(factory_battery_data)\n",
+    "\n",
+    "# One-Way ANOVA\n",
+    "anova_battery_results <- aov(lifespan_months ~ plant, data = factory_battery_data)\n",
+    "summary(anova_battery_results)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Interpretation**: A significant result ($p < 0.05$) implies at least one manufacturing plant produces battery packs with significantly different lifespans, triggering a quality assurance review."
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "R"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

@@ -1,0 +1,96 @@
+{
+  "title": "Quartiles, Quantiles & Interquartile Range — Cheat Sheet",
+  "source": "Adapted from Codecademy 'Quartiles' lesson (R)",
+  "sections": [
+    {
+      "topic": "Quartiles",
+      "definition": "Values that split a sorted dataset into four groups of equal size.",
+      "key_values": [
+        {"name": "Q1 (First Quartile)", "description": "Value below which 25% of the data falls. Also the 25th percentile."},
+        {"name": "Q2 (Second Quartile)", "description": "The median. Value below which 50% of the data falls. Also the 50th percentile."},
+        {"name": "Q3 (Third Quartile)", "description": "Value below which 75% of the data falls. Also the 75th percentile."}
+      ],
+      "manual_calculation_steps": [
+        "Sort the dataset from smallest to largest.",
+        "Find Q2 (the median) of the full dataset.",
+        "For odd n: Q2 is the middle value. For even n: Q2 is the average of the two middle values.",
+        "Method 1 (exclusive): Q1 = median of all points BELOW Q2. Q3 = median of all points ABOVE Q2.",
+        "Method 2 (inclusive): Q1 = median of all points ≤ Q2 (including Q2). Q3 = median of all points ≥ Q2 (including Q2)."
+      ],
+      "important_note": "There is no universally agreed-upon method for calculating quartiles. Different tools may report slightly different values, especially for small datasets.",
+      "r_function": "quantile(dataset, prob)",
+      "r_examples": [
+        {"code": "quantile(dataset, 0.25)", "returns": "Q1 (25th percentile)"},
+        {"code": "quantile(dataset, 0.50)", "returns": "Q2 / median (50th percentile)"},
+        {"code": "quantile(dataset, 0.75)", "returns": "Q3 (75th percentile)"},
+        {"code": "quantile(dataset, c(0.25, 0.50, 0.75))", "returns": "All three quartiles at once"}
+      ]
+    },
+    {
+      "topic": "Five-Number Summary",
+      "definition": "The minimum, Q1, Q2 (median), Q3, and maximum of a dataset. Provides a quick overview of range, centrality, and spread.",
+      "components": ["Minimum", "Q1", "Median (Q2)", "Q3", "Maximum"],
+      "visualization": "Displayed in a box plot: the box spans Q1 to Q3 (length = IQR), with a line at the median."
+    },
+    {
+      "topic": "Quantiles",
+      "definition": "Values that split a dataset into groups of equal size. n-quantiles produce n+1 groups using n-1 cut points.",
+      "key_relationship": "n quantiles → n groups → (n−1) cut points. Wait, correction: n-quantiles split data into n groups, requiring (n−1) cut points. Actually: if you have n-quantiles, you get n groups and (n−1) dividing values.",
+      "correction": "More precisely: 'n-quantiles' refers to n−1 cut points that divide data into n equal groups. E.g., quartiles = 3 cut points → 4 groups.",
+      "common_types": [
+        {"name": "2-quantile (Median)", "groups": 2, "cut_points": 1, "description": "Splits data in half"},
+        {"name": "Tertiles", "groups": 3, "cut_points": 2, "description": "Splits data into thirds"},
+        {"name": "Quartiles", "groups": 4, "cut_points": 3, "description": "Splits data into fourths"},
+        {"name": "Quintiles", "groups": 5, "cut_points": 4, "description": "Splits data into fifths"},
+        {"name": "Deciles", "groups": 10, "cut_points": 9, "description": "Splits data into tenths"},
+        {"name": "Percentiles", "groups": 100, "cut_points": 99, "description": "Splits data into hundredths"}
+      ],
+      "r_function": "quantile(dataset, probs_vector)",
+      "r_examples": [
+        {"code": "quantile(songs, 0.23)", "returns": "Value separating the first 23% from the rest (23rd percentile)"},
+        {"code": "quantile(songs, c(0.2, 0.4, 0.6, 0.8))", "returns": "Quintiles (4 cut points → 5 groups)"},
+        {"code": "quantile(songs, c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9))", "returns": "Deciles (9 cut points → 10 groups)"}
+      ],
+      "notes": [
+        "The quantile() function does NOT require the dataset to be pre-sorted.",
+        "Single-value calls (e.g., 0.23) technically return a percentile, not a true quantile set, but are still useful.",
+        "R supports 9 different quantile calculation types (Type 1–9); default is Type 7 (linear interpolation)."
+      ]
+    },
+    {
+      "topic": "Interquartile Range (IQR)",
+      "definition": "The difference between the third quartile (Q3) and the first quartile (Q1). Measures the spread of the middle 50% of the data.",
+      "formula": "IQR = Q3 − Q1",
+      "why_use_iqr": "Unlike the range (max − min), the IQR is robust — outliers have little effect on it because it only depends on Q1 and Q3, which are positional statistics not influenced by extreme values.",
+      "robust_statistic_definition": "A statistic is 'robust' when outliers have little impact on its value.",
+      "example": "dataset_one = c(6, 9, 10, 45, 190, 200) → IQR = 144.5; dataset_two = c(6, 9, 10, 45, 190, 20000000) → IQR = 144.5 (identical despite massive outlier)",
+      "r_functions": [
+        {"code": "IQR(dataset)", "description": "Built-in function from the stats library. Returns IQR in one step."},
+        {"code": "quantile(dataset, 0.75) - quantile(dataset, 0.25)", "description": "Manual calculation using quantile()"}
+      ],
+      "box_plot_connection": "In a box plot, the box spans from Q1 to Q3. The length of the box equals the IQR."
+    },
+    {
+      "topic": "Quick Reference Table",
+      "table": [
+        {"concept": "Range", "formula": "max − min", "robust": "No", "r_code": "max(x) - min(x)"},
+        {"concept": "Q1", "formula": "25th percentile", "robust": "Yes", "r_code": "quantile(x, 0.25)"},
+        {"concept": "Q2 / Median", "formula": "50th percentile", "robust": "Yes", "r_code": "quantile(x, 0.5) or median(x)"},
+        {"concept": "Q3", "formula": "75th percentile", "robust": "Yes", "r_code": "quantile(x, 0.75)"},
+        {"concept": "IQR", "formula": "Q3 − Q1", "robust": "Yes", "r_code": "IQR(x)"},
+        {"concept": "Five-Number Summary", "formula": "min, Q1, Q2, Q3, max", "robust": "Partial", "r_code": "summary(x) or fivenum(x)"}
+      ]
+    },
+    {
+      "topic": "Common Pitfalls",
+      "pitfalls": [
+        "Confusing the number of quantiles with the number of groups (n quantiles → n groups, n−1 cut points).",
+        "Using Q2 (the median) when calculating IQR — it's NOT needed. IQR = Q3 − Q1 only.",
+        "Forgetting to sort data when calculating quartiles by hand (R's quantile() handles this automatically).",
+        "Assuming there's only one 'correct' method for quartile calculation — multiple valid methods exist.",
+        "Mixing up quartiles (0.25, 0.5, 0.75) with quintiles (0.2, 0.4, 0.6, 0.8) or deciles (0.1–0.9).",
+        "Confusing range (max − min, NOT robust) with IQR (Q3 − Q1, robust)."
+      ]
+    }
+  ]
+}
