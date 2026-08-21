@@ -1,0 +1,70 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Investigating the Coronavirus Pandemic (Solution Notebook)\n",
+    "Complete pipeline for manipulating wide-format COVID-19 pandemic data in R."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "library(dplyr)\n",
+    "library(readr)\n",
+    "library(janitor)\n",
+    "library(ggplot2)\n",
+    "\n",
+    "# 1. Load Data\n",
+    "confirmed <- read_csv(\"corona_confirmed.csv\")\n",
+    "recovered <- read_csv(\"corona_recovered.csv\")\n",
+    "deaths    <- read_csv(\"corona_deaths.csv\")\n",
+    "\n",
+    "# 2. Snapshot Calculations on March 22nd\n",
+    "total_cases <- confirmed %>% select(`3/22/20`) %>% sum()\n",
+    "total_cases_north_of_equator <- confirmed %>% filter(Lat > 0) %>% select(`3/22/20`) %>% sum()\n",
+    "total_australia_cases <- confirmed %>% filter(`Country/Region` == 'Australia') %>% select(`3/22/20`) %>% sum()\n",
+    "\n",
+    "cat(\"Total Global Cases:\", total_cases, \"\\n\")\n",
+    "cat(\"Northern Hemisphere %:\", total_cases_north_of_equator / total_cases * 100, \"\\n\")\n",
+    "cat(\"Australia %:\", total_australia_cases / total_cases * 100, \"\\n\")\n",
+    "\n",
+    "# 3. Group and Summarize Data\n",
+    "countries_confirmed <- confirmed %>% group_by(`Country/Region`) %>% summarize_at(vars(-Lat, -Long, -`Province/State`), sum)\n",
+    "countries_recovered <- recovered %>% group_by(`Country/Region`) %>% summarize_at(vars(-Lat, -Long, -`Province/State`), sum)\n",
+    "\n",
+    "# Max-value recovery rate for US\n",
+    "max_confirmed_us <- countries_confirmed %>% filter(`Country/Region` == 'US') %>% select(-`Country/Region`) %>% max()\n",
+    "max_recovered_us <- countries_recovered %>% filter(`Country/Region` == 'US') %>% select(-`Country/Region`) %>% max()\n",
+    "cat(\"US Max Recovery Rate %:\", max_recovered_us / max_confirmed_us * 100, \"\\n\")\n",
+    "\n",
+    "# 4. Transpose and Clean\n",
+    "transposed_confirmed <- countries_confirmed %>%\n",
+    "  t() %>%\n",
+    "  as.data.frame() %>%\n",
+    "  row_to_names(row_number = 1)\n",
+    "\n",
+    "transposed_confirmed <- apply(transposed_confirmed, 2, as.numeric) %>% as.data.frame()\n",
+    "\n",
+    "# 5. Visualize Growth Curve\n",
+    "transposed_confirmed <- transposed_confirmed %>% mutate(date = 1:nrow(transposed_confirmed))\n",
+    "\n",
+    "ggplot(transposed_confirmed, aes(x = date, y = Italy)) +\n",
+    "  geom_line(color = \"steelblue\", size = 1) +\n",
+    "  labs(x = \"Days Since Jan 22, 2020\", y = \"Confirmed Cases\", title = \"COVID-19 Trajectory in Italy\") +\n",
+    "  theme_minimal()"
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "R"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

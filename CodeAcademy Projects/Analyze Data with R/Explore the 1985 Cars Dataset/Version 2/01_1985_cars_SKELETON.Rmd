@@ -1,0 +1,170 @@
+---
+title: "Explore the 1985 Cars Dataset"
+output: html_notebook
+---
+
+## Introduction
+
+You collect cars, and your collection is missing a car from 1985. We have a
+dataset of 1985 cars (from the UCI Machine Learning Repository) that we can
+analyze to help decide which car to add to the collection.
+
+Work through each task below. Each task has a corresponding code chunk —
+fill it in with the requested R code.
+
+---
+
+## Loading and Inspecting the Data
+
+### Task 1: Load the tidyverse packages you'll need (`readr`, `dplyr`)
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+### Task 2: Load `cars85.csv` into a dataframe called `cars`
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+### Task 3: Inspect `cars` with `head()` and `summary()`
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+> What kind of information do you have? What can you do with this information?
+
+---
+
+## Clean the Data
+
+### Task 4: Remove the `normalized_losses` column
+
+Select all columns from `cars` except `normalized_losses`. Save the result
+back to `cars`.
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+### Task 5: Print the column names of `cars`
+
+Are they clear and descriptive?
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+### Task 6: Rename `symboling` to `risk_factor`
+
+Update the column name, then print the column names again to confirm.
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+---
+
+## Add a Column
+
+### Task 7: Create a variable `mpg_threshold` with the value 30
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+### Task 8: Add a column `mpg_diff_from_threshold`
+
+This should measure how far each car's highway mpg is from `mpg_threshold`.
+View the updated `cars` dataframe.
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+---
+
+## Filter and Arrange Rows
+
+### Task 9: Filter to cars where `mpg_diff_from_threshold` > 0
+
+Save the result to `mpg_exceeds_threshold` and view it.
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+### Task 10: Arrange `mpg_exceeds_threshold` by `mpg_diff_from_threshold` descending
+
+Save the result back to `mpg_exceeds_threshold`.
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+### Task 11: Order `cars` by `engine_size` descending
+
+Save the result to `ordered_by_engine_size` and view it.
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+---
+
+## Specifying the Make of the Car
+
+### Task 12: Create a variable `chosen_make`
+
+Set it to a make you're interested in, e.g. one of: `alfa-romero`, `audi`,
+`bmw`, `chevrolet`, `dodge`, `honda`, `isuzu`, `jaguar`, `mazda`,
+`mercedes-benz`, `mercury`, `mitsubishi`, `nissan`, `peugot`, `plymouth`,
+`porsche`, `renault`, `saab`, `subaru`, `toyota`, `volkswagen`, `volvo`.
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+### Task 13: Filter `cars` to rows where `make == chosen_make`
+
+Save the result to `chosen_make_details`.
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+### Task 14: Order `chosen_make_details` by `engine_size` descending
+
+Save the result back to `chosen_make_details` and view it.
+
+```{r}
+# YOUR CODE HERE
+
+```
+
+> How large are the engines in each of the cars from that make? Try
+> changing `chosen_make` and re-running to explore other makes.
+
+---
+
+## Task 15: Wrap-up
+
+Reflect: based on your analysis, which 1985 car would you add to your
+collection, and why?
+
+*(no code required — just make your decision!)*

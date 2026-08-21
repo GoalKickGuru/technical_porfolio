@@ -1,0 +1,108 @@
+{
+  "project_title": "US Census Data Cleaning & EDA Cheat Sheet",
+  "language": "R",
+  "primary_packages": [
+    "readr",
+    "dplyr",
+    "tidyr",
+    "stringr",
+    "ggplot2"
+  ],
+  "cheat_sheet_sections": [
+    {
+      "category": "1. Ingestion & Merging Multiple CSV Files",
+      "key_functions": ["list.files()", "lapply()", "read_csv()", "bind_rows()"],
+      "code_patterns": [
+        {
+          "pattern_name": "Pattern Matching File Search",
+          "code_example": "files <- list.files(path = \".\", pattern = \"states_.*\\\\.csv\", full.names = TRUE)",
+          "explanation": "Uses Regular Expressions to gather all file paths starting with 'states_' and ending in '.csv'."
+        },
+        {
+          "pattern_name": "Iterative Ingestion & Concatenation",
+          "code_example": "df_list <- lapply(files, read_csv)\nus_census <- bind_rows(df_list)",
+          "explanation": "`lapply` applies `read_csv` across all file paths into a list, and `bind_rows` stacks them vertically into one unified data frame."
+        }
+      ]
+    },
+    {
+      "category": "2. String Manipulation & Regex Cleaning",
+      "key_functions": ["str_remove()", "str_remove_all()", "across()", "separate()"],
+      "code_patterns": [
+        {
+          "pattern_name": "Removing Currency & Percent Formatting",
+          "code_example": "us_census <- us_census %>%\n  mutate(\n    Income = str_remove_all(Income, \"[\\\\$\\\\,]\"),\n    Hispanic = str_remove(Hispanic, \"%\\\\\")\n  )",
+          "explanation": "Strips currency symbols (`$`, `,`) and percent signs (`%`) from target character columns."
+        },
+        {
+          "pattern_name": "Batch Cleaning across Multiple Columns",
+          "code_example": "race_cols <- c('Hispanic', 'White', 'Black', 'Native', 'Asian', 'Pacific')\nus_census <- us_census %>%\n  mutate(across(all_of(race_cols), ~ str_remove(.x, \"%\\\\\")))",
+          "explanation": "Applies a regex stripping function to a predefined vector of column names simultaneously."
+        },
+        {
+          "pattern_name": "Splitting Composite String Columns",
+          "code_example": "us_census <- us_census %>%\n  separate(GenderPop, into = c('male_pop', 'female_pop'), sep = \"_\") %>%\n  mutate(\n    male_pop = str_remove(male_pop, \"M\"),\n    female_pop = str_remove(female_pop, \"F\")\n  )",
+          "explanation": "Splits `GenderPop` by delimiter `_` into distinct variables and strips character labels."
+        }
+      ]
+    },
+    {
+      "category": "3. Data Type Coercion & Scaling",
+      "key_functions": ["as.numeric()", "mutate()", "across()"],
+      "code_patterns": [
+        {
+          "pattern_name": "Multi-Column Numeric Coercion",
+          "code_example": "num_cols <- c(race_cols, \"Income\", \"male_pop\", \"female_pop\")\nus_census <- us_census %>%\n  mutate(across(all_of(num_cols), as.numeric))",
+          "explanation": "Converts specified character variables to standard double/numeric data types."
+        },
+        {
+          "pattern_name": "Scaling Percentages to Decimal Proportions",
+          "code_example": "us_census <- us_census %>%\n  mutate(across(all_of(race_cols), ~ .x / 100))",
+          "explanation": "Converts integer/double percentages ($0-100$) into standard statistical proportions ($0.0-1.0$)."
+        }
+      ]
+    },
+    {
+      "category": "4. Missing Data Imputation & Validation",
+      "key_functions": ["duplicated()", "distinct()", "if_else()", "is.na()", "median()"],
+      "code_patterns": [
+        {
+          "pattern_name": "Deduplication Check & Filtering",
+          "code_example": "table(duplicated(us_census))\nus_census <- us_census %>% distinct()",
+          "explanation": "Identifies exact duplicate rows and retains only distinct records."
+        },
+        {
+          "pattern_name": "Logical Calculation Imputation",
+          "code_example": "us_census <- us_census %>%\n  mutate(female_pop = if_else(is.na(female_pop), TotalPop - male_pop, female_pop))",
+          "explanation": "Calculates missing female population figures using existing `TotalPop` and `male_pop` columns."
+        },
+        {
+          "pattern_name": "Median Imputation Across Grouped Columns",
+          "code_example": "us_census <- us_census %>%\n  mutate(across(all_of(race_cols), ~ if_else(is.na(.x), median(.x, na.rm = TRUE), .x)))",
+          "explanation": "Fills missing missing demographic entries using column-wide medians."
+        }
+      ]
+    },
+    {
+      "category": "5. Reshaping & Visual Exploratory Analysis",
+      "key_functions": ["pivot_longer()", "ggplot()", "geom_histogram()", "geom_point()", "geom_smooth()"],
+      "code_patterns": [
+        {
+          "pattern_name": "Wide-to-Long Tidy Transformation",
+          "code_example": "census_long <- us_census %>%\n  pivot_longer(cols = all_of(race_cols), names_to = \"Race\", values_to = \"Proportion\")",
+          "explanation": "Transforms racial variables into key-value pairs suitable for faceted `ggplot2` visualizations."
+        },
+        {
+          "pattern_name": "Distribution Visualization (Histogram)",
+          "code_example": "ggplot(us_census, aes(x = Income)) +\n  geom_histogram(bins = 15, fill = \"steelblue\", color = \"white\") +\n  theme_minimal()",
+          "explanation": "Generates a binned histogram to display distribution metrics."
+        },
+        {
+          "pattern_name": "Linear Association Visualization (Scatter Plot)",
+          "code_example": "ggplot(us_census, aes(x = Hispanic, y = Income)) +\n  geom_point(color = \"darkorange\") +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  theme_minimal()",
+          "explanation": "Plots two continuous variables with an overlay regression trend line."
+        }
+      ]
+    }
+  ]
+}

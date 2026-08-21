@@ -1,0 +1,139 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Investigating the Coronavirus Pandemic (Skeleton Notebook)\n",
+    "\n",
+    "Welcome! In this project, you will practice data loading, filtering, aggregating, transposing wide-format data, and visual analysis using R.\n",
+    "\n",
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 1: Environment Setup & Data Ingestion\n",
+    "Load `dplyr`, `readr`, and `janitor`. Read `corona_confirmed.csv`, `corona_recovered.csv`, and `corona_deaths.csv` into separate variables."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "library(dplyr)\n",
+    "library(readr)\n",
+    "library(janitor)\n",
+    "library(ggplot2)\n",
+    "\n",
+    "# Load datasets\n",
+    "confirmed <- read_csv(\"corona_confirmed.csv\")\n",
+    "recovered <- read_csv(\"corona_recovered.csv\")\n",
+    "deaths    <- read_csv(\"corona_deaths.csv\")\n",
+    "\n",
+    "# Inspect top rows\n",
+    "head(confirmed)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 2: Baseline Snapshot (March 22nd, 2020)\n",
+    "Calculate global total confirmed cases on `3/22/20`. Then, find total cases and global percentages for:\n",
+    "1. Northern Hemisphere (`Lat > 0`)\n",
+    "2. Australia (`Country/Region == 'Australia'`)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Total global cases on 3/22/20\n",
+    "total_cases <- NULL\n",
+    "\n",
+    "# Northern Hemisphere cases & percentage\n",
+    "total_cases_north_of_equator <- NULL\n",
+    "\n",
+    "# Australia cases & percentage\n",
+    "total_australia_cases <- NULL"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 3: Grouping & Aggregation\n",
+    "Group `confirmed` and `recovered` dataframes by `Country/Region` and calculate daily totals across all date columns."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Group confirmed cases by country\n",
+    "countries_confirmed <- NULL\n",
+    "\n",
+    "# Group recovered cases by country\n",
+    "countries_recovered <- NULL\n",
+    "\n",
+    "# Calculate recovery rate % for US on max values\n",
+    "# Write code here..."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 4: Transposition & Data Reshaping\n",
+    "Rotate `countries_confirmed` so dates become rows and countries become columns. Fix headers with `janitor::row_to_names()` and parse values to numeric."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Transpose and clean column headers\n",
+    "transposed_confirmed <- NULL\n",
+    "\n",
+    "# Convert metrics to numeric values\n",
+    "# Write code here..."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Task 5: Longitudinal Visualization\n",
+    "Add a numeric sequence column `date` (representing days since Jan 22, 2020) and create a `ggplot2` line plot for Italy."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Add day count and render ggplot\n",
+    "# Write code here..."
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "R"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

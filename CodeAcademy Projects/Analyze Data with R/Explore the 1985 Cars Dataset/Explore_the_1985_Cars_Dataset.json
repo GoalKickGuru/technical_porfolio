@@ -1,0 +1,98 @@
+{
+  "project_title": "Explore the 1985 Cars Dataset",
+  "source": "UCI Machine Learning Repository",
+  "file_type": "R Notebook (.Rmd)",
+  "tasks": [
+    {
+      "task": 1,
+      "section": "Loading and Inspecting the Data",
+      "instruction": "Load the readr and dplyr tidyverse packages.",
+      "code": "library(readr)\nlibrary(dplyr)"
+    },
+    {
+      "task": 2,
+      "section": "Loading and Inspecting the Data",
+      "instruction": "Load the file cars85.csv into a dataframe called cars.",
+      "code": "cars <- read_csv('cars85.csv')"
+    },
+    {
+      "task": 3,
+      "section": "Loading and Inspecting the Data",
+      "instruction": "Inspect cars with head() and summary().",
+      "code": "head(cars)\nsummary(cars)"
+    },
+    {
+      "task": 4,
+      "section": "Clean the Data",
+      "instruction": "Remove the normalized_losses column from cars. Save to cars.",
+      "code": "cars <- cars %>%\n  select(-normalized_losses)"
+    },
+    {
+      "task": 5,
+      "section": "Clean the Data",
+      "instruction": "Print the column names of cars.",
+      "code": "colnames(cars)"
+    },
+    {
+      "task": 6,
+      "section": "Clean the Data",
+      "instruction": "Rename symboling to risk_factor. Print column names to confirm.",
+      "code": "cars <- cars %>%\n  rename(risk_factor = symboling)\ncolnames(cars)"
+    },
+    {
+      "task": 7,
+      "section": "Add a Column",
+      "instruction": "Create a variable called mpg_threshold with the value 30.",
+      "code": "mpg_threshold <- 30"
+    },
+    {
+      "task": 8,
+      "section": "Add a Column",
+      "instruction": "Add a new column mpg_diff_from_threshold measuring how far each car's highway mpg is from 30. View the updated dataframe.",
+      "code": "cars <- cars %>%\n  mutate(mpg_diff_from_threshold = highway_mpg - mpg_threshold)\nhead(cars)"
+    },
+    {
+      "task": 9,
+      "section": "Filter and Arrange Rows",
+      "instruction": "Filter rows where mpg_diff_from_threshold is greater than 0. Save to mpg_exceeds_threshold and view it.",
+      "code": "mpg_exceeds_threshold <- cars %>%\n  filter(mpg_diff_from_threshold > 0)\nmpg_exceeds_threshold"
+    },
+    {
+      "task": 10,
+      "section": "Filter and Arrange Rows",
+      "instruction": "Arrange mpg_exceeds_threshold by mpg_diff_from_threshold descending. Save as mpg_exceeds_threshold.",
+      "code": "mpg_exceeds_threshold <- mpg_exceeds_threshold %>%\n  arrange(desc(mpg_diff_from_threshold))"
+    },
+    {
+      "task": 11,
+      "section": "Filter and Arrange Rows",
+      "instruction": "Order the rows of cars by engine_size descending. Save to ordered_by_engine_size. View it.",
+      "code": "ordered_by_engine_size <- cars %>%\n  arrange(desc(engine_size))\nordered_by_engine_size"
+    },
+    {
+      "task": 12,
+      "section": "Specifying the Make of the Car",
+      "instruction": "Create a variable called chosen_make that contains the make you want to check.",
+      "code": "chosen_make <- 'toyota'"
+    },
+    {
+      "task": 13,
+      "section": "Specifying the Make of the Car",
+      "instruction": "Filter cars to only include rows where make equals chosen_make. Save to chosen_make_details.",
+      "code": "chosen_make_details <- cars %>%\n  filter(make == chosen_make)"
+    },
+    {
+      "task": 14,
+      "section": "Specifying the Make of the Car",
+      "instruction": "Order chosen_make_details by engine_size descending and save. View it.",
+      "code": "chosen_make_details <- chosen_make_details %>%\n  arrange(desc(engine_size))\nchosen_make_details"
+    },
+    {
+      "task": 15,
+      "section": "Conclusion",
+      "instruction": "Reflect on the analysis process and how it eases the stress of buying a car.",
+      "code": "# Analysis complete!\n# We cleaned the data, filtered for fuel-efficient cars,\n# sorted by engine size, and narrowed down by make.\n# This data-driven approach helps make an informed decision\n# for adding a 1985 car to our collection!"
+    }
+  ],
+  "rmd_output": "---\ntitle: \"1985 Cars\"\noutput: html-notebook\n---\n\n# Task 1\n```{r message=FALSE, warning=FALSE, error=TRUE}\n# load libraries\nlibrary(readr)\nlibrary(dplyr)\n```\n# Task 2\n```{r error=TRUE}\n# load data\ncars <- read_csv('cars85.csv')\n```\n# Task 3\n```{r error=TRUE}\n# inspect data\nhead(cars)\nsummary(cars)\n```\n# Task 4\n```{r error=TRUE}\n# select columns\ncars <- cars %>%\n  select(-normalized_losses)\n```\n# Task 5\n```{r error=TRUE}\n# view columns\ncolnames(cars)\n```\n# Task 6\n```{r error=TRUE}\n# rename column\ncars <- cars %>%\n  rename(risk_factor = symboling)\ncolnames(cars)\n```\n# Task 7\n```{r error=TRUE}\n# define threshold\nmpg_threshold <- 30\n```\n# Task 8\n```{r error=TRUE}\n# add column\ncars <- cars %>%\n  mutate(mpg_diff_from_threshold = highway_mpg - mpg_threshold)\nhead(cars)\n```\n# Task 9\n```{r error=TRUE}\n# filter rows\nmpg_exceeds_threshold <- cars %>%\n  filter(mpg_diff_from_threshold > 0)\nmpg_exceeds_threshold\n```\n# Task 10\n```{r error=TRUE}\n# arrange rows\nmpg_exceeds_threshold <- mpg_exceeds_threshold %>%\n  arrange(desc(mpg_diff_from_threshold))\n```\n# Task 11\n```{r error=TRUE}\n# order rows by engine size\nordered_by_engine_size <- cars %>%\n  arrange(desc(engine_size))\nordered_by_engine_size\n```\n# Task 12\n```{r error=TRUE}\n# choose make\nchosen_make <- 'toyota'\n```\n# Task 13\n```{r error=TRUE}\n# filter rows by make\nchosen_make_details <- cars %>%\n  filter(make == chosen_make)\n```\n# Task 14\n```{r error=TRUE}\n# order filtered rows by engine size\nchosen_make_details <- chosen_make_details %>%\n  arrange(desc(engine_size))\nchosen_make_details\n```"
+}

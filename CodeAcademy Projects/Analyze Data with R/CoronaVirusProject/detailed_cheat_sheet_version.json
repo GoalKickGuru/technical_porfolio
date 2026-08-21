@@ -1,0 +1,51 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Data Wrangling & Transposition Cheat Sheet (R / Tidyverse)\n",
+    "\n",
+    "### Key Technical Operations Used in Project:\n",
+    "\n",
+    "1. **Selecting Non-Standard Column Names**\n",
+    "   * Wrap date or slash-containing column headers in backticks: `` select(`3/22/20`) ``[cite: 1, 2].\n",
+    "\n",
+    "2. **Grouping & Dynamic Aggregation**\n",
+    "   * Aggregate specific numerical columns while dropping static spatial fields:\n",
+    "     ```r\n",
+    "     df %>% \n",
+    "       group_by(`Country/Region`) %>% \n",
+    "       summarize_at(vars(-Lat, -Long, -`Province/State`), sum)\n",
+    "     ```[cite: 1, 2]\n",
+    "\n",
+    "3. **Transposing Tables via Base R + `janitor`**\n",
+    "   * Base `t()` converts a data frame into a character matrix[cite: 1, 2]. Follow this pattern to restore data frame structure:\n",
+    "     ```r\n",
+    "     df_transposed <- df %>%\n",
+    "       t() %>%\n",
+    "       as.data.frame() %>%\n",
+    "       janitor::row_to_names(row_number = 1) # Set row 1 as headers\n",
+    "     ```[cite: 1, 2]\n",
+    "\n",
+    "4. **Batch Data Type Casting**\n",
+    "   * Cast matrix/df columns to numeric efficiently: `apply(df, MARGIN = 2, as.numeric) %>% as.data.frame()`[cite: 1, 2].\n",
+    "\n",
+    "5. **Tidyverse Long Format Equivalent (`tidyr`)**\n",
+    "   * Modern alternative to custom `t()` rotation:\n",
+    "     ```r\n",
+    "     df_long <- df %>%\n",
+    "       pivot_longer(cols = -c(`Country/Region`, Lat, Long, `Province/State`), \n",
+    "                    names_to = \"date\", values_to = \"cases\")\n",
+    "     ```"
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "R"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

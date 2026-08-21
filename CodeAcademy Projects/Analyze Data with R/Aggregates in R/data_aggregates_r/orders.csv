@@ -1,0 +1,201 @@
+id,first_name,last_name,email,shoe_type,shoe_color,shoe_material,price
+25795,Elizabeth,Peck,user0@example.com,boots,white,mesh,286.58
+10860,Donna,Brown,user1@example.com,sneakers,white,canvas,268.96
+86820,James,Garcia,user2@example.com,ballet flats,red,synthetic,310.83
+64886,David,Dillon,user3@example.com,sneakers,blue,leather,262.34
+16265,Albert,Johnson,user4@example.com,boots,black,mesh,364.9
+92386,Sarah,Davis,user5@example.com,ballet flats,blue,leather,287.5
+47194,Ryan,Jones,user6@example.com,sneakers,black,leather,264.59
+97498,Sarah,Johnson,user7@example.com,sneakers,red,leather,341.46
+54131,Emily,Jones,user8@example.com,sneakers,red,suede,182.65
+70263,Michael,Saunders,user9@example.com,sneakers,white,suede,300.46
+26023,Emily,Velazquez,user10@example.com,sneakers,blue,leather,281.53
+51090,Kyle,Brown,user11@example.com,boots,grey,mesh,195.35
+77221,Amanda,Williams,user12@example.com,ballet flats,white,synthetic,177.49
+74820,Albert,Davis,user13@example.com,sneakers,blue,synthetic,340.62
+10769,Michael,Miller,user14@example.com,sneakers,white,canvas,337.77
+69735,Donna,Jones,user15@example.com,clogs,grey,mesh,290.35
+72955,Ryan,Johnson,user16@example.com,boots,brown,suede,383.0
+74925,Elizabeth,Brown,user17@example.com,boots,brown,leather,306.46
+77969,Albert,Sweeney,user18@example.com,sneakers,brown,canvas,354.99
+15311,Albert,Davis,user19@example.com,boots,brown,synthetic,305.22
+93104,Emily,Sweeney,user20@example.com,clogs,black,suede,263.45
+63707,Amanda,Peck,user21@example.com,sneakers,brown,suede,216.55
+95305,Kyle,Williams,user22@example.com,boots,grey,leather,243.79
+38693,Jessica,Rodriguez,user23@example.com,sneakers,red,synthetic,264.57
+81932,James,Rodriguez,user24@example.com,sneakers,red,mesh,361.79
+35658,Emily,Miller,user25@example.com,ballet flats,black,suede,326.2
+94478,Albert,Saunders,user26@example.com,clogs,brown,leather,299.82
+28431,Ashley,Johnson,user27@example.com,sandals,brown,mesh,332.2
+12747,Keith,Martinez,user28@example.com,sneakers,brown,synthetic,311.64
+69150,Ryan,Miller,user29@example.com,boots,white,suede,295.72
+75725,James,Velazquez,user30@example.com,sneakers,blue,mesh,190.08
+94654,Emily,Velazquez,user31@example.com,boots,white,mesh,348.35
+45773,Ryan,Johnson,user32@example.com,ballet flats,blue,mesh,252.49
+77435,Keith,Martinez,user33@example.com,clogs,brown,suede,345.31
+66886,David,Dillon,user34@example.com,ballet flats,brown,suede,351.11
+76803,Keith,Saunders,user35@example.com,boots,white,canvas,239.8
+41551,Amanda,Brown,user36@example.com,clogs,white,synthetic,336.98
+21394,Keith,Jones,user37@example.com,clogs,blue,leather,258.34
+79092,Ryan,Martinez,user38@example.com,sandals,red,mesh,258.7
+13890,Sarah,Rodriguez,user39@example.com,sneakers,blue,canvas,295.45
+51606,Ryan,Davis,user40@example.com,boots,white,leather,297.07
+90038,Jessica,Dillon,user41@example.com,boots,grey,canvas,282.31
+97313,Kyle,Jones,user42@example.com,boots,white,suede,199.94
+20627,Michael,Jones,user43@example.com,sneakers,grey,mesh,272.71
+18792,Sarah,Dillon,user44@example.com,sneakers,black,leather,416.71
+83969,Elizabeth,Peck,user45@example.com,sneakers,white,leather,112.96
+53001,Michael,Sweeney,user46@example.com,sneakers,black,leather,332.18
+86552,Kyle,Jones,user47@example.com,ballet flats,red,leather,343.43
+33897,Emily,Dillon,user48@example.com,sandals,blue,leather,198.5
+78148,James,Martinez,user49@example.com,ballet flats,grey,canvas,251.83
+33483,Jessica,Dillon,user50@example.com,sandals,blue,mesh,219.96
+58555,Jessica,Garcia,user51@example.com,boots,black,suede,391.24
+27159,Elizabeth,Miller,user52@example.com,sneakers,grey,suede,346.18
+90077,Sarah,Blankenship,user53@example.com,boots,blue,suede,349.09
+45920,Amanda,Peck,user54@example.com,ballet flats,white,suede,287.24
+77121,Christopher,Williams,user55@example.com,ballet flats,brown,canvas,358.73
+79479,David,Blankenship,user56@example.com,sneakers,black,synthetic,279.51
+99475,Keith,Miller,user57@example.com,sneakers,blue,mesh,361.55
+29457,Sarah,Miller,user58@example.com,ballet flats,black,leather,271.08
+76557,James,Miller,user59@example.com,ballet flats,black,synthetic,239.25
+87189,David,Blankenship,user60@example.com,sneakers,grey,suede,388.66
+88953,Jessica,Johnson,user61@example.com,ballet flats,grey,synthetic,278.75
+62995,Ryan,Sweeney,user62@example.com,sneakers,brown,mesh,226.07
+50757,James,Dillon,user63@example.com,sneakers,white,leather,225.42
+19692,Kyle,Davis,user64@example.com,ballet flats,black,leather,225.61
+55758,Elizabeth,Sweeney,user65@example.com,ballet flats,blue,mesh,330.67
+82409,Kyle,Rodriguez,user66@example.com,clogs,red,mesh,274.07
+81211,Christopher,Martinez,user67@example.com,boots,black,suede,417.88
+75697,James,Saunders,user68@example.com,boots,black,leather,351.17
+47065,Donna,Johnson,user69@example.com,sneakers,brown,synthetic,295.43
+42606,Donna,Williams,user70@example.com,clogs,white,canvas,364.23
+21534,Emily,Sweeney,user71@example.com,clogs,red,canvas,250.27
+50397,Sarah,Davis,user72@example.com,sneakers,grey,mesh,168.71
+11016,Jessica,Velazquez,user73@example.com,boots,grey,suede,220.63
+99789,Jessica,Miller,user74@example.com,ballet flats,blue,canvas,288.83
+65591,Keith,Jones,user75@example.com,sneakers,red,leather,266.65
+99812,Keith,Rodriguez,user76@example.com,sandals,grey,mesh,329.46
+33247,Keith,Saunders,user77@example.com,boots,blue,synthetic,272.52
+34300,Ryan,Peck,user78@example.com,clogs,white,mesh,324.88
+84065,Michael,Williams,user79@example.com,ballet flats,blue,synthetic,370.06
+92798,Albert,Martinez,user80@example.com,sandals,grey,mesh,272.34
+19268,Michael,Saunders,user81@example.com,ballet flats,brown,mesh,313.31
+96807,Kyle,Miller,user82@example.com,sandals,brown,mesh,174.71
+22185,Michael,Jones,user83@example.com,ballet flats,brown,synthetic,272.57
+73704,Ryan,Johnson,user84@example.com,ballet flats,grey,synthetic,206.08
+96779,Emily,Jones,user85@example.com,ballet flats,brown,mesh,288.71
+49099,Kyle,Blankenship,user86@example.com,sneakers,red,canvas,294.16
+18571,Michael,Jones,user87@example.com,sneakers,white,suede,293.96
+48044,Ryan,Blankenship,user88@example.com,sandals,blue,suede,251.19
+61214,Albert,Rodriguez,user89@example.com,clogs,blue,suede,417.91
+71228,Michael,Johnson,user90@example.com,boots,grey,synthetic,203.92
+58984,Ryan,Martinez,user91@example.com,boots,brown,synthetic,200.25
+50774,Christopher,Brown,user92@example.com,sneakers,brown,canvas,379.3
+12568,Keith,Miller,user93@example.com,boots,black,suede,237.74
+72592,Christopher,Blankenship,user94@example.com,clogs,white,suede,223.32
+77563,Jessica,Peck,user95@example.com,ballet flats,red,mesh,418.17
+12695,Keith,Jones,user96@example.com,clogs,blue,synthetic,339.14
+58190,Jessica,Jones,user97@example.com,ballet flats,black,suede,244.33
+15258,Ashley,Peck,user98@example.com,sneakers,black,canvas,
+97538,Elizabeth,Martinez,user99@example.com,sandals,grey,canvas,396.75
+49504,Christopher,Velazquez,user100@example.com,clogs,blue,suede,321.5
+43159,Elizabeth,Rodriguez,user101@example.com,ballet flats,grey,synthetic,357.17
+23986,Elizabeth,Dillon,user102@example.com,sandals,red,canvas,328.29
+71858,Albert,Brown,user103@example.com,clogs,black,mesh,335.82
+22666,Keith,Williams,user104@example.com,sandals,black,canvas,282.38
+48660,Ashley,Davis,user105@example.com,sneakers,white,leather,280.68
+13561,Jessica,Blankenship,user106@example.com,sneakers,red,leather,296.02
+36854,Ryan,Peck,user107@example.com,sandals,black,synthetic,324.07
+74505,Kyle,Davis,user108@example.com,sneakers,red,suede,263.0
+62251,Ryan,Johnson,user109@example.com,sandals,blue,synthetic,287.32
+32662,Kyle,Martinez,user110@example.com,clogs,brown,synthetic,261.38
+18392,Christopher,Blankenship,user111@example.com,ballet flats,black,synthetic,286.94
+40535,Donna,Dillon,user112@example.com,boots,white,synthetic,204.94
+88603,Ryan,Davis,user113@example.com,clogs,blue,mesh,436.36
+62256,Michael,Johnson,user114@example.com,sneakers,red,mesh,236.02
+99135,Michael,Saunders,user115@example.com,sandals,grey,canvas,258.31
+45222,Sarah,Miller,user116@example.com,sneakers,blue,leather,230.84
+87373,Keith,Jones,user117@example.com,boots,black,synthetic,316.94
+89575,Kyle,Saunders,user118@example.com,ballet flats,red,canvas,268.24
+94651,Kyle,Blankenship,user119@example.com,sandals,brown,leather,222.17
+73335,James,Dillon,user120@example.com,boots,blue,suede,319.41
+20965,Emily,Brown,user121@example.com,sandals,black,mesh,327.5
+34538,Keith,Davis,user122@example.com,ballet flats,white,leather,275.99
+80592,Albert,Rodriguez,user123@example.com,clogs,grey,suede,240.18
+18110,Sarah,Miller,user124@example.com,clogs,red,leather,411.46
+89309,Albert,Blankenship,user125@example.com,sneakers,blue,mesh,300.4
+37266,Christopher,Martinez,user126@example.com,sandals,blue,mesh,203.56
+62992,Christopher,Peck,user127@example.com,boots,brown,canvas,364.84
+92948,Albert,Rodriguez,user128@example.com,sneakers,brown,synthetic,228.65
+16910,Albert,Rodriguez,user129@example.com,sneakers,white,leather,444.51
+10206,Ashley,Rodriguez,user130@example.com,ballet flats,grey,leather,284.78
+97054,Keith,Sweeney,user131@example.com,clogs,white,suede,340.8
+97897,Albert,Blankenship,user132@example.com,sneakers,black,mesh,155.2
+33419,Michael,Miller,user133@example.com,clogs,black,leather,202.95
+60636,Emily,Jones,user134@example.com,sneakers,white,mesh,360.03
+60015,Emily,Jones,user135@example.com,sneakers,grey,leather,299.07
+64268,Elizabeth,Blankenship,user136@example.com,boots,white,canvas,402.54
+97939,Donna,Johnson,user137@example.com,clogs,grey,synthetic,309.11
+28141,Christopher,Sweeney,user138@example.com,sneakers,grey,leather,288.72
+90356,Kyle,Peck,user139@example.com,ballet flats,red,mesh,382.81
+81910,James,Rodriguez,user140@example.com,ballet flats,grey,canvas,340.61
+66044,Amanda,Rodriguez,user141@example.com,boots,brown,leather,268.22
+77214,Kyle,Blankenship,user142@example.com,sneakers,grey,suede,214.35
+43827,Donna,Johnson,user143@example.com,clogs,grey,synthetic,137.7
+65820,James,Jones,user144@example.com,ballet flats,grey,leather,253.74
+72623,Ashley,Jones,user145@example.com,sandals,black,canvas,208.82
+91734,Keith,Dillon,user146@example.com,boots,brown,suede,435.86
+85450,Ryan,Blankenship,user147@example.com,clogs,brown,canvas,240.98
+32299,Keith,Sweeney,user148@example.com,sneakers,white,canvas,239.34
+53585,Kyle,Velazquez,user149@example.com,sneakers,red,suede,188.73
+74044,Kyle,Sweeney,user150@example.com,sandals,grey,canvas,264.02
+52557,James,Martinez,user151@example.com,boots,blue,suede,240.13
+59080,James,Jones,user152@example.com,boots,red,leather,384.26
+12693,Christopher,Jones,user153@example.com,ballet flats,red,suede,290.11
+79163,Ashley,Saunders,user154@example.com,sneakers,brown,suede,279.47
+35939,Christopher,Jones,user155@example.com,sneakers,red,synthetic,271.92
+58925,Donna,Peck,user156@example.com,clogs,grey,suede,327.17
+52941,Albert,Williams,user157@example.com,clogs,grey,suede,252.86
+31834,Keith,Blankenship,user158@example.com,sandals,black,leather,320.03
+28047,James,Davis,user159@example.com,sneakers,grey,synthetic,376.84
+36105,Jessica,Sweeney,user160@example.com,clogs,grey,mesh,307.6
+85766,Donna,Williams,user161@example.com,sneakers,brown,leather,265.02
+25707,Michael,Johnson,user162@example.com,boots,grey,leather,222.79
+31976,Ashley,Velazquez,user163@example.com,sandals,black,mesh,263.49
+54262,Kyle,Peck,user164@example.com,ballet flats,blue,suede,313.78
+33776,Christopher,Miller,user165@example.com,clogs,brown,canvas,188.05
+40080,Donna,Garcia,user166@example.com,sneakers,blue,synthetic,329.89
+76842,Amanda,Sweeney,user167@example.com,boots,brown,canvas,292.46
+71373,Keith,Williams,user168@example.com,sneakers,white,mesh,271.05
+16776,James,Miller,user169@example.com,sneakers,red,leather,240.44
+65016,Kyle,Velazquez,user170@example.com,boots,white,leather,251.42
+19474,Ryan,Saunders,user171@example.com,ballet flats,grey,synthetic,315.84
+68053,Amanda,Miller,user172@example.com,sneakers,blue,leather,272.31
+31959,Ashley,Peck,user173@example.com,sandals,grey,leather,249.93
+15530,Donna,Peck,user174@example.com,sneakers,red,synthetic,308.11
+13748,Sarah,Davis,user175@example.com,sandals,brown,synthetic,310.49
+23545,Kyle,Saunders,user176@example.com,sneakers,red,mesh,205.05
+76199,Keith,Garcia,user177@example.com,sandals,black,leather,314.29
+44766,Elizabeth,Blankenship,user178@example.com,sandals,red,leather,430.1
+83530,Jessica,Miller,user179@example.com,sneakers,black,mesh,308.18
+71087,David,Saunders,user180@example.com,boots,red,suede,178.06
+78840,Amanda,Peck,user181@example.com,ballet flats,black,suede,290.64
+64384,Albert,Peck,user182@example.com,ballet flats,blue,suede,170.15
+61005,David,Williams,user183@example.com,sneakers,grey,mesh,470.04
+56576,Keith,Jones,user184@example.com,sneakers,grey,leather,414.14
+49353,Michael,Garcia,user185@example.com,sneakers,white,mesh,240.04
+72003,Christopher,Miller,user186@example.com,boots,grey,mesh,145.26
+93211,Michael,Davis,user187@example.com,ballet flats,brown,suede,227.3
+62733,Elizabeth,Davis,user188@example.com,ballet flats,red,canvas,269.14
+75318,Amanda,Miller,user189@example.com,boots,white,leather,174.29
+99474,Albert,Martinez,user190@example.com,sandals,brown,suede,275.86
+33664,Sarah,Rodriguez,user191@example.com,boots,brown,canvas,268.75
+77172,Elizabeth,Velazquez,user192@example.com,boots,black,canvas,287.51
+95616,Amanda,Davis,user193@example.com,clogs,grey,synthetic,293.78
+36736,Emily,Saunders,user194@example.com,boots,blue,leather,222.06
+10854,David,Velazquez,user195@example.com,sandals,blue,canvas,228.8
+48623,Elizabeth,Saunders,user196@example.com,sneakers,white,suede,282.74
+17392,David,Johnson,user197@example.com,boots,blue,synthetic,242.14
+65680,Kyle,Peck,user198@example.com,sneakers,red,leather,334.45
+56717,Michael,Jones,user199@example.com,sneakers,blue,mesh,282.15

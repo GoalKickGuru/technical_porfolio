@@ -1,0 +1,57 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Universal Re-usable Pipeline for Wide-Format Time Series Analysis\n",
+    "Generic workflow template for processing and graphing non-standard wide matrix files."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "library(dplyr)\n",
+    "library(readr)\n",
+    "library(janitor)\n",
+    "library(ggplot2)\n",
+    "library(tidyr)\n",
+    "\n",
+    "process_wide_timeseries <- function(filepath, group_col, exclude_cols) {\n",
+    "  # Read data\n",
+    "  df <- read_csv(filepath)\n",
+    "  \n",
+    "  # Dynamic grouping and sum\n",
+    "  df_grouped <- df %>%\n",
+    "    group_by(across(all_of(group_col))) %>%\n",
+    "    summarize(across(-all_of(exclude_cols), sum, .names = \"{col}\"), .groups = \"drop\")\n",
+    "  \n",
+    "  # Tidy Pivoting (Modern Reshaping)\n",
+    "  df_long <- df_grouped %>%\n",
+    "    pivot_longer(\n",
+    "      cols = -all_of(group_col),\n",
+    "      names_to = \"Date\",\n",
+    "      values_to = \"Metric\"\n",
+    "    ) %>%\n",
+    "    mutate(Date = as.Date(Date, format = \"%m/%d/%y\"))\n",
+    "  \n",
+    "  return(df_long)\n",
+    "}\n",
+    "\n",
+    "# Example usage:\n",
+    "# cleaned_data <- process_wide_timeseries(\"corona_confirmed.csv\", \"Country/Region\", c(\"Lat\", \"Long\", \"Province/State\"))\n",
+    "# head(cleaned_data)"
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "R"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

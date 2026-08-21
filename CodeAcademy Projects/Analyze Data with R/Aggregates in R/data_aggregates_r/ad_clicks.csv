@@ -1,0 +1,1655 @@
+user_id,utm_source,day,ad_click_timestamp,ad_clicked,experimental_group
+239337,twitter,Tuesday,,False,B
+111957,email,Wednesday,2023-01-02 06:00:00,True,A
+690301,facebook,Friday,,False,B
+709699,google,Thursday,,False,A
+915034,email,Thursday,2023-01-29 18:00:00,True,A
+533420,facebook,Thursday,,False,B
+726816,facebook,Wednesday,2023-01-20 06:00:00,True,B
+312810,facebook,Wednesday,2023-01-26 21:00:00,True,B
+239402,google,Tuesday,,False,B
+289243,email,Sunday,,False,B
+373482,twitter,Sunday,,False,B
+496743,twitter,Monday,,False,A
+217713,facebook,Thursday,,False,A
+569988,twitter,Wednesday,,False,B
+990766,google,Saturday,2023-01-25 06:00:00,True,A
+104486,twitter,Tuesday,,False,B
+572830,google,Thursday,2023-01-23 08:00:00,True,B
+517653,facebook,Thursday,2023-01-20 01:00:00,True,A
+695067,google,Thursday,,False,B
+425112,facebook,Wednesday,2023-01-03 04:00:00,True,B
+358432,google,Thursday,2023-01-19 09:00:00,True,A
+224809,google,Thursday,,False,A
+948226,facebook,Saturday,,False,A
+914356,google,Tuesday,,False,A
+937769,facebook,Tuesday,,False,A
+704025,facebook,Saturday,2023-01-19 10:00:00,True,B
+674625,google,Saturday,2023-01-22 01:00:00,True,A
+174491,google,Sunday,,False,B
+958454,google,Monday,,False,A
+705731,email,Wednesday,,False,B
+831685,google,Friday,,False,B
+134510,google,Friday,,False,B
+960399,google,Tuesday,,False,B
+877585,facebook,Sunday,2023-01-20 19:00:00,True,B
+678759,google,Saturday,,False,B
+494039,facebook,Wednesday,2023-01-28 22:00:00,True,A
+329561,twitter,Sunday,2023-01-24 23:00:00,True,B
+881085,facebook,Tuesday,2023-01-14 05:00:00,True,B
+562735,twitter,Monday,,False,A
+646565,email,Sunday,2023-01-25 08:00:00,True,A
+168008,google,Sunday,,False,B
+770092,facebook,Wednesday,,False,A
+653616,email,Friday,,False,A
+666650,google,Tuesday,2023-01-01 09:00:00,True,A
+743421,email,Saturday,2023-01-30 11:00:00,True,B
+557357,email,Tuesday,2023-01-05 00:00:00,True,B
+226866,facebook,Monday,,False,A
+151119,google,Monday,,False,B
+696605,google,Friday,,False,B
+245384,twitter,Sunday,,False,A
+325571,facebook,Wednesday,2023-01-24 07:00:00,True,B
+172468,facebook,Tuesday,2023-01-26 07:00:00,True,B
+723711,email,Wednesday,,False,B
+698706,google,Friday,,False,B
+539802,google,Thursday,,False,A
+977701,facebook,Monday,2023-01-09 13:00:00,True,A
+233783,google,Friday,,False,A
+591008,email,Tuesday,,False,B
+707475,facebook,Wednesday,,False,A
+657655,google,Sunday,,False,A
+978606,facebook,Saturday,,False,A
+330389,google,Friday,,False,B
+145706,google,Friday,,False,B
+190159,twitter,Monday,,False,A
+603040,twitter,Saturday,2023-01-17 00:00:00,True,A
+675985,twitter,Sunday,,False,A
+805658,facebook,Friday,,False,B
+352196,email,Thursday,2023-01-02 23:00:00,True,B
+151039,google,Wednesday,2023-01-15 21:00:00,True,A
+945377,facebook,Friday,,False,B
+849760,twitter,Thursday,,False,A
+521990,google,Wednesday,2023-01-17 06:00:00,True,A
+980910,google,Wednesday,,False,B
+206393,email,Wednesday,,False,B
+831025,facebook,Monday,,False,B
+805966,facebook,Saturday,,False,B
+491401,google,Wednesday,2023-01-01 23:00:00,True,B
+302546,google,Sunday,2023-01-14 06:00:00,True,A
+669505,facebook,Wednesday,,False,A
+903765,facebook,Sunday,2023-01-24 02:00:00,True,B
+551392,email,Sunday,2023-01-23 23:00:00,True,A
+710832,google,Saturday,,False,A
+367981,email,Sunday,2023-01-04 00:00:00,True,B
+327894,facebook,Tuesday,2023-01-02 20:00:00,True,A
+967595,google,Wednesday,2023-01-20 21:00:00,True,A
+495198,google,Thursday,,False,A
+861573,facebook,Monday,,False,B
+230864,twitter,Monday,,False,A
+307593,facebook,Sunday,2023-01-04 05:00:00,True,B
+724351,google,Sunday,,False,A
+889466,facebook,Friday,,False,A
+893983,facebook,Friday,,False,A
+576330,google,Monday,,False,A
+418193,google,Sunday,,False,B
+759230,facebook,Thursday,2023-01-04 13:00:00,True,B
+403391,email,Monday,2023-01-09 19:00:00,True,A
+492568,google,Monday,,False,A
+891329,google,Wednesday,,False,A
+148423,google,Tuesday,2023-01-18 15:00:00,True,B
+893480,facebook,Saturday,,False,B
+774472,twitter,Sunday,,False,B
+151645,google,Sunday,2023-01-18 08:00:00,True,A
+385233,google,Monday,2023-01-10 03:00:00,True,A
+408241,google,Tuesday,,False,B
+198991,google,Friday,,False,A
+579053,google,Thursday,,False,A
+670601,google,Friday,,False,A
+324215,google,Tuesday,2023-01-14 22:00:00,True,B
+559319,google,Tuesday,,False,A
+669158,facebook,Monday,,False,B
+417477,facebook,Tuesday,,False,A
+229716,email,Tuesday,,False,B
+161330,facebook,Tuesday,,False,B
+716139,google,Thursday,2023-01-07 19:00:00,True,B
+489665,google,Thursday,,False,B
+859242,facebook,Sunday,,False,B
+331745,google,Monday,,False,B
+743341,google,Monday,,False,B
+376016,google,Thursday,,False,A
+399386,google,Sunday,2023-01-19 03:00:00,True,B
+968750,facebook,Monday,2023-01-12 04:00:00,True,B
+240313,facebook,Monday,2023-01-19 13:00:00,True,B
+530909,google,Sunday,2023-01-02 16:00:00,True,A
+714181,facebook,Saturday,,False,B
+418316,google,Monday,,False,B
+889480,email,Wednesday,2023-01-20 21:00:00,True,A
+378588,google,Wednesday,,False,A
+214090,google,Saturday,,False,B
+710572,facebook,Friday,2023-01-09 00:00:00,True,B
+454347,facebook,Saturday,,False,A
+118201,google,Sunday,,False,B
+248293,google,Saturday,,False,A
+608197,google,Saturday,,False,A
+658382,facebook,Thursday,2023-01-24 05:00:00,True,B
+389400,facebook,Saturday,2023-01-21 02:00:00,True,B
+767329,facebook,Sunday,2023-01-10 08:00:00,True,A
+900458,google,Wednesday,2023-01-17 15:00:00,True,B
+634328,google,Wednesday,,False,A
+455239,google,Friday,2023-01-14 21:00:00,True,A
+645961,facebook,Friday,2023-01-09 09:00:00,True,B
+947116,facebook,Thursday,,False,A
+562441,twitter,Monday,,False,B
+506786,google,Sunday,2023-01-06 00:00:00,True,B
+650640,email,Friday,2023-01-20 19:00:00,True,B
+710994,email,Saturday,,False,A
+842759,facebook,Sunday,,False,B
+448965,google,Friday,,False,A
+904855,email,Friday,,False,B
+539378,google,Friday,,False,A
+241439,facebook,Friday,2023-01-26 04:00:00,True,B
+748431,google,Wednesday,2023-01-16 10:00:00,True,B
+568295,email,Monday,,False,B
+259574,google,Wednesday,2023-01-08 02:00:00,True,A
+683194,email,Thursday,2023-01-28 09:00:00,True,B
+859904,google,Sunday,2023-01-07 11:00:00,True,A
+619751,email,Thursday,2023-01-12 22:00:00,True,A
+395943,google,Monday,,False,A
+806791,facebook,Sunday,2023-01-29 21:00:00,True,A
+155037,email,Wednesday,,False,A
+213104,facebook,Monday,,False,B
+969219,twitter,Thursday,2023-01-01 16:00:00,True,A
+478044,facebook,Monday,2023-01-30 02:00:00,True,A
+718871,email,Sunday,,False,A
+112453,google,Monday,,False,B
+288405,facebook,Friday,,False,B
+576848,google,Thursday,,False,B
+765522,twitter,Saturday,,False,B
+811448,email,Monday,,False,A
+405983,google,Tuesday,2023-01-07 17:00:00,True,A
+805126,google,Tuesday,,False,B
+742313,facebook,Friday,,False,B
+267659,email,Thursday,,False,A
+262372,facebook,Tuesday,,False,A
+812686,twitter,Friday,,False,A
+999726,email,Monday,2023-01-18 02:00:00,True,B
+701552,twitter,Saturday,,False,A
+543716,google,Friday,,False,B
+688826,email,Monday,,False,A
+984015,facebook,Tuesday,,False,B
+805906,google,Tuesday,2023-01-26 08:00:00,True,B
+479575,facebook,Thursday,,False,B
+802551,google,Saturday,2023-01-11 05:00:00,True,B
+814564,facebook,Thursday,,False,A
+139305,facebook,Friday,,False,A
+261919,email,Sunday,,False,B
+423973,google,Wednesday,,False,B
+413260,email,Friday,,False,B
+664240,facebook,Tuesday,,False,A
+300180,google,Thursday,2023-01-14 20:00:00,True,B
+218251,google,Friday,2023-01-12 12:00:00,True,B
+777036,google,Monday,,False,B
+914378,email,Sunday,,False,A
+288297,google,Thursday,,False,B
+839906,facebook,Friday,2023-01-09 19:00:00,True,B
+472924,google,Thursday,,False,A
+803786,google,Thursday,,False,B
+475735,facebook,Tuesday,,False,A
+414684,google,Monday,,False,B
+522701,facebook,Thursday,,False,A
+444165,twitter,Saturday,,False,A
+811782,facebook,Tuesday,,False,A
+915982,google,Sunday,2023-01-12 20:00:00,True,A
+926044,facebook,Thursday,,False,A
+707518,google,Wednesday,,False,A
+782622,google,Tuesday,,False,B
+853376,google,Friday,,False,A
+839319,twitter,Monday,,False,B
+470208,twitter,Thursday,,False,B
+399623,google,Tuesday,2023-01-30 09:00:00,True,A
+158914,email,Friday,,False,B
+605341,google,Thursday,,False,B
+471021,twitter,Friday,,False,B
+489326,facebook,Monday,2023-01-28 14:00:00,True,B
+733778,twitter,Wednesday,,False,A
+610926,facebook,Saturday,,False,B
+142510,facebook,Saturday,,False,B
+782083,google,Wednesday,2023-01-07 01:00:00,True,B
+810114,google,Friday,2023-01-03 13:00:00,True,B
+558146,google,Sunday,,False,A
+623538,facebook,Thursday,,False,A
+795788,google,Friday,,False,A
+244848,twitter,Thursday,,False,B
+553925,email,Thursday,,False,B
+452410,google,Thursday,,False,A
+109864,google,Tuesday,2023-01-22 09:00:00,True,A
+208924,google,Sunday,2023-01-04 14:00:00,True,A
+765228,facebook,Sunday,,False,B
+921246,email,Tuesday,,False,A
+268535,google,Sunday,,False,A
+720390,facebook,Thursday,2023-01-10 20:00:00,True,B
+645027,facebook,Wednesday,2023-01-09 21:00:00,True,B
+428380,email,Wednesday,2023-01-24 22:00:00,True,A
+440135,facebook,Tuesday,2023-01-11 20:00:00,True,A
+515435,google,Sunday,,False,A
+554933,google,Sunday,,False,A
+742240,google,Friday,,False,B
+625080,facebook,Sunday,,False,B
+417473,facebook,Friday,2023-01-08 17:00:00,True,B
+508883,facebook,Friday,,False,B
+544056,google,Saturday,2023-01-12 13:00:00,True,B
+543609,facebook,Friday,,False,A
+331730,facebook,Thursday,,False,B
+580042,google,Wednesday,,False,A
+270134,twitter,Sunday,,False,A
+408176,google,Saturday,,False,A
+641689,email,Saturday,,False,B
+117580,facebook,Thursday,2023-01-21 01:00:00,True,A
+121637,facebook,Thursday,,False,A
+764266,facebook,Wednesday,,False,B
+651646,email,Monday,,False,A
+274458,twitter,Wednesday,,False,B
+410074,google,Thursday,2023-01-15 11:00:00,True,B
+786345,google,Tuesday,,False,B
+212765,google,Saturday,2023-01-06 22:00:00,True,A
+793192,email,Saturday,,False,A
+794476,facebook,Tuesday,2023-01-10 21:00:00,True,A
+751201,facebook,Thursday,,False,A
+898377,facebook,Thursday,2023-01-27 17:00:00,True,B
+507464,facebook,Monday,2023-01-07 20:00:00,True,B
+797996,twitter,Friday,,False,B
+908459,google,Sunday,2023-01-03 03:00:00,True,B
+254125,email,Tuesday,,False,A
+718740,email,Sunday,2023-01-20 10:00:00,True,B
+338408,facebook,Saturday,,False,A
+209365,facebook,Tuesday,,False,A
+621291,facebook,Wednesday,,False,B
+840799,twitter,Wednesday,2023-01-19 12:00:00,True,B
+867877,twitter,Saturday,,False,B
+387502,facebook,Saturday,,False,B
+833354,facebook,Saturday,2023-01-10 17:00:00,True,B
+880912,email,Saturday,,False,A
+346797,facebook,Tuesday,,False,A
+363648,twitter,Monday,,False,A
+400877,facebook,Tuesday,2023-01-27 00:00:00,True,A
+458237,twitter,Sunday,,False,B
+350483,google,Wednesday,2023-01-27 14:00:00,True,A
+709040,twitter,Saturday,2023-01-24 22:00:00,True,B
+551758,twitter,Tuesday,,False,B
+209658,google,Friday,2023-01-02 21:00:00,True,B
+838748,email,Sunday,2023-01-23 09:00:00,True,A
+124406,facebook,Tuesday,2023-01-28 07:00:00,True,A
+904734,email,Tuesday,2023-01-05 10:00:00,True,B
+223076,email,Tuesday,,False,A
+667848,facebook,Monday,2023-01-01 05:00:00,True,B
+522698,google,Friday,,False,A
+235047,email,Sunday,,False,A
+300065,twitter,Monday,,False,B
+306748,email,Sunday,,False,B
+521064,facebook,Tuesday,,False,A
+538292,facebook,Tuesday,,False,B
+648349,google,Saturday,,False,B
+578988,facebook,Sunday,,False,A
+149592,facebook,Tuesday,,False,B
+413817,facebook,Friday,2023-01-22 14:00:00,True,A
+569773,twitter,Monday,,False,A
+994840,google,Monday,2023-01-24 08:00:00,True,B
+987708,google,Friday,2023-01-13 20:00:00,True,A
+383650,email,Thursday,,False,B
+698964,google,Wednesday,,False,A
+588373,twitter,Sunday,2023-01-13 20:00:00,True,A
+968480,facebook,Monday,2023-01-11 12:00:00,True,A
+320370,google,Sunday,2023-01-30 11:00:00,True,B
+674281,google,Friday,,False,A
+579329,twitter,Wednesday,2023-01-26 21:00:00,True,A
+103436,facebook,Tuesday,,False,B
+505633,facebook,Friday,,False,B
+155998,twitter,Monday,,False,A
+300887,google,Saturday,,False,A
+706743,facebook,Friday,2023-01-14 22:00:00,True,A
+100415,google,Tuesday,,False,A
+346150,google,Tuesday,,False,B
+344955,facebook,Saturday,,False,A
+811070,google,Wednesday,,False,A
+229802,google,Wednesday,,False,B
+481598,google,Saturday,2023-01-20 21:00:00,True,A
+207966,google,Saturday,2023-01-17 03:00:00,True,A
+464523,facebook,Monday,2023-01-14 23:00:00,True,B
+815798,google,Thursday,,False,B
+185997,email,Saturday,,False,B
+711477,email,Wednesday,,False,A
+106220,google,Thursday,2023-01-22 23:00:00,True,B
+383181,twitter,Monday,2023-01-11 22:00:00,True,B
+412773,facebook,Wednesday,,False,B
+878504,email,Wednesday,,False,A
+549467,facebook,Wednesday,2023-01-05 09:00:00,True,A
+245765,google,Thursday,,False,A
+170687,facebook,Friday,2023-01-29 08:00:00,True,A
+390299,email,Friday,,False,B
+925748,facebook,Tuesday,2023-01-17 22:00:00,True,A
+185591,google,Wednesday,,False,A
+782637,facebook,Wednesday,,False,B
+224790,google,Wednesday,,False,A
+113448,facebook,Monday,2023-01-09 19:00:00,True,A
+495668,email,Sunday,,False,A
+599600,facebook,Wednesday,2023-01-14 03:00:00,True,A
+150530,google,Monday,,False,B
+320979,email,Monday,2023-01-12 12:00:00,True,B
+663566,google,Friday,,False,A
+687559,twitter,Saturday,,False,A
+253552,google,Monday,,False,A
+867360,twitter,Wednesday,,False,A
+918454,google,Wednesday,2023-01-10 02:00:00,True,A
+659013,facebook,Thursday,,False,A
+662952,google,Sunday,2023-01-28 20:00:00,True,A
+931053,google,Sunday,,False,A
+300981,google,Saturday,2023-01-07 08:00:00,True,B
+720632,email,Tuesday,,False,B
+565462,facebook,Wednesday,,False,B
+848873,facebook,Friday,2023-01-30 06:00:00,True,B
+393702,facebook,Friday,,False,B
+798081,google,Monday,,False,B
+938394,facebook,Sunday,2023-01-16 17:00:00,True,A
+717838,facebook,Sunday,,False,A
+275556,twitter,Monday,2023-01-30 03:00:00,True,A
+276950,google,Tuesday,,False,B
+532329,google,Saturday,,False,A
+315238,facebook,Sunday,,False,B
+362696,google,Thursday,,False,A
+273889,google,Friday,,False,A
+738100,google,Tuesday,,False,A
+343465,google,Saturday,,False,B
+214064,facebook,Tuesday,,False,A
+126576,twitter,Tuesday,,False,A
+977481,google,Tuesday,,False,A
+841511,facebook,Thursday,,False,A
+974580,google,Monday,,False,B
+144350,google,Tuesday,,False,A
+145957,facebook,Wednesday,2023-01-20 06:00:00,True,B
+265426,facebook,Thursday,,False,A
+422670,google,Sunday,,False,A
+768975,facebook,Wednesday,,False,A
+298453,facebook,Tuesday,,False,A
+675087,google,Thursday,,False,B
+480360,facebook,Saturday,,False,A
+701448,google,Friday,,False,A
+628658,facebook,Monday,2023-01-04 20:00:00,True,B
+429112,google,Saturday,,False,A
+388032,google,Monday,,False,A
+299933,facebook,Monday,,False,B
+879833,google,Saturday,,False,B
+793278,email,Friday,,False,A
+872467,google,Monday,,False,B
+841449,google,Tuesday,,False,A
+441910,twitter,Sunday,,False,A
+765400,twitter,Tuesday,,False,A
+619405,google,Wednesday,,False,B
+798050,google,Saturday,,False,B
+416575,email,Friday,,False,A
+347387,google,Saturday,2023-01-16 03:00:00,True,A
+749194,google,Tuesday,,False,B
+141559,facebook,Tuesday,,False,A
+976468,email,Sunday,2023-01-20 18:00:00,True,B
+608653,google,Sunday,,False,A
+173185,facebook,Friday,,False,B
+474968,facebook,Sunday,,False,B
+350322,google,Tuesday,2023-01-29 19:00:00,True,B
+115935,google,Monday,,False,A
+348465,facebook,Monday,2023-01-29 21:00:00,True,A
+809346,twitter,Sunday,,False,B
+795087,facebook,Tuesday,2023-01-08 07:00:00,True,A
+183557,google,Friday,2023-01-08 18:00:00,True,B
+444750,google,Sunday,,False,B
+438663,twitter,Friday,,False,A
+641156,twitter,Monday,,False,A
+787693,google,Sunday,,False,B
+574833,facebook,Thursday,2023-01-17 02:00:00,True,A
+847967,facebook,Wednesday,,False,A
+111160,google,Monday,,False,A
+719354,google,Tuesday,,False,B
+751631,google,Wednesday,2023-01-22 15:00:00,True,A
+131368,google,Wednesday,,False,B
+509379,twitter,Tuesday,2023-01-14 13:00:00,True,B
+429669,email,Wednesday,,False,B
+688310,google,Saturday,2023-01-12 17:00:00,True,A
+610462,twitter,Tuesday,,False,B
+448039,email,Tuesday,,False,B
+427980,google,Wednesday,,False,B
+856701,facebook,Friday,,False,A
+508739,google,Sunday,,False,A
+874474,email,Wednesday,,False,B
+315045,twitter,Thursday,,False,A
+700729,google,Sunday,,False,B
+511973,twitter,Thursday,,False,A
+887189,google,Sunday,2023-01-06 00:00:00,True,A
+604316,facebook,Tuesday,2023-01-08 03:00:00,True,A
+128830,email,Monday,,False,B
+757925,google,Tuesday,,False,B
+723031,google,Tuesday,,False,B
+371326,google,Friday,,False,B
+458451,facebook,Tuesday,,False,B
+116375,google,Tuesday,,False,A
+378427,google,Saturday,2023-01-11 22:00:00,True,B
+952889,google,Wednesday,2023-01-26 16:00:00,True,B
+870325,google,Tuesday,,False,A
+561154,facebook,Monday,2023-01-24 11:00:00,True,B
+591745,facebook,Monday,,False,B
+403032,google,Thursday,,False,B
+413905,google,Friday,2023-01-13 11:00:00,True,B
+836366,twitter,Monday,,False,B
+831362,google,Thursday,,False,A
+672569,facebook,Monday,,False,B
+669205,google,Saturday,,False,A
+284740,google,Wednesday,2023-01-23 11:00:00,True,A
+463116,facebook,Thursday,,False,B
+330804,twitter,Sunday,,False,B
+739395,google,Sunday,,False,B
+872354,twitter,Friday,,False,A
+938537,google,Tuesday,,False,A
+889575,facebook,Sunday,,False,B
+232192,twitter,Tuesday,,False,A
+627703,facebook,Wednesday,,False,B
+812514,google,Sunday,2023-01-09 02:00:00,True,A
+734958,facebook,Tuesday,,False,B
+721065,twitter,Tuesday,2023-01-02 22:00:00,True,A
+695890,google,Friday,2023-01-21 15:00:00,True,B
+193375,google,Thursday,2023-01-11 22:00:00,True,B
+187513,google,Tuesday,,False,B
+248608,facebook,Wednesday,2023-01-09 03:00:00,True,B
+652813,email,Tuesday,,False,B
+656497,google,Friday,2023-01-22 09:00:00,True,A
+611517,facebook,Tuesday,2023-01-08 13:00:00,True,A
+361989,google,Friday,,False,B
+534171,google,Wednesday,2023-01-06 22:00:00,True,A
+180459,facebook,Thursday,,False,B
+329766,google,Monday,2023-01-09 08:00:00,True,B
+789963,google,Thursday,2023-01-20 20:00:00,True,B
+951306,facebook,Sunday,,False,B
+264562,email,Sunday,,False,B
+883577,facebook,Thursday,,False,B
+790628,google,Tuesday,2023-01-21 18:00:00,True,A
+378169,email,Monday,,False,A
+744838,google,Sunday,,False,B
+269449,twitter,Tuesday,,False,B
+607726,facebook,Sunday,2023-01-14 11:00:00,True,A
+284884,twitter,Monday,,False,B
+805191,google,Wednesday,2023-01-17 11:00:00,True,B
+569134,facebook,Monday,2023-01-13 08:00:00,True,A
+906545,facebook,Wednesday,2023-01-18 08:00:00,True,B
+252395,twitter,Saturday,,False,B
+901431,facebook,Friday,2023-01-12 14:00:00,True,A
+258497,email,Sunday,2023-01-24 20:00:00,True,A
+873940,google,Sunday,,False,A
+297303,twitter,Wednesday,,False,A
+813757,google,Friday,2023-01-21 19:00:00,True,A
+648442,google,Monday,,False,A
+118225,facebook,Wednesday,,False,A
+935887,google,Thursday,,False,A
+524824,google,Wednesday,2023-01-24 09:00:00,True,A
+821673,email,Monday,,False,A
+565342,email,Monday,,False,B
+696575,google,Wednesday,,False,A
+803332,facebook,Friday,,False,A
+396695,twitter,Thursday,,False,B
+832228,email,Friday,,False,B
+879276,facebook,Wednesday,,False,A
+193391,twitter,Wednesday,,False,B
+764622,google,Wednesday,2023-01-06 14:00:00,True,B
+162714,google,Sunday,,False,A
+547822,email,Wednesday,2023-01-24 03:00:00,True,A
+474684,facebook,Tuesday,2023-01-28 06:00:00,True,B
+246450,google,Sunday,,False,B
+789182,facebook,Tuesday,2023-01-25 18:00:00,True,B
+702051,google,Sunday,,False,A
+570452,facebook,Saturday,2023-01-19 21:00:00,True,A
+117038,google,Saturday,,False,B
+916517,facebook,Sunday,,False,A
+400146,google,Sunday,,False,A
+552889,email,Friday,2023-01-08 10:00:00,True,B
+177751,google,Monday,,False,B
+774104,email,Saturday,,False,A
+609740,facebook,Monday,,False,A
+278331,facebook,Friday,,False,A
+204448,google,Sunday,,False,B
+628222,email,Wednesday,,False,A
+337963,facebook,Wednesday,,False,A
+897118,facebook,Sunday,2023-01-18 23:00:00,True,A
+591592,google,Sunday,2023-01-28 09:00:00,True,B
+464777,facebook,Saturday,,False,A
+191612,twitter,Wednesday,2023-01-23 20:00:00,True,A
+899125,facebook,Wednesday,2023-01-11 11:00:00,True,B
+713720,email,Friday,,False,B
+368520,facebook,Wednesday,2023-01-20 22:00:00,True,A
+691002,email,Wednesday,,False,A
+880196,email,Wednesday,2023-01-18 18:00:00,True,B
+526542,facebook,Monday,,False,A
+202420,email,Sunday,,False,B
+861319,google,Wednesday,,False,A
+151052,google,Sunday,,False,B
+585303,google,Saturday,,False,B
+807852,google,Thursday,,False,B
+954214,facebook,Monday,,False,A
+146057,email,Tuesday,,False,A
+449706,google,Monday,2023-01-05 22:00:00,True,A
+346968,google,Saturday,,False,A
+118077,facebook,Friday,,False,B
+577061,facebook,Friday,,False,A
+781326,facebook,Thursday,2023-01-24 08:00:00,True,A
+938147,google,Monday,,False,B
+980756,twitter,Sunday,,False,B
+976861,facebook,Sunday,,False,A
+860397,google,Saturday,2023-01-06 17:00:00,True,A
+370445,facebook,Friday,,False,B
+647929,google,Thursday,2023-01-26 06:00:00,True,B
+195619,email,Friday,,False,B
+771866,google,Monday,,False,A
+266033,facebook,Friday,2023-01-18 14:00:00,True,A
+672005,facebook,Tuesday,,False,B
+980570,twitter,Friday,,False,B
+699278,google,Friday,,False,B
+697446,facebook,Monday,2023-01-01 20:00:00,True,B
+854207,facebook,Thursday,2023-01-13 07:00:00,True,A
+635452,facebook,Sunday,2023-01-21 01:00:00,True,A
+508625,google,Sunday,,False,B
+320767,email,Sunday,,False,A
+881863,google,Saturday,,False,B
+741260,facebook,Friday,,False,B
+559993,google,Friday,,False,A
+833898,twitter,Sunday,,False,B
+819935,facebook,Monday,2023-01-08 00:00:00,True,B
+264818,facebook,Sunday,,False,B
+298462,facebook,Thursday,,False,A
+600223,google,Wednesday,,False,A
+585462,google,Sunday,2023-01-28 03:00:00,True,B
+538201,facebook,Friday,2023-01-17 06:00:00,True,A
+344620,google,Monday,,False,A
+237719,email,Sunday,,False,A
+195856,google,Sunday,2023-01-24 20:00:00,True,B
+353130,facebook,Tuesday,,False,A
+249273,facebook,Saturday,2023-01-25 08:00:00,True,B
+632290,twitter,Wednesday,,False,B
+897163,email,Wednesday,,False,B
+277587,email,Tuesday,,False,A
+726300,google,Friday,,False,A
+401409,google,Monday,,False,A
+793187,google,Saturday,2023-01-04 04:00:00,True,B
+683053,google,Tuesday,,False,A
+916462,google,Sunday,,False,B
+510761,facebook,Tuesday,,False,A
+765508,google,Wednesday,,False,B
+885139,facebook,Monday,,False,A
+828770,facebook,Sunday,,False,B
+843631,email,Saturday,2023-01-25 05:00:00,True,A
+470652,twitter,Sunday,2023-01-19 08:00:00,True,A
+667487,facebook,Thursday,2023-01-17 07:00:00,True,A
+280499,facebook,Friday,2023-01-12 12:00:00,True,A
+646588,facebook,Thursday,,False,A
+904069,google,Tuesday,,False,B
+345221,email,Wednesday,,False,A
+206887,facebook,Saturday,2023-01-12 00:00:00,True,A
+964638,google,Friday,2023-01-21 00:00:00,True,B
+829221,twitter,Monday,,False,B
+464413,facebook,Sunday,,False,B
+455474,twitter,Thursday,,False,A
+995846,facebook,Monday,,False,B
+603239,google,Tuesday,,False,B
+711692,facebook,Thursday,,False,A
+317544,email,Tuesday,,False,A
+950247,facebook,Saturday,,False,A
+373219,facebook,Saturday,,False,B
+996910,google,Sunday,,False,B
+532911,facebook,Saturday,,False,B
+605027,email,Wednesday,,False,B
+656516,google,Friday,,False,A
+416131,facebook,Thursday,,False,A
+260787,facebook,Tuesday,2023-01-24 06:00:00,True,A
+779093,email,Wednesday,,False,B
+569092,google,Tuesday,2023-01-29 02:00:00,True,A
+628056,twitter,Sunday,,False,A
+780934,email,Monday,,False,A
+893516,facebook,Thursday,2023-01-29 16:00:00,True,B
+839778,google,Saturday,,False,A
+469302,facebook,Friday,,False,A
+349406,google,Tuesday,,False,A
+911844,twitter,Saturday,,False,B
+685093,google,Saturday,,False,A
+826295,facebook,Thursday,,False,B
+381594,facebook,Tuesday,,False,A
+654055,email,Friday,,False,A
+602009,facebook,Tuesday,2023-01-04 08:00:00,True,A
+524452,facebook,Monday,,False,A
+778627,google,Sunday,,False,A
+394944,google,Friday,2023-01-05 00:00:00,True,B
+347368,google,Tuesday,,False,A
+809002,twitter,Saturday,2023-01-19 15:00:00,True,A
+772810,google,Monday,,False,A
+716839,facebook,Monday,,False,A
+939457,google,Saturday,2023-01-09 16:00:00,True,B
+572194,email,Friday,,False,B
+817510,google,Sunday,,False,A
+910050,google,Thursday,,False,B
+993643,google,Thursday,,False,B
+880268,google,Thursday,,False,A
+760531,facebook,Saturday,,False,B
+498933,facebook,Friday,2023-01-19 17:00:00,True,B
+281172,twitter,Friday,,False,B
+465556,twitter,Saturday,,False,A
+909138,email,Tuesday,,False,A
+871784,email,Tuesday,2023-01-05 16:00:00,True,A
+772547,twitter,Thursday,,False,B
+492963,email,Friday,,False,B
+199830,facebook,Sunday,,False,B
+609142,facebook,Tuesday,,False,B
+989515,google,Friday,2023-01-20 11:00:00,True,A
+464577,twitter,Monday,,False,B
+147565,google,Thursday,2023-01-14 11:00:00,True,A
+988467,email,Friday,,False,A
+364813,facebook,Friday,2023-01-12 22:00:00,True,B
+989302,twitter,Friday,,False,A
+516428,google,Sunday,2023-01-22 20:00:00,True,A
+145606,facebook,Wednesday,2023-01-20 15:00:00,True,B
+235701,facebook,Thursday,,False,A
+805722,google,Friday,2023-01-19 07:00:00,True,A
+439292,twitter,Tuesday,,False,A
+627930,google,Tuesday,2023-01-28 04:00:00,True,A
+388715,google,Friday,,False,B
+106798,google,Thursday,,False,A
+141770,facebook,Friday,,False,A
+271926,facebook,Thursday,,False,B
+297872,facebook,Tuesday,2023-01-17 13:00:00,True,A
+119629,facebook,Tuesday,2023-01-06 12:00:00,True,B
+579367,google,Sunday,2023-01-23 03:00:00,True,A
+882262,twitter,Monday,2023-01-25 05:00:00,True,A
+490802,google,Thursday,,False,B
+496713,google,Saturday,2023-01-08 08:00:00,True,A
+928343,facebook,Wednesday,,False,A
+560498,twitter,Wednesday,,False,B
+830161,twitter,Sunday,2023-01-12 10:00:00,True,A
+396206,facebook,Tuesday,2023-01-22 04:00:00,True,A
+149948,facebook,Wednesday,,False,B
+420330,facebook,Wednesday,2023-01-25 23:00:00,True,A
+413743,twitter,Thursday,2023-01-24 02:00:00,True,A
+760792,google,Saturday,,False,B
+580313,twitter,Sunday,2023-01-30 14:00:00,True,A
+968329,email,Saturday,,False,B
+176620,email,Saturday,2023-01-07 06:00:00,True,A
+611048,email,Tuesday,,False,B
+186569,facebook,Tuesday,,False,B
+906360,facebook,Wednesday,2023-01-21 01:00:00,True,A
+172131,twitter,Thursday,,False,A
+816464,facebook,Friday,,False,A
+880226,facebook,Tuesday,2023-01-21 14:00:00,True,B
+816775,google,Monday,2023-01-16 05:00:00,True,A
+142771,email,Tuesday,,False,B
+568571,facebook,Monday,,False,A
+508039,google,Friday,,False,B
+470425,google,Sunday,,False,A
+220848,google,Wednesday,,False,B
+248055,google,Friday,2023-01-15 02:00:00,True,B
+697143,facebook,Sunday,,False,A
+197421,email,Friday,,False,B
+995828,google,Monday,,False,B
+660451,facebook,Sunday,,False,B
+593938,email,Friday,,False,A
+445566,facebook,Saturday,,False,A
+669677,facebook,Tuesday,2023-01-14 05:00:00,True,A
+833771,facebook,Friday,2023-01-23 04:00:00,True,A
+832654,twitter,Thursday,,False,A
+615904,facebook,Wednesday,2023-01-08 15:00:00,True,B
+628089,google,Friday,,False,B
+193120,twitter,Saturday,2023-01-02 19:00:00,True,B
+782701,google,Wednesday,2023-01-23 06:00:00,True,A
+450448,twitter,Tuesday,,False,A
+449352,email,Saturday,,False,A
+337644,facebook,Tuesday,,False,A
+232848,facebook,Sunday,,False,B
+747834,facebook,Monday,,False,B
+792150,facebook,Tuesday,,False,A
+270632,google,Tuesday,,False,A
+452072,twitter,Sunday,2023-01-23 11:00:00,True,B
+776381,email,Sunday,2023-01-05 13:00:00,True,B
+721208,google,Wednesday,2023-01-03 04:00:00,True,A
+402408,facebook,Monday,,False,B
+972255,facebook,Wednesday,2023-01-27 23:00:00,True,A
+342024,email,Friday,2023-01-17 14:00:00,True,B
+229774,email,Friday,,False,B
+625598,facebook,Wednesday,,False,A
+370153,google,Saturday,,False,B
+786838,email,Tuesday,2023-01-22 14:00:00,True,B
+451679,facebook,Sunday,,False,A
+737796,email,Friday,,False,B
+964144,email,Thursday,,False,A
+540475,twitter,Tuesday,2023-01-17 14:00:00,True,A
+922197,google,Sunday,,False,A
+982479,google,Sunday,2023-01-08 19:00:00,True,B
+102438,google,Friday,2023-01-02 07:00:00,True,B
+156795,google,Tuesday,,False,B
+443243,google,Thursday,,False,A
+590167,google,Monday,,False,A
+154457,twitter,Friday,2023-01-24 05:00:00,True,B
+544162,facebook,Tuesday,,False,A
+386881,twitter,Sunday,2023-01-09 08:00:00,True,B
+113898,twitter,Tuesday,,False,B
+231241,facebook,Monday,,False,B
+841277,twitter,Tuesday,,False,A
+862078,twitter,Tuesday,,False,A
+764407,facebook,Friday,2023-01-09 06:00:00,True,B
+165470,facebook,Thursday,2023-01-06 02:00:00,True,A
+582112,facebook,Sunday,,False,B
+307977,google,Sunday,2023-01-20 22:00:00,True,A
+126547,facebook,Wednesday,2023-01-02 15:00:00,True,B
+557283,google,Monday,2023-01-14 07:00:00,True,A
+104487,google,Saturday,2023-01-12 07:00:00,True,A
+126515,google,Friday,2023-01-18 08:00:00,True,A
+148167,google,Saturday,,False,B
+476684,facebook,Tuesday,2023-01-30 12:00:00,True,A
+946454,facebook,Saturday,,False,A
+476645,facebook,Saturday,,False,A
+722619,facebook,Thursday,2023-01-20 01:00:00,True,B
+433477,google,Wednesday,2023-01-03 03:00:00,True,A
+196342,twitter,Wednesday,2023-01-26 21:00:00,True,A
+474340,google,Tuesday,,False,B
+501365,google,Monday,,False,B
+341830,email,Sunday,,False,A
+742792,google,Friday,,False,A
+770207,google,Thursday,2023-01-09 23:00:00,True,A
+464758,google,Tuesday,,False,A
+459373,google,Thursday,,False,A
+959076,email,Friday,2023-01-11 06:00:00,True,B
+445341,facebook,Sunday,2023-01-13 06:00:00,True,B
+166780,facebook,Thursday,,False,B
+641828,email,Monday,2023-01-22 04:00:00,True,A
+425238,email,Monday,,False,B
+841195,google,Sunday,,False,A
+943445,google,Monday,2023-01-04 20:00:00,True,A
+632327,facebook,Sunday,,False,A
+495037,google,Tuesday,2023-01-15 14:00:00,True,B
+584331,google,Sunday,,False,A
+743346,email,Tuesday,,False,A
+136764,twitter,Sunday,2023-01-21 00:00:00,True,A
+185227,facebook,Tuesday,2023-01-29 08:00:00,True,A
+646352,google,Thursday,,False,B
+809090,twitter,Friday,2023-01-01 08:00:00,True,B
+867224,twitter,Sunday,2023-01-02 21:00:00,True,A
+293198,twitter,Thursday,2023-01-20 06:00:00,True,A
+194449,facebook,Saturday,,False,A
+115628,twitter,Sunday,,False,B
+984248,twitter,Sunday,,False,A
+648536,google,Friday,,False,B
+864797,facebook,Friday,,False,A
+197556,facebook,Monday,2023-01-05 21:00:00,True,A
+978594,google,Friday,,False,A
+835224,twitter,Monday,,False,A
+889908,facebook,Thursday,2023-01-13 16:00:00,True,A
+784873,google,Tuesday,,False,B
+269299,facebook,Monday,,False,B
+665934,email,Sunday,2023-01-28 08:00:00,True,B
+357476,email,Saturday,2023-01-08 03:00:00,True,B
+325075,facebook,Tuesday,2023-01-19 05:00:00,True,B
+317522,google,Monday,,False,A
+888512,twitter,Monday,,False,B
+578704,facebook,Tuesday,,False,B
+956334,facebook,Sunday,2023-01-05 12:00:00,True,B
+471167,twitter,Tuesday,,False,A
+176945,email,Sunday,,False,B
+847916,google,Thursday,,False,B
+820763,email,Thursday,2023-01-03 00:00:00,True,B
+850230,google,Saturday,,False,B
+166778,facebook,Saturday,,False,B
+280029,twitter,Saturday,,False,A
+311706,google,Wednesday,,False,A
+897455,facebook,Thursday,,False,A
+776355,google,Sunday,2023-01-07 13:00:00,True,A
+966050,facebook,Wednesday,,False,A
+419475,facebook,Tuesday,,False,B
+648547,google,Monday,,False,A
+371898,facebook,Thursday,,False,A
+939208,email,Sunday,2023-01-30 01:00:00,True,B
+632757,facebook,Saturday,2023-01-29 19:00:00,True,A
+875128,google,Monday,2023-01-21 22:00:00,True,A
+266901,email,Monday,2023-01-24 19:00:00,True,A
+565406,facebook,Monday,2023-01-21 12:00:00,True,B
+105704,facebook,Monday,,False,B
+542762,email,Tuesday,2023-01-09 06:00:00,True,A
+273226,email,Wednesday,,False,B
+101658,facebook,Friday,2023-01-02 03:00:00,True,A
+862405,email,Saturday,2023-01-13 20:00:00,True,A
+307748,google,Friday,2023-01-09 12:00:00,True,B
+476756,email,Wednesday,,False,A
+325253,email,Saturday,,False,B
+546894,google,Friday,,False,A
+637426,google,Wednesday,2023-01-20 12:00:00,True,B
+210078,google,Monday,2023-01-24 21:00:00,True,B
+199770,email,Monday,2023-01-15 09:00:00,True,A
+885484,google,Thursday,2023-01-02 06:00:00,True,B
+419399,google,Tuesday,,False,B
+937430,google,Saturday,2023-01-09 09:00:00,True,B
+129251,google,Thursday,,False,B
+164467,email,Saturday,2023-01-17 05:00:00,True,A
+953167,google,Tuesday,,False,B
+622037,facebook,Wednesday,,False,A
+711795,email,Saturday,,False,A
+343747,twitter,Friday,,False,A
+689848,google,Monday,,False,B
+682289,google,Thursday,2023-01-07 13:00:00,True,B
+318223,facebook,Tuesday,,False,A
+959434,google,Wednesday,,False,A
+818083,google,Friday,,False,A
+575428,facebook,Saturday,,False,B
+143585,facebook,Thursday,,False,B
+633415,google,Monday,2023-01-25 13:00:00,True,A
+430453,google,Wednesday,2023-01-30 15:00:00,True,A
+547158,google,Saturday,,False,A
+565393,google,Sunday,2023-01-15 15:00:00,True,B
+538054,google,Wednesday,,False,A
+505890,email,Friday,2023-01-15 07:00:00,True,B
+534264,google,Thursday,,False,B
+989598,email,Sunday,,False,B
+963376,facebook,Thursday,,False,A
+177347,google,Friday,,False,B
+649633,email,Wednesday,,False,B
+157429,facebook,Saturday,2023-01-13 05:00:00,True,A
+171519,facebook,Tuesday,,False,B
+351775,facebook,Wednesday,2023-01-12 18:00:00,True,A
+609968,facebook,Wednesday,,False,B
+920688,google,Tuesday,2023-01-10 22:00:00,True,A
+128688,google,Tuesday,2023-01-21 23:00:00,True,A
+979761,google,Sunday,2023-01-15 03:00:00,True,B
+796403,email,Friday,,False,A
+106774,google,Saturday,,False,B
+306924,google,Saturday,,False,A
+216905,email,Friday,,False,B
+603747,google,Sunday,,False,A
+523026,email,Saturday,2023-01-11 18:00:00,True,B
+506516,facebook,Wednesday,,False,A
+581312,email,Monday,,False,B
+253023,email,Saturday,,False,A
+742699,twitter,Saturday,,False,B
+438781,email,Saturday,2023-01-24 20:00:00,True,A
+885345,google,Monday,,False,A
+796217,facebook,Saturday,,False,A
+117829,email,Thursday,2023-01-02 02:00:00,True,A
+114425,google,Tuesday,,False,B
+599961,facebook,Friday,,False,A
+470866,google,Tuesday,,False,B
+934648,facebook,Monday,2023-01-19 14:00:00,True,B
+330205,twitter,Saturday,2023-01-07 23:00:00,True,A
+448899,email,Thursday,,False,A
+152832,email,Saturday,,False,A
+915319,google,Sunday,2023-01-12 00:00:00,True,B
+609993,email,Friday,,False,B
+798408,email,Sunday,,False,A
+948781,google,Thursday,,False,B
+800823,email,Wednesday,,False,A
+338913,google,Wednesday,,False,A
+936852,facebook,Friday,,False,A
+776608,google,Monday,2023-01-08 13:00:00,True,B
+851679,facebook,Wednesday,,False,B
+401239,email,Saturday,,False,B
+781669,email,Saturday,,False,A
+639486,facebook,Tuesday,2023-01-29 16:00:00,True,B
+628621,facebook,Thursday,,False,B
+715929,google,Friday,2023-01-29 15:00:00,True,B
+848877,google,Sunday,2023-01-13 20:00:00,True,B
+745044,facebook,Friday,2023-01-06 18:00:00,True,A
+593322,google,Tuesday,2023-01-26 05:00:00,True,B
+600846,google,Friday,2023-01-13 23:00:00,True,A
+881570,email,Tuesday,,False,A
+277452,google,Thursday,2023-01-17 11:00:00,True,A
+226718,twitter,Thursday,,False,A
+958697,facebook,Sunday,,False,A
+302222,google,Friday,,False,B
+107838,google,Friday,,False,A
+503823,facebook,Wednesday,2023-01-13 04:00:00,True,B
+354477,email,Friday,,False,B
+146526,facebook,Monday,2023-01-09 21:00:00,True,B
+130215,email,Monday,2023-01-13 11:00:00,True,B
+831573,twitter,Tuesday,2023-01-12 00:00:00,True,A
+349708,google,Monday,2023-01-09 19:00:00,True,A
+954407,email,Wednesday,,False,B
+227976,twitter,Monday,2023-01-21 01:00:00,True,B
+225812,facebook,Sunday,2023-01-20 19:00:00,True,B
+231235,google,Monday,,False,B
+273277,google,Saturday,,False,A
+132882,google,Saturday,,False,A
+681209,google,Thursday,2023-01-01 15:00:00,True,B
+191411,google,Wednesday,2023-01-25 18:00:00,True,B
+227897,facebook,Tuesday,,False,B
+752595,facebook,Sunday,2023-01-28 17:00:00,True,A
+648892,email,Friday,,False,B
+778870,google,Monday,,False,B
+520020,facebook,Monday,2023-01-20 18:00:00,True,A
+513926,facebook,Tuesday,2023-01-13 00:00:00,True,A
+789224,google,Saturday,,False,A
+706776,google,Friday,,False,A
+989912,email,Saturday,,False,A
+941113,google,Friday,,False,B
+383080,facebook,Monday,,False,B
+207255,email,Sunday,,False,B
+663200,google,Saturday,,False,A
+687915,google,Sunday,,False,B
+246104,email,Thursday,2023-01-29 00:00:00,True,B
+793983,email,Tuesday,,False,B
+109529,google,Saturday,,False,B
+536060,email,Tuesday,2023-01-03 23:00:00,True,B
+788839,google,Tuesday,2023-01-03 14:00:00,True,A
+974346,google,Friday,,False,B
+647678,twitter,Tuesday,2023-01-12 11:00:00,True,B
+220384,facebook,Sunday,,False,A
+899362,facebook,Thursday,,False,A
+585774,google,Wednesday,2023-01-30 16:00:00,True,A
+661182,facebook,Saturday,,False,A
+689723,google,Saturday,,False,A
+983513,google,Thursday,,False,A
+483094,email,Friday,2023-01-10 07:00:00,True,A
+807527,google,Wednesday,,False,A
+426158,google,Friday,,False,B
+830002,email,Thursday,2023-01-19 16:00:00,True,B
+397463,email,Tuesday,,False,A
+474770,google,Wednesday,,False,A
+306604,email,Friday,,False,B
+360775,facebook,Saturday,,False,B
+801477,google,Monday,,False,B
+483021,facebook,Thursday,,False,A
+891625,twitter,Monday,,False,B
+935422,google,Saturday,,False,B
+552642,facebook,Monday,,False,B
+470371,google,Sunday,2023-01-28 05:00:00,True,B
+110372,google,Friday,2023-01-21 15:00:00,True,B
+774199,facebook,Sunday,,False,B
+343415,google,Sunday,2023-01-18 05:00:00,True,B
+221729,google,Friday,,False,A
+224147,twitter,Monday,,False,A
+625608,google,Saturday,,False,A
+946741,google,Sunday,,False,A
+715221,facebook,Friday,2023-01-07 09:00:00,True,B
+585998,twitter,Thursday,2023-01-17 18:00:00,True,B
+576113,google,Saturday,,False,B
+734198,google,Saturday,,False,B
+437282,email,Friday,,False,A
+165214,facebook,Sunday,,False,B
+959404,google,Monday,,False,B
+135919,google,Wednesday,,False,B
+828309,facebook,Saturday,,False,B
+504042,google,Wednesday,,False,A
+765609,google,Monday,2023-01-05 21:00:00,True,A
+533792,twitter,Sunday,2023-01-30 17:00:00,True,B
+644428,google,Thursday,,False,A
+609325,email,Saturday,2023-01-06 15:00:00,True,B
+866355,facebook,Saturday,2023-01-27 16:00:00,True,B
+698780,google,Friday,2023-01-07 05:00:00,True,A
+812923,google,Wednesday,2023-01-01 16:00:00,True,A
+213744,google,Sunday,,False,A
+806209,email,Sunday,,False,B
+381907,email,Saturday,,False,B
+445607,email,Friday,,False,B
+209537,twitter,Monday,,False,A
+260631,facebook,Tuesday,2023-01-22 15:00:00,True,B
+692513,google,Saturday,,False,B
+218278,email,Saturday,,False,A
+371698,google,Sunday,,False,B
+659268,google,Saturday,,False,B
+634637,email,Thursday,,False,B
+869275,twitter,Tuesday,,False,B
+992566,google,Wednesday,,False,B
+775221,google,Friday,,False,B
+212858,email,Thursday,2023-01-24 11:00:00,True,A
+117839,facebook,Monday,,False,B
+496539,google,Tuesday,,False,B
+909024,google,Saturday,,False,B
+677907,facebook,Wednesday,,False,B
+926297,facebook,Monday,2023-01-15 21:00:00,True,A
+892539,google,Wednesday,2023-01-19 10:00:00,True,A
+130844,facebook,Thursday,,False,B
+806182,facebook,Friday,2023-01-06 09:00:00,True,B
+566981,twitter,Monday,,False,A
+279809,google,Tuesday,,False,B
+198812,facebook,Friday,,False,A
+915042,google,Wednesday,2023-01-20 07:00:00,True,B
+635174,google,Monday,2023-01-05 23:00:00,True,A
+138599,twitter,Monday,,False,A
+553520,google,Monday,,False,A
+413142,facebook,Monday,,False,B
+299307,facebook,Wednesday,,False,A
+451696,google,Monday,,False,A
+969251,google,Thursday,,False,B
+843192,twitter,Monday,,False,B
+756989,email,Wednesday,,False,A
+676435,google,Friday,2023-01-08 23:00:00,True,A
+427535,facebook,Tuesday,,False,A
+498944,google,Tuesday,2023-01-05 23:00:00,True,B
+629325,google,Friday,,False,A
+111171,facebook,Tuesday,,False,A
+382224,twitter,Wednesday,,False,A
+287460,google,Sunday,2023-01-19 17:00:00,True,A
+906702,facebook,Saturday,,False,B
+870873,facebook,Sunday,,False,A
+192526,facebook,Monday,,False,B
+861994,twitter,Wednesday,2023-01-14 10:00:00,True,A
+851247,google,Saturday,,False,A
+823920,facebook,Wednesday,2023-01-22 04:00:00,True,B
+234556,facebook,Wednesday,,False,A
+626251,google,Thursday,,False,B
+870508,facebook,Tuesday,2023-01-28 20:00:00,True,A
+471735,google,Tuesday,2023-01-15 03:00:00,True,A
+277297,google,Tuesday,2023-01-16 10:00:00,True,A
+869814,facebook,Wednesday,,False,A
+715722,google,Thursday,,False,A
+786301,google,Thursday,2023-01-14 14:00:00,True,A
+907192,google,Sunday,,False,A
+478958,twitter,Saturday,2023-01-19 23:00:00,True,A
+370248,google,Saturday,,False,A
+754949,google,Monday,,False,A
+344367,google,Wednesday,,False,B
+307746,google,Monday,2023-01-06 00:00:00,True,B
+753980,email,Monday,2023-01-04 03:00:00,True,A
+681556,google,Thursday,2023-01-03 20:00:00,True,B
+471784,google,Tuesday,,False,B
+614782,facebook,Saturday,,False,B
+428905,twitter,Tuesday,2023-01-30 06:00:00,True,A
+220918,email,Tuesday,2023-01-27 02:00:00,True,B
+626344,email,Thursday,,False,A
+549158,google,Sunday,2023-01-07 15:00:00,True,A
+243992,google,Saturday,,False,A
+980369,google,Friday,2023-01-04 13:00:00,True,B
+687699,facebook,Sunday,,False,A
+219229,twitter,Friday,2023-01-12 13:00:00,True,A
+895707,facebook,Tuesday,2023-01-04 05:00:00,True,B
+166141,facebook,Tuesday,2023-01-22 16:00:00,True,A
+401335,google,Tuesday,,False,B
+333829,google,Thursday,2023-01-22 12:00:00,True,B
+721835,google,Monday,2023-01-17 10:00:00,True,B
+775609,twitter,Monday,,False,A
+973623,facebook,Wednesday,,False,A
+857154,google,Thursday,,False,A
+982326,facebook,Tuesday,,False,A
+185141,email,Saturday,,False,B
+298675,email,Wednesday,2023-01-11 10:00:00,True,A
+203623,facebook,Tuesday,,False,A
+175503,email,Wednesday,,False,A
+654237,twitter,Wednesday,,False,A
+140857,google,Thursday,2023-01-16 07:00:00,True,A
+107312,google,Thursday,,False,B
+178711,google,Saturday,,False,A
+785359,twitter,Friday,,False,A
+475360,facebook,Saturday,,False,B
+381466,facebook,Saturday,2023-01-01 14:00:00,True,A
+957887,email,Monday,2023-01-20 10:00:00,True,B
+282482,google,Sunday,,False,B
+929358,twitter,Sunday,,False,B
+482312,google,Saturday,2023-01-17 11:00:00,True,B
+480149,email,Friday,,False,B
+309939,google,Friday,2023-01-03 06:00:00,True,B
+520822,facebook,Tuesday,,False,B
+730734,google,Saturday,2023-01-26 11:00:00,True,B
+623324,google,Saturday,,False,A
+788874,facebook,Wednesday,,False,A
+644403,facebook,Wednesday,,False,B
+328289,facebook,Tuesday,,False,A
+723536,email,Saturday,,False,A
+744158,facebook,Friday,,False,A
+499178,google,Saturday,,False,A
+845231,google,Monday,,False,B
+657873,google,Saturday,2023-01-04 03:00:00,True,A
+596221,google,Friday,,False,B
+611559,email,Saturday,,False,A
+422742,twitter,Sunday,,False,B
+387437,facebook,Wednesday,,False,B
+880985,google,Wednesday,2023-01-19 23:00:00,True,B
+617951,google,Saturday,2023-01-23 01:00:00,True,B
+926576,google,Saturday,,False,A
+916785,google,Wednesday,,False,B
+939052,google,Sunday,,False,B
+921993,google,Saturday,2023-01-02 23:00:00,True,A
+466540,google,Friday,,False,A
+515721,google,Wednesday,2023-01-16 15:00:00,True,B
+506914,facebook,Thursday,,False,B
+592133,facebook,Monday,,False,B
+713517,facebook,Sunday,,False,B
+428648,facebook,Tuesday,2023-01-13 01:00:00,True,B
+549535,email,Friday,2023-01-13 10:00:00,True,A
+235673,facebook,Sunday,,False,A
+261101,facebook,Tuesday,2023-01-27 20:00:00,True,A
+764805,email,Sunday,,False,A
+459523,google,Saturday,,False,B
+658031,twitter,Monday,,False,B
+366579,google,Sunday,,False,A
+681845,twitter,Wednesday,2023-01-30 03:00:00,True,B
+977632,facebook,Sunday,,False,B
+555618,email,Tuesday,2023-01-27 03:00:00,True,B
+980370,google,Friday,2023-01-12 08:00:00,True,B
+143237,google,Tuesday,,False,A
+690017,twitter,Sunday,,False,B
+104838,facebook,Friday,2023-01-22 17:00:00,True,B
+567927,email,Wednesday,2023-01-02 05:00:00,True,B
+716737,facebook,Sunday,,False,A
+339066,twitter,Tuesday,2023-01-18 08:00:00,True,B
+855053,google,Thursday,,False,A
+419052,google,Monday,2023-01-17 16:00:00,True,B
+372032,google,Sunday,,False,B
+795089,facebook,Monday,,False,B
+238470,email,Wednesday,,False,B
+665156,google,Thursday,2023-01-23 03:00:00,True,A
+212265,facebook,Sunday,,False,B
+981965,facebook,Monday,,False,A
+656490,google,Sunday,2023-01-12 13:00:00,True,B
+298296,twitter,Wednesday,2023-01-09 09:00:00,True,A
+787831,facebook,Monday,,False,B
+943354,facebook,Saturday,2023-01-14 21:00:00,True,A
+572334,google,Sunday,,False,A
+422904,google,Monday,2023-01-27 03:00:00,True,A
+240661,facebook,Tuesday,,False,B
+392753,email,Monday,,False,B
+359073,facebook,Friday,2023-01-30 13:00:00,True,A
+329417,twitter,Tuesday,,False,A
+932210,google,Sunday,2023-01-25 06:00:00,True,B
+926064,facebook,Friday,,False,A
+608965,twitter,Wednesday,,False,B
+798276,email,Tuesday,,False,B
+227636,google,Friday,2023-01-28 17:00:00,True,B
+368818,google,Friday,,False,B
+734153,twitter,Thursday,,False,B
+535213,facebook,Wednesday,,False,A
+609068,facebook,Sunday,,False,B
+593213,email,Wednesday,2023-01-30 11:00:00,True,B
+703311,facebook,Monday,2023-01-24 09:00:00,True,A
+487069,facebook,Saturday,2023-01-26 13:00:00,True,A
+123119,google,Saturday,,False,B
+442406,facebook,Tuesday,,False,A
+597229,google,Tuesday,,False,B
+181238,twitter,Thursday,,False,A
+262650,facebook,Sunday,,False,B
+914720,google,Monday,2023-01-15 09:00:00,True,A
+416859,email,Wednesday,,False,B
+905064,google,Tuesday,2023-01-28 08:00:00,True,B
+293786,google,Tuesday,,False,A
+407311,facebook,Tuesday,2023-01-17 23:00:00,True,B
+735929,facebook,Friday,2023-01-28 20:00:00,True,B
+190853,twitter,Thursday,,False,B
+160964,google,Monday,,False,A
+348290,facebook,Saturday,,False,A
+485417,google,Monday,,False,A
+405056,google,Monday,2023-01-26 14:00:00,True,B
+857624,twitter,Monday,2023-01-07 00:00:00,True,B
+128704,google,Monday,2023-01-21 04:00:00,True,B
+576131,google,Thursday,,False,A
+177585,twitter,Thursday,,False,A
+760773,facebook,Tuesday,,False,A
+402262,email,Saturday,2023-01-07 10:00:00,True,B
+665438,facebook,Saturday,2023-01-02 04:00:00,True,B
+990238,google,Sunday,,False,A
+608853,facebook,Tuesday,2023-01-03 11:00:00,True,B
+660956,facebook,Friday,2023-01-24 22:00:00,True,B
+476526,facebook,Monday,,False,B
+721234,email,Wednesday,,False,B
+369861,google,Monday,2023-01-01 18:00:00,True,A
+458734,google,Wednesday,,False,B
+400374,google,Monday,,False,A
+614738,twitter,Friday,,False,A
+109179,email,Sunday,,False,A
+210210,google,Sunday,,False,B
+955267,google,Sunday,,False,B
+411191,google,Tuesday,,False,A
+250250,facebook,Wednesday,,False,A
+287031,twitter,Thursday,,False,B
+726112,google,Thursday,2023-01-04 02:00:00,True,B
+791445,email,Thursday,,False,A
+709778,google,Saturday,,False,A
+155313,google,Thursday,,False,A
+359517,twitter,Friday,,False,A
+710784,google,Thursday,2023-01-02 10:00:00,True,A
+300277,facebook,Thursday,,False,B
+546171,facebook,Friday,,False,A
+298300,google,Tuesday,,False,B
+391040,facebook,Wednesday,,False,B
+657437,facebook,Monday,,False,A
+977622,google,Thursday,,False,B
+982980,google,Thursday,,False,B
+140478,google,Sunday,2023-01-23 13:00:00,True,A
+129424,facebook,Wednesday,,False,A
+623048,facebook,Saturday,,False,B
+609090,google,Saturday,,False,A
+652375,twitter,Thursday,2023-01-04 14:00:00,True,A
+234150,google,Monday,,False,B
+785628,google,Friday,2023-01-22 09:00:00,True,A
+520945,email,Tuesday,,False,B
+572699,facebook,Sunday,,False,A
+407919,google,Saturday,,False,B
+860437,google,Saturday,2023-01-30 03:00:00,True,A
+800527,email,Sunday,,False,B
+850377,facebook,Wednesday,,False,B
+190214,twitter,Tuesday,,False,A
+227873,facebook,Thursday,,False,B
+513831,facebook,Friday,2023-01-08 18:00:00,True,B
+995554,facebook,Sunday,2023-01-01 22:00:00,True,A
+793556,facebook,Sunday,,False,B
+814364,google,Friday,2023-01-26 10:00:00,True,A
+804388,google,Thursday,2023-01-18 20:00:00,True,A
+538701,google,Tuesday,2023-01-09 02:00:00,True,A
+464494,email,Wednesday,2023-01-15 21:00:00,True,A
+580265,google,Wednesday,,False,B
+783565,google,Friday,2023-01-09 09:00:00,True,A
+938204,google,Friday,2023-01-06 12:00:00,True,A
+228773,google,Thursday,2023-01-09 06:00:00,True,A
+613062,google,Sunday,,False,B
+491016,twitter,Wednesday,,False,B
+324310,email,Sunday,2023-01-24 00:00:00,True,B
+184225,google,Sunday,,False,B
+224703,google,Saturday,,False,B
+509991,facebook,Saturday,2023-01-14 08:00:00,True,B
+821662,twitter,Sunday,,False,A
+398402,twitter,Wednesday,,False,A
+833709,facebook,Sunday,,False,B
+136079,google,Wednesday,,False,A
+128634,google,Tuesday,,False,B
+667161,google,Monday,2023-01-24 09:00:00,True,A
+209844,twitter,Monday,2023-01-28 20:00:00,True,B
+647749,facebook,Friday,2023-01-17 11:00:00,True,B
+921362,google,Friday,,False,A
+798367,facebook,Tuesday,2023-01-10 16:00:00,True,A
+875817,email,Thursday,,False,A
+660605,google,Saturday,,False,B
+402587,google,Friday,,False,A
+288327,facebook,Tuesday,,False,A
+873500,email,Wednesday,2023-01-21 22:00:00,True,B
+895043,google,Thursday,,False,B
+821915,facebook,Tuesday,,False,B
+607866,google,Wednesday,2023-01-07 22:00:00,True,A
+378336,google,Saturday,,False,B
+616066,google,Saturday,,False,A
+658310,facebook,Saturday,,False,B
+590073,google,Sunday,2023-01-05 17:00:00,True,B
+900339,facebook,Thursday,,False,B
+475181,facebook,Monday,2023-01-16 15:00:00,True,A
+812495,facebook,Friday,,False,B
+194472,facebook,Monday,2023-01-14 19:00:00,True,A
+824179,email,Saturday,2023-01-03 18:00:00,True,A
+520476,facebook,Tuesday,,False,A
+312620,email,Wednesday,2023-01-07 14:00:00,True,B
+178944,google,Friday,2023-01-29 07:00:00,True,B
+692135,google,Saturday,2023-01-12 05:00:00,True,A
+826670,twitter,Wednesday,2023-01-10 15:00:00,True,B
+930171,facebook,Monday,2023-01-07 11:00:00,True,B
+198039,google,Friday,2023-01-22 06:00:00,True,B
+239270,facebook,Thursday,,False,A
+142738,facebook,Thursday,,False,B
+125437,google,Tuesday,,False,B
+436811,google,Wednesday,,False,A
+724257,email,Thursday,,False,A
+524502,google,Monday,,False,B
+792456,google,Friday,2023-01-07 20:00:00,True,B
+858339,facebook,Wednesday,,False,B
+635539,email,Monday,,False,A
+670722,google,Sunday,2023-01-29 15:00:00,True,A
+381253,google,Tuesday,2023-01-25 08:00:00,True,B
+387832,facebook,Tuesday,,False,B
+526095,facebook,Wednesday,,False,B
+943301,facebook,Friday,,False,A
+449894,twitter,Saturday,,False,B
+267596,email,Thursday,2023-01-26 06:00:00,True,B
+368159,email,Monday,,False,A
+950262,google,Sunday,,False,B
+400931,twitter,Saturday,,False,A
+278308,google,Tuesday,2023-01-11 04:00:00,True,A
+548912,google,Saturday,2023-01-14 04:00:00,True,A
+430130,twitter,Saturday,,False,A
+701303,email,Monday,,False,B
+289702,google,Friday,,False,B
+863570,google,Monday,2023-01-09 21:00:00,True,A
+670833,twitter,Friday,,False,A
+521780,twitter,Saturday,2023-01-02 21:00:00,True,B
+445712,facebook,Sunday,,False,B
+311818,email,Saturday,,False,B
+112873,facebook,Monday,2023-01-12 03:00:00,True,A
+481767,facebook,Tuesday,,False,B
+956371,google,Sunday,,False,A
+147219,google,Friday,,False,A
+758934,google,Wednesday,,False,A
+515915,facebook,Monday,,False,A
+509495,google,Friday,,False,B
+433963,facebook,Wednesday,,False,B
+371767,email,Sunday,,False,B
+429382,google,Sunday,,False,A
+113162,google,Friday,,False,A
+909982,email,Thursday,2023-01-27 05:00:00,True,A
+357157,google,Sunday,,False,A
+838587,twitter,Friday,,False,A
+116057,facebook,Sunday,,False,A
+757949,facebook,Saturday,,False,A
+639989,google,Monday,,False,B
+533531,google,Saturday,,False,A
+789837,google,Thursday,,False,A
+876691,google,Tuesday,2023-01-02 09:00:00,True,A
+849378,twitter,Monday,,False,B
+701380,facebook,Thursday,2023-01-11 08:00:00,True,B
+543092,google,Friday,2023-01-14 20:00:00,True,B
+306353,google,Monday,,False,B
+589922,email,Tuesday,,False,B
+287381,email,Tuesday,2023-01-04 01:00:00,True,A
+514496,twitter,Sunday,2023-01-17 04:00:00,True,A
+856530,facebook,Tuesday,,False,B
+611213,twitter,Sunday,,False,A
+238876,email,Friday,,False,B
+533886,email,Monday,2023-01-05 00:00:00,True,B
+211315,facebook,Wednesday,,False,A
+948358,google,Wednesday,,False,A
+971248,facebook,Friday,,False,B
+301632,google,Tuesday,,False,A
+175427,twitter,Saturday,,False,A
+936176,facebook,Friday,,False,B
+325880,twitter,Thursday,,False,B
+719675,facebook,Wednesday,,False,B
+332686,google,Saturday,,False,B
+474458,google,Sunday,,False,B
+704730,google,Wednesday,,False,A
+157955,google,Sunday,,False,A
+276371,google,Tuesday,,False,B
+714639,twitter,Friday,2023-01-24 13:00:00,True,A
+228863,google,Monday,2023-01-12 14:00:00,True,B
+368267,email,Sunday,,False,A
+331120,google,Wednesday,2023-01-13 22:00:00,True,A
+697131,google,Thursday,,False,B
+541923,google,Sunday,2023-01-13 04:00:00,True,A
+534166,google,Sunday,,False,A
+815030,google,Tuesday,2023-01-10 08:00:00,True,A
+310544,google,Monday,2023-01-01 20:00:00,True,A
+318023,email,Thursday,,False,A
+376080,twitter,Tuesday,,False,B
+600735,facebook,Saturday,,False,B
+941688,google,Saturday,,False,B
+653890,google,Monday,,False,A
+582996,google,Saturday,,False,A
+833815,email,Wednesday,,False,B
+757293,facebook,Sunday,,False,A
+171082,twitter,Wednesday,2023-01-06 09:00:00,True,B
+107466,google,Wednesday,,False,B
+391922,email,Saturday,2023-01-05 23:00:00,True,B
+412732,email,Wednesday,,False,B
+184859,facebook,Saturday,2023-01-25 07:00:00,True,B
+314480,twitter,Sunday,,False,B
+912953,email,Monday,,False,B
+191810,twitter,Sunday,,False,B
+820964,google,Sunday,,False,B
+802661,twitter,Wednesday,2023-01-05 17:00:00,True,B
+381260,email,Monday,2023-01-13 17:00:00,True,B
+463906,google,Monday,,False,B
+752862,twitter,Saturday,2023-01-19 17:00:00,True,A
+724225,google,Friday,,False,B
+120195,facebook,Monday,,False,A
+306068,email,Wednesday,,False,B
+982854,google,Friday,,False,B
+147547,google,Wednesday,2023-01-25 13:00:00,True,A
+561003,google,Monday,,False,A
+524477,google,Thursday,2023-01-01 15:00:00,True,B
+905739,twitter,Sunday,,False,A
+508153,facebook,Wednesday,,False,A
+899083,facebook,Monday,2023-01-01 18:00:00,True,A
+415386,google,Sunday,,False,B
+401743,facebook,Tuesday,2023-01-22 09:00:00,True,A
+928556,google,Saturday,,False,A
+249360,email,Thursday,,False,B
+642353,facebook,Tuesday,,False,B
+784116,facebook,Wednesday,,False,A
+562485,twitter,Monday,,False,B
+391288,twitter,Sunday,,False,A
+869129,facebook,Wednesday,,False,B
+670093,google,Friday,2023-01-22 11:00:00,True,B
+871829,facebook,Thursday,,False,A
+309112,twitter,Thursday,2023-01-08 14:00:00,True,A
+782851,google,Monday,,False,B
+721141,email,Friday,,False,B
+115213,twitter,Saturday,,False,B
+569596,facebook,Tuesday,2023-01-05 14:00:00,True,B
+984884,google,Thursday,2023-01-01 00:00:00,True,B
+225885,twitter,Monday,,False,B
+123560,facebook,Tuesday,,False,B
+151033,google,Tuesday,,False,B
+889417,facebook,Tuesday,,False,B
+102988,google,Monday,,False,B
+365508,email,Friday,,False,A
+168745,google,Friday,,False,A
+868112,google,Friday,,False,A
+524101,facebook,Friday,,False,B
+402295,email,Thursday,,False,A
+723693,facebook,Sunday,,False,A
+980480,google,Friday,2023-01-08 16:00:00,True,A
+829695,email,Thursday,,False,A
+322368,google,Saturday,2023-01-13 14:00:00,True,B
+214479,facebook,Sunday,2023-01-24 10:00:00,True,B
+768298,facebook,Friday,2023-01-16 21:00:00,True,B
+411009,twitter,Monday,2023-01-10 03:00:00,True,B
+794402,facebook,Monday,2023-01-04 15:00:00,True,B
+750831,email,Monday,,False,B
+159090,google,Tuesday,,False,A
+328273,email,Saturday,,False,A
+633910,google,Wednesday,2023-01-02 03:00:00,True,A
+211115,email,Sunday,,False,B
+545581,twitter,Tuesday,,False,B
+746280,twitter,Sunday,,False,B
+484934,google,Friday,,False,A
+129870,google,Saturday,,False,A
+764577,facebook,Friday,2023-01-07 11:00:00,True,A
+450435,twitter,Thursday,2023-01-04 13:00:00,True,A
+873416,google,Friday,2023-01-25 04:00:00,True,A
+239244,email,Monday,,False,A
+809641,facebook,Friday,,False,A
+266804,email,Wednesday,2023-01-01 22:00:00,True,A
+996508,email,Tuesday,,False,A
+831217,facebook,Monday,,False,B
+646881,twitter,Saturday,,False,B
+578388,google,Tuesday,2023-01-03 11:00:00,True,B
+297271,twitter,Tuesday,2023-01-18 03:00:00,True,A
+832726,google,Thursday,,False,A
+213043,google,Thursday,,False,A
+953136,google,Friday,,False,B
+409199,twitter,Thursday,2023-01-03 16:00:00,True,B
+452624,facebook,Thursday,,False,A
+883837,google,Wednesday,,False,A
+510685,google,Saturday,,False,B
+220270,google,Sunday,,False,B
+627527,facebook,Thursday,,False,A
+997898,twitter,Thursday,,False,B
+367590,google,Wednesday,,False,B
+740956,twitter,Tuesday,2023-01-27 07:00:00,True,B
+970486,facebook,Saturday,2023-01-27 22:00:00,True,B
+217954,facebook,Wednesday,,False,B
+884689,google,Sunday,,False,B
+909223,facebook,Tuesday,,False,A
+656614,google,Tuesday,,False,A
+275225,google,Tuesday,,False,A
+720137,google,Wednesday,2023-01-18 09:00:00,True,A
+384712,facebook,Friday,,False,B
+279194,facebook,Thursday,,False,A
+442775,google,Tuesday,,False,B
+188909,google,Saturday,,False,A
+187919,google,Tuesday,,False,B
+913829,google,Friday,,False,B
+242876,twitter,Friday,,False,A
+647404,google,Friday,,False,A
+421651,google,Friday,,False,A
+109013,google,Saturday,,False,B
+143638,twitter,Monday,,False,A
+189606,twitter,Saturday,,False,A
+196242,google,Sunday,2023-01-24 18:00:00,True,A
+913842,facebook,Saturday,,False,A
+211364,google,Wednesday,,False,A
+642834,facebook,Saturday,,False,B
+367524,facebook,Saturday,,False,A
+213532,facebook,Friday,,False,A
+969025,google,Tuesday,,False,B
+465020,google,Wednesday,,False,A
+602270,google,Wednesday,,False,A
+365713,facebook,Monday,,False,B
+671719,google,Wednesday,,False,B
+365968,facebook,Wednesday,,False,A
+499185,google,Thursday,,False,B
+235513,facebook,Wednesday,,False,B
+348585,twitter,Wednesday,,False,A
+978839,google,Monday,,False,B
+419649,facebook,Thursday,,False,B
+772947,email,Monday,,False,B
+981450,google,Tuesday,,False,A
+392002,facebook,Thursday,,False,B
+629465,google,Monday,,False,B
+548381,facebook,Saturday,,False,A
+907449,google,Friday,2023-01-25 10:00:00,True,A
+282957,twitter,Saturday,2023-01-08 14:00:00,True,A
+838360,google,Tuesday,2023-01-23 05:00:00,True,B
+743874,google,Saturday,,False,B
+329351,email,Sunday,,False,A
+546811,facebook,Tuesday,2023-01-28 10:00:00,True,B
+888297,google,Wednesday,2023-01-30 12:00:00,True,A
+599900,google,Thursday,2023-01-22 10:00:00,True,A
+544540,facebook,Tuesday,2023-01-23 06:00:00,True,B
+309843,google,Saturday,2023-01-05 13:00:00,True,A
+276752,twitter,Thursday,,False,B
+347605,google,Friday,,False,B
+543541,google,Wednesday,,False,B
+186728,facebook,Thursday,,False,B
+512839,twitter,Tuesday,,False,B
+148110,facebook,Monday,,False,A
+699688,google,Tuesday,2023-01-02 09:00:00,True,A
+140285,facebook,Thursday,,False,A
+705109,facebook,Monday,,False,A
+581522,email,Thursday,,False,B
+998182,google,Monday,2023-01-23 04:00:00,True,B
+969296,facebook,Friday,2023-01-24 16:00:00,True,B
+467101,facebook,Saturday,,False,A
+330882,google,Saturday,,False,B
+118637,google,Saturday,,False,A
+918964,google,Sunday,2023-01-17 08:00:00,True,A
+943170,google,Friday,2023-01-14 02:00:00,True,A
+753310,email,Friday,,False,B
+354770,email,Monday,,False,B
+212364,google,Friday,,False,B
+519655,email,Monday,2023-01-04 19:00:00,True,A
+791858,google,Saturday,,False,A
+309820,email,Saturday,,False,B
+773641,twitter,Saturday,,False,B
+303195,facebook,Thursday,2023-01-28 00:00:00,True,A
+818954,facebook,Saturday,2023-01-06 22:00:00,True,A
+323080,facebook,Thursday,2023-01-16 21:00:00,True,A
+525305,facebook,Thursday,2023-01-16 23:00:00,True,A
+949390,facebook,Monday,,False,A
+111675,twitter,Tuesday,,False,A
+413625,google,Wednesday,,False,B
+608377,google,Monday,,False,B
+926152,twitter,Tuesday,2023-01-17 06:00:00,True,A
+373591,facebook,Sunday,,False,B
+627831,google,Wednesday,,False,A
+924765,google,Tuesday,,False,B
+372094,facebook,Tuesday,,False,B
+872793,email,Wednesday,2023-01-23 04:00:00,True,B
+182604,email,Saturday,2023-01-26 20:00:00,True,A
+513437,google,Sunday,,False,A
+507887,google,Friday,,False,B
+664204,facebook,Friday,,False,A
+576387,facebook,Tuesday,2023-01-21 17:00:00,True,A
+613993,email,Friday,,False,B
+753976,google,Monday,2023-01-06 20:00:00,True,B
+875842,email,Thursday,,False,A
+840714,google,Monday,2023-01-20 04:00:00,True,B
+357636,google,Saturday,,False,B
+828493,google,Saturday,2023-01-13 21:00:00,True,A
+387207,facebook,Tuesday,2023-01-03 21:00:00,True,B
+957426,facebook,Sunday,,False,A
+964250,facebook,Thursday,2023-01-13 02:00:00,True,B
+481610,google,Wednesday,,False,B
+438295,google,Monday,,False,A
+317412,twitter,Friday,2023-01-17 12:00:00,True,B
+999683,facebook,Monday,,False,A
+487994,twitter,Thursday,,False,A
+129605,google,Monday,2023-01-27 21:00:00,True,B
+787619,facebook,Sunday,2023-01-08 03:00:00,True,B
+289836,google,Saturday,2023-01-22 03:00:00,True,A
+498231,email,Monday,,False,A
+365205,email,Monday,,False,B
+672959,facebook,Friday,,False,B
+711889,facebook,Sunday,2023-01-26 23:00:00,True,B
+398510,facebook,Thursday,,False,A
+637507,twitter,Saturday,2023-01-08 05:00:00,True,B
+328552,google,Wednesday,,False,A
+879340,facebook,Tuesday,,False,B
+146546,google,Friday,,False,A
+919227,google,Thursday,,False,B
+285525,google,Thursday,,False,B
+522191,google,Wednesday,,False,A
+995600,google,Sunday,,False,A
+459743,email,Friday,,False,B
+896184,email,Thursday,2023-01-05 16:00:00,True,A
+666980,google,Sunday,2023-01-22 00:00:00,True,B
+756248,facebook,Saturday,,False,A
+891006,twitter,Sunday,2023-01-06 03:00:00,True,B
+637091,twitter,Tuesday,2023-01-01 21:00:00,True,B
+180800,twitter,Monday,,False,B
+717465,google,Monday,,False,A
+261928,email,Wednesday,,False,B
+286845,google,Saturday,,False,A
+374244,google,Friday,2023-01-10 14:00:00,True,B
+145330,facebook,Monday,,False,B
+924850,google,Friday,,False,B
+723172,google,Saturday,2023-01-23 11:00:00,True,B
+634968,email,Monday,,False,A
+521972,email,Wednesday,2023-01-18 19:00:00,True,B
+283328,facebook,Tuesday,2023-01-26 11:00:00,True,B
+532353,facebook,Wednesday,,False,A
+253415,facebook,Friday,2023-01-27 02:00:00,True,A
+974876,google,Monday,,False,B
+290690,email,Saturday,,False,A
+763166,google,Saturday,2023-01-15 11:00:00,True,A
+694515,email,Thursday,2023-01-07 11:00:00,True,B
+205696,facebook,Monday,,False,A
+412544,twitter,Thursday,,False,B
+587843,google,Tuesday,,False,A
+110019,twitter,Thursday,,False,A
+663961,google,Thursday,2023-01-05 07:00:00,True,A
+107543,google,Thursday,,False,B
+878574,twitter,Tuesday,,False,B
+779044,facebook,Thursday,,False,A
+515335,twitter,Sunday,,False,A
+247215,facebook,Sunday,,False,A
+429326,google,Tuesday,2023-01-07 23:00:00,True,A
+610684,email,Sunday,,False,B
+309637,google,Monday,2023-01-26 08:00:00,True,A
+291269,facebook,Saturday,,False,B
+794212,twitter,Wednesday,2023-01-11 22:00:00,True,A
+227574,facebook,Monday,,False,A
+488690,google,Wednesday,,False,B
+752433,facebook,Friday,,False,A
+329701,twitter,Monday,,False,B
+157326,google,Wednesday,2023-01-15 17:00:00,True,B
+184600,facebook,Sunday,,False,A
+554036,email,Saturday,,False,B
+385356,email,Tuesday,2023-01-09 13:00:00,True,B
+151632,google,Tuesday,,False,A
+988418,facebook,Wednesday,,False,B
+228345,google,Tuesday,,False,B
+630413,facebook,Saturday,2023-01-06 11:00:00,True,A
+506321,google,Tuesday,2023-01-24 02:00:00,True,A
+531600,google,Monday,,False,B
+445282,facebook,Saturday,2023-01-21 12:00:00,True,B
+375538,google,Saturday,2023-01-13 10:00:00,True,A
+385818,google,Saturday,,False,B
+806691,twitter,Saturday,,False,B
+522994,facebook,Saturday,2023-01-01 01:00:00,True,A
+606313,google,Wednesday,2023-01-26 12:00:00,True,B
+163474,google,Sunday,,False,A
+124067,email,Sunday,,False,A
+200050,google,Thursday,2023-01-29 23:00:00,True,A
+765655,google,Thursday,,False,B
+646432,google,Friday,,False,B
+109780,email,Thursday,,False,B
+965011,twitter,Monday,2023-01-08 17:00:00,True,B
+393797,facebook,Monday,2023-01-22 23:00:00,True,B
+277059,google,Saturday,,False,A
+315886,facebook,Friday,,False,A
+943823,email,Thursday,,False,B
+272391,twitter,Sunday,,False,B
+734275,google,Friday,,False,B
+145955,google,Thursday,,False,B
+696715,google,Tuesday,,False,A
+736024,google,Tuesday,,False,A
+174310,google,Monday,2023-01-22 14:00:00,True,B
+676618,twitter,Saturday,2023-01-30 18:00:00,True,B
+767550,google,Sunday,,False,A

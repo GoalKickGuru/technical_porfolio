@@ -1,0 +1,33 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Strategy Notebook: Handling Wide-Format Time Series Datasets\n",
+    "\n",
+    "When working with wide-format historical tracking datasets (like Johns Hopkins, WHO, or ECB financial feeds), follow this structural workflow:\n",
+    "\n",
+    "1. **Audit Data Quality & Schema Quirks**\n",
+    "   * Check for inconsistent state reporting, sudden drops (data re-categorization), and character escape requirements in date headers[cite: 1, 2].\n",
+    "\n",
+    "2. **Spatial/Categorical Consolidation**\n",
+    "   * Aggregate granular geographical subunits (states/provinces) into national totals before attempting global wide-to-long pivots[cite: 1, 2].\n",
+    "\n",
+    "3. **Dimensionality Pivoting Strategy**\n",
+    "   * **Wide-to-Wide Transpose:** Ideal for cross-entity comparisons when working with base vector tools[cite: 1, 2].\n",
+    "   * **Wide-to-Long Normalization:** Recommended for multi-variable plotting with `ggplot2` (`facet_wrap`, combined legends).\n",
+    "\n",
+    "4. **Type-Safe Transformation Rules**\n",
+    "   * Transposition coercion always converts data into string elements. Always re-cast values back into floats/integers before numerical summarization[cite: 1, 2]."
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "R"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

@@ -1,0 +1,462 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Solutions Notebook: Cleaning US Census Data (R)\n",
+        "\n",
+        "Complete step-by-step solution code for the 22 extended data cleaning and EDA tasks."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 1: Load Core Libraries"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Load packages\n",
+        "library(readr)\n",
+        "library(dplyr)\n",
+        "library(tidyr)\n",
+        "library(stringr)\n",
+        "library(ggplot2)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 2: Locate Census CSV Files"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# List matching CSV files\n",
+        "files <- list.files(pattern = \"states_.*\\\\.csv\")\n",
+        "print(files)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 3: Ingest CSV Files into List"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Read each file into list\n",
+        "df_list <- lapply(files, read_csv)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 4: Combine Data Frames"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Bind rows into unified data frame\n",
+        "us_census <- bind_rows(df_list)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 5: Inspect Dataset Structure"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Structural inspection\n",
+        "glimpse(us_census)\n",
+        "head(us_census)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 6: Drop Index Column"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Drop redundant X1 column\n",
+        "us_census <- us_census %>% \n",
+        "  select(-any_of(\"X1\"))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 7: Clean Percentage Symbols from Race Columns"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Remove % symbols from demographic variables\n",
+        "race_cols <- c(\"Hispanic\", \"White\", \"Black\", \"Native\", \"Asian\", \"Pacific\")\n",
+        "us_census <- us_census %>% \n",
+        "  mutate(across(all_of(race_cols), ~ str_remove(.x, \"%\\\\\")))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 8: Clean Currency Symbols from Income"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Remove $ and commas from Income\n",
+        "us_census <- us_census %>% \n",
+        "  mutate(Income = str_remove_all(Income, \"[\\\\$\\\\,]\"))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 9: Separate Gender Population Column"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Separate GenderPop into male_pop and female_pop\n",
+        "us_census <- us_census %>% \n",
+        "  separate(GenderPop, into = c(\"male_pop\", \"female_pop\"), sep = \"_\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 10: Clean Character Suffixes in Gender Columns"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Strip M and F suffixes\n",
+        "us_census <- us_census %>% \n",
+        "  mutate(\n",
+        "    male_pop = str_remove(male_pop, \"M\"),\n",
+        "    female_pop = str_remove(female_pop, \"F\")\n",
+        "  )"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 11: Coerce Character Columns to Numeric"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Coerce numerical variables to numeric type\n",
+        "num_cols <- c(race_cols, \"Income\", \"male_pop\", \"female_pop\")\n",
+        "us_census <- us_census %>% \n",
+        "  mutate(across(all_of(num_cols), as.numeric))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 12: Scale Race Percentages to Proportions"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Scale percentages to decimal proportions (0-1)\n",
+        "us_census <- us_census %>% \n",
+        "  mutate(across(all_of(race_cols), ~ .x / 100))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 13: Detect and Drop Duplicate Records"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Detect duplicates count\n",
+        "print(table(duplicated(us_census)))\n",
+        "\n",
+        "# Remove duplicates\n",
+        "us_census <- us_census %>% distinct()\n",
+        "\n",
+        "# Confirm removal\n",
+        "print(table(duplicated(us_census)))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 14: Compute Missing Female Population"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Impute missing female_pop from TotalPop\n",
+        "us_census <- us_census %>% \n",
+        "  mutate(female_pop = if_else(is.na(female_pop), TotalPop - male_pop, female_pop))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 15: Median Imputation for Missing Race Values"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Fill missing race values with median\n",
+        "us_census <- us_census %>% \n",
+        "  mutate(across(all_of(race_cols), ~ if_else(is.na(.x), median(.x, na.rm = TRUE), .x)))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 16: Validate Population Consistency"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Verify male_pop + female_pop == TotalPop\n",
+        "us_census %>% \n",
+        "  mutate(pop_diff = TotalPop - (male_pop + female_pop)) %>% \n",
+        "  summarise(max_abs_diff = max(abs(pop_diff), na.rm = TRUE))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 17: Reshape Race Columns to Long Format"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Tidy wide demographic variables into long format\n",
+        "census_long <- us_census %>% \n",
+        "  pivot_longer(cols = all_of(race_cols), names_to = \"Race\", values_to = \"Proportion\")\n",
+        "\n",
+        "head(census_long)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 18: Summary Statistics Calculation"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Calculate key income summary metrics\n",
+        "us_census %>% \n",
+        "  summarise(\n",
+        "    mean_income = mean(Income, na.rm = TRUE),\n",
+        "    median_income = median(Income, na.rm = TRUE),\n",
+        "    sd_income = sd(Income, na.rm = TRUE)\n",
+        "  )"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 19: Visualize Income Distribution"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Histogram of median income distribution\n",
+        "ggplot(us_census, aes(x = Income)) + \n",
+        "  geom_histogram(bins = 15, fill = \"steelblue\", color = \"white\") + \n",
+        "  labs(\n",
+        "    title = \"Distribution of State Median Income\",\n",
+        "    x = \"Median Income ($)\",\n",
+        "    y = \"Frequency\"\n",
+        "  ) + \n",
+        "  theme_minimal()"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 20: Visualize Race Proportion vs Income"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Scatter plot of Hispanic proportion vs Income\n",
+        "ggplot(us_census, aes(x = Hispanic, y = Income)) + \n",
+        "  geom_point(color = \"darkorange\", size = 2.5) + \n",
+        "  geom_smooth(method = \"lm\", se = FALSE, color = \"black\") + \n",
+        "  labs(\n",
+        "    title = \"Hispanic Proportion vs Median Income\",\n",
+        "    x = \"Hispanic Proportion\",\n",
+        "    y = \"Median Income ($)\"\n",
+        "  ) + \n",
+        "  theme_minimal()"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 21: Extract Highest & Lowest Income States"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Top 5 income states\n",
+        "top_5 <- us_census %>% \n",
+        "  select(State, Income) %>% \n",
+        "  arrange(desc(Income)) %>% \n",
+        "  slice_head(n = 5)\n",
+        "\n",
+        "# Bottom 5 income states\n",
+        "bottom_5 <- us_census %>% \n",
+        "  select(State, Income) %>% \n",
+        "  arrange(Income) %>% \n",
+        "  slice_head(n = 5)\n",
+        "\n",
+        "print(top_5)\n",
+        "print(bottom_5)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Task 22: Export Clean Dataset"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Export clean dataset to CSV\n",
+        "write_csv(us_census, \"clean_us_census.csv\")"
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "R",
+      "language": "R",
+      "name": "ir"
+    },
+    "language_info": {
+      "name": "R"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 2
+}
