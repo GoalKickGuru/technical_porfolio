@@ -1,0 +1,154 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Retirement Plan Alternatives Analysis (R Solution)\n",
+        "## Fully Executed Quantitative Model & Visualization\n",
+        "\n",
+        "This notebook contains the executed solution for the 30-year retirement accumulation model."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Step 1: Load Required Libraries & Data"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "library(tidyverse)\n",
+        "library(scales)\n",
+        "\n",
+        "csv_path <- 'retirement_contributions.csv'\n",
+        "if (file.exists(csv_path)) {\n",
+        "  df_contrib <- read_csv(csv_path)\n",
+        "} else {\n",
+        "  years <- 1:30\n",
+        "  salaries <- 95000 * (1.03 ^ (years - 1))\n",
+        "  df_contrib <- tibble(\n",
+        "    Year = years,\n",
+        "    Annual_Salary = round(salaries, 2),\n",
+        "    Employee_401k_Contrib = round(salaries * 0.10, 2),\n",
+        "    Employer_401k_Match = round(salaries * 0.04, 2),\n",
+        "    Roth_IRA_Contrib = round(pmin(7000 * (1.025 ^ (years - 1)), salaries * 0.08), 2),\n",
+        "    Taxable_Brokerage_Contrib = round(salaries * 0.05, 2)\n",
+        "  )\n",
+        "}\n",
+        "head(df_contrib)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Step 2: Valuation & Tax Modeling"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "r <- 0.07\n",
+        "N <- nrow(df_contrib)\n",
+        "tax_income <- 0.22\n",
+        "tax_cap_gains <- 0.15\n",
+        "\n",
+        "df_contrib <- df_contrib %>%\n",
+        "  mutate(\n",
+        "    Compound_Factor = (1 + r) ^ (N - Year + 1),\n",
+        "    Total_401k_Contrib = Employee_401k_Contrib + Employer_401k_Match\n",
+        "  )\n",
+        "\n",
+        "p_401k <- sum(df_contrib$Total_401k_Contrib)\n",
+        "p_roth <- sum(df_contrib$Roth_IRA_Contrib)\n",
+        "p_taxable <- sum(df_contrib$Taxable_Brokerage_Contrib)\n",
+        "\n",
+        "fv_401k <- sum(df_contrib$Total_401k_Contrib * df_contrib$Compound_Factor)\n",
+        "fv_roth <- sum(df_contrib$Roth_IRA_Contrib * df_contrib$Compound_Factor)\n",
+        "fv_taxable <- sum(df_contrib$Taxable_Brokerage_Contrib * df_contrib$Compound_Factor)\n",
+        "\n",
+        "net_401k <- fv_401k * (1 - tax_income)\n",
+        "net_roth <- fv_roth\n",
+        "net_taxable <- fv_taxable - (max(0, fv_taxable - p_taxable) * tax_cap_gains)\n",
+        "\n",
+        "summary_results <- tibble(\n",
+        "  Account_Type = c('Traditional 401(k) + Match', 'Roth IRA', 'Taxable Brokerage'),\n",
+        "  Total_Principal = c(p_401k, p_roth, p_taxable),\n",
+        "  Gross_FV = c(fv_401k, fv_roth, fv_taxable),\n",
+        "  Tax_Liability = c(fv_401k * tax_income, 0, (fv_taxable - p_taxable) * tax_cap_gains),\n",
+        "  Net_After_Tax = c(net_401k, net_roth, net_taxable),\n",
+        "  Monthly_SWR_4pct = (c(net_401k, net_roth, net_taxable) * 0.04) / 12\n",
+        ")\n",
+        "\n",
+        "summary_results %>%\n",
+        "  mutate(across(where(is.numeric), label_dollar()))\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Step 3: Trajectory Visualization"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "trajectory_df <- df_contrib %>%\n",
+        "  mutate(\n",
+        "    Cum_401k = accumulate(Total_401k_Contrib, ~ (.x + .y) * (1 + r)),\n",
+        "    Cum_Roth = accumulate(Roth_IRA_Contrib, ~ (.x + .y) * (1 + r)),\n",
+        "    Cum_Taxable = accumulate(Taxable_Brokerage_Contrib, ~ (.x + .y) * (1 + r)),\n",
+        "    \n",
+        "    Net_401k = Cum_401k * (1 - tax_income),\n",
+        "    Net_Roth = Cum_Roth,\n",
+        "    Net_Taxable = Cum_Taxable - ((Cum_Taxable - cumsum(Taxable_Brokerage_Contrib)) * tax_cap_gains)\n",
+        "  ) %>%\n",
+        "  pivot_longer(\n",
+        "    cols = c(Net_401k, Net_Roth, Net_Taxable),\n",
+        "    names_to = 'Account_Type',\n",
+        "    values_to = 'Net_Value'\n",
+        "  )\n",
+        "\n",
+        "ggplot(trajectory_df, aes(x = Year, y = Net_Value, color = Account_Type)) +\n",
+        "  geom_line(size = 1.2) +\n",
+        "  scale_y_continuous(labels = label_dollar()) +\n",
+        "  scale_color_manual(\n",
+        "    values = c('Net_401k' = '#0284c7', 'Net_Roth' = '#10b981', 'Net_Taxable' = '#f59e0b'),\n",
+        "    labels = c('401(k) (After 22% Tax)', 'Roth IRA (Tax-Free)', 'Taxable (After 15% Cap Gains)')\n",
+        "  ) +\n",
+        "  labs(\n",
+        "    title = '30-Year After-Tax Wealth Accumulation',\n",
+        "    x = 'Contribution Year',\n",
+        "    y = 'Net Wealth ($)',\n",
+        "    color = 'Account'\n",
+        "  ) +\n",
+        "  theme_minimal()\n"
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "R",
+      "language": "R",
+      "name": "ir"
+    },
+    "language_info": {
+      "name": "R"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 2
+}

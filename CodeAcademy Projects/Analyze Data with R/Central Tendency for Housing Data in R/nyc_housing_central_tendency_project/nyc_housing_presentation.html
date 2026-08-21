@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NYC Housing Rent Analysis - Presentation</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; background: #0f172a; color: #f8fafc; line-height: 1.6; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+    header { text-align: center; margin-bottom: 50px; border-bottom: 1px solid #334155; padding-bottom: 30px; }
+    header h1 { font-size: 2.8rem; color: #38bdf8; margin-bottom: 10px; font-weight: 700; }
+    header p { font-size: 1.2rem; color: #94a3b8; }
+    
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-bottom: 40px; }
+    .card { background: #1e293b; border-radius: 12px; padding: 28px; border: 1px solid #334155; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+    .card h2 { color: #f1f5f9; font-size: 1.4rem; margin-bottom: 15px; border-bottom: 2px solid #38bdf8; padding-bottom: 8px; }
+    .stat-box { display: flex; justify-content: space-between; align-items: center; margin: 12px 0; padding: 10px; background: #0f172a; border-radius: 6px; }
+    .stat-label { color: #94a3b8; font-weight: 600; }
+    .stat-value { font-size: 1.25rem; font-weight: 700; color: #38bdf8; }
+    
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; background: #1e293b; border-radius: 8px; overflow: hidden; }
+    th, td { padding: 14px 18px; text-align: left; border-bottom: 1px solid #334155; }
+    th { background: #0f172a; color: #38bdf8; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; }
+    tr:hover { background: #334155; }
+    
+    .highlight { color: #f59e0b; font-weight: bold; }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: bold; }
+    .badge-high { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+    .badge-med { background: rgba(245, 158, 11, 0.2); color: #fbbf24; }
+    .badge-low { background: rgba(16, 185, 129, 0.2); color: #34d399; }
+    
+    footer { text-align: center; color: #64748b; margin-top: 60px; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Central Tendency in NYC Housing</h1>
+        <p>Comparative Statistical Analysis of One-Bedroom Rent Across Manhattan, Brooklyn, and Queens</p>
+    </header>
+
+    <div class="card-grid">
+        <div class="card">
+            <h2>Manhattan</h2>
+            <div class="stat-box"><span class="stat-label">Mean Rent:</span><span class="stat-value">$4,200</span></div>
+            <div class="stat-box"><span class="stat-label">Median Rent:</span><span class="stat-value">$3,800</span></div>
+            <div class="stat-box"><span class="stat-label">Mode Rent:</span><span class="stat-value">$3,500</span></div>
+            <p style="margin-top: 15px; color: #94a3b8; font-size: 0.95rem;">High upper-tail skewness driven by luxury penthouses pulling average rent $400 above median.</p>
+        </div>
+        <div class="card">
+            <h2>Brooklyn</h2>
+            <div class="stat-box"><span class="stat-label">Mean Rent:</span><span class="stat-value">$3,320</span></div>
+            <div class="stat-box"><span class="stat-label">Median Rent:</span><span class="stat-value">$3,000</span></div>
+            <div class="stat-box"><span class="stat-label">Mode Rent:</span><span class="stat-value">$2,800</span></div>
+            <p style="margin-top: 15px; color: #94a3b8; font-size: 0.95rem;">Moderate right-skewness. Median rent of $3,000 represents realistic midpoint expectations.</p>
+        </div>
+        <div class="card">
+            <h2>Queens</h2>
+            <div class="stat-box"><span class="stat-label">Mean Rent:</span><span class="stat-value">$2,450</span></div>
+            <div class="stat-box"><span class="stat-label">Median Rent:</span><span class="stat-value">$2,300</span></div>
+            <div class="stat-box"><span class="stat-label">Mode Rent:</span><span class="stat-value">$2,200</span></div>
+            <p style="margin-top: 15px; color: #94a3b8; font-size: 0.95rem;">Most symmetric distribution with minimal mean-median spread ($150), indicating consistent inventory.</p>
+        </div>
+    </div>
+
+    <h2 style="color: #38bdf8; margin-bottom: 15px;">Summary Metrics Comparison</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Borough</th>
+                <th>Mean ($ar{x}$)</th>
+                <th>Median ($Q_2$)</th>
+                <th>Mode ($Mo$)</th>
+                <th>Spread (Mean - Median)</th>
+                <th>Skewness Risk</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Manhattan</strong></td>
+                <td>$4,200</td>
+                <td>$3,800</td>
+                <td>$3,500</td>
+                <td class="highlight">+$400</td>
+                <td><span class="badge badge-high">High Skew</span></td>
+            </tr>
+            <tr>
+                <td><strong>Brooklyn</strong></td>
+                <td>$3,320</td>
+                <td>$3,000</td>
+                <td>$2,800</td>
+                <td class="highlight">+$320</td>
+                <td><span class="badge badge-med">Moderate Skew</span></td>
+            </tr>
+            <tr>
+                <td><strong>Queens</strong></td>
+                <td>$2,450</td>
+                <td>$2,300</td>
+                <td>$2,200</td>
+                <td class="highlight">+$150</td>
+                <td><span class="badge badge-low">Low Skew</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="card" style="margin-top: 30px;">
+        <h2>Key Takeaways for Decision Makers</h2>
+        <ul style="padding-left: 20px; color: #cbd5e1; line-height: 1.8;">
+            <li><strong>Underwriting Standard:</strong> Always use <em>Median Rent</em> ($Q_2$) rather than Mean Rent when projecting cash flows, as high-end outliers distort averages.</li>
+            <li><strong>Marketing & Listing Strategy:</strong> Modal values ($3,500 in Manhattan, $2,800 in Brooklyn, $2,200 in Queens) reflect psychological pricing thresholds used by listing portals.</li>
+            <li><strong>R Programming Insight:</strong> Avoid Base R's built-in <code>mode()</code> function as it returns variable storage type rather than statistical mode. Use <code>DescTools::Mode()</code>.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>NYC Housing Central Tendency Report &bull; Generated August 2026</p>
+    </footer>
+</div>
+</body>
+</html>

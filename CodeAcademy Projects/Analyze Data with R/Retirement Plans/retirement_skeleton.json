@@ -1,0 +1,102 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Retirement Plan Alternatives Analysis (R Skeleton)\n",
+        "## Quantitative Portfolio & Tax Modeling\n",
+        "\n",
+        "Evaluate 30-year wealth trajectories across **401(k)**, **Roth IRA**, and **Taxable Brokerage** accounts."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Step 1: Load Required Libraries & Datasets"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# TODO: Load tidyverse, scales, and read 'retirement_contributions.csv'\n",
+        "library(tidyverse)\n",
+        "library(scales)\n",
+        "\n",
+        "# df_contrib <- read_csv('retirement_contributions.csv')\n",
+        "# head(df_contrib)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Step 2: Define Financial Parameters & Compound Factors"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# TODO: Define return rate (7%), tax rates (22% income, 15% cap gains)\n",
+        "# Calculate vectorized compounding factor: (1 + r)^(N - Year + 1)\n",
+        "r <- 0.07\n",
+        "tax_income <- 0.22\n",
+        "tax_cap_gains <- 0.15\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Step 3: Compute After-Tax Net Wealth"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# TODO: Calculate total principal, gross FV, tax liability, and net wealth\n",
+        "# 401(k) Net = Gross * (1 - 0.22)\n",
+        "# Roth IRA Net = Gross\n",
+        "# Taxable Net = Gross - ((Gross - Principal) * 0.15)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Step 4: Plot 30-Year Wealth Trajectory"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# TODO: Generate annual trajectory using accumulate() and plot with ggplot2\n"
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "R",
+      "language": "R",
+      "name": "ir"
+    },
+    "language_info": {
+      "name": "R"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 2
+}

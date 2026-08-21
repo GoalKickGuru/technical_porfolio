@@ -1,0 +1,151 @@
+---
+title: "Mode in R - Completed Solutions Notebook"
+output: html_notebook
+---
+
+```{r message=FALSE, warning=FALSE}
+# Load required libraries
+library(readr)
+library(dplyr)
+library(DescTools)
+```
+
+## Data Import & Cleaning
+
+```{r message=FALSE, warning=FALSE}
+# Load rental datasets
+brooklyn_one_bed <- read_csv('brooklyn-one-bed.csv')
+brooklyn_price <- brooklyn_one_bed$rent
+
+manhattan_one_bed <- read_csv('manhattan-one-bed.csv')
+manhattan_price <- manhattan_one_bed$rent
+
+queens_one_bed <- read_csv('queens-one-bed.csv')
+queens_price <- queens_one_bed$rent
+```
+
+---
+
+## 1. Calculate Mean Rents
+
+```{r}
+# Calculate mean prices across all three boroughs
+brooklyn_mean <- mean(brooklyn_price, na.rm = TRUE)
+manhattan_mean <- mean(manhattan_price, na.rm = TRUE)
+queens_mean <- mean(queens_price, na.rm = TRUE)
+
+print(paste("Brooklyn Mean:", round(brooklyn_mean, 2)))
+print(paste("Manhattan Mean:", round(manhattan_mean, 2)))
+print(paste("Queens Mean:", round(queens_mean, 2)))
+```
+
+---
+
+## 2. Calculate Median Rents
+
+```{r}
+# Calculate median prices across all three boroughs
+brooklyn_median <- median(brooklyn_price, na.rm = TRUE)
+manhattan_median <- median(manhattan_price, na.rm = TRUE)
+queens_median <- median(queens_price, na.rm = TRUE)
+
+print(paste("Brooklyn Median:", brooklyn_median))
+print(paste("Manhattan Median:", manhattan_median))
+print(paste("Queens Median:", queens_median))
+```
+
+---
+
+## 3. Calculate Mode Rents
+
+```{r}
+# Calculate statistical mode using DescTools::Mode()
+# Extracting the first modal value in case of multimodal distributions
+brooklyn_mode <- Mode(brooklyn_price, na.rm = TRUE)[1]
+manhattan_mode <- Mode(manhattan_price, na.rm = TRUE)[1]
+queens_mode <- Mode(queens_price, na.rm = TRUE)[1]
+
+print(paste("Brooklyn Mode:", brooklyn_mode))
+print(paste("Manhattan Mode:", manhattan_mode))
+print(paste("Queens Mode:", queens_mode))
+```
+
+---
+
+## 4. Consolidated Analysis & Verification
+
+```{r}
+# Mean Print Checks
+if(exists('brooklyn_mean')) {
+  print(paste("The mean price in Brooklyn is $" , round(brooklyn_mean, digits=2))) 
+} else {
+  print("The mean price in Brooklyn is not yet defined.")
+}
+
+if(exists("manhattan_mean")) {
+  print(paste("The mean price in Manhattan is $" , round(manhattan_mean, digits=2)))
+} else {
+  print("The mean in Manhattan is not yet defined.")
+}
+
+if(exists("queens_mean")) {
+  print(paste("The mean price in Queens is $" , round(queens_mean, digits=2)))
+} else {
+  print("The mean price in Queens is not yet defined.")
+}   
+    
+# Median Print Checks
+if(exists("brooklyn_median")) {
+  print(paste("The median price in Brooklyn is $" , brooklyn_median)) 
+} else {
+  print("The median price in Brooklyn is not yet defined.")
+}
+
+if(exists("manhattan_median")) {
+  print(paste("The median price in Manhattan is $" , manhattan_median))
+} else {
+  print("The median in Manhattan is not yet defined.")
+}
+
+if(exists("queens_median")) {
+  print(paste("The median price in Queens is $" , queens_median)) 
+} else {
+  print("The median price in Queens is not yet defined.")
+} 
+
+# Mode Print Checks
+if(exists("brooklyn_mode")) {
+  print(paste("The mode price in Brooklyn is $" , brooklyn_mode)) 
+} else {
+  print("The mode price in Brooklyn is not yet defined.")
+}
+
+if(exists("manhattan_mode")) {
+  print(paste("The mode price in Manhattan is $" , manhattan_mode))
+} else {
+  print("The mode in Manhattan is not yet defined.")
+}
+
+if(exists("queens_mode")) {
+  print(paste("The mode price in Queens is $" , queens_mode))
+} else {
+  print("The mode price in Queens is not yet defined.")
+}
+```
+
+---
+
+## 5. Summary Table Construction
+
+```{r}
+# Create comprehensive comparison table
+rent_summary <- tibble(
+  Borough = c("Manhattan", "Brooklyn", "Queens"),
+  Mean = c(round(manhattan_mean, 2), round(brooklyn_mean, 2), round(queens_mean, 2)),
+  Median = c(manhattan_median, brooklyn_median, queens_median),
+  Mode = c(manhattan_mode, brooklyn_mode, queens_mode),
+  Skewness_Premium = Mean - Median
+)
+
+rent_summary
+```

@@ -1,0 +1,111 @@
+country,year,region,income_group,gdp_growth,inflation,unemployment,trade_openness
+USA,2015,North America,High,1.29,6.23,10.0,90.8
+USA,2016,North America,High,3.84,5.05,10.26,38.2
+USA,2017,North America,High,1.94,4.37,7.11,49.1
+USA,2018,North America,High,3.76,4.23,10.04,49.2
+USA,2019,North America,High,1.78,2.54,9.09,71.4
+USA,2020,North America,High,3.34,4.94,9.83,80.8
+USA,2021,North America,High,2.2,7.17,10.01,64.0
+USA,2022,North America,High,2.16,5.73,8.66,23.4
+USA,2023,North America,High,2.65,6.34,8.46,72.0
+USA,2024,North America,High,4.23,3.76,9.92,117.0
+USA,2025,North America,High,3.19,7.08,8.71,47.1
+Germany,2015,Europe,High,2.09,1.09,6.02,100.2
+Germany,2016,Europe,High,3.17,3.7,6.92,97.1
+Germany,2017,Europe,High,5.1,2.47,5.26,31.6
+Germany,2018,Europe,High,4.38,4.25,5.41,51.1
+Germany,2019,Europe,High,3.76,4.55,4.99,83.8
+Germany,2020,Europe,High,3.9,4.29,6.25,96.1
+Germany,2021,Europe,High,3.51,5.03,6.23,69.4
+Germany,2022,Europe,High,1.14,4.02,5.97,51.4
+Germany,2023,Europe,High,3.93,4.14,5.91,44.9
+Germany,2024,Europe,High,6.06,2.01,5.08,113.0
+Germany,2025,Europe,High,3.68,3.54,7.05,107.1
+Japan,2015,Asia,High,5.56,2.2,10.78,31.0
+Japan,2016,Asia,High,4.72,1.34,9.62,101.8
+Japan,2017,Asia,High,0.72,2.45,10.69,53.8
+Japan,2018,Asia,High,3.56,1.69,11.49,71.9
+Japan,2019,Asia,High,2.78,4.04,11.07,50.1
+Japan,2020,Asia,High,1.9,2.02,13.55,25.1
+Japan,2021,Asia,High,4.78,1.54,10.51,68.9
+Japan,2022,Asia,High,3.71,3.65,11.84,43.8
+Japan,2023,Asia,High,3.25,4.01,12.49,73.6
+Japan,2024,Asia,High,5.88,0.45,10.52,24.1
+Japan,2025,Asia,High,6.26,3.24,11.1,42.6
+Brazil,2015,Latin America,Upper-middle,3.0,2.8,9.21,33.8
+Brazil,2016,Latin America,Upper-middle,2.5,1.39,10.19,101.7
+Brazil,2017,Latin America,Upper-middle,1.96,3.92,11.91,44.2
+Brazil,2018,Latin America,Upper-middle,3.75,3.04,8.14,92.6
+Brazil,2019,Latin America,Upper-middle,1.85,2.8,10.59,28.4
+Brazil,2020,Latin America,Upper-middle,3.79,0.8,11.24,85.2
+Brazil,2021,Latin America,Upper-middle,4.3,2.97,8.42,43.7
+Brazil,2022,Latin America,Upper-middle,5.13,0.64,10.34,85.8
+Brazil,2023,Latin America,Upper-middle,4.23,0.57,9.52,56.8
+Brazil,2024,Latin America,Upper-middle,2.67,0.65,9.3,109.2
+Brazil,2025,Latin America,Upper-middle,4.14,3.69,9.91,70.3
+India,2015,Asia,Lower-middle,2.08,4.93,5.2,37.7
+India,2016,Asia,Lower-middle,3.07,3.13,5.87,21.5
+India,2017,Asia,Lower-middle,3.08,4.57,4.71,58.5
+India,2018,Asia,Lower-middle,4.16,2.79,6.02,36.9
+India,2019,Asia,Lower-middle,4.08,3.6,5.79,29.7
+India,2020,Asia,Lower-middle,5.35,3.55,4.02,107.7
+India,2021,Asia,Lower-middle,4.58,5.06,4.2,49.4
+India,2022,Asia,Lower-middle,5.19,4.24,5.67,106.7
+India,2023,Asia,Lower-middle,3.56,4.77,6.6,85.0
+India,2024,Asia,Lower-middle,3.54,4.89,5.81,109.0
+India,2025,Asia,Lower-middle,2.15,1.21,5.32,23.6
+Nigeria,2015,Africa,Lower-middle,1.87,3.09,6.02,23.7
+Nigeria,2016,Africa,Lower-middle,2.33,5.35,6.0,97.0
+Nigeria,2017,Africa,Lower-middle,1.6,4.54,4.66,28.5
+Nigeria,2018,Africa,Lower-middle,2.95,2.74,8.08,92.6
+Nigeria,2019,Africa,Lower-middle,3.66,3.74,6.38,52.3
+Nigeria,2020,Africa,Lower-middle,2.1,4.99,5.14,22.5
+Nigeria,2021,Africa,Lower-middle,3.06,2.56,7.6,37.3
+Nigeria,2022,Africa,Lower-middle,2.63,2.73,7.7,86.0
+Nigeria,2023,Africa,Lower-middle,3.68,4.28,7.59,81.2
+Nigeria,2024,Africa,Lower-middle,1.37,2.99,7.2,21.4
+Nigeria,2025,Africa,Lower-middle,2.35,3.36,7.81,29.8
+Sweden,2015,Europe,High,0.58,1.42,6.52,24.5
+Sweden,2016,Europe,High,4.56,5.53,3.54,70.3
+Sweden,2017,Europe,High,3.46,4.73,4.77,78.6
+Sweden,2018,Europe,High,3.05,3.54,5.63,58.8
+Sweden,2019,Europe,High,2.24,6.53,5.66,58.6
+Sweden,2020,Europe,High,3.06,3.79,4.35,27.1
+Sweden,2021,Europe,High,4.34,2.67,4.35,89.7
+Sweden,2022,Europe,High,2.85,4.72,5.28,93.5
+Sweden,2023,Europe,High,2.52,4.68,5.52,100.7
+Sweden,2024,Europe,High,2.42,3.34,5.09,57.2
+Sweden,2025,Europe,High,2.47,5.11,6.53,95.5
+Mexico,2015,Latin America,Upper-middle,1.28,4.73,8.74,109.6
+Mexico,2016,Latin America,Upper-middle,2.2,5.32,7.89,83.2
+Mexico,2017,Latin America,Upper-middle,2.52,2.82,7.35,52.9
+Mexico,2018,Latin America,Upper-middle,3.2,6.7,8.42,29.1
+Mexico,2019,Latin America,Upper-middle,2.56,4.46,7.79,75.0
+Mexico,2020,Latin America,Upper-middle,2.98,5.29,6.97,34.3
+Mexico,2021,Latin America,Upper-middle,1.72,6.43,9.15,30.1
+Mexico,2022,Latin America,Upper-middle,2.4,4.75,7.32,28.5
+Mexico,2023,Latin America,Upper-middle,2.39,7.24,7.32,114.7
+Mexico,2024,Latin America,Upper-middle,1.25,5.19,8.11,62.4
+Mexico,2025,Latin America,Upper-middle,3.88,5.06,7.79,66.9
+South Korea,2015,Asia,High,3.19,2.75,4.99,57.5
+South Korea,2016,Asia,High,1.78,2.63,4.1,42.4
+South Korea,2017,Asia,High,1.75,3.07,4.97,72.3
+South Korea,2018,Asia,High,1.73,3.77,5.46,65.5
+South Korea,2019,Asia,High,3.11,4.32,4.39,82.0
+South Korea,2020,Asia,High,2.84,0.33,3.9,66.4
+South Korea,2021,Asia,High,3.21,0.1,2.59,101.4
+South Korea,2022,Asia,High,2.4,0.25,4.99,111.1
+South Korea,2023,Asia,High,2.86,3.81,5.2,106.6
+South Korea,2024,Asia,High,1.81,3.36,4.03,118.7
+South Korea,2025,Asia,High,2.32,0.1,4.84,104.2
+Australia,2015,Oceania,High,3.91,3.18,6.97,106.5
+Australia,2016,Oceania,High,4.02,3.41,6.58,65.1
+Australia,2017,Oceania,High,4.76,1.29,7.56,87.2
+Australia,2018,Oceania,High,2.17,5.26,7.36,72.0
+Australia,2019,Oceania,High,3.12,3.52,8.58,105.2
+Australia,2020,Oceania,High,6.49,5.98,6.78,33.4
+Australia,2021,Oceania,High,5.48,5.58,7.9,41.3
+Australia,2022,Oceania,High,5.59,0.71,5.84,110.4
+Australia,2023,Oceania,High,1.87,3.64,4.86,98.4
+Australia,2024,Oceania,High,6.27,1.27,5.32,65.9
+Australia,2025,Oceania,High,4.25,3.33,7.43,52.9

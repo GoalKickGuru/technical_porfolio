@@ -1,0 +1,154 @@
+---
+title: "Mode in R - Central Tendency Analysis for NYC Housing"
+output: html_notebook
+---
+
+```{r message=FALSE, warning=FALSE, error=TRUE}
+# Load required libraries
+library(readr)
+library(dplyr)
+library(DescTools)
+```
+
+## Data Loading & Preparation
+
+In this section, we import one-bedroom apartment rental data for Brooklyn, Manhattan, and Queens from StreetEasy datasets and extract the rental prices into numeric vectors.
+
+```{r message=FALSE, warning=FALSE, error=TRUE}
+# Read in housing data
+brooklyn_one_bed <- read_csv('brooklyn-one-bed.csv')
+brooklyn_price <- brooklyn_one_bed$rent
+
+manhattan_one_bed <- read_csv('manhattan-one-bed.csv')
+manhattan_price <- manhattan_one_bed$rent
+
+queens_one_bed <- read_csv('queens-one-bed.csv')
+queens_price <- queens_one_bed$rent
+```
+
+---
+
+## Task 1: Calculate Mean Rent
+
+*Instructions: Calculate the arithmetic mean rental price for each borough and assign the values to `brooklyn_mean`, `manhattan_mean`, and `queens_mean`.*
+
+```{r error=TRUE}
+# Calculate Mean
+# Hint: Use mean(vector_name, na.rm = TRUE)
+
+brooklyn_mean <- NULL
+manhattan_mean <- NULL
+queens_mean <- NULL
+```
+
+---
+
+## Task 2: Calculate Median Rent
+
+*Instructions: Calculate the median rental price for each borough and assign the values to `brooklyn_median`, `manhattan_median`, and `queens_median`.*
+
+```{r error=TRUE}
+# Calculate Median
+# Hint: Use median(vector_name, na.rm = TRUE)
+
+brooklyn_median <- NULL
+manhattan_median <- NULL
+queens_median <- NULL
+```
+
+---
+
+## Task 3: Calculate Mode Rent
+
+*Instructions: Calculate the statistical mode for each borough using `DescTools::Mode()`. Extract the primary modal value and assign to `brooklyn_mode`, `manhattan_mode`, and `queens_mode`.*
+
+```{r error=TRUE}
+# Calculate Mode
+# Note: Base R mode() returns data storage type, NOT statistical mode!
+# Hint: Mode(vector_name)[1]
+
+brooklyn_mode <- NULL
+manhattan_mode <- NULL
+queens_mode <- NULL
+```
+
+---
+
+## Task 4: Summary Table Construction
+
+*Instructions: Build a clean summary table (tibble) compiling all three measures across all three boroughs.*
+
+```{r error=TRUE}
+# Construct a summary data frame using dplyr/tibble
+summary_table <- tibble(
+  Borough = c("Brooklyn", "Manhattan", "Queens"),
+  Mean_Rent = c(brooklyn_mean, manhattan_mean, queens_mean),
+  Median_Rent = c(brooklyn_median, manhattan_median, queens_median),
+  Mode_Rent = c(brooklyn_mode, manhattan_mode, queens_mode)
+)
+
+print(summary_table)
+```
+
+---
+
+## Validation & Verification Output
+
+```{r error=TRUE}
+# Mean Verification
+if(!is.null(brooklyn_mean) && exists('brooklyn_mean')) {
+  print(paste("The mean price in Brooklyn is $" , round(brooklyn_mean, digits=2))) 
+} else {
+  print("The mean price in Brooklyn is not yet defined.")
+}
+
+if(!is.null(manhattan_mean) && exists("manhattan_mean")) {
+  print(paste("The mean price in Manhattan is $" , round(manhattan_mean, digits=2)))
+} else {
+  print("The mean in Manhattan is not yet defined.")
+}
+
+if(!is.null(queens_mean) && exists("queens_mean")) {
+  print(paste("The mean price in Queens is $" , round(queens_mean, digits=2)))
+} else {
+  print("The mean price in Queens is not yet defined.")
+}   
+    
+# Median Verification
+if(!is.null(brooklyn_median) && exists("brooklyn_median")) {
+  print(paste("The median price in Brooklyn is $" , brooklyn_median)) 
+} else {
+  print("The median price in Brooklyn is not yet defined.")
+}
+
+if(!is.null(manhattan_median) && exists("manhattan_median")) {
+  print(paste("The median price in Manhattan is $" , manhattan_median))
+} else {
+  print("The median in Manhattan is not yet defined.")
+}
+
+if(!is.null(queens_median) && exists("queens_median")) {
+  print(paste("The median price in Queens is $" , queens_median))
+} else {
+  print("The median price in Queens is not yet defined.")
+} 
+    
+# Mode Verification
+if(!is.null(brooklyn_mode) && exists("brooklyn_mode")) {
+  print(paste("The mode price in Brooklyn is $" , brooklyn_mode)) 
+} else {
+  print("The mode price in Brooklyn is not yet defined.")
+}
+
+if(!is.null(manhattan_mode) && exists("manhattan_mode")) {
+  print(paste("The mode price in Manhattan is $" , manhattan_mode))
+} else {
+  print("The mode in Manhattan is not yet defined.")
+}
+
+if(!is.null(queens_mode) && exists("queens_mode")) {
+  print(paste("The mode price in Queens is $" , queens_mode))
+} else {
+  print("The mode price in Queens is not yet defined.")
+}
+```
