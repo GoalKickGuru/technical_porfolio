@@ -1,0 +1,20 @@
+{
+  "strategy_notebook_framework": {
+    "phase_1_ingestion_and_simulation": {
+      "action": "Generate synthetic dataset when actual logs are oversized or restricted.",
+      "implementation": "Use uniform, normal, and categorical random samples maintaining coordinate and demographic bounds."
+    },
+    "phase_2_preprocessing": {
+      "action": "Derive spatio-temporal features.",
+      "implementation": "Calculate straight-line/routed distances, compute duration derivatives (speed, pace), and transform demographic timestamps into numeric metrics."
+    },
+    "phase_3_aggregation_and_filtering": {
+      "action": "Exclude structural noise and target edge cases.",
+      "implementation": "Remove zero/negative values, filter unreasonable durations, and discard uninformative categories."
+    },
+    "phase_4_visualization_and_insights": {
+      "action": "Expose spatial patterns and cross-demographic trends.",
+      "implementation": "Deploy binning for spatial density, segmented line graphs for trends, and stacked columns for demography."
+    }
+  }
+}

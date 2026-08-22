@@ -1,0 +1,19 @@
+{
+  "project": "Urban Micro-Mobility Spatial Analysis",
+  "cheat_sheet": {
+    "data_manipulation_dplyr": {
+      "filter": "filter(df, condition) -> Subsets rows based on logical conditions",
+      "mutate": "mutate(df, new_col = expression) -> Computes and appends new variables",
+      "select": "select(df, col1, col2) -> Keeps specified columns",
+      "group_by_summarize": "df %>% group_by(cat) %>% summarize(mean_val = mean(target)) -> Calculates aggregated metrics"
+    },
+    "spatial_operations_geosphere": {
+      "distHaversine": "distHaversine(p1, p2) -> Computes shortest distance over a sphere in meters between two point matrices [lon, lat]"
+    },
+    "visualization_ggplot2": {
+      "heatmap": "ggplot(df, aes(x=lon, y=lat)) + geom_bin2d(binwidth=c(dx, dy)) -> Binned spatial intensity",
+      "lineplot": "ggplot(df, aes(x=x_var, y=y_var, color=group)) + geom_line() -> Trend visualization",
+      "bar_plot": "ggplot(df, aes(x=x_var, y=count, fill=group)) + geom_col() -> Visualizes discrete quantities"
+    }
+  }
+}

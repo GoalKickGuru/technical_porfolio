@@ -1,0 +1,132 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Solution Notebook: Extended Citi Bike Micro-Mobility Analysis"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "suppressPackageStartupMessages({\n",
+        "  library(dplyr)\n",
+        "  library(ggplot2)\n",
+        "  library(geosphere)\n",
+        "})\n",
+        "\n",
+        "set.seed(42)\n",
+        "n_obs <- 10000\n",
+        "\n",
+        "all_data <- data.frame(\n",
+        "  tripduration = runif(n_obs, min = 180, max = 3600),\n",
+        "  start.station.latitude = runif(n_obs, min = 40.7000, max = 40.8000),\n",
+        "  start.station.longitude = runif(n_obs, min = -74.0200, max = -73.9300),\n",
+        "  end.station.latitude = runif(n_obs, min = 40.7000, max = 40.8000),\n",
+        "  end.station.longitude = runif(n_obs, min = -74.0200, max = -73.9300),\n",
+        "  birth.year = sample(1950:2005, n_obs, replace = TRUE),\n",
+        "  gender = sample(c(0, 1, 2), n_obs, replace = TRUE, prob = c(0.1, 0.5, 0.4))\n",
+        ")\n",
+        "\n",
+        "head(all_data)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "ggplot(all_data, aes(x = start.station.longitude, y = start.station.latitude)) +\n",
+        "  geom_bin2d(binwidth = c(0.001, 0.001)) +\n",
+        "  scale_fill_viridis_c() +\n",
+        "  labs(title = \"Simulated NYC Citi Bike Starting Density\", x = \"Longitude\", y = \"Latitude\") +\n",
+        "  theme_minimal()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "short_trips <- all_data %>%\n",
+        "  filter(tripduration < 900) %>%\n",
+        "  mutate(age = 2020 - birth.year)\n",
+        "\n",
+        "start_coords <- short_trips %>%\n",
+        "  select(start.station.longitude, start.station.latitude)\n",
+        "\n",
+        "end_coords <- short_trips %>%\n",
+        "  select(end.station.longitude, end.station.latitude)\n",
+        "\n",
+        "short_trips <- short_trips %>%\n",
+        "  mutate(\n",
+        "    distance = distHaversine(start_coords, end_coords),\n",
+        "    speed = distance / tripduration\n",
+        "  )\n",
+        "\n",
+        "head(short_trips)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "speed_demo <- short_trips %>%\n",
+        "  group_by(age, gender) %>%\n",
+        "  summarize(mean_speed = mean(speed, na.rm = TRUE), .groups = \"drop\") %>%\n",
+        "  mutate(gender = as.factor(gender)) %>%\n",
+        "  filter(age < 80, gender %in% c(1, 2))\n",
+        "\n",
+        "ggplot(speed_demo, aes(x = age, y = mean_speed, color = gender)) +\n",
+        "  geom_line(size = 1) +\n",
+        "  geom_point() +\n",
+        "  labs(\n",
+        "    title = \"Average Speed by Age and Gender\",\n",
+        "    x = \"Age\",\n",
+        "    y = \"Speed (m/s)\",\n",
+        "    color = \"Gender\"\n",
+        "  ) +\n",
+        "  scale_color_discrete(labels = c(\"Male Identifying\", \"Female Identifying\")) +\n",
+        "  theme_minimal()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 5,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "age_counts <- short_trips %>%\n",
+        "  group_by(age, gender) %>%\n",
+        "  tally() %>%\n",
+        "  filter(age < 80, gender %in% c(1, 2))\n",
+        "\n",
+        "ggplot(age_counts, aes(x = age, y = n, fill = as.factor(gender))) +\n",
+        "  geom_col() +\n",
+        "  labs(\n",
+        "    title = \"Biker Volume by Age and Gender\",\n",
+        "    x = \"Age\",\n",
+        "    y = \"Trip Count\",\n",
+        "    fill = \"Gender\"\n",
+        "  ) +\n",
+        "  scale_fill_discrete(labels = c(\"Male Identifying\", \"Female Identifying\")) +\n",
+        "  theme_minimal()"
+      ]
+    }
+  ],
+  "metadata": {
+    "language_info": {
+      "name": "r"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 2
+}
