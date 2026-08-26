@@ -1,0 +1,7 @@
+pair,edge_score,urgency_score,lifted
+USDCRC,0.5,1.5,0
+EURUSD,1.0,1.0,0
+GBPUSD,1.5,0.5,0
+USDJPY,3.0,0.5,1
+USDMXN,2.0,2.0,1
+AUDUSD,1.0,2.5,1
