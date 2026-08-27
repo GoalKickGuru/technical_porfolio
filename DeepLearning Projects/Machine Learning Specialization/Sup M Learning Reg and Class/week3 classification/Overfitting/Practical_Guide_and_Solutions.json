@@ -1,0 +1,203 @@
+{
+  "document_type": "practical_guide_with_solutions_notebook",
+  "title": "When to Apply Overfitting Knowledge in Practice — A Decision Framework",
+  "version": "1.0",
+  "part_1_practical_guide": {
+    "overview": "Overfitting is not something you 'apply' — it's something you detect, prevent, and remediate. This guide tells you WHEN in a real ML workflow overfitting concerns arise and WHAT to do at each stage.",
+    "workflow_stages": [
+      {
+        "stage": "Data Collection",
+        "when_overfitting_matters": "Biased sampling, duplicates, and leakage-prone features create overfitting risk before modelling begins.",
+        "actions": [
+          "Ensure train/validation/test splits come from the same distribution unless simulating domain shift deliberately",
+          "Remove exact or near-duplicate rows across splits",
+          "Check for temporal leakage (future information in features)",
+          "Stratify splits for imbalanced classes"
+        ]
+      },
+      {
+        "stage": "Feature Engineering",
+        "when_overfitting_matters": "High-dimensional feature spaces (especially with few samples) dramatically increase overfitting risk.",
+        "actions": [
+          "Monitor feature-to-sample ratio (rule of thumb: keep < sqrt(n_samples) for parametric models)",
+          "Use feature selection (mutual information, recursive elimination, L1 regularisation)",
+          "Avoid target encoding without smoothing or cross-validation folds",
+          "Consider dimensionality reduction (PCA, UMAP) when features >> samples"
+        ]
+      },
+      {
+        "stage": "Model Selection & Training",
+        "when_overfitting_matters": "Choosing model capacity (depth, degree, number of trees, hidden layers) is the primary lever.",
+        "actions": [
+          "Start simple — linear/logistic baseline before complex models",
+          "Use k-fold cross-validation to estimate generalisation",
+          "Track train vs validation gap as a complexity diagnostic",
+          "Apply early stopping in iterative training (gradient boosting, neural nets)"
+        ]
+      },
+      {
+        "stage": "Hyperparameter Tuning",
+        "when_overfitting_matters": "Tuning on validation data leaks information; nested CV is needed for unbiased estimates.",
+        "actions": [
+          "Use nested cross-validation for unbiased hyperparameter selection",
+          "Set regularisation strength via grid/random/Bayesian search with CV",
+          "Keep a held-out test set untouched until final evaluation",
+          "Log all experiments to track overfitting over time"
+        ]
+      },
+      {
+        "stage": "Deployment & Monitoring",
+        "when_overfitting_matters": "Concept drift and data drift cause production models to overfit to stale training distributions.",
+        "actions": [
+          "Monitor prediction distribution shifts in production",
+          "Set up alerting when input feature distributions deviate beyond thresholds",
+          "Schedule periodic retraining with fresh data",
+          "Maintain a champion-challenger framework"
+        ]
+      }
+    ]
+  },
+  "part_2_checklist": {
+    "title": "Overfitting Remediation Checklist",
+    "sections": [
+      {
+        "phase": "Detection",
+        "items": [
+          {"check": "Train error is significantly lower than validation/test error", "priority": "must_check"},
+          {"check": "Learning curves show a persistent large gap between train and validation", "priority": "must_check"},
+          {"check": "Model performance varies wildly across CV folds (std > 10% of mean)", "priority": "should_check"},
+          {"check": "Coefficients or feature importances look unstable across folds", "priority": "should_check"},
+          {"check": "Model performs well on in-distribution test but poorly on out-of-distribution test", "priority": "should_check"},
+          {"check": "Small perturbations to training data produce very different models", "priority": "nice_to_have"}
+        ]
+      },
+      {
+        "phase": "Remediation — Data-Level",
+        "items": [
+          {"check": "Collect more training samples, especially covering underrepresented regions", "priority": "first_choice"},
+          {"check": "Remove or cap outliers that the model fits at the expense of generalisation", "priority": "recommended"},
+          {"check": "Apply data augmentation for image/text/audio tasks", "priority": "recommended"},
+          {"check": "Reduce number of features via selection or dimensionality reduction", "priority": "recommended"},
+          {"check": "Verify no train/test leakage exists", "priority": "must_check"}
+        ]
+      },
+      {
+        "phase": "Remediation — Model-Level",
+        "items": [
+          {"check": "Reduce model capacity (fewer layers, lower polynomial degree, fewer trees/estimators)", "priority": "first_choice"},
+          {"check": "Add L2 (Ridge) regularisation", "priority": "first_choice"},
+          {"check": "Add L1 (Lasso) regularisation for automatic feature selection", "priority": "recommended"},
+          {"check": "Use dropout in neural networks", "priority": "recommended"},
+          {"check": "Use batch normalisation to stabilise training", "priority": "nice_to_have"},
+          {"check": "Apply early stopping during iterative training", "priority": "recommended"},
+          {"check": "Use ensemble methods (bagging) to reduce variance", "priority": "recommended"}
+        ]
+      },
+      {
+        "phase": "Remediation — Training-Level",
+        "items": [
+          {"check": "Increase k in k-fold cross-validation (e.g., 5 → 10)", "priority": "recommended"},
+          {"check": "Use stratified k-fold for imbalanced datasets", "priority": "recommended"},
+          {"check": "Use nested CV when tuning hyperparameters", "priority": "recommended"},
+          {"check": "Implement learning rate scheduling to avoid sharp minima", "priority": "nice_to_have"},
+          {"check": "Use weight decay / L2 penalty in optimiser", "priority": "recommended"}
+        ]
+      },
+      {
+        "phase": "Final Validation",
+        "items": [
+          {"check": "Reserve a completely untouched test set for final evaluation", "priority": "must_check"},
+          {"check": "Evaluate on data from a different time period or geography if possible", "priority": "recommended"},
+          {"check": "Compare model simplicity — prefer the simpler model if performance is within 1-2%", "priority": "recommended"},
+          {"check": "Document the model card with known limitations", "priority": "should_check"}
+        ]
+      }
+    ]
+  },
+  "part_3_solutions_notebook": {
+    "notebook_metadata": {
+      "title": "Overfitting Solutions Notebook — Complete Worked Examples",
+      "format": "json_cells",
+      "total_cells": 10,
+      "python_version": "3.10+",
+      "dependencies": ["numpy", "matplotlib", "scikit-learn"]
+    },
+    "cells": [
+      {
+        "cell_index": 0,
+        "type": "markdown",
+        "content": "# Overfitting Solutions — Complete Worked Notebook\n\nThis notebook demonstrates all four canonical solutions to overfitting on a single synthetic dataset so you can compare them side by side."
+      },
+      {
+        "cell_index": 1,
+        "type": "code",
+        "source": "import numpy as np\nimport matplotlib.pyplot as plt\nfrom sklearn.preprocessing import PolynomialFeatures\nfrom sklearn.linear_model import LinearRegression, Ridge, Lasso\nfrom sklearn.pipeline import Pipeline\nfrom sklearn.model_selection import train_test_split, learning_curve, cross_val_score\nfrom sklearn.metrics import mean_squared_error\n\nnp.random.seed(42)\nplt.rcParams['figure.figsize'] = (8, 4)\n\n# --- Generate data ---\ndef true_fn(x):\n    return 0.3 * x**3 - x**2 + 2*x - 1\n\nn = 50\nX = np.sort(np.random.uniform(-5, 5, n)).reshape(-1, 1)\ny = true_fn(X.ravel()) + np.random.normal(0, 3, n)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)\n\nplt.scatter(X_train, y_train, alpha=0.6, label='Train')\nplt.scatter(X_test, y_test, marker='^', alpha=0.6, label='Test')\nxs = np.linspace(-5, 5, 300)\nplt.plot(xs, true_fn(xs), 'g--', label='True function')\nplt.xlabel('x'); plt.ylabel('y'); plt.legend()\nplt.title('Dataset')\nplt.show()"
+      },
+      {
+        "cell_index": 2,
+        "type": "markdown",
+        "content": "## Baseline: Unregularised Polynomial Regression (Overfitting)\nWe deliberately use degree 15 to create severe overfitting."
+      },
+      {
+        "cell_index": 3,
+        "type": "code",
+        "source": "OVERFIT_DEG = 15\n\noverfit_model = Pipeline([\n    ('poly', PolynomialFeatures(degree=OVERFIT_DEG)),\n    ('lr', LinearRegression())\n])\noverfit_model.fit(X_train, y_train)\n\ntrain_mse_of = mean_squared_error(y_train, overfit_model.predict(X_train))\ntest_mse_of = mean_squared_error(y_test, overfit_model.predict(X_test))\nprint(f'[Overfit Model] Train MSE: {train_mse_of:.3f} | Test MSE: {test_mse_of:.3f} | Gap: {test_mse_of - train_mse_of:.3f}')\n\n# Plot\nplt.scatter(X_train, y_train, alpha=0.5, label='Train')\nplt.plot(xs, overfit_model.predict(xs.reshape(-1,1)), 'r-', label=f'Degree {OVERFIT_DEG}')\nplt.plot(xs, true_fn(xs), 'g--', label='True')\nplt.ylim(min(y)-5, max(y)+5); plt.legend()\nplt.title('Overfitting Baseline')\nplt.show()"
+      },
+      {
+        "cell_index": 4,
+        "type": "markdown",
+        "content": "## Solution 1: Reduce Model Complexity\nSimply picking degree 3 (matching the true cubic) eliminates overfitting."
+      },
+      {
+        "cell_index": 5,
+        "type": "code",
+        "source": "GOOD_DEG = 3\nsimple_model = Pipeline([\n    ('poly', PolynomialFeatures(degree=GOOD_DEG)),\n    ('lr', LinearRegression())\n])\nsimple_model.fit(X_train, y_train)\n\ntrain_mse_simple = mean_squared_error(y_train, simple_model.predict(X_train))\ntest_mse_simple = mean_squared_error(y_test, simple_model.predict(X_test))\nprint(f'[Simple Model] Train MSE: {train_mse_simple:.3f} | Test MSE: {test_mse_simple:.3f} | Gap: {test_mse_simple - train_mse_simple:.3f}')"
+      },
+      {
+        "cell_index": 6,
+        "type": "markdown",
+        "content": "## Solution 2: L2 Regularisation (Ridge)\nKeep degree 15 but penalise large coefficients."
+      },
+      {
+        "cell_index": 7,
+        "type": "code",
+        "source": "from sklearn.linear_model import RidgeCV\n\nalphas = [0.001, 0.01, 0.1, 1, 10, 100, 1000]\nridge_model = Pipeline([\n    ('poly', PolynomialFeatures(degree=OVERFIT_DEG)),\n    ('ridge', RidgeCV(alphas=alphas, cv=5))\n])\nridge_model.fit(X_train, y_train)\n\ntrain_mse_ridge = mean_squared_error(y_train, ridge_model.predict(X_train))\ntest_mse_ridge = mean_squared_error(y_test, ridge_model.predict(X_test))\nbest_alpha = ridge_model.named_steps['ridge'].alpha_\nprint(f'[Ridge] alpha={best_alpha} | Train MSE: {train_mse_ridge:.3f} | Test MSE: {test_mse_ridge:.3f} | Gap: {test_mse_ridge - train_mse_ridge:.3f}')"
+      },
+      {
+        "cell_index": 8,
+        "type": "markdown",
+        "content": "## Solution 3: L1 Regularisation (Lasso)\nLasso can drive high-degree coefficients to exactly zero, performing implicit feature selection."
+      },
+      {
+        "cell_index": 9,
+        "type": "code",
+        "source": "from sklearn.linear_model import LassoCV\n\nlasso_model = Pipeline([\n    ('poly', PolynomialFeatures(degree=OVERFIT_DEG)),\n    ('lasso', LassoCV(alphas=alphas, cv=5, max_iter=50000))\n])\nlasso_model.fit(X_train, y_train)\n\ntrain_mse_lasso = mean_squared_error(y_train, lasso_model.predict(X_train))\ntest_mse_lasso = mean_squared_error(y_test, lasso_model.predict(X_test))\nbest_alpha_l = lasso_model.named_steps['lasso'].alpha_\nnonzero_coefs = np.sum(lasso_model.named_steps['lasso'].coef_ != 0)\ntotal_coefs = len(lasso_model.named_steps['lasso'].coef_)\nprint(f'[Lasso] alpha={best_alpha_l} | Train MSE: {train_mse_lasso:.3f} | Test MSE: {test_mse_lasso:.3f} | Gap: {test_mse_lasso - train_mse_lasso:.3f}')\nprint(f'[Lasso] Non-zero coefficients: {nonzero_coefs}/{total_coefs} (implicit feature selection)')"
+      },
+      {
+        "cell_index": 10,
+        "type": "markdown",
+        "content": "## Solution 4: More Data\nWe simulate collecting more data and show validation MSE improving for the overfitting model."
+      },
+      {
+        "cell_index": 11,
+        "type": "code",
+        "source": "sample_sizes = [20, 50, 100, 200, 500, 1000]\ntest_mses_by_n = []\n\nfor sz in sample_sizes:\n    X_big = np.sort(np.random.uniform(-5, 5, sz)).reshape(-1, 1)\n    y_big = true_fn(X_big.ravel()) + np.random.normal(0, 3, sz)\n    X_tr, X_te, y_tr, y_te = train_test_split(X_big, y_big, test_size=0.3, random_state=42)\n    m = Pipeline([('poly', PolynomialFeatures(degree=OVERFIT_DEG)),\n                  ('lr', LinearRegression())])\n    m.fit(X_tr, y_tr)\n    test_mses_by_n.append(mean_squared_error(y_te, m.predict(X_te)))\n\nplt.plot(sample_sizes, test_mses_by_n, 'mo-')\nplt.xscale('log'); plt.xlabel('Training Samples'); plt.ylabel('Test MSE')\nplt.title(f'More Data Reduces Overfitting (Degree {OVERFIT_DEG})')\nplt.show()"
+      },
+      {
+        "cell_index": 12,
+        "type": "markdown",
+        "content": "## Comparison Summary"
+      },
+      {
+        "cell_index": 13,
+        "type": "code",
+        "source": "results = {\n    'Overfit (deg 15)':           {'train': train_mse_of,     'test': test_mse_of},\n    'Reduce complexity (deg 3)':  {'train': train_mse_simple, 'test': test_mse_simple},\n    'Ridge (deg 15)':            {'train': train_mse_ridge,  'test': test_mse_ridge},\n    'Lasso (deg 15)':            {'train': train_mse_lasso,  'test': test_mse_lasso},\n}\n\nprint(f'{\"Method\":<28} {\"Train MSE\":>10} {\"Test MSE\":>10} {\"Gap\":>10}')\nprint('-' * 62)\nfor name, m in results.items():\n    gap = m['test'] - m['train']\n    print(f'{name:<28} {m[\"train\"]:>10.3f} {m[\"test\"]:>10.3f} {gap:>10.3f}')\n\n# Bar chart\nnames = list(results.keys())\ntest_vals = [v['test'] for v in results.values()]\ntrain_vals = [v['train'] for v in results.values()]\nx = np.arange(len(names))\nplt.bar(x - 0.15, train_vals, 0.3, label='Train')\nplt.bar(x + 0.15, test_vals, 0.3, label='Test')\nplt.xticks(x, names, rotation=20, ha='right')\nplt.ylabel('MSE'); plt.legend()\nplt.title('Overfitting Solutions Comparison')\nplt.tight_layout(); plt.show()"
+      },
+      {
+        "cell_index": 14,
+        "type": "markdown",
+        "content": "## Key Takeaways\n\n1. **Reducing complexity** is the cheapest fix — if you know the right capacity, use it.\n2. **Ridge (L2)** shrinks all coefficients smoothly; great when many features are weakly relevant.\n3. **Lasso (L1)** zeroes out irrelevant features entirely; great for interpretability and sparse models.\n4. **More data** is the most general remedy but also the most expensive; it helps high-variance models converge toward the true function.\n5. **The gap between train and test MSE** is your primary diagnostic — always report both."
+      }
+    ]
+  }
+}
