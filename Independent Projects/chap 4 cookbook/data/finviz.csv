@@ -1,0 +1,1102 @@
+No.,Ticker,Company,Sector,Industry,Country,Market Cap,P/E,PEG,P/S,P/B,Price,Volume,EPS (ttm),EPS growth next year,EPS growth next 5 years,Total Debt/Equity,Beta,Institutional Ownership,RSI
+1,AVD,American Vanguard Corp.,Basic Materials,Chemicals,USA,2301002.26,14.05,1.25,0.86,1.57,25.43,"2,097,170",1.12,5.29%,10.08%,0.27,1.22,22.77%,46.01
+2,MOS,The Mosaic Company,Basic Materials,Gold,USA,62216.78,11.44,0.83,1.57,1.27,46.74,"1,693,764",1.50,13.29%,15.64%,0.18,0.63,10.35%,57.45
+3,CE,Celanese Corporation,Basic Materials,Oil & Gas Drilling,USA,1159472.11,9.70,0.88,0.95,1.50,55.01,"1,815,232",2.86,7.65%,12.84%,0.70,0.56,10.73%,30.89
+4,ASH,Ashland Inc.,Basic Materials,Steel,USA,1482333.24,8.70,1.10,1.07,0.90,77.00,"544,850",4.01,7.89%,9.58%,0.58,1.26,11.65%,52.27
+5,ACET,Aceto Corp.,Basic Materials,Agricultural Chemicals,USA,1289964.29,11.95,0.99,1.14,1.66,31.49,"1,432,561",2.51,17.96%,8.28%,0.30,1.05,12.64%,14.83
+6,DOW,The Dow Chemical Company,Basic Materials,Chemicals,USA,8463953.85,8.37,1.33,0.72,1.04,37.86,"2,268,423",5.31,7.33%,5.35%,0.35,0.82,18.58%,51.90
+7,SQM,Chemical & Mining Co. of Chile Inc.,Basic Materials,Gold,Chile,4321862.15,14.78,1.10,1.20,1.15,30.99,"701,148",5.57,11.84%,5.96%,0.76,1.19,22.32%,60.69
+8,FF,FutureFuel Corp.,Basic Materials,Oil & Gas Drilling,USA,804419.00,13.36,1.12,0.87,0.87,38.32,"1,428,936",5.87,11.50%,14.95%,0.40,1.11,20.32%,69.04
+9,AJ,AJ Corp.,Basic Materials,Steel,USA,2575799.98,28.55,2.80,1.13,1.47,109.42,"83,388",-1.22,-4.15%,11.60%,0.21,0.70,55.63%,90.28
+10,AK,AK Corp.,Basic Materials,Agricultural Chemicals,USA,872316.90,,2.40,1.88,3.82,26.31,"79,339",-0.31,-13.21%,5.09%,1.00,1.15,12.75%,76.68
+11,AL,AL Corp.,Basic Materials,Chemicals,USA,4913417.15,29.95,1.01,5.79,4.32,35.31,"22,063",0.47,28.12%,10.08%,1.40,1.49,39.41%,54.31
+12,AM,AM Holdings Inc.,Basic Materials,Gold,USA,8023080.10,32.09,0.68,1.58,4.87,18.08,"28,955",0.06,11.03%,10.50%,0.35,2.01,48.16%,58.19
+13,AN,AN Holdings Inc.,Basic Materials,Oil & Gas Drilling,USA,2128655.98,20.65,1.13,7.04,1.93,14.90,"1,005,311",1.38,13.28%,28.16%,0.22,1.88,43.84%,48.68
+14,AO,AO Holdings Inc.,Basic Materials,Steel,USA,393195.72,19.15,,6.90,0.95,13.42,"673,621",6.12,8.14%,-0.80%,0.76,1.14,21.08%,53.77
+15,AP,AP Corp.,Basic Materials,Agricultural Chemicals,USA,1917376.91,7.52,2.34,,1.75,133.70,"27,060",3.06,-0.71%,6.09%,1.07,1.70,36.42%,59.72
+16,AQ,AQ Corp.,Basic Materials,Chemicals,USA,326698.79,29.72,1.59,1.89,4.90,10.81,"17,882",6.58,8.29%,17.50%,0.44,1.20,17.88%,66.91
+17,AR,AR Corp.,Basic Materials,Gold,USA,3975870.03,34.00,1.18,2.19,0.62,64.36,"37,483",8.07,16.59%,24.94%,0.41,1.14,36.04%,68.16
+18,AS,AS Holdings Inc.,Basic Materials,Oil & Gas Drilling,USA,11151898.67,26.10,4.36,,2.16,74.88,"100,080",3.43,-3.58%,15.71%,1.61,1.00,49.67%,58.41
+19,AT,AT Corp.,Basic Materials,Steel,USA,8945628.34,14.38,7.05,2.92,,29.05,"121,475",8.35,6.45%,20.74%,0.20,1.40,56.97%,25.22
+20,AU,AU Holdings Inc.,Basic Materials,Agricultural Chemicals,USA,15987696.72,10.64,5.40,5.02,1.77,55.91,"86,544",2.03,25.33%,-7.54%,0.36,1.05,43.10%,29.61
+21,AV,AV Corp.,Basic Materials,Chemicals,USA,21343556.89,11.85,1.10,1.78,2.81,46.04,"552,425",8.95,22.37%,11.83%,0.27,0.93,49.24%,27.77
+22,AW,AW Holdings Inc.,Basic Materials,Gold,USA,1051801.11,50.27,1.88,6.88,0.98,24.36,"122,178",-3.05,7.22%,14.22%,0.54,0.15,37.96%,50.95
+23,AX,AX Corp.,Basic Materials,Oil & Gas Drilling,USA,1032951.37,,6.18,1.76,1.80,18.36,"30,683",0.88,-12.08%,7.89%,0.57,0.15,35.53%,63.92
+24,AY,AY Holdings Inc.,Basic Materials,Steel,USA,1497462.51,18.91,0.45,,5.84,41.70,"29,578",4.24,12.36%,43.87%,1.20,0.99,31.22%,39.34
+25,AZ,AZ Corp.,Basic Materials,Agricultural Chemicals,USA,8533751.45,35.73,1.07,2.19,11.23,95.70,"30,442",5.65,27.54%,-4.41%,0.14,1.47,36.63%,45.59
+26,BA,BA Holdings Inc.,Basic Materials,Chemicals,USA,277681.91,22.60,1.09,2.66,2.32,19.80,"25,120",0.55,18.58%,15.51%,0.28,1.09,38.18%,41.34
+27,BB,BB Holdings Inc.,Basic Materials,Gold,USA,2201098.59,22.59,0.72,,1.14,7.97,"82,880",3.26,-0.43%,18.36%,1.19,1.40,9.79%,54.38
+28,BC,BC Corp.,Basic Materials,Oil & Gas Drilling,USA,9732064.05,26.49,1.41,1.56,1.81,88.32,"115,577",5.19,3.44%,23.21%,0.41,0.15,13.12%,40.19
+29,BD,BD Corp.,Basic Materials,Steel,USA,4689967.04,6.52,1.06,2.69,2.67,50.29,"128,392",4.22,21.52%,10.90%,0.39,1.23,28.53%,73.14
+30,BE,BE Corp.,Basic Materials,Agricultural Chemicals,USA,18925434.28,18.97,1.00,1.61,3.07,50.28,"85,233",3.72,34.28%,1.49%,0.23,0.25,58.31%,89.01
+31,BF,BF Corp.,Basic Materials,Chemicals,USA,4208345.61,24.88,2.09,0.99,1.00,38.73,"2,838",8.44,43.54%,15.76%,0.36,0.99,63.48%,63.93
+32,BG,BG Holdings Inc.,Basic Materials,Gold,USA,6140453.01,18.29,4.90,1.83,0.90,43.25,"74,570",1.66,17.75%,30.34%,1.21,0.93,19.14%,54.22
+33,BH,BH Holdings Inc.,Basic Materials,Oil & Gas Drilling,USA,4086676.98,20.32,8.41,1.01,5.92,31.32,"24,791",-6.11,12.06%,7.20%,0.50,1.29,71.74%,58.79
+34,BI,BI Holdings Inc.,Basic Materials,Steel,USA,15821279.56,32.72,0.91,1.52,3.30,27.61,"35,178",4.68,14.22%,6.03%,1.24,0.56,74.48%,76.71
+35,BJ,BJ Corp.,Basic Materials,Agricultural Chemicals,USA,280390.35,10.14,2.83,0.82,5.40,15.92,"84,216",-4.54,21.61%,9.66%,0.43,1.66,60.11%,33.96
+36,BK,BK Corp.,Basic Materials,Chemicals,USA,1032376.96,38.75,2.39,2.63,4.55,40.84,"20,079",-3.49,-9.91%,3.13%,0.56,1.28,46.89%,60.13
+37,BL,BL Corp.,Basic Materials,Gold,USA,251054.10,39.27,,1.78,2.55,12.99,"68,447",2.97,7.93%,2.75%,0.17,1.49,28.88%,79.65
+38,BM,BM Corp.,Basic Materials,Oil & Gas Drilling,USA,338111.65,31.15,,3.40,0.86,20.00,"66,288",2.16,16.69%,11.95%,0.22,1.22,32.37%,66.87
+39,BN,BN Holdings Inc.,Basic Materials,Steel,USA,2343415.53,24.66,2.94,2.42,3.21,37.26,"4,907",1.72,1.48%,19.75%,0.21,1.28,11.61%,57.78
+40,BO,BO Corp.,Basic Materials,Agricultural Chemicals,USA,2621031.71,25.48,3.07,2.33,4.80,59.06,"11,134",0.74,27.73%,35.29%,0.43,0.85,72.29%,63.11
+41,BP,BP Holdings Inc.,Basic Materials,Chemicals,USA,977546.70,14.42,0.56,0.94,1.20,12.71,"30,576",4.58,40.34%,2.70%,1.24,1.78,12.06%,59.78
+42,BQ,BQ Corp.,Basic Materials,Gold,USA,1348322.06,48.05,1.28,1.23,3.26,23.80,"10,603",7.35,33.14%,3.26%,0.42,1.18,56.68%,53.47
+43,BR,BR Holdings Inc.,Basic Materials,Oil & Gas Drilling,USA,14316145.62,59.03,2.73,1.05,0.25,26.34,"242,904",-0.38,-14.95%,15.09%,0.65,1.19,47.18%,59.03
+44,BS,BS Corp.,Basic Materials,Steel,USA,17933145.54,20.07,1.97,5.12,1.41,85.17,"63,996",3.01,8.65%,-4.96%,0.93,1.34,65.17%,46.38
+45,BT,BT Holdings Inc.,Basic Materials,Agricultural Chemicals,USA,1261432.92,24.38,,2.93,2.13,42.60,"41,394",1.11,1.28%,11.41%,0.71,0.81,70.60%,28.19
+46,BU,BU Corp.,Basic Materials,Chemicals,USA,22617973.24,12.55,2.75,2.61,1.66,23.63,"12,680",4.48,6.61%,30.31%,0.26,0.36,17.88%,49.11
+47,BV,BV Corp.,Basic Materials,Gold,USA,469877.48,40.67,2.12,1.87,3.80,25.39,"71,682",4.71,25.49%,15.41%,0.27,1.03,55.80%,41.63
+48,BW,BW Corp.,Basic Materials,Oil & Gas Drilling,USA,4192308.51,17.21,0.58,1.60,0.50,41.24,"17,992",-0.69,7.33%,9.96%,0.24,1.73,65.32%,52.53
+49,BX,BX Corp.,Basic Materials,Steel,USA,11776216.57,31.30,,1.61,,103.97,"276,565",-0.16,33.37%,13.94%,0.72,1.36,17.96%,53.60
+50,BY,BY Corp.,Basic Materials,Agricultural Chemicals,USA,1214042.25,57.16,2.03,1.39,1.75,72.52,"51,004",4.07,-0.03%,9.73%,2.46,1.83,63.00%,59.90
+51,BZ,BZ Corp.,Basic Materials,Chemicals,USA,8129615.51,31.41,0.59,1.17,0.87,36.42,"28,005",8.81,-14.86%,3.70%,0.96,1.13,66.56%,57.62
+52,CA,CA Holdings Inc.,Basic Materials,Gold,USA,1822098.63,29.67,1.44,3.78,0.38,21.70,"8,273",-1.74,24.25%,4.86%,0.70,1.03,79.58%,55.56
+53,CB,CB Holdings Inc.,Basic Materials,Oil & Gas Drilling,USA,14612412.47,35.12,2.99,5.18,5.29,83.21,"74,087",2.11,3.42%,3.94%,0.57,0.74,51.61%,43.76
+54,CC,CC Corp.,Basic Materials,Steel,USA,21767281.76,38.09,,9.49,2.19,37.91,"96,910",4.36,-6.75%,3.14%,2.10,0.96,41.98%,80.05
+55,CD,CD Holdings Inc.,Basic Materials,Agricultural Chemicals,USA,23154907.10,42.26,0.94,,1.45,61.87,"162,418",3.35,22.07%,7.22%,0.70,1.70,42.41%,66.66
+56,CE,CE Holdings Inc.,Basic Materials,Chemicals,USA,125202091.72,20.26,1.94,1.95,2.42,43.48,"2,210",-0.77,-22.15%,2.97%,0.22,1.79,86.30%,42.44
+57,CF,CF Corp.,Basic Materials,Gold,USA,116163.41,8.90,7.28,,3.73,9.52,"30,809",4.24,4.46%,14.31%,0.48,1.30,51.93%,65.59
+58,CG,CG Corp.,Basic Materials,Oil & Gas Drilling,USA,10794886.60,12.77,3.17,1.11,2.07,36.36,"86,787",0.48,12.48%,-7.52%,0.75,1.04,55.80%,52.89
+59,CH,CH Holdings Inc.,Basic Materials,Steel,USA,2589490.77,22.50,2.43,0.89,5.07,28.01,"26,137",1.44,19.24%,3.84%,1.97,0.68,53.93%,59.34
+60,CI,CI Holdings Inc.,Basic Materials,Agricultural Chemicals,USA,2042846.74,22.54,1.65,4.32,10.10,37.94,"76,704",-0.17,30.95%,28.45%,0.37,1.31,77.07%,42.04
+61,CJ,CJ Corp.,Basic Materials,Chemicals,USA,26015899.57,9.35,2.38,9.69,1.12,32.17,"47,596",-1.55,4.35%,29.00%,0.59,0.74,15.90%,74.17
+62,CK,CK Corp.,Basic Materials,Gold,USA,96858.00,12.06,1.49,5.14,2.63,10.86,"15,604",2.83,5.87%,17.79%,1.07,0.70,15.14%,61.91
+63,CL,CL Corp.,Basic Materials,Oil & Gas Drilling,USA,3950726.91,86.68,,2.20,1.87,36.14,"92,845",3.88,15.96%,16.60%,0.39,0.94,21.17%,52.71
+64,CM,CM Corp.,Basic Materials,Steel,USA,10006627.89,21.70,2.94,5.82,3.45,31.31,"13,445",0.45,5.38%,10.62%,0.80,1.02,90.33%,56.11
+65,CN,CN Holdings Inc.,Basic Materials,Agricultural Chemicals,USA,6449347.64,43.01,1.19,2.11,1.66,85.11,"292,177",1.09,8.22%,1.98%,0.19,1.46,22.51%,50.20
+66,CO,CO Holdings Inc.,Basic Materials,Chemicals,USA,15212169.85,,2.84,1.47,0.45,11.22,"57,404",-2.33,10.57%,9.83%,0.83,1.10,36.90%,51.44
+67,CP,CP Holdings Inc.,Basic Materials,Gold,USA,1586405.83,9.06,2.14,2.54,,9.65,"79,838",-1.19,6.76%,20.13%,1.48,1.60,32.62%,35.32
+68,CQ,CQ Corp.,Basic Materials,Oil & Gas Drilling,USA,240148053.97,18.00,2.01,0.86,1.28,98.24,"138,447",6.19,18.07%,20.96%,0.32,0.41,57.04%,39.04
+69,CR,CR Corp.,Basic Materials,Steel,USA,427328.74,36.65,4.31,7.75,3.90,16.66,"58,082",4.30,-0.33%,-4.09%,0.16,0.17,45.44%,54.95
+70,CS,CS Corp.,Basic Materials,Agricultural Chemicals,USA,230925312.49,20.07,2.13,1.85,6.82,53.55,"102,442",2.98,-10.16%,14.40%,0.35,0.81,40.97%,62.13
+71,CT,CT Corp.,Basic Materials,Chemicals,USA,918030.03,8.35,,4.13,1.60,41.26,"560,584",3.93,26.03%,5.35%,0.66,0.42,32.29%,55.89
+72,CU,CU Holdings Inc.,Basic Materials,Gold,USA,3727396.57,32.73,1.44,7.37,1.85,11.78,"306,719",-2.48,25.68%,3.93%,3.30,0.80,21.85%,78.41
+73,CV,CV Holdings Inc.,Basic Materials,Oil & Gas Drilling,USA,31518007.79,16.25,3.52,1.40,4.44,48.41,"105,485",4.58,-3.81%,8.51%,0.77,0.44,33.78%,47.11
+74,CW,CW Holdings Inc.,Basic Materials,Steel,USA,75249.00,62.03,,,1.16,21.49,"14,215",2.85,-16.76%,13.55%,0.50,0.84,14.72%,57.62
+75,CX,CX Holdings Inc.,Basic Materials,Agricultural Chemicals,USA,4422289.36,58.31,3.09,3.79,3.02,26.45,"71,709",-1.11,-5.67%,0.18%,0.71,0.95,35.32%,44.63
+76,CY,CY Holdings Inc.,Basic Materials,Chemicals,USA,590703.05,32.99,,2.31,3.36,11.56,"26,149",4.94,-9.56%,13.23%,0.21,1.26,49.47%,47.59
+77,CZ,CZ Holdings Inc.,Basic Materials,Gold,USA,2031049.59,41.38,1.51,2.45,3.07,31.38,"67,343",8.20,1.72%,32.11%,1.90,0.58,24.79%,42.94
+78,DA,DA Holdings Inc.,Basic Materials,Oil & Gas Drilling,Canada,958153.44,16.87,1.02,2.40,6.90,42.42,"85,697",1.47,-13.88%,19.71%,0.52,0.97,66.61%,59.08
+79,DB,DB Corp.,Basic Materials,Steel,Canada,3028394.87,15.23,3.67,3.20,3.95,53.80,"14,350",1.79,19.67%,5.29%,0.46,1.27,35.07%,49.21
+80,DC,DC Corp.,Basic Materials,Agricultural Chemicals,Canada,25553824.24,22.30,4.20,2.08,3.22,31.46,"92,581",1.80,21.80%,23.06%,3.37,1.31,55.78%,60.35
+81,DD,DD Holdings Inc.,Basic Materials,Chemicals,Canada,1953426.02,41.18,1.63,5.49,2.26,12.69,"406,437",-4.77,0.09%,5.48%,0.35,0.15,34.81%,50.56
+82,DE,DE Holdings Inc.,Basic Materials,Gold,Canada,8271019.97,11.50,3.67,1.59,2.74,29.89,"119,477",5.19,-10.84%,11.39%,2.14,0.60,17.15%,33.57
+83,DF,DF Holdings Inc.,Basic Materials,Oil & Gas Drilling,Canada,20215685.30,40.50,2.12,3.47,1.28,43.46,"113,979",2.88,11.54%,9.30%,0.48,0.63,29.01%,54.74
+84,DG,DG Holdings Inc.,Basic Materials,Steel,Canada,12067686.47,,5.42,1.88,1.91,18.19,"80,666",-0.97,-6.95%,20.45%,1.82,1.00,33.86%,45.46
+85,DH,DH Holdings Inc.,Basic Materials,Agricultural Chemicals,Canada,1413511.40,25.08,2.11,3.45,3.67,13.47,"76,284",11.00,20.40%,12.53%,2.40,0.55,35.98%,38.48
+86,DI,DI Corp.,Basic Materials,Chemicals,UK,245437.57,23.54,,2.27,7.22,4.45,"47,434",0.44,7.48%,5.28%,0.34,0.42,50.05%,42.63
+87,DJ,DJ Holdings Inc.,Basic Materials,Gold,UK,16645817.69,45.98,,1.94,1.45,34.30,"623,967",1.78,7.74%,21.84%,0.42,0.76,39.74%,62.81
+88,DK,DK Corp.,Basic Materials,Oil & Gas Drilling,UK,2699000.15,16.87,1.97,6.80,4.30,17.98,"63,702",1.72,-5.82%,8.56%,0.58,0.95,16.19%,68.20
+89,DL,DL Corp.,Basic Materials,Steel,UK,1972518.24,25.01,,3.44,2.49,45.92,"25,753",0.02,45.49%,4.66%,0.14,1.38,35.77%,77.76
+90,DM,DM Corp.,Basic Materials,Agricultural Chemicals,UK,10682481.66,47.32,1.55,2.69,2.84,11.88,"457,911",6.57,-15.27%,21.36%,1.21,0.56,44.90%,45.98
+91,DN,DN Holdings Inc.,Conglomerates,Conglomerates,China,377701.70,19.61,3.50,0.96,0.83,26.90,"44,066",6.47,7.36%,-2.61%,0.55,0.84,31.06%,36.63
+92,DO,DO Corp.,Conglomerates,Conglomerates,China,2053506.83,32.28,1.47,5.00,3.05,31.42,"24,272",-2.63,-7.77%,-3.13%,0.61,1.83,71.81%,69.19
+93,DP,DP Holdings Inc.,Conglomerates,Conglomerates,China,7481517.50,16.97,1.87,3.11,4.48,36.14,"102,466",-3.44,12.09%,19.89%,2.17,1.56,49.77%,30.66
+94,DQ,DQ Corp.,Conglomerates,Conglomerates,China,1337827009.15,26.06,1.42,2.66,1.92,154.53,"3,677",3.61,7.59%,22.39%,0.53,0.25,49.10%,41.85
+95,DR,DR Corp.,Conglomerates,Conglomerates,Chile,22513202.23,24.87,3.68,1.74,3.14,90.52,"24,784",7.17,24.32%,7.75%,0.50,1.50,21.27%,48.62
+96,DS,DS Corp.,Conglomerates,Conglomerates,Chile,343627.22,,1.05,1.36,1.69,19.78,"70,711",5.14,13.90%,3.47%,0.90,1.58,41.51%,40.52
+97,DT,DT Holdings Inc.,Conglomerates,Conglomerates,Chile,2532134.29,,1.50,0.58,2.76,12.05,"79,531",-2.74,-2.68%,1.54%,0.28,1.42,59.86%,50.14
+98,DU,DU Holdings Inc.,Conglomerates,Conglomerates,Switzerland,25769601.55,10.71,,4.44,9.95,113.76,"70,310",-1.73,19.81%,16.15%,0.65,1.67,17.84%,26.33
+99,DV,DV Holdings Inc.,Conglomerates,Conglomerates,Switzerland,2468693.09,,3.53,2.20,,20.14,"240,688",5.04,-4.14%,2.76%,0.44,0.44,15.43%,42.71
+100,DW,DW Holdings Inc.,Conglomerates,Conglomerates,USA,202597.21,20.79,,8.81,6.65,54.95,"61,391",-1.85,10.68%,10.75%,0.26,1.53,45.41%,57.71
+101,DX,DX Holdings Inc.,Conglomerates,Conglomerates,USA,26275175.07,16.25,0.87,1.54,2.18,41.52,"21,643",4.39,-7.94%,21.43%,0.52,1.35,27.91%,46.15
+102,DY,DY Corp.,Conglomerates,Conglomerates,USA,33923661.70,,,1.98,1.36,16.80,"68,985",-2.12,-13.35%,-2.47%,0.47,0.15,86.61%,59.53
+103,DZ,DZ Holdings Inc.,Conglomerates,Conglomerates,USA,9701379.98,32.61,,2.99,2.43,48.22,"93,216",1.27,-0.03%,11.12%,1.63,0.49,8.76%,33.08
+104,EA,EA Holdings Inc.,Conglomerates,Conglomerates,USA,7759432.48,49.92,1.42,1.94,,34.68,"528,708",-0.15,15.52%,10.57%,0.48,0.76,34.02%,57.51
+105,EB,EB Corp.,Conglomerates,Conglomerates,USA,27123627.00,52.48,0.98,1.25,1.06,31.07,"56,809",1.38,10.12%,0.81%,2.37,0.33,48.87%,55.14
+106,EC,EC Holdings Inc.,Conglomerates,Conglomerates,USA,1183741.59,51.13,1.60,0.93,3.21,7.80,"32,415",3.59,8.67%,13.65%,0.41,0.32,23.84%,59.68
+107,ED,ED Corp.,Conglomerates,Conglomerates,USA,8465410.49,15.46,2.41,7.78,2.12,62.97,"39,679",7.15,12.98%,6.56%,0.55,0.49,41.57%,62.00
+108,EE,EE Holdings Inc.,Conglomerates,Conglomerates,USA,38311790.44,19.21,1.14,0.73,1.00,198.02,"76,542",-2.73,24.69%,3.49%,0.73,0.34,76.58%,30.63
+109,EF,EF Holdings Inc.,Consumer Goods,Electronic Equipment,USA,5926361.99,23.32,2.56,8.78,0.87,31.23,"1,908",1.79,20.90%,8.60%,1.58,0.40,45.68%,37.63
+110,EG,EG Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,5275862.76,27.48,3.35,3.69,1.29,49.95,"230,677",3.75,17.66%,-18.14%,0.33,0.59,28.84%,69.04
+111,EH,EH Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,1749012.61,42.43,1.00,1.59,3.24,84.25,"181,794",0.49,27.91%,29.13%,1.09,1.09,19.50%,44.03
+112,EI,EI Corp.,Consumer Goods,Beverages,USA,45946058.58,12.71,1.84,1.13,0.53,79.24,"13,212",2.90,19.43%,9.18%,1.18,1.47,23.39%,33.81
+113,EJ,EJ Corp.,Consumer Goods,Electronic Equipment,USA,5377174.18,21.93,2.69,1.02,,72.73,"145,630",-2.46,3.00%,19.79%,0.82,1.28,20.55%,52.56
+114,EK,EK Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,420243.95,40.22,0.92,1.08,3.07,7.16,"59,149",4.99,8.98%,2.96%,0.27,0.55,78.96%,42.41
+115,EL,EL Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,3190953.97,11.90,3.78,1.97,1.68,72.42,"52,967",1.25,-10.56%,5.45%,0.66,0.62,39.66%,53.08
+116,EM,EM Holdings Inc.,Consumer Goods,Beverages,USA,1327123.33,38.88,0.93,0.69,1.40,70.19,"302,291",0.28,9.23%,14.36%,0.52,1.13,53.71%,68.66
+117,EN,EN Holdings Inc.,Consumer Goods,Electronic Equipment,USA,8420965.11,38.50,2.12,3.24,2.99,72.10,"70,758",1.67,7.39%,-6.84%,0.79,1.31,42.22%,57.89
+118,EO,EO Corp.,Consumer Goods,Food - Major Diversified,USA,50972639.10,,0.69,1.62,7.14,42.63,"47,996",0.82,19.31%,-0.71%,0.71,1.31,37.44%,75.87
+119,EP,EP Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,73692230.53,28.96,2.39,2.32,3.89,76.05,"52,933",-0.04,8.53%,17.52%,0.48,1.53,60.81%,48.23
+120,EQ,EQ Corp.,Consumer Goods,Beverages,USA,3913372.61,,0.68,0.53,3.41,13.19,"36,706",2.99,-1.67%,10.05%,0.96,1.04,47.64%,42.21
+121,ER,ER Corp.,Consumer Goods,Electronic Equipment,USA,800006.83,30.11,3.22,1.74,1.61,16.52,"53,012",-1.92,-10.51%,15.30%,0.81,1.30,51.22%,32.91
+122,ES,ES Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,2182985.85,113.63,2.31,3.98,2.69,41.06,"132,581",2.93,-5.83%,15.88%,0.27,1.38,21.83%,48.07
+123,ET,ET Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,4750793.94,83.57,2.33,0.84,1.66,29.01,"17,686",-2.68,-18.32%,30.58%,0.72,0.66,34.10%,48.62
+124,EU,EU Holdings Inc.,Consumer Goods,Beverages,USA,4214978.00,25.32,2.33,1.25,1.76,17.98,"87,976",-1.71,7.36%,1.59%,2.28,1.48,13.30%,69.42
+125,EV,EV Holdings Inc.,Consumer Goods,Electronic Equipment,USA,1674249.22,40.21,1.24,0.87,2.10,46.40,"481,494",6.36,1.60%,9.53%,0.57,1.43,49.46%,47.87
+126,EW,EW Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,19685785.63,15.61,1.61,1.44,,21.48,"82,236",4.48,-7.93%,7.78%,0.55,1.32,32.07%,57.81
+127,EX,EX Corp.,Consumer Goods,Auto Manufacturers,USA,2676873.12,13.70,1.17,3.19,2.65,48.95,"17,831",2.02,18.98%,13.42%,2.03,1.55,55.62%,43.18
+128,EY,EY Holdings Inc.,Consumer Goods,Beverages,USA,634460.44,22.19,3.09,1.17,6.44,21.50,"239,772",-1.09,20.46%,11.89%,0.81,0.52,35.60%,61.82
+129,EZ,EZ Corp.,Consumer Goods,Electronic Equipment,USA,3182228.55,31.04,,6.01,1.78,54.48,"180,318",2.19,0.47%,10.74%,0.23,1.57,53.24%,45.43
+130,FA,FA Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,5977103.81,,2.60,1.08,2.05,39.55,"89,576",5.86,-10.37%,16.84%,1.39,1.22,42.67%,56.63
+131,FB,FB Corp.,Consumer Goods,Auto Manufacturers,USA,4059545.67,51.98,0.80,1.49,3.79,27.66,"58,423",2.91,23.66%,16.04%,0.89,1.77,46.33%,59.82
+132,FC,FC Corp.,Consumer Goods,Beverages,USA,453364.05,38.37,4.03,1.31,1.75,13.82,"102,523",8.76,0.57%,6.31%,0.70,1.75,66.62%,94.87
+133,FD,FD Corp.,Consumer Goods,Electronic Equipment,USA,33209175.55,19.66,0.63,4.79,1.42,48.10,"81,201",1.92,14.00%,6.25%,0.49,1.15,14.72%,56.04
+134,FE,FE Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,3050346.68,,1.60,1.90,1.48,32.90,"36,971",0.83,4.01%,7.18%,0.46,1.02,55.17%,66.73
+135,FF,FF Corp.,Consumer Goods,Auto Manufacturers,USA,255085.66,10.79,,2.78,4.26,20.21,"70,649",1.18,26.93%,13.10%,0.65,0.57,18.08%,40.15
+136,FG,FG Corp.,Consumer Goods,Beverages,USA,1980750.34,20.63,1.23,7.43,1.95,26.79,"320,040",3.66,-18.99%,6.93%,0.99,1.03,31.60%,48.18
+137,FH,FH Corp.,Consumer Goods,Electronic Equipment,USA,1610142.46,19.24,1.50,8.34,6.91,8.25,"15,571",7.13,-8.35%,12.38%,0.26,0.79,19.40%,45.97
+138,FI,FI Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,38635685.12,16.59,1.93,1.22,3.12,89.75,"50,696",3.90,2.95%,15.93%,0.68,1.22,49.76%,42.00
+139,FJ,FJ Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,6837038.71,13.14,1.21,2.70,2.12,35.27,"214,376",-6.39,1.00%,4.21%,1.45,0.88,53.37%,36.46
+140,FK,FK Holdings Inc.,Consumer Goods,Beverages,USA,20580577.59,190.66,,1.54,5.23,52.71,"39,154",1.70,11.49%,0.17%,0.31,0.80,64.06%,56.55
+141,FL,FL Corp.,Consumer Goods,Electronic Equipment,USA,15465387.42,19.98,2.69,2.36,,15.56,"249,313",2.69,11.53%,8.72%,0.64,1.76,49.16%,59.47
+142,FM,FM Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,10325441.68,19.39,,0.92,1.77,22.89,"229,213",-1.30,-7.34%,13.28%,0.53,1.27,11.44%,63.55
+143,FN,FN Corp.,Consumer Goods,Auto Manufacturers,USA,5466344.98,13.05,5.14,4.22,2.06,40.79,"5,028",-0.24,-0.52%,4.18%,0.26,1.60,30.57%,75.98
+144,FO,FO Holdings Inc.,Consumer Goods,Beverages,USA,2293743.08,65.63,1.94,1.09,2.00,12.90,"63,833",4.69,34.73%,18.91%,0.47,1.44,38.96%,37.61
+145,FP,FP Corp.,Consumer Goods,Electronic Equipment,USA,17757236.88,22.89,1.58,1.13,2.52,21.63,"64,145",-3.70,-4.05%,5.45%,2.06,1.30,41.02%,66.40
+146,FQ,FQ Corp.,Consumer Goods,Food - Major Diversified,USA,1939798.54,10.20,0.94,1.41,2.30,13.71,"1,132,620",-0.32,14.78%,15.08%,0.32,0.15,47.47%,56.70
+147,FR,FR Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,1426445.85,28.23,,2.29,3.21,24.49,"10,717",4.35,10.20%,3.55%,0.64,1.37,5.74%,57.99
+148,FS,FS Holdings Inc.,Consumer Goods,Beverages,USA,25228120.74,14.30,3.60,5.41,,28.99,"51,108",0.23,-8.80%,6.79%,0.61,1.51,64.20%,56.95
+149,FT,FT Holdings Inc.,Consumer Goods,Electronic Equipment,USA,41370064.11,24.59,4.79,1.32,7.82,105.17,"5,737",6.24,9.97%,-11.64%,0.25,0.97,19.99%,14.70
+150,FU,FU Corp.,Consumer Goods,Food - Major Diversified,USA,34361167.06,27.71,3.95,,5.76,33.54,"45,529",0.88,25.95%,21.97%,0.75,0.53,39.70%,47.41
+151,FV,FV Corp.,Consumer Goods,Auto Manufacturers,USA,3514878.31,19.77,1.14,,7.04,25.19,"64,542",3.97,2.99%,8.47%,0.92,0.19,60.97%,52.44
+152,FW,FW Corp.,Consumer Goods,Beverages,USA,3472950.76,50.06,0.64,2.79,,9.83,"31,131",5.39,24.94%,7.04%,0.36,1.34,56.64%,24.20
+153,FX,FX Holdings Inc.,Consumer Goods,Electronic Equipment,USA,8088140.40,4.45,1.44,1.06,0.83,20.13,"11,568",0.46,14.38%,4.95%,0.34,0.53,4.96%,39.97
+154,FY,FY Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,450582.46,14.54,2.84,0.99,3.36,16.98,"5,673",5.51,27.62%,-2.56%,0.42,0.96,34.05%,48.08
+155,FZ,FZ Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,201173635.40,32.56,0.58,1.70,3.19,135.44,"204,816",-0.65,-1.48%,1.50%,0.98,1.46,34.11%,75.64
+156,GA,GA Corp.,Consumer Goods,Beverages,USA,1680365.61,16.49,2.79,,3.59,10.39,"46,611",-1.81,23.02%,13.58%,0.45,0.15,28.02%,49.40
+157,GB,GB Holdings Inc.,Consumer Goods,Electronic Equipment,USA,6333944.99,10.88,,4.45,1.06,29.34,"170,168",2.44,48.16%,-8.35%,1.15,0.97,65.77%,66.51
+158,GC,GC Corp.,Consumer Goods,Food - Major Diversified,USA,1576284.96,39.37,1.68,,3.67,58.12,"107,733",-1.24,24.31%,-3.70%,0.14,1.37,21.90%,46.71
+159,GD,GD Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,4636114.27,41.87,,2.33,3.44,20.39,"437,027",-2.60,29.05%,6.37%,0.47,0.77,33.25%,55.85
+160,GE,GE Holdings Inc.,Consumer Goods,Beverages,USA,8301185.02,12.18,3.71,4.89,1.43,14.56,"6,416",1.12,22.50%,19.02%,0.55,1.54,32.70%,45.57
+161,GF,GF Holdings Inc.,Consumer Goods,Electronic Equipment,USA,14461036.90,21.36,,4.82,10.84,46.80,"677,235",-2.56,11.61%,22.14%,0.77,1.05,39.15%,36.89
+162,GG,GG Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,13437863.66,10.52,,1.16,,102.84,"18,576",4.99,18.73%,21.11%,1.30,0.52,67.91%,55.05
+163,GH,GH Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,1437126.55,22.97,0.50,3.03,1.27,46.40,"65,616",-3.34,-10.98%,2.20%,2.16,0.81,38.56%,59.15
+164,GI,GI Holdings Inc.,Consumer Goods,Beverages,USA,5749286.03,59.44,1.09,,1.16,106.88,"225,367",1.25,21.94%,12.80%,0.15,1.46,25.57%,49.14
+165,GJ,GJ Holdings Inc.,Consumer Goods,Electronic Equipment,USA,2244800.87,65.10,,3.13,6.32,25.88,"28,426",3.97,15.98%,12.15%,0.51,1.25,2.97%,58.62
+166,GK,GK Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,25123965.16,13.92,1.95,,2.06,160.32,"843,600",4.98,12.56%,23.29%,1.22,0.80,54.83%,30.70
+167,GL,GL Corp.,Consumer Goods,Auto Manufacturers,USA,117248685.28,,0.84,0.89,2.90,55.49,"1,210",4.63,-7.97%,8.77%,0.31,0.88,37.96%,50.10
+168,GM,GM Holdings Inc.,Consumer Goods,Beverages,USA,7733046.53,17.89,1.16,2.21,2.61,81.46,"87,853",0.05,37.45%,16.56%,0.39,1.42,10.97%,56.47
+169,GN,GN Corp.,Consumer Goods,Electronic Equipment,USA,2318958.40,41.49,,1.78,0.44,16.85,"229,051",7.30,17.31%,-0.17%,0.18,0.90,27.05%,66.56
+170,GO,GO Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,3320884.48,18.08,2.43,1.72,1.74,31.38,"43,794",4.31,-0.36%,21.86%,0.37,1.77,52.92%,54.24
+171,GP,GP Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,18786587.54,29.01,0.40,1.12,6.92,16.14,"1,375,297",0.54,-8.43%,7.82%,2.34,0.23,34.93%,55.69
+172,GQ,GQ Holdings Inc.,Consumer Goods,Beverages,USA,31949518.80,14.07,3.71,1.42,0.84,59.90,"53,154",3.79,4.33%,36.86%,0.42,0.77,83.04%,51.98
+173,GR,GR Holdings Inc.,Consumer Goods,Electronic Equipment,USA,3875699.52,31.29,1.94,2.03,1.03,18.22,"12,356",5.47,8.72%,12.52%,1.17,1.15,33.67%,45.86
+174,GS,GS Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,33553879.85,15.49,,0.61,0.87,19.29,"296,317",8.36,-12.85%,11.04%,0.33,0.35,43.57%,50.50
+175,GT,GT Corp.,Consumer Goods,Auto Manufacturers,USA,24129229.63,12.88,3.29,2.78,2.07,63.38,"192,913",8.96,8.01%,18.60%,0.32,0.70,47.57%,54.63
+176,GU,GU Corp.,Consumer Goods,Beverages,USA,2443797.12,18.82,2.48,6.85,2.43,17.19,"14,475",-2.27,0.98%,-5.60%,0.31,0.76,38.69%,30.89
+177,GV,GV Holdings Inc.,Consumer Goods,Electronic Equipment,USA,4583309.42,14.08,0.92,2.64,2.76,20.84,"123,338",3.82,-3.56%,11.64%,0.71,1.05,12.30%,52.41
+178,GW,GW Corp.,Consumer Goods,Food - Major Diversified,Canada,4217063.63,11.01,2.94,1.63,3.12,88.06,"917,262",0.09,5.15%,29.87%,0.43,1.52,48.48%,53.28
+179,GX,GX Corp.,Consumer Goods,Auto Manufacturers,Canada,31037489.14,29.50,2.98,5.16,4.77,201.26,"132,414",5.39,4.88%,21.72%,1.52,0.64,15.41%,41.78
+180,GY,GY Holdings Inc.,Consumer Goods,Beverages,Canada,208863.68,10.67,0.35,4.26,2.42,12.26,"944,268",5.75,11.01%,3.82%,0.19,1.84,64.82%,38.06
+181,GZ,GZ Corp.,Consumer Goods,Electronic Equipment,Canada,6530929.23,7.25,,3.83,2.22,29.06,"32,199",0.11,15.30%,13.54%,0.62,0.60,54.25%,31.15
+182,HA,HA Holdings Inc.,Consumer Goods,Food - Major Diversified,Canada,6817307.78,17.19,,1.44,5.03,92.13,"35,454",2.49,7.86%,13.26%,0.65,0.32,51.19%,32.10
+183,HB,HB Corp.,Consumer Goods,Auto Manufacturers,Canada,62147559.38,14.31,1.14,0.64,3.26,77.94,"94,229",-4.24,6.80%,8.35%,0.44,0.58,21.77%,56.04
+184,HC,HC Holdings Inc.,Consumer Goods,Beverages,Canada,6144927.65,17.54,4.62,2.31,1.58,55.88,"13,713",-0.45,14.83%,0.45%,0.38,0.65,59.89%,54.29
+185,HD,HD Holdings Inc.,Consumer Goods,Electronic Equipment,Canada,1520996.97,17.82,1.67,1.67,1.11,20.63,"55,075",2.26,10.56%,2.63%,1.25,0.52,42.20%,64.07
+186,HE,HE Holdings Inc.,Consumer Goods,Food - Major Diversified,UK,2710045.01,10.06,2.15,1.03,1.80,78.30,"224,473",6.18,24.57%,28.41%,0.28,1.68,23.75%,47.41
+187,HF,HF Holdings Inc.,Consumer Goods,Auto Manufacturers,UK,1827834.30,10.21,2.57,1.33,2.11,85.10,"15,735",2.38,4.98%,5.91%,0.33,1.19,43.70%,85.80
+188,HG,HG Corp.,Consumer Goods,Beverages,UK,13528219.90,42.38,2.61,6.33,2.05,20.68,"325,662",-2.94,12.16%,8.88%,0.37,0.15,53.09%,44.42
+189,HH,HH Holdings Inc.,Consumer Goods,Electronic Equipment,UK,3971588.50,47.34,,2.97,3.07,30.55,"8,967",7.57,3.49%,24.58%,0.21,1.31,33.36%,38.97
+190,HI,HI Holdings Inc.,Consumer Goods,Food - Major Diversified,UK,2350140.63,29.74,1.87,4.28,,33.71,"245,227",5.11,18.54%,-3.06%,0.62,1.60,56.82%,25.95
+191,HJ,HJ Corp.,Consumer Goods,Auto Manufacturers,China,4476799.33,18.15,1.13,2.87,5.34,41.72,"64,207",4.12,13.99%,6.92%,0.22,1.28,39.53%,59.29
+192,HK,HK Corp.,Consumer Goods,Beverages,China,2324773.88,24.38,2.56,,2.98,83.19,"87,003",2.94,2.86%,2.25%,3.13,1.61,15.76%,53.08
+193,HL,HL Corp.,Consumer Goods,Electronic Equipment,China,4623323.31,46.55,4.82,19.98,1.16,47.86,"3,988",8.56,-2.84%,-8.58%,0.40,0.16,50.14%,63.48
+194,HM,HM Holdings Inc.,Consumer Goods,Food - Major Diversified,China,9191223.37,26.83,,2.86,2.25,123.48,"54,305",-2.71,-2.01%,3.29%,1.66,1.06,50.02%,68.49
+195,HN,HN Holdings Inc.,Consumer Goods,Auto Manufacturers,Chile,5377384.12,72.57,,0.60,3.99,11.00,"70,083",7.52,19.23%,19.48%,0.20,0.53,36.45%,64.23
+196,HO,HO Holdings Inc.,Consumer Goods,Beverages,Chile,39609069.16,36.74,,3.59,14.95,188.05,"208,952",0.04,10.54%,15.06%,0.63,0.59,48.79%,71.97
+197,HP,HP Holdings Inc.,Consumer Goods,Electronic Equipment,Chile,2394707.33,26.21,2.85,4.84,1.32,17.64,"78,396",0.56,6.70%,7.30%,0.24,1.00,37.69%,46.91
+198,HQ,HQ Corp.,Consumer Goods,Food - Major Diversified,Switzerland,1312045.54,35.30,1.89,4.88,1.87,24.65,"8,952",-1.12,27.89%,8.75%,0.64,1.61,15.24%,63.36
+199,HR,HR Corp.,Consumer Goods,Auto Manufacturers,Switzerland,3223188.44,35.82,3.73,1.56,4.76,99.17,"63,719",1.80,-0.23%,25.60%,0.26,2.00,17.00%,34.20
+200,HS,HS Holdings Inc.,Consumer Goods,Beverages,USA,12572639.96,37.26,2.04,2.73,1.18,10.20,"173,935",1.62,8.03%,21.77%,1.34,1.00,30.31%,14.01
+201,HT,HT Holdings Inc.,Consumer Goods,Electronic Equipment,USA,5755557.74,26.11,0.44,1.53,1.46,47.92,"26,649",2.29,11.12%,23.89%,0.15,1.10,57.44%,46.50
+202,HU,HU Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,15058819.45,16.86,1.01,1.95,3.30,111.58,"40,811",8.20,3.20%,13.06%,0.39,0.67,28.86%,36.49
+203,HV,HV Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,5435168.02,25.43,0.65,13.94,4.29,48.44,"90,138",1.58,8.15%,16.17%,0.16,0.88,8.59%,40.89
+204,HW,HW Holdings Inc.,Consumer Goods,Beverages,USA,10125300.30,13.73,0.92,1.84,1.69,14.93,"72,563",2.55,15.82%,30.42%,0.39,1.20,18.60%,47.30
+205,HX,HX Holdings Inc.,Consumer Goods,Electronic Equipment,USA,43152.38,29.28,1.97,8.51,5.54,12.85,"76,516",0.45,6.81%,26.61%,0.71,1.66,62.97%,27.96
+206,HY,HY Corp.,Consumer Goods,Food - Major Diversified,USA,27512289.80,39.74,2.04,2.55,1.18,56.10,"15,218",2.11,-4.43%,20.97%,0.45,1.39,64.97%,43.65
+207,HZ,HZ Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,1635857.49,16.49,1.70,0.54,1.25,32.60,"29,117",0.52,12.06%,10.50%,0.95,0.55,32.02%,54.03
+208,IA,IA Corp.,Consumer Goods,Beverages,USA,53962884.78,9.73,1.59,5.12,0.89,60.10,"84,788",1.04,-11.12%,-0.72%,0.90,0.46,28.65%,53.42
+209,IB,IB Holdings Inc.,Consumer Goods,Electronic Equipment,USA,1594199.59,23.95,1.47,2.17,2.24,16.44,"4,069",0.49,20.61%,28.69%,0.42,1.36,15.19%,73.80
+210,IC,IC Corp.,Consumer Goods,Food - Major Diversified,USA,119748725.96,24.45,2.19,10.84,0.67,72.92,"136,460",2.13,-7.40%,8.81%,0.36,1.19,40.85%,66.49
+211,ID,ID Holdings Inc.,Consumer Goods,Auto Manufacturers,USA,6513010.84,16.48,1.84,1.37,2.77,75.20,"31,242",5.58,17.04%,-16.09%,2.30,1.18,20.42%,67.51
+212,IE,IE Corp.,Consumer Goods,Beverages,USA,12863155.29,10.00,3.53,2.85,1.60,21.52,"66,150",3.48,12.49%,8.19%,0.94,1.28,41.92%,44.42
+213,IF,IF Corp.,Consumer Goods,Electronic Equipment,USA,1999450.68,15.23,1.74,1.05,0.47,25.57,"84,413",1.28,-23.06%,25.07%,0.26,1.61,64.48%,46.76
+214,IG,IG Holdings Inc.,Consumer Goods,Food - Major Diversified,USA,1629426.38,6.45,3.27,3.19,1.77,9.47,"37,058",-2.44,5.02%,22.97%,0.84,0.15,45.88%,45.12
+215,IH,IH Corp.,Consumer Goods,Auto Manufacturers,USA,5457592.30,44.18,2.14,,1.01,22.51,"85,001",6.20,33.89%,19.27%,1.24,0.79,15.42%,40.73
+216,II,II Corp.,Consumer Goods,Beverages,USA,6754926.62,44.57,2.75,4.37,3.63,45.87,"43,355",3.84,9.10%,4.92%,0.79,0.68,37.37%,45.55
+217,IJ,IJ Corp.,Consumer Goods,Electronic Equipment,USA,25147826.59,27.34,1.01,1.46,1.78,121.53,"192,271",-4.54,-8.72%,-0.55%,0.21,0.34,38.23%,47.88
+218,IK,IK Corp.,Consumer Goods,Food - Major Diversified,USA,42062986.10,21.17,,1.45,1.65,58.96,"62,645",1.52,-8.01%,15.96%,1.41,0.48,61.16%,65.62
+219,IL,IL Corp.,Financial,Asset Management,USA,20065643.86,28.98,1.06,3.70,1.59,46.00,"514,244",-0.93,35.23%,-10.03%,0.36,1.22,49.43%,48.67
+220,IM,IM Holdings Inc.,Financial,Money Center Banks,USA,5545240.70,12.93,4.30,0.81,2.88,73.13,"114,396",1.42,4.58%,14.78%,0.34,0.67,40.56%,46.48
+221,IN,IN Holdings Inc.,Financial,Property & Casualty Insurance,USA,723332.06,34.33,1.27,1.30,2.08,20.10,"38,425",0.59,19.64%,12.30%,0.28,1.05,30.05%,45.55
+222,IO,IO Holdings Inc.,Financial,REIT - Office,USA,2487818.80,24.51,1.96,2.22,5.75,23.98,"75,465",2.05,32.22%,-6.25%,0.24,1.87,33.66%,34.45
+223,IP,IP Corp.,Financial,Investment Brokerage,USA,35995199.83,,1.49,4.91,0.38,82.68,"125,609",-0.44,18.81%,13.92%,1.33,0.75,28.77%,68.81
+224,IQ,IQ Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,59602077.27,4.43,0.75,5.52,2.39,22.83,"60,655",2.97,32.48%,5.70%,0.47,2.24,57.28%,57.14
+225,IR,IR Holdings Inc.,Financial,Life Insurance,USA,2144308.92,18.50,1.02,2.61,1.42,57.69,"143,252",4.70,5.79%,2.94%,1.76,0.66,58.26%,65.41
+226,IS,IS Corp.,Financial,Closed-End Fund - Debt,USA,18128896.96,12.96,3.34,6.57,1.12,70.43,"106,848",-0.12,-1.44%,1.82%,0.35,0.33,31.06%,47.88
+227,IT,IT Corp.,Financial,Asset Management,USA,17725731.92,23.58,1.36,1.10,0.94,25.95,"2,071,370",6.90,1.22%,20.51%,0.54,0.78,54.63%,62.77
+228,IU,IU Corp.,Financial,Money Center Banks,USA,25993844.94,23.40,0.53,9.65,1.44,65.35,"29,391",2.39,13.69%,-0.58%,0.60,1.00,16.58%,54.71
+229,IV,IV Corp.,Financial,Property & Casualty Insurance,USA,8315314.00,22.02,2.31,6.76,1.99,23.79,"12,357",5.93,4.41%,7.40%,0.41,0.81,28.95%,43.74
+230,IW,IW Holdings Inc.,Financial,REIT - Office,USA,44351675.44,27.18,2.11,4.50,2.11,62.90,"23,269",-0.89,27.05%,10.29%,0.56,1.38,30.95%,6.15
+231,IX,IX Corp.,Financial,Investment Brokerage,USA,14189701.75,8.68,1.00,15.14,1.97,37.05,"4,144",1.55,2.40%,8.74%,0.66,0.98,17.18%,50.09
+232,IY,IY Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,7843829.07,21.32,1.07,,6.71,55.58,"369,747",1.58,-1.46%,22.71%,0.21,1.19,26.97%,38.84
+233,IZ,IZ Holdings Inc.,Financial,Life Insurance,USA,2268076.10,21.25,2.08,2.33,4.03,14.03,"23,648",5.18,-8.61%,16.47%,0.85,0.19,52.25%,31.71
+234,JA,JA Corp.,Financial,Closed-End Fund - Debt,USA,6503030.39,20.35,1.64,5.88,1.42,63.55,"130,845",1.48,40.73%,7.40%,0.59,1.33,26.21%,42.52
+235,JB,JB Holdings Inc.,Financial,Asset Management,USA,23965568.21,15.08,0.80,,0.80,46.48,"28,171",2.87,0.69%,43.85%,1.43,0.49,31.22%,28.43
+236,JC,JC Corp.,Financial,Money Center Banks,USA,56478151.16,46.84,2.00,2.89,1.77,80.07,"18,893",0.40,18.49%,8.09%,0.34,1.16,45.36%,48.44
+237,JD,JD Corp.,Financial,Property & Casualty Insurance,USA,18198783.19,17.73,0.98,1.07,1.88,23.14,"484,832",3.26,-3.53%,4.30%,1.39,1.42,46.70%,36.17
+238,JE,JE Corp.,Financial,REIT - Office,USA,32156859.69,26.02,0.91,2.84,3.67,132.34,"95,180",5.22,7.29%,7.28%,2.47,1.45,47.07%,49.43
+239,JF,JF Holdings Inc.,Financial,Investment Brokerage,USA,22099468.28,,0.78,3.32,2.10,38.02,"55,604",0.03,-10.68%,5.76%,0.75,1.16,70.67%,61.38
+240,JG,JG Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,2757584.24,29.01,2.46,2.01,4.04,36.56,"3,156",1.15,22.47%,2.42%,0.33,0.15,16.81%,58.15
+241,JH,JH Holdings Inc.,Financial,Life Insurance,USA,4349528.94,11.38,3.06,2.69,,89.41,"226,670",3.02,41.49%,-13.09%,0.89,1.00,43.01%,76.95
+242,JI,JI Holdings Inc.,Financial,Closed-End Fund - Debt,USA,2187261.45,17.14,1.00,1.23,5.75,27.65,"66,992",6.54,8.80%,13.13%,0.37,1.06,48.94%,61.33
+243,JJ,JJ Holdings Inc.,Financial,Asset Management,USA,10558450.56,19.86,0.69,10.83,1.08,43.79,"710,297",-1.56,25.56%,18.04%,0.80,1.37,73.78%,29.41
+244,JK,JK Holdings Inc.,Financial,Money Center Banks,USA,1552294.20,8.67,4.45,1.53,2.38,55.25,"42,388",-3.36,4.90%,13.14%,0.44,1.38,73.52%,65.16
+245,JL,JL Holdings Inc.,Financial,Property & Casualty Insurance,USA,4779839.05,33.12,1.59,,6.82,27.34,"18,196",-1.37,4.92%,16.70%,0.19,1.14,23.21%,53.20
+246,JM,JM Holdings Inc.,Financial,REIT - Office,USA,16920578.73,12.22,,1.63,3.30,40.49,"87,707",2.53,16.78%,6.95%,0.75,0.51,30.42%,56.38
+247,JN,JN Holdings Inc.,Financial,Investment Brokerage,USA,1649107.17,14.43,1.88,4.52,3.33,24.22,"761,244",-0.90,8.65%,-1.81%,0.58,0.83,64.62%,51.83
+248,JO,JO Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,953147.75,34.48,1.48,,1.57,11.60,"38,911",4.35,16.24%,17.34%,0.43,1.11,40.81%,60.16
+249,JP,JP Holdings Inc.,Financial,Life Insurance,USA,162709479.26,16.04,2.48,4.54,,25.00,"88,636",2.00,5.04%,18.21%,0.69,2.07,23.63%,27.43
+250,JQ,JQ Holdings Inc.,Financial,Closed-End Fund - Debt,USA,8818631.49,,8.32,3.47,1.35,33.10,"4,477",6.89,-5.89%,3.91%,0.25,1.17,73.12%,73.75
+251,JR,JR Holdings Inc.,Financial,Asset Management,USA,17971006.38,38.99,0.56,1.70,,45.04,"90,150",4.18,-0.28%,-10.31%,0.41,1.51,40.16%,47.12
+252,JS,JS Holdings Inc.,Financial,Money Center Banks,USA,59148524.39,34.68,1.92,5.81,3.84,226.76,"92,700",2.60,-3.82%,17.07%,0.56,0.15,24.33%,70.49
+253,JT,JT Corp.,Financial,Property & Casualty Insurance,USA,6773409.84,59.46,2.44,1.05,2.03,26.65,"230,296",2.98,19.73%,8.88%,0.30,1.39,53.11%,59.14
+254,JU,JU Holdings Inc.,Financial,REIT - Office,USA,4314153.50,16.36,0.72,1.55,1.41,18.42,"204,352",1.12,14.46%,13.18%,0.32,1.58,21.84%,43.53
+255,JV,JV Holdings Inc.,Financial,Investment Brokerage,USA,67719344.74,44.74,8.50,0.95,,78.54,"13,310",-2.31,-9.68%,1.47%,0.58,0.76,44.94%,71.00
+256,JW,JW Corp.,Financial,Regional - Mid-Atlantic Banks,USA,42204439.90,36.30,1.19,5.83,1.87,24.14,"25,704",-3.58,18.70%,-0.79%,0.67,1.17,25.56%,65.63
+257,JX,JX Holdings Inc.,Financial,Life Insurance,USA,1361253.16,15.33,1.54,0.76,2.08,12.94,"34,397",5.87,10.94%,12.18%,0.55,0.82,68.06%,42.24
+258,JY,JY Corp.,Financial,Closed-End Fund - Debt,USA,9469759.28,42.41,0.98,1.11,1.98,46.05,"20,796",1.44,14.09%,6.64%,0.33,0.90,32.27%,66.00
+259,JZ,JZ Holdings Inc.,Financial,Asset Management,USA,780048.05,18.91,0.48,0.54,2.45,37.30,"56,031",2.94,24.27%,4.06%,1.03,0.32,29.68%,47.90
+260,KA,KA Corp.,Financial,Money Center Banks,USA,36486300.01,,,1.24,4.82,105.64,"155,491",0.10,2.94%,4.45%,0.49,1.88,45.08%,44.66
+261,KB,KB Holdings Inc.,Financial,Property & Casualty Insurance,USA,6455884.88,34.96,1.83,5.66,0.90,16.99,"102,280",-1.86,-22.49%,2.31%,0.62,1.10,27.77%,31.33
+262,KC,KC Holdings Inc.,Financial,REIT - Office,USA,376680.95,26.11,2.16,0.91,2.41,9.19,"67,877",4.30,-10.68%,6.88%,0.83,0.75,63.68%,61.57
+263,KD,KD Holdings Inc.,Financial,Investment Brokerage,USA,3825537.02,36.61,1.70,1.94,,28.23,"118,013",-0.07,-16.84%,2.45%,0.36,1.10,27.09%,57.03
+264,KE,KE Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,270489.90,15.53,1.40,,2.76,24.19,"21,910",4.85,35.99%,22.54%,0.51,0.83,45.63%,49.84
+265,KF,KF Corp.,Financial,Life Insurance,USA,4773290.76,7.46,,2.70,2.82,31.06,"82,115",1.21,1.00%,8.13%,1.73,0.97,30.04%,22.17
+266,KG,KG Corp.,Financial,Closed-End Fund - Debt,USA,1367390.40,33.14,0.79,4.33,,6.36,"79,751",-1.47,24.91%,-14.70%,1.66,0.87,38.28%,62.29
+267,KH,KH Holdings Inc.,Financial,Asset Management,USA,3122231.89,12.34,0.39,1.88,2.19,47.20,"22,050",6.23,-13.27%,15.55%,0.85,0.49,18.87%,41.06
+268,KI,KI Holdings Inc.,Financial,Money Center Banks,USA,6637415.83,22.16,1.58,1.40,2.98,87.93,"1,454,069",7.58,-0.09%,9.91%,0.54,1.10,59.55%,33.30
+269,KJ,KJ Holdings Inc.,Financial,Property & Casualty Insurance,USA,23597498.44,67.41,2.38,1.56,5.69,65.68,"76,426",2.20,-12.31%,10.83%,1.15,1.04,47.64%,48.31
+270,KK,KK Holdings Inc.,Financial,REIT - Office,USA,216531691.40,32.18,1.39,2.35,1.09,85.92,"602,057",2.37,8.10%,1.17%,0.68,0.48,28.50%,46.65
+271,KL,KL Holdings Inc.,Financial,Investment Brokerage,USA,6223828.65,42.24,4.54,1.49,2.03,31.89,"131,434",6.00,-16.40%,14.50%,0.45,1.10,39.09%,47.45
+272,KM,KM Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,4756935.43,17.86,2.01,1.65,4.19,14.65,"12,706",2.88,-2.87%,9.64%,0.29,0.52,34.14%,51.30
+273,KN,KN Corp.,Financial,Life Insurance,USA,57634056.90,14.08,2.24,1.31,4.21,51.22,"31,238",9.07,-6.11%,6.26%,0.65,1.40,60.75%,46.44
+274,KO,KO Corp.,Financial,Closed-End Fund - Debt,USA,20393455.05,36.87,0.66,1.79,2.24,112.55,"201,939",-2.78,11.49%,9.87%,0.34,1.35,12.23%,41.82
+275,KP,KP Holdings Inc.,Financial,Asset Management,USA,5098858.02,86.89,1.85,1.40,15.05,66.46,"423,879",3.55,1.02%,-0.46%,0.43,0.60,47.18%,41.67
+276,KQ,KQ Holdings Inc.,Financial,Money Center Banks,USA,45746084.47,20.06,0.89,2.25,5.17,14.68,"157,687",8.81,0.39%,5.86%,0.85,0.91,35.36%,23.73
+277,KR,KR Corp.,Financial,Property & Casualty Insurance,USA,758528.22,14.38,,2.34,1.22,25.12,"39,059",3.66,2.04%,14.96%,0.46,1.30,22.06%,46.82
+278,KS,KS Holdings Inc.,Financial,REIT - Office,Canada,210661.63,19.38,1.91,2.78,2.31,7.25,"210,419",1.18,26.11%,31.45%,0.23,1.29,73.75%,58.86
+279,KT,KT Corp.,Financial,Investment Brokerage,Canada,661427.70,21.46,0.86,5.82,0.99,37.25,"97,451",0.74,19.94%,10.32%,0.79,0.61,21.30%,79.64
+280,KU,KU Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,Canada,14952495.06,20.10,1.27,1.43,1.44,156.63,"2,573",4.32,-22.58%,13.01%,1.00,0.48,48.35%,91.42
+281,KV,KV Holdings Inc.,Financial,Life Insurance,Canada,10150299.94,25.91,1.96,1.80,2.24,10.63,"342,663",3.34,4.66%,5.48%,1.96,1.58,41.92%,19.27
+282,KW,KW Holdings Inc.,Financial,Closed-End Fund - Debt,Canada,9863694.86,13.85,1.86,1.24,6.61,44.78,"109,909",-3.06,33.68%,16.58%,0.35,0.92,77.25%,27.30
+283,KX,KX Holdings Inc.,Financial,Asset Management,Canada,4978691.00,24.35,1.40,0.58,6.14,62.62,"102,784",3.55,-8.75%,-6.43%,0.12,1.37,59.73%,57.82
+284,KY,KY Holdings Inc.,Financial,Money Center Banks,Canada,16621193.07,12.84,1.05,0.39,1.44,60.15,"407,958",1.56,-11.25%,8.03%,0.49,1.15,37.28%,32.96
+285,KZ,KZ Holdings Inc.,Financial,Property & Casualty Insurance,Canada,77577800.11,14.03,2.18,0.41,5.93,143.05,"137,495",-2.33,31.41%,1.89%,0.31,0.15,53.93%,31.74
+286,LA,LA Corp.,Financial,REIT - Office,UK,199998.00,,0.40,2.74,9.35,11.70,"83,385",2.29,5.43%,-2.08%,0.09,1.01,11.85%,50.33
+287,LB,LB Corp.,Financial,Investment Brokerage,UK,125999.59,31.38,0.93,5.29,2.67,17.42,"84,464",-3.21,-4.05%,17.40%,0.62,1.58,35.13%,42.51
+288,LC,LC Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,UK,48714246.38,28.05,,7.71,9.32,133.31,"29,506",4.66,25.36%,10.01%,1.09,1.35,43.90%,53.88
+289,LD,LD Corp.,Financial,Life Insurance,UK,1633916.59,20.56,2.58,1.61,9.12,25.58,"136,731",6.78,9.76%,19.36%,1.30,1.20,28.87%,46.70
+290,LE,LE Corp.,Financial,Closed-End Fund - Debt,UK,2742878.63,30.99,3.31,5.14,2.55,131.31,"160,022",-0.92,14.98%,18.29%,1.06,0.50,62.85%,37.65
+291,LF,LF Holdings Inc.,Financial,Asset Management,China,22051749.35,13.10,1.30,1.89,4.14,89.57,"103,697",2.21,14.25%,12.20%,1.18,1.27,16.46%,56.28
+292,LG,LG Holdings Inc.,Financial,Money Center Banks,China,105854320.34,,1.68,1.79,1.68,246.34,"202,740",2.89,-2.13%,4.36%,0.61,1.93,41.71%,60.24
+293,LH,LH Corp.,Financial,Property & Casualty Insurance,China,29459293.74,73.86,1.45,2.38,1.83,78.61,"78,359",6.81,22.28%,6.01%,1.00,1.20,39.41%,91.00
+294,LI,LI Holdings Inc.,Financial,REIT - Office,China,6418768.80,81.81,,3.92,1.15,28.89,"639,278",-1.10,17.28%,11.55%,0.31,1.83,14.18%,69.92
+295,LJ,LJ Holdings Inc.,Financial,Investment Brokerage,Chile,31338069.21,23.68,0.83,1.39,1.46,94.97,"100,628",2.10,8.47%,13.33%,0.73,1.16,51.23%,61.89
+296,LK,LK Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,Chile,2954156.85,11.79,2.22,1.18,4.79,16.64,"62,301",5.73,-9.71%,15.29%,0.30,0.96,30.18%,64.37
+297,LL,LL Holdings Inc.,Financial,Life Insurance,Chile,17662380.80,24.70,,5.36,0.94,21.46,"59,616",5.05,-6.05%,19.18%,0.24,0.49,38.04%,22.05
+298,LM,LM Holdings Inc.,Financial,Closed-End Fund - Debt,Switzerland,13177434.50,,1.06,1.28,1.36,199.23,"667,445",4.72,14.28%,8.26%,0.29,1.09,36.43%,64.46
+299,LN,LN Corp.,Financial,Asset Management,Switzerland,3378218.50,20.21,2.76,0.57,1.00,89.08,"125,765",1.13,-5.03%,26.80%,0.63,1.52,26.43%,67.72
+300,LO,LO Holdings Inc.,Financial,Money Center Banks,USA,2332625.07,39.91,0.94,1.37,4.47,37.54,"66,930",1.44,2.98%,3.93%,0.26,2.08,46.04%,35.03
+301,LP,LP Holdings Inc.,Financial,Property & Casualty Insurance,USA,6432403.00,23.58,1.33,3.26,0.85,79.48,"21,471",-0.57,1.52%,-21.73%,0.76,1.41,11.25%,41.85
+302,LQ,LQ Holdings Inc.,Financial,REIT - Office,USA,9161930.34,,3.22,1.41,2.48,99.58,"32,939",1.71,-5.15%,24.66%,1.05,0.78,39.46%,71.69
+303,LR,LR Holdings Inc.,Financial,Investment Brokerage,USA,902178723.44,25.97,0.47,1.66,3.93,274.79,"42,581",3.25,11.72%,11.55%,0.61,0.76,62.60%,41.16
+304,LS,LS Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,7566391.74,36.29,1.61,0.94,2.49,21.37,"13,804",0.50,-0.63%,-1.44%,0.90,1.70,18.87%,48.80
+305,LT,LT Holdings Inc.,Financial,Life Insurance,USA,6806465.04,11.79,1.07,1.37,4.25,18.93,"24,322",2.09,9.76%,18.56%,1.37,0.74,68.26%,81.03
+306,LU,LU Corp.,Financial,Closed-End Fund - Debt,USA,2747792.51,79.01,1.31,4.30,2.24,16.81,"62,293",0.83,-11.78%,4.31%,0.85,1.68,60.43%,62.04
+307,LV,LV Holdings Inc.,Financial,Asset Management,USA,4286737.20,,1.39,7.80,2.92,63.80,"45,261",0.56,21.63%,16.86%,0.17,0.58,62.11%,51.81
+308,LW,LW Corp.,Financial,Money Center Banks,USA,5322332.44,7.40,0.73,4.13,4.99,8.71,"57,506",1.61,-24.22%,0.97%,0.41,0.93,29.84%,53.98
+309,LX,LX Holdings Inc.,Financial,Property & Casualty Insurance,USA,25788685.06,22.79,1.54,,5.43,49.69,"821,241",3.48,-9.74%,14.83%,1.81,1.03,21.73%,38.41
+310,LY,LY Holdings Inc.,Financial,REIT - Office,USA,4282998.54,23.46,0.83,4.07,,19.00,"5,853",1.23,15.06%,15.74%,1.40,1.01,45.22%,43.03
+311,LZ,LZ Corp.,Financial,Investment Brokerage,USA,3230894.98,15.13,2.42,2.00,2.06,49.95,"59,286",4.15,16.01%,0.53%,0.20,0.30,49.65%,45.13
+312,MA,MA Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,80131452.78,29.05,2.47,0.58,2.21,149.84,"13,977",-0.05,1.54%,-14.78%,0.70,0.93,61.15%,34.57
+313,MB,MB Holdings Inc.,Financial,Life Insurance,USA,2278761.03,23.56,2.67,,6.41,22.51,"125,449",-1.22,3.43%,6.23%,0.13,1.50,71.63%,60.58
+314,MC,MC Corp.,Financial,Closed-End Fund - Debt,USA,1650245.52,13.51,1.47,3.60,12.18,66.86,"135,132",2.75,-4.69%,20.54%,0.88,0.59,72.74%,39.10
+315,MD,MD Holdings Inc.,Financial,Asset Management,USA,39651184.38,,1.85,,3.47,84.49,"10,107",0.17,26.28%,-7.37%,0.27,1.63,21.82%,26.00
+316,ME,ME Corp.,Financial,Money Center Banks,USA,46639.49,18.25,1.76,2.23,1.42,10.30,"108,235",4.25,14.44%,26.94%,1.32,0.74,59.13%,45.11
+317,MF,MF Holdings Inc.,Financial,Property & Casualty Insurance,USA,7293467.03,19.95,0.71,6.59,3.88,10.22,"52,190",1.10,-5.72%,17.20%,0.33,1.01,33.87%,75.28
+318,MG,MG Holdings Inc.,Financial,REIT - Office,USA,10973172.44,19.78,4.35,2.17,3.80,54.47,"48,870",1.97,-10.49%,33.57%,0.40,1.12,72.92%,38.50
+319,MH,MH Holdings Inc.,Financial,Investment Brokerage,USA,2541018.91,9.41,1.50,6.49,3.36,31.04,"18,158",6.45,15.20%,27.06%,0.25,0.88,68.02%,58.89
+320,MI,MI Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,8627093.23,14.09,2.01,1.27,2.74,61.96,"121,972",-1.52,38.75%,18.44%,0.55,1.54,69.76%,29.29
+321,MJ,MJ Holdings Inc.,Financial,Life Insurance,USA,3563351.76,7.13,4.47,,2.79,23.26,"7,833",-1.23,-1.89%,6.13%,0.45,0.90,24.80%,47.60
+322,MK,MK Holdings Inc.,Financial,Closed-End Fund - Debt,USA,7524345.81,13.76,1.20,1.11,7.73,34.81,"62,577",3.22,3.18%,1.76%,0.70,0.80,59.78%,38.76
+323,ML,ML Corp.,Financial,Asset Management,USA,12766563.30,,1.41,0.72,0.71,70.98,"64,952",2.99,9.49%,8.97%,0.39,1.16,42.12%,54.01
+324,MM,MM Corp.,Financial,Money Center Banks,USA,1725070.48,22.37,1.05,1.39,1.68,47.91,"151,594",2.45,10.01%,4.33%,0.29,0.26,18.75%,54.51
+325,MN,MN Holdings Inc.,Financial,Property & Casualty Insurance,USA,3994961.51,40.90,1.71,3.85,2.16,80.27,"564,399",6.19,7.36%,5.67%,0.89,1.53,46.53%,54.94
+326,MO,MO Corp.,Financial,REIT - Office,USA,7987935.25,39.16,1.71,7.46,4.20,28.11,"172,978",0.80,24.76%,1.12%,0.47,0.58,70.45%,54.73
+327,MP,MP Holdings Inc.,Financial,Investment Brokerage,USA,7920014.20,26.41,2.95,2.33,2.22,69.85,"109,401",5.34,17.24%,5.35%,0.63,0.83,44.41%,57.78
+328,MQ,MQ Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,394044.12,26.61,,9.33,2.66,12.28,"3,279",3.35,31.34%,-13.36%,0.73,2.01,33.59%,57.96
+329,MR,MR Corp.,Financial,Life Insurance,USA,4919023.35,34.58,1.58,4.41,,16.69,"27,530",1.22,8.15%,-4.70%,0.19,1.37,23.13%,29.31
+330,MS,MS Holdings Inc.,Financial,Closed-End Fund - Debt,USA,10630684.57,51.29,4.62,1.81,5.34,57.53,"9,961",-0.36,6.23%,-0.01%,0.89,0.88,40.86%,68.63
+331,MT,MT Holdings Inc.,Financial,Asset Management,USA,153698.28,9.74,10.75,2.04,7.56,8.71,"139,542",4.01,7.90%,-2.39%,0.30,0.86,23.43%,45.21
+332,MU,MU Corp.,Financial,Money Center Banks,USA,1308157.21,16.01,1.54,1.41,,84.17,"76,496",10.21,14.12%,11.01%,0.77,2.19,26.49%,65.34
+333,MV,MV Holdings Inc.,Financial,Property & Casualty Insurance,USA,2584592.90,55.84,3.00,3.40,4.52,38.64,"646,172",-1.60,17.84%,13.86%,0.14,1.03,18.02%,42.66
+334,MW,MW Holdings Inc.,Financial,REIT - Office,USA,4078697.36,29.79,1.16,1.78,0.83,15.51,"12,806",2.98,-3.41%,-6.24%,1.95,0.77,55.08%,52.23
+335,MX,MX Corp.,Financial,Investment Brokerage,USA,8495986.74,16.36,,3.21,1.19,22.35,"62,060",0.35,16.01%,16.56%,0.46,0.61,38.35%,60.30
+336,MY,MY Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,3194435.94,39.60,0.83,1.03,12.68,22.08,"103,411",3.78,-2.04%,-12.36%,0.22,1.06,9.47%,50.03
+337,MZ,MZ Holdings Inc.,Financial,Life Insurance,USA,85919087.80,28.66,1.55,1.76,4.92,73.47,"12,679",1.40,22.11%,-10.54%,0.35,0.94,73.91%,40.44
+338,NA,NA Holdings Inc.,Financial,Closed-End Fund - Debt,USA,15559177.56,95.38,1.91,,2.79,23.38,"1,063,214",3.02,15.52%,3.64%,0.52,1.02,54.07%,79.37
+339,NB,NB Corp.,Financial,Asset Management,USA,3804135.93,22.30,1.17,7.28,8.46,104.53,"272,344",5.13,-7.77%,-6.36%,0.73,0.43,29.92%,67.59
+340,NC,NC Holdings Inc.,Financial,Money Center Banks,USA,33472686.34,,1.31,2.19,3.11,88.21,"248,188",4.69,4.73%,17.78%,0.95,1.77,47.49%,81.20
+341,ND,ND Holdings Inc.,Financial,Property & Casualty Insurance,USA,1783605.64,27.49,6.92,,2.09,30.14,"689,068",6.41,3.35%,13.50%,1.71,1.79,33.65%,66.65
+342,NE,NE Corp.,Financial,REIT - Office,USA,10187672.25,9.27,1.03,0.44,1.44,45.60,"318,083",3.87,-13.31%,18.78%,0.37,1.06,24.16%,32.84
+343,NF,NF Holdings Inc.,Financial,Investment Brokerage,USA,33183924.66,8.51,1.83,,4.55,42.30,"24,824",7.93,-13.75%,17.33%,0.50,0.70,6.10%,68.47
+344,NG,NG Corp.,Financial,Regional - Mid-Atlantic Banks,USA,14604024.95,29.91,1.64,2.80,5.39,108.29,"3,253,077",2.84,-18.41%,10.58%,1.01,0.84,79.75%,37.62
+345,NH,NH Holdings Inc.,Financial,Life Insurance,USA,1575209.65,10.15,0.85,4.07,2.33,19.68,"193,782",5.88,-18.18%,-0.09%,0.29,1.68,22.04%,58.64
+346,NI,NI Holdings Inc.,Financial,Closed-End Fund - Debt,USA,7013190.51,16.92,1.75,5.63,0.68,28.62,804,2.16,5.42%,16.52%,0.59,0.87,40.94%,59.38
+347,NJ,NJ Holdings Inc.,Financial,Asset Management,USA,5550550.25,8.73,1.36,6.43,0.54,38.99,"1,183,927",3.37,-0.46%,-2.12%,0.13,0.89,15.10%,35.36
+348,NK,NK Corp.,Financial,Money Center Banks,USA,48857005.07,39.96,1.84,1.57,2.04,21.15,"4,058",6.20,-5.51%,5.44%,0.33,1.19,29.23%,53.38
+349,NL,NL Corp.,Financial,Property & Casualty Insurance,USA,43211485.57,7.22,6.30,1.63,2.06,30.73,"790,316",5.16,9.98%,28.41%,1.02,0.72,58.42%,32.71
+350,NM,NM Holdings Inc.,Financial,REIT - Office,USA,8513786.02,11.92,0.63,4.77,0.55,40.51,"51,027",2.22,7.29%,11.77%,0.87,0.58,47.31%,61.05
+351,NN,NN Holdings Inc.,Financial,Investment Brokerage,USA,3800950.94,12.71,1.61,,1.60,18.87,"128,244",0.18,-5.09%,7.55%,1.27,1.52,41.28%,58.11
+352,NO,NO Corp.,Financial,Regional - Mid-Atlantic Banks,USA,1376699.14,32.67,5.36,2.08,3.66,27.80,"94,484",8.75,8.17%,14.25%,1.42,0.98,22.13%,23.92
+353,NP,NP Corp.,Financial,Life Insurance,USA,1402784.83,25.05,1.63,3.61,2.03,10.48,"328,249",5.18,31.61%,6.37%,0.52,1.04,52.34%,67.26
+354,NQ,NQ Corp.,Financial,Closed-End Fund - Debt,USA,6500808.31,,1.22,1.42,1.27,157.05,"16,810",0.11,23.70%,2.73%,0.38,0.84,22.84%,53.02
+355,NR,NR Holdings Inc.,Financial,Asset Management,USA,40344998.27,14.52,6.29,2.67,,27.11,"8,619",-0.14,5.89%,1.49%,0.58,1.13,31.81%,52.92
+356,NS,NS Corp.,Financial,Money Center Banks,USA,141717191.90,25.13,2.16,2.14,0.78,208.93,"36,169",5.13,-4.74%,5.04%,0.27,0.68,11.07%,23.12
+357,NT,NT Holdings Inc.,Financial,Property & Casualty Insurance,USA,71302415.14,35.38,2.12,4.12,1.05,101.59,"39,250",1.48,16.34%,20.37%,0.43,1.74,13.15%,79.74
+358,NU,NU Corp.,Financial,REIT - Office,USA,7472529.35,30.14,2.28,4.22,3.10,42.39,"511,002",1.39,12.40%,14.83%,0.99,1.63,48.42%,39.66
+359,NV,NV Corp.,Financial,Investment Brokerage,USA,2310014.03,46.62,,1.05,4.55,50.58,"544,798",1.64,16.82%,-14.66%,0.45,0.28,47.38%,41.21
+360,NW,NW Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,21614871.43,11.79,3.34,0.63,3.41,3.91,"865,341",2.53,-11.92%,15.07%,0.29,0.85,40.66%,42.26
+361,NX,NX Corp.,Financial,Life Insurance,USA,4295713.49,33.94,2.53,2.02,1.49,40.69,"155,208",5.42,16.32%,-0.12%,0.27,0.57,68.61%,40.50
+362,NY,NY Holdings Inc.,Financial,Closed-End Fund - Debt,USA,5398299.10,15.77,1.77,0.96,1.14,28.58,"3,153",1.05,16.70%,20.43%,0.44,0.49,40.68%,51.21
+363,NZ,NZ Corp.,Financial,Asset Management,USA,26292245.17,18.12,1.45,3.40,,160.22,"64,617",-2.44,8.32%,-15.05%,0.50,0.88,62.93%,59.81
+364,OA,OA Corp.,Financial,Money Center Banks,USA,231131.85,33.30,1.91,1.38,0.56,12.40,"290,558",7.98,41.67%,12.39%,0.40,0.52,42.44%,76.99
+365,OB,OB Holdings Inc.,Financial,Property & Casualty Insurance,USA,38733377.35,28.20,3.24,2.05,2.13,43.38,"35,443",4.28,-9.50%,14.09%,0.22,0.46,8.71%,51.54
+366,OC,OC Corp.,Financial,REIT - Office,USA,46453160.55,22.14,,3.69,7.15,101.95,"285,335",-2.48,-8.16%,19.41%,0.66,1.64,39.49%,44.65
+367,OD,OD Holdings Inc.,Financial,Investment Brokerage,USA,8595833.45,8.54,1.32,3.10,0.78,49.89,"148,482",-1.19,-12.85%,2.87%,0.53,0.15,25.06%,43.45
+368,OE,OE Corp.,Financial,Regional - Mid-Atlantic Banks,USA,5873839.04,21.66,4.08,3.50,1.41,28.79,"294,200",3.67,10.38%,0.69%,0.84,0.71,46.00%,72.07
+369,OF,OF Holdings Inc.,Financial,Life Insurance,USA,2189737.76,16.63,1.23,,1.07,34.50,"235,333",5.47,7.80%,5.41%,0.13,1.06,46.52%,86.14
+370,OG,OG Holdings Inc.,Financial,Closed-End Fund - Debt,USA,262012.19,14.14,1.16,14.79,4.16,19.26,"545,686",-2.74,13.53%,21.80%,0.30,1.48,62.83%,73.62
+371,OH,OH Holdings Inc.,Financial,Asset Management,USA,2929155.48,23.11,2.05,5.45,0.76,8.06,"176,317",1.10,-20.74%,-2.99%,0.46,1.57,11.37%,59.99
+372,OI,OI Corp.,Financial,Money Center Banks,USA,8995138.14,12.49,1.35,2.19,2.34,19.00,"294,222",-0.28,-2.39%,7.64%,0.04,0.73,15.31%,62.63
+373,OJ,OJ Holdings Inc.,Financial,Property & Casualty Insurance,USA,1178726.78,29.66,1.59,,3.79,26.12,"195,871",4.99,-7.84%,19.76%,1.12,1.34,28.09%,41.79
+374,OK,OK Corp.,Financial,REIT - Office,USA,3760986.63,26.42,0.81,1.85,2.98,20.67,"123,217",0.11,24.50%,6.71%,0.23,0.97,81.03%,70.54
+375,OL,OL Holdings Inc.,Financial,Investment Brokerage,USA,8864171.23,25.15,1.81,0.78,1.92,120.86,"82,598",2.44,-6.78%,29.79%,0.43,0.92,27.30%,37.98
+376,OM,OM Corp.,Financial,Regional - Mid-Atlantic Banks,USA,16817020.93,22.66,1.94,1.13,10.83,64.44,"48,697",-0.88,16.50%,26.15%,0.54,2.22,18.00%,76.34
+377,ON,ON Corp.,Financial,Life Insurance,USA,22592096.09,30.64,1.23,2.81,4.93,70.06,"77,074",1.45,23.02%,12.40%,0.31,1.03,6.02%,62.54
+378,OO,OO Holdings Inc.,Financial,Closed-End Fund - Debt,Canada,3572855.15,10.53,1.49,2.43,0.73,78.20,"32,515",1.89,0.23%,14.71%,1.84,1.79,5.83%,56.47
+379,OP,OP Corp.,Financial,Asset Management,Canada,447186.32,25.03,3.23,,,27.14,"1,577,013",0.68,-6.22%,5.96%,0.98,1.10,60.12%,38.00
+380,OQ,OQ Corp.,Financial,Money Center Banks,Canada,1209568.60,52.83,4.34,1.18,2.51,26.12,"13,515",0.32,3.43%,32.03%,0.44,1.21,66.85%,65.55
+381,OR,OR Holdings Inc.,Financial,Property & Casualty Insurance,Canada,584964.84,29.68,0.97,6.63,1.54,4.48,"38,148",0.76,14.70%,-5.89%,0.36,2.27,9.72%,56.16
+382,OS,OS Holdings Inc.,Financial,REIT - Office,Canada,1766464.22,44.62,1.74,2.43,3.27,22.67,"11,201",2.93,22.84%,-3.14%,0.27,0.18,30.61%,54.24
+383,OT,OT Holdings Inc.,Financial,Investment Brokerage,Canada,2691278.98,11.85,1.31,11.85,5.43,12.45,"214,191",4.60,8.56%,-13.01%,0.42,0.94,31.73%,56.21
+384,OU,OU Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,Canada,10901788.98,18.47,2.58,1.17,2.63,66.32,"22,133",4.35,26.84%,8.08%,1.43,0.96,69.65%,36.23
+385,OV,OV Holdings Inc.,Financial,Life Insurance,Canada,32326051.40,27.59,1.02,4.82,4.05,26.27,"30,253",-2.13,21.69%,7.03%,0.21,1.66,74.15%,51.95
+386,OW,OW Holdings Inc.,Financial,Closed-End Fund - Debt,UK,945865.25,32.96,1.41,1.05,2.91,21.17,"26,211",3.40,10.57%,10.49%,1.33,0.60,36.43%,44.68
+387,OX,OX Holdings Inc.,Financial,Asset Management,UK,2854366.87,,1.09,2.57,1.91,37.50,"69,826",6.27,7.66%,28.03%,1.04,0.73,58.38%,78.99
+388,OY,OY Corp.,Financial,Money Center Banks,UK,3677162.79,32.59,2.70,3.51,5.07,33.39,"55,509",2.60,-12.18%,5.15%,0.68,0.96,27.13%,62.57
+389,OZ,OZ Holdings Inc.,Financial,Property & Casualty Insurance,UK,2059759.30,3.92,1.66,0.99,,17.84,"55,090",1.07,29.03%,25.52%,0.95,0.90,48.55%,33.59
+390,PA,PA Holdings Inc.,Financial,REIT - Office,UK,685713.43,37.01,1.54,2.85,2.69,12.89,"79,668",3.52,0.56%,0.15%,0.29,0.84,57.52%,55.15
+391,PB,PB Corp.,Financial,Investment Brokerage,China,24356335.98,23.31,,0.77,4.58,29.34,"120,894",2.51,2.93%,20.42%,0.88,0.77,16.80%,46.32
+392,PC,PC Corp.,Financial,Regional - Mid-Atlantic Banks,China,3145354.51,41.14,2.22,0.66,2.21,22.52,"406,014",-2.35,17.25%,8.38%,0.56,0.97,55.07%,68.09
+393,PD,PD Holdings Inc.,Financial,Life Insurance,China,5580915.36,16.89,,0.98,0.66,24.52,"17,679",5.94,13.81%,-0.60%,0.14,0.26,18.13%,38.88
+394,PE,PE Holdings Inc.,Financial,Closed-End Fund - Debt,China,6307748.60,22.13,1.61,9.08,1.82,31.92,"18,563",1.98,14.55%,12.83%,0.67,0.97,42.58%,62.19
+395,PF,PF Holdings Inc.,Financial,Asset Management,Chile,6350120.03,15.56,1.16,0.80,1.77,13.85,"59,970",3.24,0.18%,15.14%,0.38,0.82,23.59%,54.85
+396,PG,PG Holdings Inc.,Financial,Money Center Banks,Chile,10170886.23,21.74,8.99,1.63,1.56,68.76,"438,298",3.42,-3.31%,7.26%,1.02,1.19,62.53%,29.27
+397,PH,PH Holdings Inc.,Financial,Property & Casualty Insurance,Chile,12318002.04,21.98,1.96,2.28,1.01,75.81,"1,605,677",4.33,2.26%,9.22%,0.59,1.10,63.33%,52.90
+398,PI,PI Holdings Inc.,Financial,REIT - Office,Switzerland,5242683.68,43.44,1.14,1.56,1.76,2.14,"103,868",0.12,-1.57%,18.16%,0.68,0.98,35.56%,33.50
+399,PJ,PJ Holdings Inc.,Financial,Investment Brokerage,Switzerland,670821.59,29.68,2.36,4.19,1.76,16.52,"262,947",1.02,38.60%,7.29%,0.92,1.05,4.93%,37.34
+400,PK,PK Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,1919099.89,12.94,0.67,1.82,2.18,127.68,"27,656",2.27,-7.35%,-10.79%,1.25,0.80,62.72%,57.66
+401,PL,PL Holdings Inc.,Financial,Life Insurance,USA,16122218.18,6.50,1.60,,1.20,25.14,"21,807",-2.33,22.81%,4.15%,0.42,0.54,71.07%,62.31
+402,PM,PM Holdings Inc.,Financial,Closed-End Fund - Debt,USA,7968666.97,46.85,5.44,2.38,1.62,29.97,"8,865",1.24,41.37%,8.72%,1.77,1.19,23.45%,24.82
+403,PN,PN Holdings Inc.,Financial,Asset Management,USA,2993988.62,34.76,,0.81,8.31,114.25,"4,383",3.17,-3.91%,19.50%,0.94,0.97,57.63%,62.33
+404,PO,PO Corp.,Financial,Money Center Banks,USA,13913991.03,54.26,,2.24,1.82,147.42,"50,834",4.98,19.03%,15.07%,0.93,1.00,48.70%,62.13
+405,PP,PP Corp.,Financial,Property & Casualty Insurance,USA,6406241.53,,0.81,0.55,2.98,94.49,"33,189",4.27,25.98%,-6.58%,0.37,1.24,62.43%,54.96
+406,PQ,PQ Holdings Inc.,Financial,REIT - Office,USA,1367797.57,25.34,2.56,0.98,3.06,62.12,"137,502",4.19,-8.31%,-7.61%,0.95,1.06,45.60%,65.90
+407,PR,PR Holdings Inc.,Financial,Investment Brokerage,USA,27823044.73,53.93,2.25,1.46,1.06,41.76,"101,459",-0.28,20.54%,20.18%,0.62,1.35,31.71%,54.55
+408,PS,PS Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,5061446.05,,0.45,7.04,1.13,60.74,"5,717",10.53,19.44%,-1.19%,0.35,0.77,40.97%,49.14
+409,PT,PT Holdings Inc.,Financial,Life Insurance,USA,6396115.98,14.43,,1.41,3.89,132.01,"95,158",2.90,10.73%,9.73%,0.79,0.69,76.57%,49.07
+410,PU,PU Corp.,Financial,Closed-End Fund - Debt,USA,1490596.42,74.17,1.96,,2.86,62.59,"57,029",1.98,18.90%,-2.34%,0.57,0.34,34.93%,33.86
+411,PV,PV Corp.,Financial,Asset Management,USA,2796793.46,30.66,4.17,0.94,1.66,106.85,"1,064,231",3.93,-0.08%,11.68%,0.19,2.05,16.67%,67.16
+412,PW,PW Holdings Inc.,Financial,Money Center Banks,USA,11206699.06,33.36,,3.13,1.45,168.24,"872,771",6.28,17.59%,3.03%,1.27,1.85,71.64%,43.71
+413,PX,PX Holdings Inc.,Financial,Property & Casualty Insurance,USA,879619.80,39.16,1.09,1.45,3.53,23.67,"6,357",1.02,11.24%,-0.20%,1.36,0.76,58.04%,49.51
+414,PY,PY Holdings Inc.,Financial,REIT - Office,USA,2406249.42,24.72,1.54,1.54,5.51,29.80,"26,166",0.51,15.27%,19.26%,1.06,1.13,16.29%,57.46
+415,PZ,PZ Corp.,Financial,Investment Brokerage,USA,7333558.21,23.01,3.65,1.62,1.96,38.17,"268,128",5.42,10.54%,6.12%,2.47,1.01,66.41%,46.50
+416,QA,QA Corp.,Financial,Regional - Mid-Atlantic Banks,USA,1765029.66,22.22,1.21,4.11,7.57,6.50,"915,407",3.94,-2.56%,6.60%,0.30,1.06,23.27%,69.63
+417,QB,QB Holdings Inc.,Financial,Life Insurance,USA,7936711.28,61.33,0.50,1.35,2.09,31.42,"2,731,510",2.09,5.23%,5.20%,1.15,0.57,49.72%,47.64
+418,QC,QC Corp.,Financial,Closed-End Fund - Debt,USA,81039741.87,41.13,,0.38,5.06,60.19,"38,101",1.48,42.49%,8.80%,1.07,0.61,7.12%,59.65
+419,QD,QD Corp.,Financial,Asset Management,USA,544431.28,18.25,3.20,3.46,1.54,10.12,"703,527",7.25,24.05%,-2.24%,0.24,1.62,26.36%,61.90
+420,QE,QE Holdings Inc.,Financial,Money Center Banks,USA,46303598.88,24.35,0.62,16.65,4.02,89.58,"179,185",1.45,1.79%,-3.63%,1.27,1.43,50.72%,76.90
+421,QF,QF Holdings Inc.,Financial,Property & Casualty Insurance,USA,10168561.53,12.82,1.19,2.88,4.03,45.36,"247,750",1.30,20.63%,12.28%,0.75,1.24,10.58%,37.33
+422,QG,QG Holdings Inc.,Financial,REIT - Office,USA,2880363.08,47.00,2.06,2.34,3.43,16.39,"181,235",1.24,8.98%,11.72%,0.07,0.54,16.85%,63.88
+423,QH,QH Holdings Inc.,Financial,Investment Brokerage,USA,12982887.61,57.42,2.68,,3.13,58.44,"107,852",-1.34,3.40%,22.18%,0.82,1.34,29.00%,63.49
+424,QI,QI Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,8689653.59,,0.64,2.60,2.06,34.26,"1,387,289",4.73,-1.09%,5.62%,0.26,0.36,50.03%,27.67
+425,QJ,QJ Corp.,Financial,Life Insurance,USA,13093030.68,20.83,1.53,0.56,1.96,42.11,"13,869",4.38,2.74%,2.78%,1.34,0.83,73.19%,56.01
+426,QK,QK Corp.,Financial,Closed-End Fund - Debt,USA,2787555.15,17.13,4.78,2.50,,36.21,"983,576",1.14,18.86%,15.66%,0.25,0.15,37.88%,61.18
+427,QL,QL Corp.,Financial,Asset Management,USA,209903.78,31.97,1.18,,1.82,19.65,"128,057",-1.31,-17.42%,4.35%,1.03,1.62,44.38%,45.13
+428,QM,QM Corp.,Financial,Money Center Banks,USA,7534329.43,21.64,2.02,2.35,3.03,19.83,"112,575",2.91,32.69%,19.49%,0.23,1.48,37.58%,38.81
+429,QN,QN Holdings Inc.,Financial,Property & Casualty Insurance,USA,280732.31,32.45,1.78,1.50,1.00,25.86,"7,106",0.14,18.07%,9.23%,0.45,1.25,30.06%,30.15
+430,QO,QO Corp.,Financial,REIT - Office,USA,1012407.79,15.28,1.63,3.84,7.30,33.94,"49,699",0.33,-4.40%,12.75%,0.24,1.26,69.12%,41.31
+431,QP,QP Holdings Inc.,Financial,Investment Brokerage,USA,3500898.77,15.40,0.83,0.83,2.69,58.12,"195,319",6.08,19.58%,7.17%,0.28,0.63,75.59%,56.33
+432,QQ,QQ Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,6570440.69,12.86,1.98,1.64,1.46,26.91,"771,923",-0.41,-3.48%,7.55%,0.67,0.98,36.16%,75.05
+433,QR,QR Corp.,Financial,Life Insurance,USA,367638.48,20.55,,,2.77,16.81,"162,817",-2.03,14.12%,1.74%,0.06,1.41,30.10%,53.84
+434,QS,QS Holdings Inc.,Financial,Closed-End Fund - Debt,USA,5210415.83,20.31,,1.10,2.18,52.52,"277,676",3.46,15.84%,12.61%,0.24,0.63,54.81%,30.23
+435,QT,QT Corp.,Financial,Asset Management,USA,20482175.52,,1.53,1.78,1.98,53.67,"691,306",5.64,9.91%,12.53%,1.49,1.26,66.83%,44.12
+436,QU,QU Holdings Inc.,Financial,Money Center Banks,USA,9780096.15,20.84,2.96,1.88,7.09,23.56,"28,029",7.52,20.49%,8.30%,0.15,1.04,33.59%,37.66
+437,QV,QV Holdings Inc.,Financial,Property & Casualty Insurance,USA,56831167.06,39.70,0.90,2.44,4.65,67.47,"54,187",1.99,10.78%,39.57%,0.28,0.94,26.83%,58.56
+438,QW,QW Holdings Inc.,Financial,REIT - Office,USA,5027147.82,12.45,3.05,2.27,3.77,23.36,"99,048",2.36,4.65%,15.38%,0.24,1.04,75.42%,95.00
+439,QX,QX Holdings Inc.,Financial,Investment Brokerage,USA,38291822.23,8.06,1.12,0.31,,51.42,"27,515",2.24,10.38%,9.61%,0.49,0.65,51.90%,54.97
+440,QY,QY Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,508628.59,,1.12,3.03,1.89,15.58,"45,702",-0.47,16.03%,26.41%,0.91,1.47,18.73%,22.75
+441,QZ,QZ Corp.,Financial,Life Insurance,USA,1675156.57,8.71,2.76,2.16,,17.09,"18,879",-2.93,-13.28%,2.61%,0.70,1.38,79.44%,45.60
+442,RA,RA Corp.,Financial,Closed-End Fund - Debt,USA,30693391.71,18.24,3.32,3.68,5.88,34.96,"65,092",7.30,13.89%,30.33%,0.80,1.53,12.56%,54.44
+443,RB,RB Holdings Inc.,Financial,Asset Management,USA,368449.32,10.06,1.88,3.49,4.13,7.34,"72,038",4.31,6.12%,11.26%,0.45,1.55,53.03%,38.76
+444,RC,RC Holdings Inc.,Financial,Money Center Banks,USA,3066210.49,19.20,1.35,1.53,3.15,76.69,"12,636",1.46,1.52%,13.44%,0.82,1.68,61.00%,79.92
+445,RD,RD Holdings Inc.,Financial,Property & Casualty Insurance,USA,8412174.70,26.56,1.48,1.64,1.13,46.62,"324,894",7.42,-0.42%,22.85%,0.97,0.95,33.39%,42.68
+446,RE,RE Holdings Inc.,Financial,REIT - Office,USA,1670255.26,20.95,4.73,1.14,0.74,16.47,"36,795",-0.83,-13.42%,26.91%,1.48,0.15,33.16%,69.84
+447,RF,RF Holdings Inc.,Financial,Investment Brokerage,USA,965066.56,8.61,1.34,4.79,1.48,16.39,"33,963",2.85,18.81%,5.23%,0.85,1.34,81.36%,46.24
+448,RG,RG Corp.,Financial,Regional - Mid-Atlantic Banks,USA,2358127.50,9.67,2.01,1.56,1.60,17.52,"218,538",2.62,6.14%,22.95%,0.22,1.29,12.04%,55.45
+449,RH,RH Holdings Inc.,Financial,Life Insurance,USA,5368391.07,11.97,1.02,1.65,3.28,37.62,"43,946",2.86,12.94%,2.16%,0.22,0.86,27.18%,41.77
+450,RI,RI Corp.,Financial,Closed-End Fund - Debt,USA,21676243.21,7.63,,3.37,1.46,88.23,"40,358",1.61,-18.96%,29.66%,0.41,1.72,72.31%,35.46
+451,RJ,RJ Holdings Inc.,Financial,Asset Management,USA,1502753.59,18.58,2.33,3.47,1.76,26.86,"40,468",-1.89,35.18%,11.02%,0.62,0.62,55.78%,48.04
+452,RK,RK Holdings Inc.,Financial,Money Center Banks,USA,1000120.35,27.74,2.99,3.20,0.76,28.46,"38,200",3.10,22.45%,31.16%,0.28,1.54,53.69%,51.02
+453,RL,RL Holdings Inc.,Financial,Property & Casualty Insurance,USA,5111637.70,17.60,9.22,3.37,3.82,27.14,"233,001",-0.08,16.02%,15.75%,0.28,0.48,45.21%,52.92
+454,RM,RM Corp.,Financial,REIT - Office,USA,4327106.57,22.38,,2.77,3.91,19.76,"42,063",4.35,3.35%,13.57%,0.77,0.60,27.25%,43.92
+455,RN,RN Corp.,Financial,Investment Brokerage,USA,1033083.07,47.88,0.67,1.09,4.98,110.56,"19,081",3.77,7.57%,22.80%,0.37,0.83,38.85%,75.00
+456,RO,RO Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,3313050.63,14.78,2.24,1.26,7.47,37.71,"199,053",1.70,7.56%,11.87%,0.90,1.34,33.49%,49.13
+457,RP,RP Corp.,Financial,Life Insurance,USA,3068791.19,19.63,1.13,2.39,1.89,11.56,"150,720",-1.15,-4.51%,9.62%,0.43,0.82,19.58%,64.36
+458,RQ,RQ Corp.,Financial,Closed-End Fund - Debt,USA,7817660.93,35.48,1.83,1.11,1.61,73.96,"6,238",5.16,-3.62%,6.90%,0.35,1.74,15.73%,67.58
+459,RR,RR Holdings Inc.,Financial,Asset Management,USA,2215820.15,22.98,,3.42,3.36,18.33,"206,981",0.44,13.30%,8.17%,1.19,0.46,38.45%,50.27
+460,RS,RS Corp.,Financial,Money Center Banks,USA,98309885.64,,2.10,3.20,1.07,84.84,"106,975",6.99,-18.04%,2.47%,0.51,1.24,61.43%,24.52
+461,RT,RT Holdings Inc.,Financial,Property & Casualty Insurance,USA,1604287.29,39.07,2.01,4.93,3.37,41.60,"77,750",-1.57,5.04%,0.96%,0.39,0.71,75.72%,71.29
+462,RU,RU Corp.,Financial,REIT - Office,USA,2892098.22,60.79,3.26,2.02,3.85,33.41,"55,217",-5.25,-6.28%,20.77%,0.46,1.14,12.58%,72.62
+463,RV,RV Corp.,Financial,Investment Brokerage,USA,11719882.28,65.46,0.64,2.85,1.66,82.25,"6,546",1.13,13.21%,16.29%,0.27,1.83,18.03%,43.26
+464,RW,RW Corp.,Financial,Regional - Mid-Atlantic Banks,USA,1933787.97,33.84,1.28,5.90,2.21,37.51,"46,913",3.55,9.01%,16.11%,0.47,0.86,78.43%,38.75
+465,RX,RX Holdings Inc.,Financial,Life Insurance,USA,5264895.12,47.27,2.17,4.66,,58.32,"26,805",3.20,1.79%,-7.21%,0.25,1.03,32.86%,49.43
+466,RY,RY Corp.,Financial,Closed-End Fund - Debt,USA,13215918.52,9.47,2.12,4.92,0.86,17.34,"3,372",5.21,3.64%,23.78%,1.22,1.10,33.99%,44.29
+467,RZ,RZ Corp.,Financial,Asset Management,USA,13786426.60,17.85,2.05,11.96,8.70,43.83,"297,502",-2.10,27.12%,7.53%,0.39,0.68,11.01%,26.44
+468,SA,SA Holdings Inc.,Financial,Money Center Banks,USA,1387915.83,13.68,6.12,8.95,2.25,13.86,"53,983",2.18,-11.69%,9.16%,1.57,0.78,25.53%,31.53
+469,SB,SB Corp.,Financial,Property & Casualty Insurance,USA,42516172.26,21.65,1.51,3.61,2.16,55.37,"31,932",1.70,27.90%,11.84%,0.17,1.44,40.75%,45.14
+470,SC,SC Corp.,Financial,REIT - Office,USA,579968.80,17.83,0.99,5.17,6.17,34.90,"70,118",0.29,-15.35%,2.76%,0.94,1.39,32.66%,54.29
+471,SD,SD Corp.,Financial,Investment Brokerage,USA,11502854.29,88.48,1.57,1.87,1.43,32.52,"16,887",1.61,14.25%,16.46%,0.55,1.29,39.14%,70.83
+472,SE,SE Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,USA,1229995.90,18.34,1.73,3.01,1.02,14.50,"12,133",3.63,14.36%,-3.51%,0.51,1.21,60.27%,35.83
+473,SF,SF Corp.,Financial,Life Insurance,USA,101918177.34,27.69,1.34,4.20,3.12,178.42,"38,531",4.23,17.11%,8.70%,0.24,0.74,54.32%,44.43
+474,SG,SG Holdings Inc.,Financial,Closed-End Fund - Debt,USA,30615523.52,16.75,,0.88,3.28,67.88,"67,230",1.60,3.86%,16.98%,0.56,2.29,1.71%,59.93
+475,SH,SH Corp.,Financial,Asset Management,USA,3879789.49,34.86,2.25,1.60,4.82,16.26,"68,042",3.02,31.47%,-7.21%,0.36,1.42,27.26%,57.20
+476,SI,SI Corp.,Financial,Money Center Banks,USA,2860615.71,11.48,1.64,,0.88,34.85,"98,011",4.38,-14.24%,14.39%,0.54,1.33,26.40%,62.58
+477,SJ,SJ Holdings Inc.,Financial,Property & Casualty Insurance,USA,2774229.72,23.43,1.80,,4.93,30.00,"38,658",-0.18,1.57%,8.06%,0.19,0.29,37.09%,65.76
+478,SK,SK Corp.,Financial,REIT - Office,Canada,12668813.41,39.29,0.89,4.47,5.31,192.81,"162,287",-1.25,2.40%,15.55%,0.58,0.98,49.65%,60.28
+479,SL,SL Holdings Inc.,Financial,Investment Brokerage,Canada,2372256.74,29.87,,3.36,3.26,16.64,"114,271",2.77,7.58%,13.54%,0.60,1.22,18.72%,53.14
+480,SM,SM Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,Canada,52175214.77,10.41,,,2.07,157.54,"245,374",2.25,0.82%,4.30%,0.40,1.12,28.46%,38.60
+481,SN,SN Holdings Inc.,Financial,Life Insurance,Canada,7507108.03,17.24,1.53,6.80,4.44,35.15,"182,799",5.51,-9.62%,17.00%,2.80,1.53,42.13%,58.07
+482,SO,SO Corp.,Financial,Closed-End Fund - Debt,Canada,2837804.35,16.36,1.94,1.39,,101.96,"120,574",2.55,-23.39%,19.16%,0.62,1.17,22.85%,60.80
+483,SP,SP Holdings Inc.,Financial,Asset Management,Canada,4734879.23,16.10,5.31,9.06,7.89,124.04,"126,580",1.77,26.21%,19.55%,0.64,0.65,28.85%,55.24
+484,SQ,SQ Corp.,Financial,Money Center Banks,Canada,1974672.93,27.81,1.23,1.10,1.53,61.90,"209,456",-1.68,32.86%,13.39%,0.90,0.64,19.41%,67.58
+485,SR,SR Holdings Inc.,Financial,Property & Casualty Insurance,Canada,2961708.36,29.38,2.08,0.95,1.86,30.07,"28,285",6.99,10.68%,17.28%,0.19,1.59,45.20%,45.60
+486,SS,SS Holdings Inc.,Financial,REIT - Office,UK,7675426.25,23.38,1.10,4.48,3.99,24.28,"831,655",5.08,9.51%,-6.18%,0.64,1.34,61.17%,53.55
+487,ST,ST Corp.,Financial,Investment Brokerage,UK,7864183.89,25.18,1.54,0.67,2.27,71.15,"86,937",4.01,0.42%,-11.75%,0.39,0.91,48.04%,53.93
+488,SU,SU Corp.,Financial,Regional - Mid-Atlantic Banks,UK,2925452.02,23.56,2.12,3.27,2.85,31.29,"2,974,493",6.35,0.45%,1.95%,0.18,0.97,47.94%,46.60
+489,SV,SV Corp.,Financial,Life Insurance,UK,33632691.64,17.26,0.92,4.39,3.23,32.40,"214,930",3.55,-6.56%,30.34%,0.22,1.17,63.98%,57.22
+490,SW,SW Holdings Inc.,Financial,Closed-End Fund - Debt,UK,56582612.95,11.76,0.85,1.77,2.48,27.34,"155,918",2.65,11.89%,-7.88%,0.54,1.20,24.32%,50.56
+491,SX,SX Holdings Inc.,Financial,Asset Management,China,136883.67,15.21,1.90,1.81,2.60,32.18,"141,767",10.41,1.22%,17.69%,0.18,0.92,34.04%,49.62
+492,SY,SY Holdings Inc.,Financial,Money Center Banks,China,998416.08,,2.65,2.47,3.56,43.04,"39,031",0.16,1.95%,-2.24%,0.17,0.73,45.00%,61.69
+493,SZ,SZ Holdings Inc.,Financial,Property & Casualty Insurance,China,35226093.55,8.48,1.42,2.25,1.38,206.60,"613,583",-1.11,-0.72%,15.53%,1.28,0.38,34.59%,60.05
+494,TA,TA Corp.,Financial,REIT - Office,China,3516960.79,,3.79,4.32,1.98,17.54,"30,212",5.21,15.78%,31.85%,0.87,0.71,26.47%,48.59
+495,TB,TB Corp.,Financial,Investment Brokerage,Chile,24458620.55,25.02,6.41,1.23,,35.24,"73,068",1.33,15.92%,13.00%,1.13,1.63,41.25%,65.57
+496,TC,TC Holdings Inc.,Financial,Regional - Mid-Atlantic Banks,Chile,4738623.31,9.60,3.47,2.23,1.90,118.47,"818,640",-2.09,39.84%,13.69%,0.47,1.68,25.49%,58.44
+497,TD,TD Corp.,Financial,Life Insurance,Chile,6037371.05,13.46,,0.78,2.64,18.13,"11,322",-2.42,19.76%,28.54%,0.35,0.83,52.74%,31.03
+498,TE,TE Corp.,Financial,Closed-End Fund - Debt,Switzerland,14287329.18,22.07,,2.45,1.42,69.19,"269,465",4.27,7.80%,7.84%,0.31,1.07,46.26%,47.26
+499,TF,TF Corp.,Healthcare,Biotechnology,Switzerland,293049.56,14.48,2.54,2.39,3.10,12.22,"18,069",5.74,11.27%,11.34%,0.69,1.01,46.00%,44.71
+500,TG,TG Holdings Inc.,Healthcare,Drug Manufacturers,USA,305908.99,19.99,2.33,8.85,9.11,16.54,"83,242",-0.33,4.41%,22.96%,0.26,1.27,43.08%,44.52
+501,TH,TH Holdings Inc.,Healthcare,Medical Laboratories,USA,29655373.73,16.11,2.93,1.39,4.35,50.67,"150,636",6.03,36.85%,12.77%,0.84,1.52,26.05%,52.86
+502,TI,TI Holdings Inc.,Healthcare,Hospitals,USA,1350994.48,16.41,0.99,3.69,1.06,17.90,"657,455",1.11,5.83%,5.53%,0.20,0.97,28.73%,33.65
+503,TJ,TJ Holdings Inc.,Healthcare,Biotechnology,USA,29623596.34,20.44,1.07,3.58,12.78,20.39,"10,750",1.24,9.71%,10.96%,0.33,1.16,12.92%,36.97
+504,TK,TK Holdings Inc.,Healthcare,Drug Manufacturers,USA,3686222.74,19.45,1.90,,,17.90,"33,512",4.88,-9.41%,2.10%,0.60,0.54,29.22%,50.19
+505,TL,TL Corp.,Healthcare,Medical Laboratories,USA,2236723.55,5.59,3.74,4.72,1.90,11.87,"368,426",1.53,-18.18%,9.30%,0.52,1.59,47.41%,49.20
+506,TM,TM Holdings Inc.,Healthcare,Hospitals,USA,3904394.36,24.26,10.36,3.08,2.43,32.07,"5,087",6.60,13.97%,19.52%,0.41,0.84,10.22%,38.05
+507,TN,TN Holdings Inc.,Healthcare,Biotechnology,USA,4951813.06,,1.21,1.76,,63.98,"18,316",3.96,10.76%,18.51%,0.26,0.90,22.88%,65.22
+508,TO,TO Corp.,Healthcare,Drug Manufacturers,USA,893814.00,93.58,,1.34,,21.47,"95,879",0.22,16.22%,1.79%,1.26,0.50,29.04%,49.52
+509,TP,TP Corp.,Healthcare,Medical Laboratories,USA,1312198.57,12.74,3.59,8.32,,21.80,"15,945",-1.88,16.57%,16.26%,0.58,0.94,50.71%,30.02
+510,TQ,TQ Holdings Inc.,Healthcare,Hospitals,USA,29851338.66,19.06,2.01,0.79,3.08,18.85,"67,917",5.94,-19.14%,11.40%,0.21,0.97,17.13%,66.07
+511,TR,TR Holdings Inc.,Healthcare,Biotechnology,USA,1688438.97,9.33,6.41,1.65,2.64,52.88,"339,924",0.60,-5.25%,22.44%,0.56,1.74,41.38%,29.79
+512,TS,TS Holdings Inc.,Healthcare,Drug Manufacturers,USA,5519354.24,61.48,1.50,0.86,,8.18,"126,779",2.41,-6.55%,0.45%,0.19,0.48,23.59%,56.97
+513,TT,TT Holdings Inc.,Healthcare,Medical Laboratories,USA,168694034.42,22.46,1.64,11.01,0.94,30.17,"15,929",0.87,30.81%,-10.33%,0.38,0.51,62.80%,41.95
+514,TU,TU Holdings Inc.,Healthcare,Hospitals,USA,1270943.28,6.50,3.86,0.87,,22.21,"242,377",2.83,-3.29%,9.15%,0.81,0.84,45.02%,41.63
+515,TV,TV Corp.,Healthcare,Biotechnology,USA,21468502.90,24.33,0.59,3.04,2.24,25.25,"138,706",6.83,-1.52%,12.00%,0.68,1.22,21.13%,55.90
+516,TW,TW Holdings Inc.,Healthcare,Drug Manufacturers,USA,19634398.57,18.80,1.35,1.01,3.94,78.60,"900,189",6.31,-8.54%,7.83%,0.20,1.31,67.25%,42.41
+517,TX,TX Holdings Inc.,Healthcare,Medical Laboratories,USA,11480859.51,14.26,2.06,8.70,2.98,56.97,"522,323",1.16,-15.32%,0.64%,1.52,1.70,35.45%,58.48
+518,TY,TY Holdings Inc.,Healthcare,Hospitals,USA,5882784.87,8.57,0.68,12.05,2.21,65.23,"8,993",3.11,10.56%,22.33%,0.63,1.14,72.95%,28.72
+519,TZ,TZ Holdings Inc.,Healthcare,Biotechnology,USA,459714.64,42.83,1.33,,4.23,7.86,"166,611",4.59,-7.08%,25.16%,2.48,1.28,4.89%,43.74
+520,UA,UA Holdings Inc.,Healthcare,Drug Manufacturers,USA,3226489.37,13.46,3.65,0.68,0.61,32.78,"137,573",6.39,6.97%,10.80%,3.21,1.85,16.80%,39.29
+521,UB,UB Corp.,Healthcare,Medical Laboratories,USA,2118030.42,17.32,0.74,,1.17,24.07,"22,996",0.74,0.46%,-0.83%,0.06,1.73,10.86%,23.15
+522,UC,UC Holdings Inc.,Healthcare,Hospitals,USA,281386707.26,21.13,1.50,2.13,2.37,112.66,"1,152,661",0.72,6.91%,-18.60%,1.32,1.61,37.29%,53.87
+523,UD,UD Corp.,Healthcare,Biotechnology,USA,1971311.72,43.45,4.64,4.07,5.77,24.32,"6,381",3.65,9.05%,-3.71%,0.18,0.72,55.44%,79.23
+524,UE,UE Corp.,Healthcare,Drug Manufacturers,USA,1088722.52,16.74,0.53,4.27,2.22,26.36,"16,100",5.54,28.67%,10.69%,0.67,0.48,22.03%,58.00
+525,UF,UF Holdings Inc.,Healthcare,Medical Laboratories,USA,1980242.37,23.19,,2.19,7.27,18.35,"731,971",-1.17,4.10%,5.91%,0.67,0.80,36.40%,66.50
+526,UG,UG Corp.,Healthcare,Hospitals,USA,820522.02,15.09,1.32,3.15,1.60,19.08,"258,283",-1.22,2.99%,13.84%,0.42,1.34,51.22%,68.27
+527,UH,UH Holdings Inc.,Healthcare,Biotechnology,USA,198335.64,26.23,0.82,,1.70,17.07,"533,220",2.24,28.60%,11.95%,0.32,0.73,40.20%,61.30
+528,UI,UI Corp.,Healthcare,Drug Manufacturers,USA,5428954.89,37.79,1.00,1.18,3.85,52.78,"61,247",-0.68,17.89%,-4.91%,0.77,1.20,49.19%,71.98
+529,UJ,UJ Holdings Inc.,Healthcare,Medical Laboratories,USA,1137435.36,15.16,1.44,1.15,1.70,15.40,"69,592",-0.27,12.71%,4.03%,0.34,1.02,44.51%,29.28
+530,UK,UK Corp.,Healthcare,Hospitals,USA,1510117.51,18.80,2.28,2.37,2.19,14.85,"77,635",6.45,4.40%,-3.00%,0.73,0.72,91.89%,55.48
+531,UL,UL Corp.,Healthcare,Biotechnology,USA,4220165.87,5.59,2.67,1.01,1.21,21.52,"3,586",0.34,19.11%,1.69%,2.63,0.74,57.81%,65.20
+532,UM,UM Holdings Inc.,Healthcare,Drug Manufacturers,USA,10897997.91,23.68,6.33,,2.01,41.59,"34,071",0.98,23.31%,18.32%,0.39,1.42,30.40%,47.04
+533,UN,UN Corp.,Healthcare,Medical Laboratories,USA,52719476.13,6.07,2.15,1.66,3.40,77.68,"115,306",7.73,5.50%,16.87%,0.97,1.01,48.07%,36.26
+534,UO,UO Holdings Inc.,Healthcare,Hospitals,USA,46467986.47,18.81,1.86,2.55,3.44,57.92,"11,331",-0.74,1.16%,7.08%,0.34,0.72,62.08%,55.16
+535,UP,UP Corp.,Healthcare,Biotechnology,USA,24179569.48,9.01,0.76,2.36,6.58,48.51,"124,198",3.25,4.75%,8.02%,0.39,1.36,31.27%,34.36
+536,UQ,UQ Holdings Inc.,Healthcare,Drug Manufacturers,USA,1591841.78,,,6.09,1.64,24.41,"13,993",7.02,-15.41%,14.26%,0.55,1.42,21.93%,47.25
+537,UR,UR Corp.,Healthcare,Medical Laboratories,USA,197549.62,38.28,1.62,1.19,2.45,8.36,"16,987",2.48,17.22%,-17.49%,0.72,0.59,30.33%,73.80
+538,US,US Corp.,Healthcare,Hospitals,USA,1811326.72,45.55,1.76,2.57,2.33,44.86,"122,910",3.97,12.62%,9.32%,0.62,0.78,55.64%,37.19
+539,UT,UT Holdings Inc.,Healthcare,Biotechnology,USA,700869.82,25.06,0.82,2.65,,15.51,"175,207",0.64,16.21%,10.58%,0.21,0.22,26.85%,56.41
+540,UU,UU Holdings Inc.,Healthcare,Drug Manufacturers,USA,57752137.77,14.96,,0.73,3.10,68.50,"11,436",2.98,-10.80%,-0.55%,0.24,0.81,33.91%,49.58
+541,UV,UV Corp.,Healthcare,Medical Laboratories,USA,4378222.65,36.06,2.18,1.26,0.89,77.84,"396,522",-3.85,10.35%,5.66%,0.14,1.44,23.84%,71.84
+542,UW,UW Holdings Inc.,Healthcare,Hospitals,USA,6914534.16,35.98,2.20,0.96,1.94,23.13,"297,959",1.24,10.50%,-27.13%,0.40,1.39,19.47%,42.87
+543,UX,UX Holdings Inc.,Healthcare,Biotechnology,USA,16618544.39,8.51,1.41,1.86,3.93,59.43,"128,449",1.20,-8.32%,30.43%,0.54,0.73,38.74%,55.87
+544,UY,UY Corp.,Healthcare,Drug Manufacturers,USA,8604694.65,40.39,,3.45,1.87,46.39,"64,088",2.16,-15.26%,19.46%,0.08,2.27,73.78%,61.18
+545,UZ,UZ Corp.,Healthcare,Medical Laboratories,USA,1753856.18,22.48,,1.67,1.79,11.95,"214,446",7.31,13.94%,14.82%,0.46,1.28,47.60%,59.50
+546,VA,VA Holdings Inc.,Healthcare,Hospitals,USA,3004437.71,17.09,0.95,1.49,1.65,7.48,"197,120",3.30,19.33%,22.04%,1.31,1.89,25.09%,58.84
+547,VB,VB Holdings Inc.,Healthcare,Biotechnology,USA,25735354.79,22.14,1.21,2.60,2.25,131.99,"55,464",-1.87,-2.70%,1.97%,1.74,0.55,65.01%,52.74
+548,VC,VC Corp.,Healthcare,Drug Manufacturers,USA,1194747.76,8.30,0.86,1.25,1.77,32.91,"61,319",3.10,8.49%,2.05%,0.12,0.60,47.84%,47.61
+549,VD,VD Holdings Inc.,Healthcare,Medical Laboratories,USA,516222.94,10.71,2.16,2.13,4.02,16.93,"114,867",1.25,11.83%,9.77%,0.74,1.19,43.46%,56.78
+550,VE,VE Holdings Inc.,Healthcare,Hospitals,USA,10869112.30,23.68,2.70,1.26,1.78,71.34,"37,338",-2.16,-5.64%,12.53%,0.33,2.57,56.99%,50.45
+551,VF,VF Corp.,Healthcare,Biotechnology,USA,28734979.71,17.11,5.20,0.54,3.24,34.80,"33,493",6.42,12.80%,10.97%,2.22,1.25,45.62%,52.79
+552,VG,VG Holdings Inc.,Healthcare,Drug Manufacturers,USA,6449412.79,10.82,3.82,1.29,0.75,16.45,"240,716",2.37,21.66%,16.43%,0.57,1.27,56.21%,45.02
+553,VH,VH Corp.,Healthcare,Medical Laboratories,USA,2568857.77,18.86,2.16,1.88,1.97,50.38,"42,976",5.63,4.11%,10.39%,0.33,0.98,30.58%,63.46
+554,VI,VI Holdings Inc.,Healthcare,Hospitals,USA,5125094.22,14.40,4.48,1.77,6.49,54.57,"52,859",2.51,-0.99%,9.62%,0.38,0.91,43.53%,54.52
+555,VJ,VJ Holdings Inc.,Healthcare,Biotechnology,USA,3070206.63,17.95,2.58,2.14,6.05,13.47,"66,487",1.34,-7.46%,-8.47%,1.17,0.84,92.32%,73.67
+556,VK,VK Holdings Inc.,Healthcare,Drug Manufacturers,USA,1758310.73,17.77,2.95,4.31,0.81,14.42,"7,296,210",10.21,16.53%,31.09%,0.98,0.72,37.31%,61.16
+557,VL,VL Corp.,Healthcare,Medical Laboratories,USA,3234426.54,23.41,1.74,1.33,2.12,25.06,"80,607",6.46,-9.49%,6.15%,0.57,1.36,21.33%,35.98
+558,VM,VM Holdings Inc.,Healthcare,Hospitals,USA,7732862.76,5.93,0.93,1.42,5.26,10.27,"167,463",3.12,26.17%,23.89%,0.53,0.84,18.22%,41.24
+559,VN,VN Holdings Inc.,Healthcare,Biotechnology,USA,8314910.81,23.56,2.39,4.16,3.00,129.40,"12,220",8.41,22.01%,9.79%,0.23,0.40,25.31%,64.49
+560,VO,VO Corp.,Healthcare,Drug Manufacturers,USA,2101266.80,11.26,2.28,1.42,0.86,49.16,"558,325",4.40,27.18%,2.94%,1.20,1.17,75.00%,55.40
+561,VP,VP Corp.,Healthcare,Medical Laboratories,USA,13168774.09,20.93,0.96,3.55,1.58,81.90,"539,290",5.89,36.31%,17.93%,0.54,0.15,23.58%,44.85
+562,VQ,VQ Holdings Inc.,Healthcare,Hospitals,USA,56752954.46,15.89,2.19,1.51,3.25,71.86,"1,916,905",1.01,14.50%,16.11%,1.17,0.78,38.55%,45.10
+563,VR,VR Holdings Inc.,Healthcare,Biotechnology,USA,8600729.99,,0.64,1.90,2.21,32.30,"76,943",0.44,24.02%,-7.36%,0.46,0.72,45.66%,62.76
+564,VS,VS Holdings Inc.,Healthcare,Drug Manufacturers,USA,25755927.46,18.15,3.09,2.56,4.33,139.18,"287,267",9.37,-17.55%,1.87%,0.35,2.18,63.30%,73.78
+565,VT,VT Corp.,Healthcare,Medical Laboratories,USA,26458811.04,19.16,1.26,0.51,2.27,30.83,"218,585",5.91,7.78%,5.98%,0.20,2.00,38.99%,50.86
+566,VU,VU Corp.,Healthcare,Hospitals,USA,565053.75,29.32,1.38,1.19,1.63,10.91,"4,080",2.72,-2.55%,19.27%,0.38,1.01,8.65%,31.60
+567,VV,VV Holdings Inc.,Healthcare,Biotechnology,USA,935439.67,18.00,1.16,0.76,2.44,32.40,"28,392",-1.14,27.26%,10.93%,1.85,0.77,19.96%,35.83
+568,VW,VW Corp.,Healthcare,Drug Manufacturers,USA,27735489.70,30.66,2.62,0.69,6.57,19.61,"22,360",6.00,6.62%,32.02%,0.57,1.56,58.63%,54.82
+569,VX,VX Holdings Inc.,Healthcare,Medical Laboratories,USA,1244559.14,12.67,,0.87,4.18,27.26,"154,527",4.77,12.95%,-4.70%,0.10,0.59,24.69%,55.28
+570,VY,VY Corp.,Healthcare,Hospitals,USA,22155145.96,11.21,1.95,2.17,2.22,30.35,"31,599",5.19,16.53%,14.61%,0.07,1.18,27.22%,73.40
+571,VZ,VZ Corp.,Healthcare,Biotechnology,USA,1569106.53,56.92,3.29,18.83,2.70,34.36,"51,420",2.09,48.53%,11.32%,0.37,0.96,20.42%,47.57
+572,WA,WA Corp.,Healthcare,Drug Manufacturers,USA,1308850.10,21.05,1.25,0.61,1.80,24.00,"5,362",7.53,17.51%,-7.06%,1.58,1.76,41.59%,40.22
+573,WB,WB Corp.,Healthcare,Medical Laboratories,USA,109866513.54,9.69,0.75,2.15,7.11,117.06,"137,587",9.46,26.64%,2.94%,1.49,0.95,35.29%,31.26
+574,WC,WC Corp.,Healthcare,Hospitals,USA,866202.62,11.89,,7.13,2.40,21.02,"168,964",3.79,-14.45%,-5.88%,0.56,1.04,43.11%,68.78
+575,WD,WD Holdings Inc.,Healthcare,Biotechnology,USA,2027954.00,16.47,1.51,2.53,1.90,56.92,"252,991",4.64,10.68%,18.09%,0.40,1.60,56.51%,71.01
+576,WE,WE Holdings Inc.,Healthcare,Drug Manufacturers,USA,6286701.02,21.21,0.47,2.79,3.22,38.65,"45,977",3.71,-4.06%,6.08%,0.19,0.96,47.70%,56.61
+577,WF,WF Holdings Inc.,Healthcare,Medical Laboratories,USA,58004516.67,33.44,1.26,1.88,6.86,32.99,"64,857",-0.86,11.76%,-1.31%,0.24,0.75,11.56%,24.98
+578,WG,WG Holdings Inc.,Healthcare,Hospitals,Canada,11429956.70,15.06,1.74,,1.02,52.74,"2,226,239",-1.13,11.63%,18.51%,0.99,1.31,16.96%,79.32
+579,WH,WH Corp.,Healthcare,Biotechnology,Canada,3138498.73,13.92,3.58,,1.06,20.23,"1,232,907",-0.31,-5.21%,-0.18%,0.82,1.44,22.33%,42.94
+580,WI,WI Holdings Inc.,Healthcare,Drug Manufacturers,Canada,9465453.48,9.91,1.20,0.57,,49.34,"392,654",7.08,12.96%,-4.45%,0.37,1.27,49.65%,38.41
+581,WJ,WJ Holdings Inc.,Healthcare,Medical Laboratories,Canada,796375.79,22.96,4.55,2.88,0.41,8.04,"2,137",-0.69,-3.37%,2.70%,0.21,1.14,59.01%,64.37
+582,WK,WK Holdings Inc.,Healthcare,Hospitals,Canada,976231.72,32.70,3.57,2.38,2.47,51.82,"25,805",0.17,22.38%,7.11%,1.13,0.84,46.87%,21.33
+583,WL,WL Holdings Inc.,Healthcare,Biotechnology,Canada,39719269.81,22.19,2.01,3.37,2.35,143.15,"282,831",0.33,19.85%,10.21%,0.38,1.33,20.52%,44.59
+584,WM,WM Corp.,Healthcare,Drug Manufacturers,Canada,6202683.19,,,1.47,1.00,13.74,"2,747",4.29,-1.41%,24.95%,0.09,0.88,8.94%,75.51
+585,WN,WN Corp.,Healthcare,Medical Laboratories,Canada,6742537.83,38.50,1.36,4.67,4.94,71.33,"118,825",-1.99,30.33%,9.86%,0.67,0.79,14.58%,41.97
+586,WO,WO Corp.,Healthcare,Hospitals,UK,4268819.07,49.73,1.56,2.81,,46.43,"27,311",4.81,9.84%,17.32%,0.65,1.90,62.97%,30.94
+587,WP,WP Corp.,Healthcare,Biotechnology,UK,151874831.48,30.40,0.82,2.19,1.96,75.23,"60,087",4.67,10.27%,-7.99%,0.29,0.98,73.69%,46.56
+588,WQ,WQ Corp.,Healthcare,Drug Manufacturers,UK,6090596.85,18.38,,3.20,2.76,34.78,"17,303",1.87,-8.73%,17.61%,0.47,0.31,20.16%,25.17
+589,WR,WR Corp.,Healthcare,Medical Laboratories,UK,9560609.61,12.40,2.25,1.68,3.18,91.84,"3,325",-1.30,-7.52%,14.04%,1.69,0.89,58.84%,58.36
+590,WS,WS Holdings Inc.,Healthcare,Hospitals,UK,5204235.75,,2.20,2.46,8.86,77.42,"3,984",6.16,8.83%,13.29%,0.41,1.82,58.41%,46.12
+591,WT,WT Holdings Inc.,Healthcare,Biotechnology,China,2301555.61,9.53,2.27,2.20,,8.13,"196,958",4.04,34.91%,14.50%,0.41,0.41,15.94%,55.80
+592,WU,WU Holdings Inc.,Healthcare,Drug Manufacturers,China,310470.41,24.21,2.03,1.72,3.55,19.53,"11,113",2.60,21.46%,20.60%,0.70,1.19,42.58%,55.21
+593,WV,WV Corp.,Healthcare,Medical Laboratories,China,778209.27,17.94,1.72,2.28,2.61,10.88,"58,741",0.46,26.69%,-4.94%,0.52,1.49,28.52%,76.58
+594,WW,WW Holdings Inc.,Healthcare,Hospitals,China,20196151.56,14.46,1.93,5.06,2.89,179.83,"856,893",1.26,17.38%,12.79%,0.46,0.86,26.85%,30.48
+595,WX,WX Corp.,Healthcare,Biotechnology,Chile,934461.19,,3.65,0.90,3.81,29.90,"58,380",5.96,0.28%,-6.58%,0.61,0.78,47.05%,29.87
+596,WY,WY Corp.,Healthcare,Drug Manufacturers,Chile,39772773.66,38.70,1.35,1.62,1.12,37.01,"54,254",10.09,-10.25%,5.03%,0.28,1.11,29.81%,53.00
+597,WZ,WZ Corp.,Healthcare,Medical Laboratories,Chile,22932676.56,18.20,1.23,1.28,3.65,58.80,"42,517",-0.28,-1.53%,17.50%,1.14,1.30,77.03%,64.95
+598,XA,XA Corp.,Healthcare,Hospitals,Switzerland,60322037.43,27.68,0.57,0.66,3.09,125.93,"705,128",3.80,5.59%,-0.34%,0.73,1.04,11.28%,48.46
+599,XB,XB Holdings Inc.,Healthcare,Biotechnology,Switzerland,8676993.56,,2.39,1.68,1.94,28.33,"266,758",-0.55,19.90%,12.29%,0.53,0.75,15.63%,38.08
+600,XC,XC Corp.,Healthcare,Drug Manufacturers,USA,4956192.78,22.58,1.97,1.48,1.25,22.06,"40,070",4.36,19.15%,11.83%,1.09,0.81,40.47%,47.78
+601,XD,XD Holdings Inc.,Healthcare,Medical Laboratories,USA,7487580.85,24.20,0.60,3.03,3.97,140.04,"474,332",1.14,6.93%,6.38%,0.21,0.80,48.20%,53.32
+602,XE,XE Corp.,Healthcare,Hospitals,USA,1765609.34,20.15,1.77,1.39,1.50,18.99,"100,950",7.24,9.67%,-15.95%,0.22,0.71,14.83%,58.33
+603,XF,XF Corp.,Healthcare,Biotechnology,USA,33458049.69,16.35,2.00,5.40,2.15,149.17,"7,676",-1.51,20.10%,6.47%,0.36,0.73,33.41%,36.25
+604,XG,XG Holdings Inc.,Healthcare,Drug Manufacturers,USA,1533510.23,19.19,,2.59,1.98,17.87,"55,768",2.69,30.65%,-3.17%,0.18,0.87,32.67%,32.37
+605,XH,XH Holdings Inc.,Healthcare,Medical Laboratories,USA,37117903.00,35.59,1.50,0.63,2.33,42.34,"119,554",3.23,3.96%,6.81%,0.74,1.74,35.80%,65.81
+606,XI,XI Holdings Inc.,Healthcare,Hospitals,USA,31533311.49,17.60,0.68,2.92,2.67,27.12,"60,867",1.43,20.54%,11.61%,0.90,1.05,29.82%,45.79
+607,XJ,XJ Corp.,Healthcare,Biotechnology,USA,117267471.54,19.88,0.90,3.15,1.24,51.73,"144,357",1.96,24.38%,9.94%,0.40,0.36,67.35%,35.66
+608,XK,XK Holdings Inc.,Healthcare,Drug Manufacturers,USA,3353848.08,20.95,0.55,2.25,3.46,62.31,"35,569",0.10,24.43%,10.01%,0.18,1.33,74.86%,49.06
+609,XL,XL Holdings Inc.,Healthcare,Medical Laboratories,USA,2406954.70,18.41,1.53,1.40,1.47,16.59,"73,961",1.39,24.22%,15.59%,0.18,1.29,51.75%,51.43
+610,XM,XM Holdings Inc.,Healthcare,Hospitals,USA,1309432.77,,2.80,1.75,2.29,13.80,"1,241,857",1.25,5.59%,21.20%,0.85,0.34,39.18%,50.65
+611,XN,XN Holdings Inc.,Healthcare,Biotechnology,USA,6977293.22,26.64,,2.06,6.85,17.88,"75,208",-2.74,15.08%,-2.79%,1.47,0.68,69.18%,56.87
+612,XO,XO Holdings Inc.,Healthcare,Drug Manufacturers,USA,29925098.15,28.06,1.44,2.89,3.21,57.60,"60,696",-0.71,23.91%,0.77%,2.83,1.36,46.38%,52.28
+613,XP,XP Corp.,Healthcare,Medical Laboratories,USA,5619005.31,16.86,1.77,,2.33,61.13,"157,150",3.10,-12.07%,31.22%,0.51,0.98,9.73%,52.70
+614,XQ,XQ Corp.,Healthcare,Hospitals,USA,3595305.89,19.70,4.48,1.55,0.59,10.78,"141,364",5.22,2.96%,20.27%,0.87,1.15,59.94%,84.08
+615,XR,XR Corp.,Healthcare,Biotechnology,USA,12741373.92,17.65,1.74,,1.93,45.78,"181,071",4.01,-14.71%,8.75%,0.60,0.91,33.60%,41.55
+616,XS,XS Corp.,Healthcare,Drug Manufacturers,USA,6625372.98,24.58,1.73,2.43,7.03,69.74,"4,274",5.05,-0.49%,-15.99%,0.73,1.48,47.62%,47.37
+617,XT,XT Holdings Inc.,Healthcare,Medical Laboratories,USA,1540371.63,19.88,2.44,1.09,1.46,13.87,"10,893",12.91,18.97%,7.06%,1.01,0.99,89.74%,39.55
+618,XU,XU Corp.,Healthcare,Hospitals,USA,2186094.38,21.38,0.99,5.70,8.70,15.56,"428,020",7.98,7.23%,8.95%,0.63,0.42,43.54%,50.74
+619,XV,XV Corp.,Healthcare,Biotechnology,USA,12745467.56,23.84,1.39,0.81,9.97,38.89,"94,545",-3.17,2.41%,14.64%,0.31,1.31,24.39%,79.88
+620,XW,XW Corp.,Healthcare,Drug Manufacturers,USA,7661507.05,24.43,1.98,1.52,3.89,32.35,"119,911",4.66,22.12%,-2.34%,0.63,1.02,52.49%,39.46
+621,XX,XX Holdings Inc.,Healthcare,Medical Laboratories,USA,6711276.28,24.53,0.53,1.11,4.52,40.45,"53,154",7.78,3.21%,37.54%,0.56,0.62,62.26%,36.25
+622,XY,XY Holdings Inc.,Healthcare,Hospitals,USA,367514.55,8.38,1.35,7.28,1.07,15.57,"87,650",3.66,-7.74%,-6.97%,0.67,1.12,49.86%,33.71
+623,XZ,XZ Corp.,Healthcare,Biotechnology,USA,2025971.30,20.13,4.10,,,63.32,"927,227",-0.85,-0.39%,14.34%,0.71,0.67,18.16%,64.60
+624,YA,YA Corp.,Healthcare,Drug Manufacturers,USA,579621.49,11.88,0.68,3.64,,9.83,"91,952",-0.82,-2.18%,3.31%,0.08,1.09,15.69%,55.40
+625,YB,YB Holdings Inc.,Healthcare,Medical Laboratories,USA,3689438.35,26.34,1.98,3.11,1.15,20.18,"17,371",-1.67,-10.45%,-14.36%,0.97,1.42,84.68%,56.94
+626,YC,YC Holdings Inc.,Healthcare,Hospitals,USA,1779465.93,19.46,1.82,3.31,0.74,35.42,"584,531",5.60,6.89%,9.77%,1.69,0.54,55.96%,44.97
+627,YD,YD Holdings Inc.,Healthcare,Biotechnology,USA,3957743.17,,0.87,3.46,2.47,28.39,"136,325",1.51,12.94%,11.07%,0.46,0.68,22.61%,35.11
+628,YE,YE Holdings Inc.,Healthcare,Drug Manufacturers,USA,4206835.46,27.01,3.34,2.02,2.04,87.86,"13,868",3.62,26.41%,20.56%,0.70,1.71,46.25%,70.23
+629,YF,YF Corp.,Industrial Goods,Aerospace/Defense,USA,889576.12,65.49,2.07,3.48,0.89,18.42,"143,000",0.42,19.04%,21.30%,0.23,1.54,77.25%,30.08
+630,YG,YG Corp.,Industrial Goods,Farm & Construction Machinery,USA,27628441.71,25.12,,1.79,1.41,41.44,"154,507",5.00,-6.19%,17.99%,0.54,0.71,58.45%,28.15
+631,YH,YH Holdings Inc.,Industrial Goods,Industrial Equipment,USA,2275493.33,19.26,1.26,,0.54,24.25,"181,573",7.34,-9.23%,10.13%,0.80,0.33,51.98%,40.99
+632,YI,YI Corp.,Industrial Goods,Aerospace/Defense,USA,183496352.36,12.71,0.73,1.64,5.33,76.34,"138,654",-3.19,36.62%,-0.72%,1.17,1.04,5.94%,59.48
+633,YJ,YJ Corp.,Industrial Goods,Farm & Construction Machinery,USA,18532995.54,61.29,1.23,3.60,5.73,129.78,"20,803",-1.89,29.39%,23.16%,0.74,1.03,13.88%,60.75
+634,YK,YK Holdings Inc.,Industrial Goods,Industrial Equipment,USA,45742062.29,12.11,,0.83,5.74,25.70,"109,461",2.86,21.00%,10.25%,0.57,1.45,35.39%,45.49
+635,YL,YL Holdings Inc.,Industrial Goods,Aerospace/Defense,USA,2135451.93,38.55,2.48,,1.89,35.25,"648,059",6.27,1.35%,1.17%,2.14,0.85,24.54%,70.40
+636,YM,YM Holdings Inc.,Industrial Goods,Farm & Construction Machinery,USA,3611773.99,22.48,6.61,,0.60,36.62,"266,808",3.43,-6.39%,4.17%,0.43,0.99,32.36%,51.46
+637,YN,YN Corp.,Industrial Goods,Industrial Equipment,USA,32318100.61,8.86,,2.74,1.21,266.17,"171,763",5.77,1.08%,-4.65%,1.06,1.04,70.65%,46.79
+638,YO,YO Corp.,Industrial Goods,Aerospace/Defense,USA,3294000.66,40.05,0.86,3.48,3.10,34.87,"99,116",-0.96,17.07%,25.51%,2.06,0.50,35.96%,41.98
+639,YP,YP Holdings Inc.,Industrial Goods,Farm & Construction Machinery,USA,181367087.25,31.45,0.65,1.46,17.32,51.83,"39,935",4.49,23.81%,7.80%,2.21,0.78,24.64%,59.09
+640,YQ,YQ Holdings Inc.,Industrial Goods,Industrial Equipment,USA,14241549.28,42.09,1.65,2.65,1.46,18.13,"92,845",-0.83,19.05%,19.67%,3.06,1.52,48.22%,69.48
+641,YR,YR Corp.,Industrial Goods,Aerospace/Defense,USA,53963735.18,23.63,0.73,1.49,3.36,295.53,"7,733",5.78,28.11%,19.88%,0.49,1.52,64.98%,53.83
+642,YS,YS Corp.,Industrial Goods,Farm & Construction Machinery,USA,7514988.61,51.18,2.14,3.78,3.06,45.22,"34,817",7.90,-5.20%,-7.25%,0.32,1.00,12.59%,55.90
+643,YT,YT Holdings Inc.,Industrial Goods,Industrial Equipment,USA,1286151.92,17.44,1.90,4.18,4.24,17.21,"26,506",4.11,10.89%,4.64%,0.84,1.18,82.45%,52.51
+644,YU,YU Holdings Inc.,Industrial Goods,Aerospace/Defense,USA,19467726.23,18.56,,1.23,2.43,51.74,"157,398",1.12,9.08%,23.03%,0.66,0.75,47.61%,53.09
+645,YV,YV Corp.,Industrial Goods,Farm & Construction Machinery,USA,72499816.11,,0.85,5.05,4.09,100.12,"27,902",1.58,1.87%,-9.23%,0.25,0.64,14.88%,38.41
+646,YW,YW Corp.,Industrial Goods,Industrial Equipment,USA,63701619.41,79.38,2.29,1.99,1.38,83.91,"297,937",4.21,29.20%,-15.94%,1.35,1.07,37.82%,33.02
+647,YX,YX Corp.,Industrial Goods,Aerospace/Defense,USA,2141754.56,15.81,1.40,3.62,2.14,29.44,"26,354",-1.43,14.37%,11.87%,0.07,0.73,44.42%,59.09
+648,YY,YY Corp.,Industrial Goods,Farm & Construction Machinery,USA,18453305.82,16.51,,0.77,4.57,115.58,"99,152",-0.24,-4.14%,10.47%,1.16,0.89,4.36%,50.35
+649,YZ,YZ Holdings Inc.,Industrial Goods,Industrial Equipment,USA,21373436.61,27.60,2.05,1.95,2.74,33.37,"203,046",4.89,12.99%,31.37%,0.95,0.67,10.21%,34.49
+650,ZA,ZA Holdings Inc.,Industrial Goods,Aerospace/Defense,USA,1991786.32,12.34,,2.12,1.45,53.67,"4,214",8.97,14.43%,1.79%,0.74,1.31,41.47%,50.29
+651,ZB,ZB Corp.,Industrial Goods,Farm & Construction Machinery,USA,438591.06,26.37,2.38,5.35,1.91,38.45,"4,231",0.34,-4.75%,20.93%,0.45,0.21,58.14%,54.66
+652,ZC,ZC Corp.,Industrial Goods,Industrial Equipment,USA,2807813.46,44.31,1.73,2.30,2.99,20.53,"209,118",2.86,-3.38%,19.04%,0.61,0.54,39.04%,44.93
+653,ZD,ZD Holdings Inc.,Industrial Goods,Aerospace/Defense,USA,1355410.59,24.60,2.75,2.73,6.94,25.36,"237,135",9.42,37.60%,20.96%,0.91,0.23,33.39%,50.80
+654,ZE,ZE Corp.,Industrial Goods,Farm & Construction Machinery,USA,8352007.22,48.57,2.22,1.39,4.03,41.92,"133,677",-0.24,18.63%,7.54%,0.52,1.18,51.79%,48.95
+655,ZF,ZF Corp.,Industrial Goods,Industrial Equipment,USA,19012978.18,29.58,,8.42,2.87,60.44,"6,607",4.74,-4.62%,2.02%,0.22,1.10,21.92%,39.68
+656,ZG,ZG Holdings Inc.,Industrial Goods,Aerospace/Defense,USA,34922026.60,10.30,2.62,7.66,3.47,56.22,"29,690",7.87,24.94%,14.84%,1.04,0.65,50.32%,35.46
+657,ZH,ZH Corp.,Industrial Goods,Farm & Construction Machinery,USA,1772024.09,40.83,2.33,0.62,5.16,45.56,"1,452,962",8.07,0.77%,-7.95%,0.37,1.80,66.42%,43.90
+658,ZI,ZI Holdings Inc.,Industrial Goods,Industrial Equipment,USA,5733811.98,30.59,1.07,1.44,0.62,19.88,"200,448",2.73,5.97%,28.39%,0.78,0.22,7.78%,92.64
+659,ZJ,ZJ Corp.,Industrial Goods,Aerospace/Defense,USA,21534935.97,27.83,2.07,1.54,,21.56,"22,759",1.40,19.26%,10.78%,0.72,1.09,58.37%,54.37
+660,ZK,ZK Corp.,Industrial Goods,Farm & Construction Machinery,USA,22350403.84,32.32,3.61,1.60,0.99,58.40,"169,064",-0.98,-2.08%,37.34%,0.60,1.21,12.35%,25.54
+661,ZL,ZL Corp.,Industrial Goods,Industrial Equipment,USA,629425.66,47.20,2.97,1.86,1.67,21.82,"11,882",-0.37,9.05%,22.74%,0.22,0.73,85.97%,44.14
+662,ZM,ZM Corp.,Industrial Goods,Aerospace/Defense,USA,760734.63,22.27,0.53,0.87,3.57,10.15,"139,486",3.91,3.57%,32.60%,1.23,1.13,47.26%,73.78
+663,ZN,ZN Corp.,Industrial Goods,Farm & Construction Machinery,USA,6450192.02,51.50,13.04,9.44,2.38,126.93,"124,778",8.11,8.06%,4.55%,0.64,1.67,62.35%,36.01
+664,ZO,ZO Holdings Inc.,Industrial Goods,Industrial Equipment,USA,13765606.60,36.24,3.46,1.38,4.05,21.01,"151,786",-0.33,12.15%,17.88%,1.04,0.62,69.67%,41.66
+665,ZP,ZP Corp.,Industrial Goods,Aerospace/Defense,USA,3555258.67,26.70,,1.47,1.58,11.26,"74,641",0.42,1.05%,22.23%,0.80,1.04,65.43%,21.26
+666,ZQ,ZQ Holdings Inc.,Industrial Goods,Farm & Construction Machinery,USA,2647713.00,14.94,2.81,3.26,3.09,90.88,"26,249",7.24,-10.38%,21.24%,0.98,1.36,70.24%,51.63
+667,ZR,ZR Holdings Inc.,Industrial Goods,Industrial Equipment,USA,7951307.33,15.85,1.87,3.93,4.02,23.77,"206,399",-5.08,7.13%,12.54%,0.72,0.96,4.44%,52.83
+668,ZS,ZS Holdings Inc.,Industrial Goods,Aerospace/Defense,USA,7880542.29,18.05,1.55,2.26,1.14,42.91,"29,988",-0.55,9.31%,13.30%,0.14,0.99,63.45%,47.41
+669,ZT,ZT Holdings Inc.,Industrial Goods,Farm & Construction Machinery,USA,131070549.95,14.61,3.82,,1.99,191.93,"5,513",-4.07,12.64%,17.46%,0.67,0.56,35.19%,46.02
+670,ZU,ZU Corp.,Industrial Goods,Industrial Equipment,USA,6638785.08,23.39,0.64,12.15,1.77,36.33,"135,763",7.47,21.38%,31.38%,0.57,1.18,43.62%,49.65
+671,ZV,ZV Corp.,Industrial Goods,Aerospace/Defense,USA,20324060.26,55.28,9.07,1.13,0.86,42.19,"95,430",7.80,39.23%,11.50%,0.34,0.15,79.89%,51.76
+672,ZW,ZW Holdings Inc.,Industrial Goods,Farm & Construction Machinery,USA,12013342.24,23.85,3.56,1.16,2.10,56.18,"199,962",-0.77,2.21%,11.24%,0.57,1.63,58.15%,46.04
+673,ZX,ZX Corp.,Industrial Goods,Industrial Equipment,USA,1439850.69,31.87,,,,56.05,"245,728",-0.72,8.12%,29.33%,0.31,0.93,13.82%,23.74
+674,ZY,ZY Corp.,Industrial Goods,Aerospace/Defense,USA,5294021.21,15.97,,3.61,4.48,63.28,"60,860",6.16,-9.98%,10.22%,0.26,1.03,79.24%,40.62
+675,ZZ,ZZ Corp.,Industrial Goods,Farm & Construction Machinery,USA,1255360.98,45.53,,0.59,3.56,20.48,"50,699",2.68,7.87%,13.13%,2.48,0.84,56.74%,7.26
+676,BAA,BAA Holdings Inc.,Industrial Goods,Industrial Equipment,USA,12304181.67,45.52,,2.50,0.75,165.78,"1,169",3.07,2.42%,-1.41%,0.32,1.59,46.42%,54.03
+677,BAB,BAB Holdings Inc.,Industrial Goods,Aerospace/Defense,USA,4679628.50,26.66,4.34,17.50,1.94,17.75,"19,065",2.55,33.45%,17.49%,0.64,0.72,69.35%,55.22
+678,BAC,BAC Corp.,Industrial Goods,Farm & Construction Machinery,Canada,1596752.18,,0.98,1.84,3.87,61.37,"19,696",5.22,12.66%,6.53%,0.65,1.64,21.63%,57.70
+679,BAD,BAD Holdings Inc.,Industrial Goods,Industrial Equipment,Canada,145108.23,11.56,2.97,2.58,1.30,12.91,"27,923",0.54,9.87%,-2.62%,0.41,2.12,14.76%,77.67
+680,BAE,BAE Holdings Inc.,Industrial Goods,Aerospace/Defense,Canada,6194296.60,18.24,,4.20,3.22,22.02,"349,649",1.38,-4.81%,0.23%,1.13,0.23,47.00%,39.22
+681,BAF,BAF Holdings Inc.,Industrial Goods,Farm & Construction Machinery,Canada,2029296.75,8.56,1.32,5.87,3.50,76.82,"45,761",5.22,19.18%,15.71%,0.45,1.12,4.04%,43.55
+682,BAG,BAG Holdings Inc.,Industrial Goods,Industrial Equipment,Canada,6278610.17,21.08,,6.32,1.50,56.32,"62,573",5.87,-2.10%,0.42%,0.33,1.03,63.62%,65.91
+683,BAH,BAH Holdings Inc.,Industrial Goods,Aerospace/Defense,Canada,15132192.12,25.52,3.33,2.86,3.66,16.67,"17,757",0.63,-5.09%,17.81%,0.39,0.56,12.78%,16.38
+684,BAI,BAI Corp.,Industrial Goods,Farm & Construction Machinery,Canada,1932231.04,21.07,2.07,0.48,1.83,26.26,"5,120",0.04,39.89%,30.01%,0.76,1.56,40.51%,53.87
+685,BAJ,BAJ Corp.,Industrial Goods,Industrial Equipment,Canada,9552714.79,29.67,4.71,1.27,1.36,31.33,"91,563",9.26,4.41%,11.62%,0.21,1.18,11.24%,69.26
+686,BAK,BAK Holdings Inc.,Industrial Goods,Aerospace/Defense,UK,3137406.90,13.67,1.85,,1.65,47.37,"13,025",1.92,5.71%,17.38%,1.99,0.29,17.92%,44.25
+687,BAL,BAL Corp.,Industrial Goods,Farm & Construction Machinery,UK,61261908.20,63.95,,5.26,1.64,62.76,"11,933",2.75,30.89%,-1.47%,0.63,1.25,39.47%,51.46
+688,BAM,BAM Holdings Inc.,Industrial Goods,Industrial Equipment,UK,2063466.78,62.59,1.12,0.69,,84.58,"129,999",8.17,20.03%,6.77%,0.32,1.56,40.04%,58.64
+689,BAN,BAN Holdings Inc.,Industrial Goods,Aerospace/Defense,UK,6692296.01,23.73,1.38,2.36,2.12,7.93,"117,907",6.80,4.07%,-2.89%,0.50,0.68,67.10%,76.05
+690,BAO,BAO Corp.,Industrial Goods,Farm & Construction Machinery,UK,6317984.52,36.55,2.51,0.99,7.25,54.54,"38,143",4.16,5.17%,-3.75%,0.68,1.30,48.79%,66.84
+691,BAP,BAP Corp.,Industrial Goods,Industrial Equipment,China,1127427.42,19.90,1.88,2.49,2.22,9.18,"1,203,658",5.57,28.51%,20.11%,0.93,0.78,29.42%,60.13
+692,BAQ,BAQ Holdings Inc.,Industrial Goods,Aerospace/Defense,China,67839225.35,28.31,3.10,2.78,1.87,72.69,"7,958",1.82,21.27%,-5.21%,0.13,1.73,31.93%,70.67
+693,BAR,BAR Holdings Inc.,Industrial Goods,Farm & Construction Machinery,China,4813929.24,17.69,5.86,1.72,0.59,38.30,"101,789",-0.66,-6.42%,12.25%,0.87,0.15,28.19%,37.07
+694,BAS,BAS Corp.,Industrial Goods,Industrial Equipment,China,2546514.00,18.30,,,2.00,24.29,"863,387",1.21,4.77%,18.91%,0.50,1.42,73.07%,70.11
+695,BAT,BAT Holdings Inc.,Industrial Goods,Aerospace/Defense,Chile,492619.71,19.68,0.45,2.33,3.42,4.12,"241,020",3.56,23.50%,-0.24%,0.45,0.99,71.17%,69.41
+696,BAU,BAU Holdings Inc.,Industrial Goods,Farm & Construction Machinery,Chile,46906623.75,15.10,0.60,4.61,1.53,67.62,"12,358",0.43,34.01%,10.47%,0.68,0.76,24.31%,57.96
+697,BAV,BAV Holdings Inc.,Industrial Goods,Industrial Equipment,Chile,5246890.08,18.26,1.21,3.12,2.07,21.46,"5,801",4.69,29.09%,13.74%,0.94,1.57,55.30%,62.15
+698,BAW,BAW Corp.,Industrial Goods,Aerospace/Defense,Switzerland,45822576.48,13.80,1.27,2.36,,124.68,"28,401",3.35,-0.23%,25.96%,0.25,1.17,23.52%,50.57
+699,BAX,BAX Corp.,Industrial Goods,Farm & Construction Machinery,Switzerland,8524539.88,10.88,1.20,1.77,1.26,45.04,"37,013",5.81,7.48%,9.88%,0.45,0.80,22.72%,44.26
+700,BAY,BAY Holdings Inc.,Industrial Goods,Industrial Equipment,USA,16599388.03,17.27,1.11,1.29,4.73,23.41,"352,984",7.03,11.42%,12.11%,2.45,1.16,12.44%,35.25
+701,BAZ,BAZ Holdings Inc.,Industrial Goods,Aerospace/Defense,USA,2031323.89,13.08,,1.88,5.09,24.92,"469,882",2.15,-21.71%,1.01%,1.32,0.98,27.57%,62.31
+702,BBA,BBA Corp.,Industrial Goods,Farm & Construction Machinery,USA,5710551.11,59.94,1.02,7.62,2.45,24.66,"14,042",-2.32,5.70%,0.57%,0.78,1.40,28.91%,40.09
+703,BBB,BBB Corp.,Industrial Goods,Industrial Equipment,USA,8818925.59,15.10,0.46,2.22,0.66,42.87,"20,289",-1.46,39.05%,19.50%,1.43,0.99,22.04%,39.24
+704,BBC,BBC Corp.,Industrial Goods,Aerospace/Defense,USA,8045803.50,24.18,1.26,,1.12,44.97,"148,113",-0.13,4.05%,-0.38%,0.39,0.98,38.82%,66.05
+705,BBD,BBD Corp.,Industrial Goods,Farm & Construction Machinery,USA,2854533.67,42.26,1.33,,0.55,43.19,"77,178",4.44,-2.41%,15.67%,0.27,1.00,6.22%,55.67
+706,BBE,BBE Holdings Inc.,Industrial Goods,Industrial Equipment,USA,3578370.72,42.17,0.71,3.17,2.38,37.29,"19,204",4.21,1.23%,1.00%,0.61,1.79,33.50%,29.17
+707,BBF,BBF Holdings Inc.,Industrial Goods,Aerospace/Defense,USA,24570828.99,9.06,1.43,6.01,4.06,91.59,"72,949",-0.67,-8.78%,8.08%,2.13,1.36,36.68%,36.76
+708,BBG,BBG Holdings Inc.,Industrial Goods,Farm & Construction Machinery,USA,2174956.70,41.93,1.35,1.14,2.67,84.60,"721,996",-3.61,-17.16%,11.78%,1.01,0.32,29.21%,55.43
+709,BBH,BBH Holdings Inc.,Industrial Goods,Industrial Equipment,USA,81685604.27,19.12,4.46,10.32,2.60,30.13,"5,377",-0.92,28.67%,3.16%,1.61,1.63,61.38%,53.16
+710,BBI,BBI Corp.,Industrial Goods,Aerospace/Defense,USA,712527.12,41.07,0.78,1.50,1.66,24.45,"18,750",1.74,5.29%,13.16%,0.58,0.43,31.23%,69.12
+711,BBJ,BBJ Corp.,Industrial Goods,Farm & Construction Machinery,USA,14575270.87,38.74,1.04,11.96,2.35,35.06,"233,021",-8.00,37.57%,12.36%,0.29,1.25,54.00%,56.40
+712,BBK,BBK Holdings Inc.,Industrial Goods,Industrial Equipment,USA,3141606.93,72.87,1.08,1.66,1.47,36.67,"225,165",4.00,-7.86%,-2.83%,0.35,1.20,37.97%,68.56
+713,BBL,BBL Holdings Inc.,Industrial Goods,Aerospace/Defense,USA,32200393.23,,,2.67,2.66,25.67,"8,727",4.19,-19.81%,13.05%,0.32,1.54,9.70%,52.82
+714,BBM,BBM Holdings Inc.,Industrial Goods,Farm & Construction Machinery,USA,39909648.04,46.47,1.58,3.69,3.35,50.41,"237,905",-1.87,0.50%,13.52%,0.74,1.15,67.69%,81.58
+715,BBN,BBN Corp.,Industrial Goods,Industrial Equipment,USA,202937.18,26.81,2.31,0.41,2.05,32.14,"194,017",3.78,-3.25%,-3.38%,0.31,1.29,50.25%,72.09
+716,BBO,BBO Corp.,Industrial Goods,Aerospace/Defense,USA,4735927.59,12.38,1.71,2.65,2.37,36.95,"33,594",3.14,9.96%,13.75%,0.38,1.27,32.93%,56.46
+717,BBP,BBP Holdings Inc.,Industrial Goods,Farm & Construction Machinery,USA,4084958.45,59.10,2.34,2.47,8.72,14.43,"68,911",5.20,-4.12%,20.98%,0.41,1.60,42.53%,35.94
+718,BBQ,BBQ Corp.,Industrial Goods,Industrial Equipment,USA,1867817.59,35.83,2.16,7.79,2.21,51.18,"12,625",1.81,8.00%,18.66%,0.51,1.49,48.22%,68.71
+719,BBR,BBR Corp.,Industrial Goods,Aerospace/Defense,USA,6456858.18,22.92,1.24,1.32,1.84,24.48,"488,658",8.06,21.45%,-10.48%,0.32,1.16,28.57%,37.69
+720,BBS,BBS Holdings Inc.,Industrial Goods,Farm & Construction Machinery,USA,7070972.07,51.82,1.12,3.50,3.64,47.60,"202,002",4.29,15.14%,13.54%,0.29,1.23,83.30%,76.16
+721,BBT,BBT Corp.,Industrial Goods,Industrial Equipment,USA,5777149.43,8.10,0.65,,1.66,46.68,"265,944",3.80,9.60%,8.16%,0.51,0.66,42.09%,45.91
+722,BBU,BBU Corp.,Industrial Goods,Aerospace/Defense,USA,5313502.04,51.26,2.93,2.71,,73.27,"20,310",3.30,15.94%,8.57%,2.17,1.43,37.59%,21.62
+723,BBV,BBV Corp.,Industrial Goods,Farm & Construction Machinery,USA,19578509.66,,0.61,3.28,0.84,47.67,"149,356",4.71,-1.12%,8.52%,0.30,0.80,23.68%,34.73
+724,BBW,BBW Corp.,Services,Air Services,USA,12714881.87,13.97,1.52,1.46,2.14,78.97,"51,917",-7.93,-5.40%,12.12%,0.12,0.89,51.57%,69.96
+725,BBX,BBX Holdings Inc.,Services,Education,USA,11181348.63,84.00,0.81,2.07,8.48,93.76,"210,180",0.01,6.96%,6.92%,0.60,0.71,21.00%,51.92
+726,BBY,BBY Holdings Inc.,Services,Retail,USA,29481218.21,21.95,2.90,4.25,8.28,121.78,"392,774",0.61,16.54%,28.05%,0.78,1.05,13.20%,46.05
+727,BBZ,BBZ Holdings Inc.,Services,Restaurants,USA,12647514.54,,2.48,0.95,1.95,63.14,"98,441",-2.89,8.14%,22.58%,1.14,1.43,47.48%,65.47
+728,BCA,BCA Corp.,Services,Telecom Services,USA,31844645.51,13.34,3.11,,2.09,23.89,"56,825",-1.10,24.62%,11.01%,0.34,0.40,18.39%,53.56
+729,BCB,BCB Corp.,Services,Air Services,USA,8432054.89,,3.18,,2.11,21.98,"83,436",-0.77,5.05%,17.53%,0.60,1.64,29.45%,56.27
+730,BCC,BCC Holdings Inc.,Services,Education,USA,4986722.13,,4.68,1.28,3.95,25.54,"192,179",2.78,31.80%,48.39%,0.44,0.88,28.98%,51.64
+731,BCD,BCD Corp.,Services,Retail,USA,20445307.57,20.58,3.14,1.12,2.07,50.97,"185,418",8.52,-5.12%,27.45%,0.56,1.30,40.69%,55.88
+732,BCE,BCE Corp.,Services,Restaurants,USA,340463.10,16.89,2.99,0.93,1.36,22.76,"11,868",3.17,0.67%,-12.55%,0.29,0.45,16.82%,30.75
+733,BCF,BCF Holdings Inc.,Services,Telecom Services,USA,2548222.40,42.35,2.03,2.80,5.17,24.27,"54,275",4.59,-10.01%,26.20%,0.20,1.46,8.37%,68.13
+734,BCG,BCG Holdings Inc.,Services,Air Services,USA,16645909.23,18.35,1.85,3.89,1.63,47.42,"57,228",3.45,3.46%,7.09%,0.88,0.49,88.34%,42.92
+735,BCH,BCH Corp.,Services,Education,USA,2285864.82,19.08,,1.59,1.14,55.80,"34,897",0.68,18.84%,13.37%,1.36,1.31,20.44%,56.50
+736,BCI,BCI Holdings Inc.,Services,Retail,USA,308562.71,24.04,3.02,1.68,2.27,11.59,"12,470",0.62,18.56%,24.29%,0.57,0.30,78.91%,52.16
+737,BCJ,BCJ Corp.,Services,Restaurants,USA,3088132.73,11.85,1.34,3.63,0.70,29.52,"49,332",9.45,16.85%,11.39%,0.78,0.87,74.67%,50.30
+738,BCK,BCK Holdings Inc.,Services,Telecom Services,USA,10680539.48,32.25,,0.83,4.05,73.65,"249,159",2.09,9.30%,14.78%,1.46,1.45,32.88%,64.77
+739,BCL,BCL Corp.,Services,Air Services,USA,1724675.69,36.82,1.36,3.83,4.42,12.20,"156,374",-0.43,1.18%,12.34%,1.02,1.13,73.98%,30.41
+740,BCM,BCM Holdings Inc.,Services,Education,USA,785210.50,21.11,1.12,2.34,1.75,23.25,"160,803",1.59,8.14%,15.36%,1.13,1.90,57.73%,43.50
+741,BCN,BCN Corp.,Services,Retail,USA,72857347.40,19.99,1.16,2.83,2.98,45.81,"112,446",5.35,22.95%,-2.61%,0.19,0.72,66.82%,68.65
+742,BCO,BCO Holdings Inc.,Services,Restaurants,USA,228180260.15,48.08,2.57,6.53,4.85,40.96,"23,617",2.83,21.24%,8.67%,0.42,1.18,52.75%,71.76
+743,BCP,BCP Corp.,Services,Telecom Services,USA,2456248.45,14.72,3.06,1.60,,29.99,961,-4.96,10.38%,-16.74%,1.18,1.28,27.09%,55.10
+744,BCQ,BCQ Holdings Inc.,Services,Air Services,USA,1703209.60,19.75,2.38,2.49,2.04,29.49,"83,888",0.46,8.52%,21.24%,0.24,1.18,35.33%,32.60
+745,BCR,BCR Corp.,Services,Education,USA,468446.54,,,0.75,3.08,10.15,"42,286",6.09,-1.68%,18.53%,1.58,0.84,74.46%,29.56
+746,BCS,BCS Holdings Inc.,Services,Retail,USA,39384884.40,19.50,1.43,4.03,2.98,20.36,"140,568",-0.36,8.65%,-4.62%,0.30,0.30,49.20%,38.04
+747,BCT,BCT Holdings Inc.,Services,Restaurants,USA,5808038.30,24.17,1.95,0.67,3.03,14.36,"83,568",4.54,-7.81%,13.44%,0.88,0.24,14.13%,72.46
+748,BCU,BCU Holdings Inc.,Services,Telecom Services,USA,34188486.10,31.37,0.31,8.76,1.39,18.64,"64,038",5.48,14.30%,-3.63%,1.07,0.96,29.94%,62.35
+749,BCV,BCV Holdings Inc.,Services,Air Services,USA,4921035.24,14.14,3.73,1.23,1.94,29.01,"24,920",6.86,-3.46%,11.86%,0.32,1.24,22.01%,48.53
+750,BCW,BCW Corp.,Services,Education,USA,497139.38,15.28,4.87,2.10,1.36,12.24,"36,071",2.50,19.43%,19.04%,0.45,0.92,41.20%,75.17
+751,BCX,BCX Holdings Inc.,Services,Retail,USA,3240143.11,60.46,2.32,,4.13,48.69,"247,902",2.26,5.68%,2.13%,0.80,0.35,42.31%,61.39
+752,BCY,BCY Holdings Inc.,Services,Restaurants,USA,4166560.36,13.56,3.69,4.82,1.26,19.28,"57,569",8.15,-9.98%,14.09%,0.46,0.59,35.32%,79.42
+753,BCZ,BCZ Holdings Inc.,Services,Telecom Services,USA,1816543.15,20.10,0.58,1.04,4.02,73.03,"46,109",2.12,23.27%,28.29%,1.37,0.57,23.99%,69.48
+754,BDA,BDA Holdings Inc.,Services,Air Services,USA,7844279.27,62.00,2.73,0.81,,39.25,"40,622",3.09,30.37%,2.69%,0.82,0.53,13.16%,23.25
+755,BDB,BDB Holdings Inc.,Services,Education,USA,20648645.97,14.47,0.45,2.36,,31.37,"199,386",-0.43,4.92%,-9.33%,0.68,0.15,43.13%,57.38
+756,BDC,BDC Holdings Inc.,Services,Retail,USA,530292.76,20.24,0.53,0.95,21.66,2.51,"84,650",2.28,16.99%,-14.42%,1.09,1.00,43.91%,57.00
+757,BDD,BDD Holdings Inc.,Services,Restaurants,USA,639328.60,23.38,0.74,0.86,4.85,31.06,"320,763",-1.09,-12.62%,0.72%,0.47,0.75,89.67%,58.21
+758,BDE,BDE Holdings Inc.,Services,Telecom Services,USA,5055798.17,,1.84,1.73,0.80,35.66,"58,836",8.19,-5.28%,51.55%,0.61,0.77,38.15%,58.17
+759,BDF,BDF Corp.,Services,Air Services,USA,1487932.98,34.19,1.15,2.03,2.45,16.65,"1,221,101",1.42,16.22%,-11.23%,0.74,1.56,22.29%,49.92
+760,BDG,BDG Corp.,Services,Education,USA,236483.43,11.58,3.19,3.17,2.97,15.78,"8,046",-3.09,-7.34%,6.03%,1.53,1.21,35.28%,39.75
+761,BDH,BDH Corp.,Services,Retail,USA,10595205.38,24.78,1.93,3.71,4.31,35.68,"24,876",0.86,11.31%,0.20%,0.14,0.72,29.83%,19.89
+762,BDI,BDI Corp.,Services,Restaurants,USA,18429262.22,,2.39,6.52,2.14,50.02,"27,635",2.98,-4.10%,20.14%,0.90,1.15,27.50%,26.36
+763,BDJ,BDJ Corp.,Services,Telecom Services,USA,2025565.30,13.06,1.88,1.16,5.93,40.37,"260,577",-1.52,-11.01%,27.50%,0.80,1.11,22.37%,48.68
+764,BDK,BDK Corp.,Services,Air Services,USA,2243791.72,13.61,,1.11,1.73,54.40,"153,253",5.98,4.47%,23.95%,0.16,1.18,56.75%,53.70
+765,BDL,BDL Corp.,Services,Education,USA,1769078.24,27.92,2.17,2.30,0.43,36.93,"61,692",-0.46,21.12%,26.31%,1.06,1.50,24.28%,59.14
+766,BDM,BDM Corp.,Services,Retail,USA,3064253.40,37.85,0.89,0.90,2.15,28.21,"16,330",5.33,3.94%,12.01%,1.06,1.04,59.06%,44.71
+767,BDN,BDN Corp.,Services,Restaurants,USA,15970174.94,12.87,2.84,1.61,2.28,144.66,"47,790",-2.20,15.71%,-3.26%,0.25,1.59,29.63%,47.21
+768,BDO,BDO Corp.,Services,Telecom Services,USA,26677595.17,24.99,1.20,,2.97,23.70,"588,592",6.50,19.63%,21.00%,0.44,0.98,22.06%,57.69
+769,BDP,BDP Corp.,Services,Air Services,USA,19744767.13,16.44,1.41,2.63,3.60,20.94,"69,932",1.96,19.02%,20.28%,0.21,1.84,13.34%,35.23
+770,BDQ,BDQ Corp.,Services,Education,USA,7468806.84,11.51,,1.31,0.84,23.95,"817,191",2.54,8.07%,1.65%,2.05,1.05,39.87%,27.40
+771,BDR,BDR Holdings Inc.,Services,Retail,USA,9545215.76,11.95,0.99,1.14,2.96,32.98,"79,875",8.49,7.91%,31.51%,1.56,0.85,3.86%,37.97
+772,BDS,BDS Corp.,Services,Restaurants,USA,4489575.40,,1.62,1.71,,12.08,"467,965",5.90,6.25%,7.64%,0.80,0.77,62.96%,67.00
+773,BDT,BDT Holdings Inc.,Services,Telecom Services,USA,4111311.62,38.71,1.78,3.45,1.04,34.09,"385,628",-0.25,-6.61%,16.16%,0.61,1.54,54.05%,27.96
+774,BDU,BDU Corp.,Services,Air Services,USA,7099385.08,18.62,2.62,2.64,2.40,14.52,"2,369",3.93,30.61%,23.52%,0.25,1.71,25.18%,48.06
+775,BDV,BDV Corp.,Services,Education,USA,11984221.94,11.01,2.29,1.32,1.09,17.65,"22,076",4.16,2.48%,22.76%,0.75,0.63,64.33%,41.28
+776,BDW,BDW Holdings Inc.,Services,Retail,USA,32650652.26,31.10,0.96,1.10,3.34,44.22,"172,179",6.70,23.69%,5.82%,1.22,0.86,57.79%,53.41
+777,BDX,BDX Corp.,Services,Restaurants,USA,8277385.09,33.94,1.84,0.67,5.01,30.65,"48,636",0.18,20.31%,0.64%,0.23,1.17,45.04%,42.36
+778,BDY,BDY Corp.,Services,Telecom Services,Canada,3541484.64,18.83,1.89,5.70,2.03,73.26,"272,303",4.38,21.64%,-4.31%,0.59,0.84,12.92%,45.04
+779,BDZ,BDZ Corp.,Services,Air Services,Canada,2296786.27,32.39,3.27,2.23,11.99,14.66,"142,122",3.47,1.16%,28.41%,1.54,1.33,10.82%,44.39
+780,BEA,BEA Corp.,Services,Education,Canada,850005.45,20.89,0.55,5.01,0.75,17.71,"73,466",3.20,6.22%,22.59%,0.45,1.60,34.68%,50.07
+781,BEB,BEB Holdings Inc.,Services,Retail,Canada,2067259.71,18.66,4.21,7.16,0.65,24.39,"186,596",-3.26,16.18%,-0.35%,0.21,0.46,37.67%,53.96
+782,BEC,BEC Holdings Inc.,Services,Restaurants,Canada,9288512.39,16.61,3.62,1.80,5.99,28.46,"75,795",4.74,19.11%,8.47%,1.81,1.33,17.96%,85.06
+783,BED,BED Corp.,Services,Telecom Services,Canada,966315.83,18.42,2.75,5.34,1.87,18.96,"31,052",0.51,8.27%,8.06%,0.96,1.59,61.51%,63.66
+784,BEE,BEE Holdings Inc.,Services,Air Services,Canada,5743545.50,11.30,1.24,2.66,2.45,61.13,"20,828",-1.38,22.88%,26.44%,0.27,1.21,3.62%,47.25
+785,BEF,BEF Corp.,Services,Education,Canada,7404071.89,11.87,,1.17,2.01,20.01,"28,382",8.07,28.04%,3.63%,0.25,1.03,72.53%,34.20
+786,BEG,BEG Corp.,Services,Retail,UK,548472.80,15.09,1.70,3.08,,33.62,"715,610",1.34,-29.89%,4.34%,1.05,1.65,36.16%,68.00
+787,BEH,BEH Corp.,Services,Restaurants,UK,3015089.17,21.96,2.44,4.35,1.47,16.32,"33,669",2.38,18.30%,15.36%,0.19,0.44,38.89%,54.91
+788,BEI,BEI Corp.,Services,Telecom Services,UK,55241592.79,28.27,1.93,3.88,1.61,85.78,"10,220",2.32,-1.19%,13.32%,0.57,0.78,30.64%,35.06
+789,BEJ,BEJ Holdings Inc.,Services,Air Services,UK,2402939.21,22.40,1.63,2.44,3.52,14.20,"355,032",0.73,16.59%,-2.59%,0.34,1.50,24.92%,47.21
+790,BEK,BEK Holdings Inc.,Services,Education,UK,12341541.70,20.77,1.45,0.94,3.39,135.35,"746,017",2.38,-4.57%,27.47%,0.65,0.93,8.62%,34.02
+791,BEL,BEL Corp.,Services,Retail,China,467266.65,11.65,0.39,4.51,,18.13,"13,600",4.21,21.54%,13.55%,1.19,0.92,14.15%,46.95
+792,BEM,BEM Holdings Inc.,Services,Restaurants,China,2516572.29,17.59,3.13,6.30,1.04,41.96,"26,942",7.13,-15.17%,9.05%,0.79,0.72,12.44%,82.92
+793,BEN,BEN Holdings Inc.,Services,Telecom Services,China,3112394.54,9.12,2.75,1.95,,25.81,"127,946",0.26,-13.48%,40.01%,0.21,1.13,6.41%,44.79
+794,BEO,BEO Holdings Inc.,Services,Air Services,China,11375648.04,50.17,3.06,2.70,1.31,14.72,"111,909",-3.06,29.05%,-17.41%,0.60,1.46,56.61%,45.18
+795,BEP,BEP Holdings Inc.,Services,Education,Chile,1542564.35,17.21,3.21,1.25,3.93,22.24,"19,113",-5.82,-11.88%,14.59%,0.13,0.81,31.74%,47.44
+796,BEQ,BEQ Corp.,Services,Retail,Chile,3493311.09,5.81,0.63,3.14,2.46,17.34,"339,778",7.84,-17.06%,23.91%,0.53,0.66,14.95%,58.61
+797,BER,BER Holdings Inc.,Services,Restaurants,Chile,5912425.23,14.68,,2.73,2.64,16.02,"260,870",-0.09,13.62%,26.71%,0.55,1.24,26.27%,70.21
+798,BES,BES Corp.,Services,Telecom Services,Switzerland,8981085.10,30.55,2.57,11.98,2.94,26.17,"100,554",-3.29,5.10%,24.60%,0.28,0.89,16.71%,85.35
+799,BET,BET Corp.,Services,Air Services,Switzerland,3343837.57,23.22,3.34,1.63,1.01,8.99,"119,988",0.59,16.81%,-6.76%,0.62,1.35,12.20%,18.85
+800,BEU,BEU Holdings Inc.,Services,Education,USA,14522731.75,8.53,,2.44,1.49,22.01,"56,970",2.75,12.97%,8.26%,0.31,0.55,49.80%,55.16
+801,BEV,BEV Corp.,Services,Retail,USA,5211295.79,14.09,1.11,2.23,0.89,23.16,"89,809",4.40,24.30%,-0.61%,0.49,2.14,30.93%,76.04
+802,BEW,BEW Corp.,Services,Restaurants,USA,3965646.36,11.90,1.57,4.20,,17.04,"31,906",-2.15,4.06%,1.30%,1.20,1.27,42.00%,44.53
+803,BEX,BEX Corp.,Services,Telecom Services,USA,16693879.33,26.09,1.95,1.00,1.07,167.09,"50,830",1.71,15.88%,8.41%,1.97,1.09,13.54%,40.73
+804,BEY,BEY Holdings Inc.,Services,Air Services,USA,1146216.10,27.34,1.31,2.51,,45.34,"100,325",-1.36,5.89%,4.07%,1.06,0.15,7.30%,50.65
+805,BEZ,BEZ Corp.,Services,Education,USA,1879475.89,55.21,3.14,0.79,1.47,12.22,"152,776",3.59,15.56%,5.24%,0.42,1.59,9.98%,45.95
+806,BFA,BFA Holdings Inc.,Services,Retail,USA,4895405.22,14.38,2.89,3.44,7.19,10.60,"38,435",6.88,-0.79%,-6.37%,0.63,0.41,64.83%,52.86
+807,BFB,BFB Holdings Inc.,Services,Restaurants,USA,1551143.46,5.43,4.10,0.68,7.98,12.06,"158,380",5.88,7.21%,8.97%,0.39,1.13,53.38%,48.90
+808,BFC,BFC Corp.,Services,Telecom Services,USA,1990456.14,12.41,,1.99,,67.69,"87,572",9.54,3.07%,5.84%,0.62,1.83,9.18%,39.93
+809,BFD,BFD Holdings Inc.,Services,Air Services,USA,15841175.57,24.65,1.55,1.00,1.59,18.87,"49,167",5.21,15.05%,14.95%,0.40,1.47,20.93%,51.51
+810,BFE,BFE Holdings Inc.,Services,Education,USA,36238966.76,22.99,2.19,2.58,1.18,62.73,"8,817",3.73,10.76%,22.41%,1.24,1.14,12.18%,48.06
+811,BFF,BFF Corp.,Services,Retail,USA,840608.38,19.48,2.61,2.39,,9.95,"133,523",3.04,-1.99%,28.21%,0.30,0.84,34.44%,49.37
+812,BFG,BFG Corp.,Services,Restaurants,USA,1841117.11,16.54,,,3.37,5.75,"259,669",3.19,22.78%,9.76%,0.54,1.53,54.47%,46.54
+813,BFH,BFH Corp.,Services,Telecom Services,USA,2215226.31,25.26,1.42,3.67,3.60,15.44,"45,125",3.83,-3.62%,31.63%,0.65,0.86,37.49%,68.00
+814,BFI,BFI Corp.,Services,Air Services,USA,8280505.83,17.49,,2.37,1.20,5.72,"387,325",3.71,8.13%,6.60%,0.29,1.76,24.83%,95.00
+815,BFJ,BFJ Holdings Inc.,Services,Education,USA,557187.93,22.51,0.81,2.97,1.55,27.21,"13,449",-0.42,10.97%,13.95%,0.31,0.95,34.62%,39.19
+816,BFK,BFK Holdings Inc.,Services,Retail,USA,893055.82,46.52,1.82,3.12,3.40,6.92,"114,426",5.74,10.04%,25.39%,0.85,0.77,41.82%,46.73
+817,BFL,BFL Corp.,Services,Restaurants,USA,947460.41,62.21,1.83,4.21,2.11,37.42,"137,645",5.06,26.00%,22.08%,0.21,1.12,27.86%,66.90
+818,BFM,BFM Corp.,Services,Telecom Services,USA,15463678.73,,1.37,1.44,6.48,36.28,"1,262,556",-1.74,-5.46%,-12.11%,0.37,1.73,38.86%,26.00
+819,BFN,BFN Corp.,Services,Air Services,USA,4048990.92,14.14,1.52,,7.08,50.06,"870,668",9.10,17.88%,0.98%,0.69,1.20,60.38%,55.46
+820,BFO,BFO Holdings Inc.,Services,Education,USA,31024757.96,27.96,2.69,1.92,3.42,36.45,"3,962",2.78,-6.56%,3.27%,0.83,2.15,42.15%,65.93
+821,BFP,BFP Holdings Inc.,Services,Retail,USA,5252395.21,19.03,2.19,,1.62,5.63,"267,277",5.53,-1.83%,49.12%,0.82,0.92,56.68%,59.12
+822,BFQ,BFQ Corp.,Services,Restaurants,USA,5848741.47,36.40,3.84,,6.28,73.10,"103,127",0.74,30.85%,13.26%,0.59,1.22,79.73%,28.10
+823,BFR,BFR Corp.,Services,Telecom Services,USA,1802786.47,23.79,2.18,1.31,3.84,20.01,"57,865",5.26,4.03%,16.74%,0.61,0.97,51.77%,44.34
+824,BFS,BFS Holdings Inc.,Services,Air Services,USA,6238747.17,17.28,7.99,,1.94,39.75,"33,788",1.79,5.92%,1.40%,0.61,1.53,49.80%,69.77
+825,BFT,BFT Corp.,Services,Education,USA,8193439.13,20.27,3.58,2.15,3.27,81.37,"28,682",4.93,20.85%,-11.19%,0.42,0.32,31.33%,71.52
+826,BFU,BFU Holdings Inc.,Services,Retail,USA,9063250.06,26.29,0.99,0.88,,11.84,"554,491",0.94,10.18%,10.61%,0.65,0.15,34.09%,58.42
+827,BFV,BFV Corp.,Services,Restaurants,USA,423161.87,26.42,1.96,1.46,8.76,11.68,"131,029",4.62,13.64%,17.15%,0.54,1.61,19.00%,56.73
+828,BFW,BFW Holdings Inc.,Services,Telecom Services,USA,1709805.92,21.80,1.46,2.59,5.07,10.75,"76,413",5.19,8.69%,15.28%,0.91,0.82,66.06%,59.40
+829,BFX,BFX Corp.,Services,Air Services,USA,38166938.48,,2.74,1.29,2.37,35.99,"204,590",-0.40,-5.64%,5.00%,0.26,1.35,70.50%,23.79
+830,BFY,BFY Holdings Inc.,Services,Education,USA,8495894.86,35.73,2.53,1.53,1.22,26.08,"48,374",2.79,11.01%,0.95%,0.20,1.48,24.85%,43.28
+831,BFZ,BFZ Corp.,Services,Retail,USA,10750653.37,20.77,3.46,1.74,1.56,68.93,"108,529",-0.53,-5.89%,4.34%,0.38,1.68,67.99%,51.78
+832,BGA,BGA Holdings Inc.,Services,Restaurants,USA,12881754.97,,0.83,1.73,2.06,42.93,"138,211",0.80,-16.65%,6.86%,0.40,1.09,33.87%,35.55
+833,BGB,BGB Corp.,Services,Telecom Services,USA,57953925.74,16.06,2.55,0.41,5.03,26.27,"67,218",-3.08,-23.27%,9.05%,0.45,1.04,43.66%,51.74
+834,BGC,BGC Holdings Inc.,Services,Air Services,USA,11251952.94,15.33,4.92,1.26,3.02,81.80,"60,468",0.13,31.37%,-5.23%,2.14,1.50,49.03%,45.78
+835,BGD,BGD Holdings Inc.,Services,Education,USA,40655981.31,64.96,1.28,4.94,2.16,76.91,"439,550",1.28,-3.10%,-2.44%,0.27,0.42,24.29%,50.09
+836,BGE,BGE Corp.,Services,Retail,USA,2573052.52,,,2.27,1.52,17.30,"106,691",3.88,11.97%,14.69%,0.34,0.60,34.05%,86.05
+837,BGF,BGF Holdings Inc.,Services,Restaurants,USA,3439573.56,22.30,2.25,0.93,1.96,13.90,"131,282",8.52,9.52%,-2.94%,0.95,1.11,17.71%,62.61
+838,BGG,BGG Corp.,Services,Telecom Services,USA,5076700.44,9.84,2.08,1.96,4.95,58.93,"120,810",5.97,-0.28%,-6.74%,0.80,0.80,63.05%,54.37
+839,BGH,BGH Corp.,Services,Air Services,USA,13460401.79,21.13,1.65,2.10,,16.54,"180,817",5.37,22.95%,18.26%,0.53,0.39,46.62%,59.77
+840,BGI,BGI Holdings Inc.,Services,Education,USA,1467825.99,23.07,2.81,6.42,4.96,13.54,"563,739",-1.47,12.24%,12.82%,0.83,0.99,15.23%,58.97
+841,BGJ,BGJ Holdings Inc.,Services,Retail,USA,1083561.89,29.91,2.25,2.34,2.14,36.07,"5,922",3.14,33.04%,-7.45%,0.18,1.40,47.12%,33.69
+842,BGK,BGK Holdings Inc.,Services,Restaurants,USA,195097.34,40.56,,1.47,5.51,17.75,"313,049",0.96,39.63%,17.93%,0.66,1.66,35.12%,76.01
+843,BGL,BGL Corp.,Services,Telecom Services,USA,21681007.34,47.07,3.14,1.20,1.78,24.17,"170,474",-6.07,28.01%,11.52%,1.80,1.44,22.09%,74.39
+844,BGM,BGM Holdings Inc.,Services,Air Services,USA,2157482.28,15.05,,1.77,1.97,58.10,"197,717",5.12,7.10%,-4.96%,0.73,1.24,50.70%,84.69
+845,BGN,BGN Corp.,Services,Education,USA,2057084.65,,1.34,1.21,1.95,14.37,"1,391,441",3.62,24.37%,8.02%,0.93,0.91,22.74%,39.39
+846,BGO,BGO Holdings Inc.,Services,Retail,USA,6700945.98,46.71,1.42,0.71,1.70,58.37,"176,349",-0.69,23.82%,14.30%,0.35,0.95,10.97%,56.35
+847,BGP,BGP Corp.,Services,Restaurants,USA,3324836.23,,1.95,2.12,3.16,83.67,"12,926",3.66,6.76%,8.48%,0.55,1.30,60.53%,31.07
+848,BGQ,BGQ Holdings Inc.,Services,Telecom Services,USA,2255533.01,31.70,2.06,0.58,2.53,18.21,"1,071,947",4.85,-14.05%,7.31%,1.58,1.69,33.45%,41.80
+849,BGR,BGR Holdings Inc.,Services,Air Services,USA,527402.54,18.96,0.76,2.37,1.16,14.50,"61,504",1.45,-11.37%,23.48%,0.13,0.92,42.29%,62.94
+850,BGS,BGS Holdings Inc.,Services,Education,USA,2630337.34,14.48,1.07,3.57,1.11,55.40,"240,224",0.74,10.64%,-6.59%,0.33,1.39,81.34%,46.21
+851,BGT,BGT Holdings Inc.,Services,Retail,USA,7034237.22,16.51,2.45,2.87,3.16,33.67,"23,817",-4.74,19.56%,13.16%,0.75,0.85,47.08%,54.24
+852,BGU,BGU Holdings Inc.,Services,Restaurants,USA,13449610.26,51.29,3.11,1.53,5.56,35.98,"86,551",3.86,33.51%,21.95%,0.79,0.59,15.71%,64.09
+853,BGV,BGV Corp.,Services,Telecom Services,USA,2146964.26,55.90,3.16,1.91,5.64,15.76,"209,917",2.17,-4.59%,7.11%,0.55,1.60,55.97%,45.35
+854,BGW,BGW Corp.,Services,Air Services,USA,306627616.94,9.43,0.88,2.27,2.63,89.68,"78,115",0.82,31.58%,-2.50%,0.83,1.23,25.75%,78.43
+855,BGX,BGX Holdings Inc.,Services,Education,USA,8996899.67,27.42,1.51,,1.37,22.24,"6,190",-4.90,-16.05%,4.81%,0.42,1.17,36.59%,64.62
+856,BGY,BGY Holdings Inc.,Services,Retail,USA,8387503.79,,2.04,2.38,4.62,70.76,"1,849",3.33,12.60%,-14.99%,0.18,0.78,91.87%,72.25
+857,BGZ,BGZ Holdings Inc.,Services,Restaurants,USA,5474187.48,25.13,1.86,1.43,1.46,31.46,"153,542",-0.88,28.42%,11.46%,0.83,1.10,30.18%,54.43
+858,BHA,BHA Corp.,Services,Telecom Services,USA,340921.13,,1.80,,15.71,19.95,"30,950",4.65,2.85%,-1.10%,2.60,1.38,31.13%,44.55
+859,BHB,BHB Corp.,Services,Air Services,USA,2415570.85,18.23,0.70,3.41,2.70,65.43,"127,394",4.05,11.42%,9.06%,0.52,1.15,28.92%,69.02
+860,BHC,BHC Holdings Inc.,Services,Education,USA,3877500.77,12.71,,1.13,6.83,17.31,"61,291",2.80,11.61%,-3.13%,1.10,1.22,38.08%,57.66
+861,BHD,BHD Holdings Inc.,Services,Retail,USA,14759309.68,19.84,1.49,4.00,6.48,14.87,"34,223",5.95,6.93%,23.87%,0.44,1.42,19.82%,47.61
+862,BHE,BHE Holdings Inc.,Services,Restaurants,USA,6966899.93,44.20,3.16,5.17,3.83,19.46,"65,158",7.06,17.61%,23.64%,0.27,0.90,41.22%,56.31
+863,BHF,BHF Holdings Inc.,Services,Telecom Services,USA,1962242.28,53.26,,1.61,5.82,12.89,"44,263",2.42,26.45%,8.03%,1.11,1.11,25.73%,30.73
+864,BHG,BHG Corp.,Services,Air Services,USA,5256024.60,13.09,0.89,5.29,1.22,38.55,"8,709",2.78,5.54%,30.80%,0.90,0.64,10.66%,57.76
+865,BHH,BHH Corp.,Services,Education,USA,997295.58,22.11,2.54,3.88,5.74,19.51,"20,109",8.31,8.25%,-5.95%,1.08,1.38,38.69%,58.19
+866,BHI,BHI Corp.,Services,Retail,USA,19214399.12,18.34,1.58,2.21,,11.14,"25,411",3.31,12.51%,-2.91%,0.17,0.79,46.25%,37.72
+867,BHJ,BHJ Holdings Inc.,Services,Restaurants,USA,237564.96,14.92,2.35,3.54,1.51,29.01,"482,017",1.28,20.06%,14.95%,0.89,0.70,42.19%,23.78
+868,BHK,BHK Holdings Inc.,Services,Telecom Services,USA,2335344.16,40.22,2.72,1.49,3.86,26.73,"97,003",2.09,-9.25%,14.04%,0.67,1.25,44.93%,61.54
+869,BHL,BHL Corp.,Services,Air Services,USA,1506292.86,45.93,0.89,1.53,,19.35,"18,289",0.10,6.08%,7.52%,0.42,0.94,83.28%,69.74
+870,BHM,BHM Holdings Inc.,Services,Education,USA,2661183.00,14.58,1.40,0.94,,65.12,"7,255",-1.60,10.90%,2.53%,0.67,1.54,49.72%,49.23
+871,BHN,BHN Corp.,Services,Retail,USA,4672633.91,23.05,3.39,3.93,5.78,33.08,"1,103",4.83,5.06%,10.17%,0.56,0.93,7.50%,46.69
+872,BHO,BHO Holdings Inc.,Services,Restaurants,USA,16624633.25,38.02,1.52,1.57,1.85,54.35,"520,325",0.10,-0.38%,27.46%,1.03,0.85,25.99%,53.12
+873,BHP,BHP Holdings Inc.,Services,Telecom Services,USA,8541083.88,7.88,1.83,4.37,1.58,36.27,"317,039",9.11,1.30%,-2.69%,0.52,1.46,28.50%,75.27
+874,BHQ,BHQ Corp.,Services,Air Services,USA,19207345.54,13.61,,0.81,1.53,55.69,"407,299",3.26,12.54%,20.40%,0.88,0.84,51.80%,29.43
+875,BHR,BHR Holdings Inc.,Services,Education,USA,5045159.26,26.88,0.99,0.92,2.12,73.47,"108,315",3.76,28.86%,8.37%,0.60,1.96,11.06%,64.95
+876,BHS,BHS Holdings Inc.,Services,Retail,USA,11964199.20,41.02,2.48,5.55,2.73,68.18,"347,491",1.21,22.15%,1.27%,0.95,0.56,20.53%,44.62
+877,BHT,BHT Holdings Inc.,Services,Restaurants,USA,6545345.94,8.54,1.00,1.63,5.84,34.68,"35,843",7.69,0.51%,7.93%,0.41,0.75,3.55%,51.31
+878,BHU,BHU Holdings Inc.,Services,Telecom Services,Canada,1253174.45,25.67,1.51,2.58,0.79,59.22,"18,757",-0.45,12.98%,20.55%,0.35,0.54,21.15%,33.58
+879,BHV,BHV Holdings Inc.,Services,Air Services,Canada,11993662.15,20.08,1.44,,2.29,27.23,"30,834",3.86,24.31%,5.72%,0.23,1.59,23.41%,61.83
+880,BHW,BHW Corp.,Services,Education,Canada,6389856.75,33.86,1.22,3.80,,62.78,"86,253",0.42,3.76%,1.29%,0.72,1.30,67.10%,76.24
+881,BHX,BHX Corp.,Services,Retail,Canada,14781820.69,31.92,1.69,2.22,2.83,19.73,"278,321",1.34,27.97%,16.30%,0.25,0.78,52.56%,33.83
+882,BHY,BHY Holdings Inc.,Services,Restaurants,Canada,4789824.56,13.48,,1.97,4.00,17.31,"95,113",4.59,17.05%,-0.34%,0.61,1.60,68.41%,53.49
+883,BHZ,BHZ Corp.,Services,Telecom Services,Canada,1748955.25,17.94,1.02,2.43,4.23,9.89,"2,744,599",6.08,-12.44%,2.22%,0.58,0.60,62.11%,74.32
+884,BIA,BIA Corp.,Technology,Semiconductor,Canada,19055003.42,47.51,3.65,0.59,2.06,43.14,"37,830",0.18,7.61%,5.83%,0.48,1.17,43.36%,79.97
+885,BIB,BIB Holdings Inc.,Technology,Software,Canada,3120648.89,54.41,0.93,3.08,3.41,15.05,"231,195",9.16,15.32%,20.18%,1.42,0.76,67.53%,48.40
+886,BIC,BIC Holdings Inc.,Technology,Internet Software,UK,2931247.73,31.88,0.82,2.54,1.92,19.37,"31,256",5.96,-12.09%,14.22%,0.70,1.02,51.72%,76.28
+887,BID,BID Holdings Inc.,Technology,Computer Hardware,UK,40535188.43,12.51,1.33,1.95,3.13,68.19,"14,389",5.01,11.54%,14.58%,0.26,0.71,44.55%,58.85
+888,BIE,BIE Corp.,Technology,Semiconductor,UK,8876694.44,,,1.80,4.74,23.02,"28,468",3.54,1.14%,1.92%,0.38,0.42,44.33%,55.10
+889,BIF,BIF Holdings Inc.,Technology,Software,UK,3081112.91,36.97,3.13,2.59,2.16,27.19,"60,443",-3.13,19.50%,-15.83%,0.55,0.96,80.51%,77.89
+890,BIG,BIG Holdings Inc.,Technology,Internet Software,UK,996044.85,21.04,1.98,1.29,2.39,18.54,"69,463",-1.97,0.91%,28.51%,0.84,1.55,84.02%,64.54
+891,BIH,BIH Corp.,Technology,Computer Hardware,China,819272.30,27.17,,0.87,2.17,25.99,"24,147",5.77,10.07%,2.27%,0.56,1.67,35.60%,73.06
+892,BII,BII Holdings Inc.,Technology,Semiconductor,China,4200342.40,35.61,2.66,2.13,4.78,31.94,"69,736",1.64,39.39%,7.50%,0.39,0.93,37.01%,55.13
+893,BIJ,BIJ Corp.,Technology,Software,China,15383074.79,23.14,1.61,4.78,5.61,11.36,"80,977",3.81,-3.53%,7.35%,0.45,1.29,81.03%,32.00
+894,BIK,BIK Holdings Inc.,Technology,Internet Software,China,7367310.81,18.28,1.20,2.23,4.28,70.59,"125,290",2.93,-2.47%,-1.92%,0.15,1.54,3.71%,30.79
+895,BIL,BIL Corp.,Technology,Computer Hardware,Chile,449977.85,30.26,1.07,2.43,1.10,29.31,"8,585",2.91,24.46%,-7.66%,0.52,0.71,45.79%,59.58
+896,BIM,BIM Holdings Inc.,Technology,Semiconductor,Chile,113792.73,21.60,11.66,4.62,2.52,10.75,"166,424",6.66,-5.45%,14.35%,0.88,0.93,30.41%,51.82
+897,BIN,BIN Holdings Inc.,Technology,Software,Chile,52087420.58,,1.45,2.40,2.56,84.68,"102,305",2.38,21.21%,29.37%,0.31,0.87,21.73%,52.89
+898,BIO,BIO Corp.,Technology,Internet Software,Switzerland,31598.26,28.83,3.73,1.05,,4.21,"114,843",4.66,-0.26%,3.58%,0.60,0.94,56.33%,64.25
+899,BIP,BIP Corp.,Technology,Computer Hardware,Switzerland,59803932.80,,1.57,6.06,2.00,39.09,"109,183",-0.81,-5.56%,-11.98%,0.31,1.41,54.58%,51.43
+900,BIQ,BIQ Corp.,Technology,Semiconductor,USA,359671.81,46.05,,2.65,3.49,26.01,"28,056",8.19,0.23%,4.61%,3.49,1.17,69.60%,87.23
+901,BIR,BIR Corp.,Technology,Software,USA,1343266.88,23.97,1.70,,1.84,15.65,"16,216",3.62,19.45%,14.43%,0.51,0.98,38.09%,49.62
+902,BIS,BIS Holdings Inc.,Technology,Internet Software,USA,58865137.60,11.80,1.33,0.82,1.94,44.28,"115,938",5.73,30.22%,-0.65%,0.27,0.64,42.94%,49.26
+903,BIT,BIT Holdings Inc.,Technology,Computer Hardware,USA,2752376.13,17.78,4.62,1.30,2.76,11.71,"5,674",8.45,12.21%,4.32%,0.48,2.18,40.78%,51.11
+904,BIU,BIU Holdings Inc.,Technology,Semiconductor,USA,30723126.08,17.69,,2.19,6.12,45.75,"32,088",5.05,6.66%,-0.84%,0.13,0.15,39.72%,49.10
+905,BIV,BIV Corp.,Technology,Software,USA,13559704.92,70.91,1.15,0.96,2.62,61.02,"37,870",2.51,13.35%,2.10%,0.36,0.98,16.67%,51.59
+906,BIW,BIW Corp.,Technology,Internet Software,USA,2594757.81,19.40,1.62,0.87,3.14,7.15,"1,527,645",10.70,-25.95%,17.65%,0.58,1.19,25.83%,50.63
+907,BIX,BIX Corp.,Technology,Computer Hardware,USA,9250070.65,4.87,,1.91,0.73,59.79,"135,924",-2.97,21.65%,1.94%,0.29,1.03,37.97%,71.92
+908,BIY,BIY Corp.,Technology,Semiconductor,USA,7308895.73,63.85,2.44,2.73,3.15,26.33,"15,978",1.30,3.94%,-6.08%,0.55,1.15,56.97%,37.79
+909,BIZ,BIZ Holdings Inc.,Technology,Software,USA,26739172.31,18.50,0.55,5.45,2.10,40.87,"41,798",0.37,17.74%,18.36%,0.41,1.64,24.11%,44.81
+910,BJA,BJA Holdings Inc.,Technology,Internet Software,USA,13502483.76,22.18,,1.93,2.28,34.89,"14,889",4.88,-7.16%,6.49%,1.12,0.89,38.23%,29.59
+911,BJB,BJB Holdings Inc.,Technology,Computer Hardware,USA,13632699.16,45.40,5.47,3.29,3.62,13.23,"289,826",0.82,-8.84%,8.16%,0.23,1.11,19.86%,44.56
+912,BJC,BJC Corp.,Technology,Semiconductor,USA,7109345.84,13.29,0.71,3.86,0.82,22.21,"293,110",-0.92,-1.90%,13.89%,0.10,1.79,40.74%,58.18
+913,BJD,BJD Corp.,Technology,Software,USA,2930551.96,15.11,2.44,,5.09,79.22,"276,085",4.81,7.28%,8.75%,0.17,1.40,45.76%,44.80
+914,BJE,BJE Corp.,Technology,Internet Software,USA,1118225.66,16.76,3.21,1.05,2.86,12.33,"300,362",0.74,-0.12%,-1.86%,0.77,0.75,66.00%,49.77
+915,BJF,BJF Corp.,Technology,Computer Hardware,USA,23292411.88,47.82,0.58,3.89,4.39,22.76,"28,911",6.05,3.41%,18.78%,0.66,0.61,62.80%,37.94
+916,BJG,BJG Corp.,Technology,Semiconductor,USA,363246.61,24.72,,2.99,2.72,8.64,"207,895",8.67,45.41%,27.19%,0.77,0.90,22.33%,33.88
+917,BJH,BJH Holdings Inc.,Technology,Software,USA,19773707.34,19.29,,1.28,,54.71,"653,700",1.62,17.44%,-9.39%,0.18,0.75,61.65%,56.43
+918,BJI,BJI Corp.,Technology,Internet Software,USA,20532707.17,24.99,2.17,0.57,2.04,59.16,"16,187",0.57,36.67%,-4.89%,0.85,0.42,57.55%,51.05
+919,BJJ,BJJ Holdings Inc.,Technology,Computer Hardware,USA,777663.64,25.56,0.84,4.10,1.67,28.40,"29,260",5.37,25.87%,1.03%,0.26,1.30,23.84%,37.96
+920,BJK,BJK Corp.,Technology,Semiconductor,USA,1331405.07,7.57,0.91,,1.05,20.97,"158,596",2.24,12.80%,-0.41%,2.50,0.81,23.51%,54.95
+921,BJL,BJL Holdings Inc.,Technology,Software,USA,122901.18,15.74,3.21,1.81,0.99,15.76,"156,391",7.88,3.79%,6.99%,0.36,1.00,24.89%,50.78
+922,BJM,BJM Holdings Inc.,Technology,Internet Software,USA,2021949.20,22.69,0.78,0.68,,43.20,"42,494",0.10,8.99%,5.81%,0.62,1.45,57.61%,55.24
+923,BJN,BJN Corp.,Technology,Computer Hardware,USA,30050001.02,,1.75,1.19,2.68,28.10,"48,801",0.55,11.76%,7.13%,0.66,1.02,15.04%,28.22
+924,BJO,BJO Corp.,Technology,Semiconductor,USA,6741643.22,33.86,1.83,,1.43,22.77,"87,819",6.78,-1.72%,12.52%,1.42,0.67,61.61%,42.87
+925,BJP,BJP Corp.,Technology,Software,USA,4062995.21,,0.91,2.76,1.25,58.62,"242,721",8.61,0.24%,13.67%,0.79,0.31,53.14%,50.61
+926,BJQ,BJQ Holdings Inc.,Technology,Internet Software,USA,141850.69,9.71,2.42,2.76,1.12,19.72,"29,884",1.79,15.09%,0.58%,0.59,1.13,35.41%,85.69
+927,BJR,BJR Corp.,Technology,Computer Hardware,USA,2677834.16,24.37,0.49,2.65,,43.76,"24,936",8.95,19.85%,15.37%,1.03,1.91,14.09%,78.28
+928,BJS,BJS Corp.,Technology,Semiconductor,USA,2451131.91,17.07,2.27,11.44,1.64,29.01,"215,923",5.75,10.06%,-0.29%,0.99,1.13,49.99%,48.96
+929,BJT,BJT Corp.,Technology,Software,USA,655389.47,21.50,0.90,4.40,1.13,10.89,"1,700,273",1.28,12.34%,8.64%,0.35,1.99,6.57%,83.61
+930,BJU,BJU Corp.,Technology,Internet Software,USA,11214964.00,29.03,1.89,3.90,2.06,72.51,"64,771",-3.64,17.84%,31.50%,0.23,1.01,69.50%,56.38
+931,BJV,BJV Holdings Inc.,Technology,Computer Hardware,USA,135822.15,21.22,,6.87,1.73,11.54,"15,921",0.22,5.99%,2.93%,0.16,0.64,5.40%,57.37
+932,BJW,BJW Corp.,Technology,Semiconductor,USA,887834.71,11.39,9.13,4.63,,29.19,"8,381",-2.34,10.20%,10.78%,0.29,0.81,94.11%,45.52
+933,BJX,BJX Holdings Inc.,Technology,Software,USA,32042107.32,26.17,2.55,9.01,1.14,15.05,"205,555",1.66,10.43%,5.07%,0.32,0.56,57.75%,35.80
+934,BJY,BJY Corp.,Technology,Internet Software,USA,4365867.45,15.20,3.13,1.74,6.37,14.74,"37,829",4.92,33.17%,4.90%,0.73,0.61,36.47%,53.67
+935,BJZ,BJZ Holdings Inc.,Technology,Computer Hardware,USA,2094041.70,23.45,3.62,2.66,1.76,21.06,"424,844",2.00,-6.51%,18.25%,0.51,1.56,59.77%,65.98
+936,BKA,BKA Holdings Inc.,Technology,Semiconductor,USA,6858129.61,19.89,0.93,3.63,1.66,19.00,"244,338",-2.39,0.45%,1.21%,1.13,1.12,58.40%,26.94
+937,BKB,BKB Holdings Inc.,Technology,Software,USA,992615.36,30.36,2.30,3.50,3.36,9.64,"48,063",-1.72,6.95%,-0.06%,0.37,1.10,18.39%,48.31
+938,BKC,BKC Holdings Inc.,Technology,Internet Software,USA,44705103.06,18.66,1.26,1.51,,77.59,"503,592",-1.88,30.76%,19.54%,1.50,1.23,4.66%,75.59
+939,BKD,BKD Corp.,Technology,Computer Hardware,USA,3115727.29,18.53,4.98,1.61,2.43,55.25,"43,833",6.76,21.35%,5.96%,0.41,1.33,34.24%,47.46
+940,BKE,BKE Corp.,Technology,Semiconductor,USA,30194054.38,47.93,3.28,2.71,2.09,47.65,"34,621",3.16,22.60%,25.69%,0.23,0.58,25.34%,31.00
+941,BKF,BKF Holdings Inc.,Technology,Software,USA,10812051.51,26.57,,3.17,2.23,31.11,"95,751",6.10,-7.32%,14.79%,0.35,1.63,11.54%,59.08
+942,BKG,BKG Holdings Inc.,Technology,Internet Software,USA,5830527.29,15.89,1.79,1.76,1.02,70.26,"258,537",5.96,-6.83%,6.42%,0.73,0.99,15.75%,37.66
+943,BKH,BKH Holdings Inc.,Technology,Computer Hardware,USA,174630646.36,,1.55,2.89,1.22,16.41,"17,127",5.86,19.46%,12.64%,0.36,1.31,20.64%,54.73
+944,BKI,BKI Corp.,Technology,Semiconductor,USA,1251926.99,20.69,3.18,4.43,0.36,9.46,"10,680",9.59,15.80%,22.10%,1.94,0.68,12.02%,66.90
+945,BKJ,BKJ Holdings Inc.,Technology,Software,USA,4117581.90,20.27,1.52,1.48,,48.32,"36,288",2.37,0.97%,1.67%,0.16,1.58,36.09%,47.56
+946,BKK,BKK Corp.,Technology,Internet Software,USA,352211.11,10.98,2.09,2.16,2.68,20.58,"34,585",4.35,9.36%,-12.08%,0.16,1.92,31.44%,12.08
+947,BKL,BKL Corp.,Technology,Computer Hardware,USA,28920750.22,20.11,1.09,5.26,1.43,123.04,"152,950",0.41,1.58%,17.77%,0.18,1.36,53.88%,67.47
+948,BKM,BKM Corp.,Technology,Semiconductor,USA,2052096.36,28.11,2.61,1.19,7.84,19.79,"5,563",-0.89,6.05%,-8.16%,0.74,0.97,34.71%,71.06
+949,BKN,BKN Corp.,Technology,Software,USA,346988.51,,1.89,1.91,2.61,4.34,"328,644",-1.80,8.49%,-1.16%,0.77,1.06,10.59%,63.18
+950,BKO,BKO Corp.,Technology,Internet Software,USA,4781268.73,26.42,1.91,0.68,3.90,30.44,"13,723",0.91,2.28%,2.31%,0.24,0.76,13.26%,55.32
+951,BKP,BKP Corp.,Technology,Computer Hardware,USA,14432692.04,20.29,5.86,1.62,9.99,29.38,"50,699",4.47,-17.26%,-12.12%,0.36,1.62,38.42%,77.77
+952,BKQ,BKQ Corp.,Technology,Semiconductor,USA,8425235.07,35.09,2.28,3.71,2.42,24.10,"8,502",-2.93,12.15%,18.62%,0.45,1.11,18.89%,48.28
+953,BKR,BKR Holdings Inc.,Technology,Software,USA,420794.36,15.25,1.91,,4.70,4.33,"587,085",-1.68,1.77%,10.08%,1.17,1.10,37.21%,57.66
+954,BKS,BKS Holdings Inc.,Technology,Internet Software,USA,12661564.48,26.23,3.17,15.47,4.54,42.44,"234,439",9.69,5.00%,10.52%,0.28,1.75,38.57%,27.82
+955,BKT,BKT Holdings Inc.,Technology,Computer Hardware,USA,19865852.04,,1.93,2.15,2.64,22.96,"105,324",-0.59,24.24%,2.33%,0.46,0.89,53.19%,37.84
+956,BKU,BKU Corp.,Technology,Semiconductor,USA,559273.77,31.46,3.01,2.62,3.04,6.46,"77,586",-0.42,11.94%,9.34%,2.15,1.46,38.18%,51.63
+957,BKV,BKV Corp.,Technology,Software,USA,31038962.76,7.48,2.21,0.74,1.41,28.78,"4,935",5.26,6.47%,11.35%,0.60,0.49,33.50%,50.76
+958,BKW,BKW Corp.,Technology,Internet Software,USA,28334465.13,50.74,2.79,2.58,1.49,12.33,"76,397",0.00,-3.86%,-6.30%,0.29,1.10,8.89%,47.49
+959,BKX,BKX Corp.,Technology,Computer Hardware,USA,126046078.92,16.67,3.44,1.75,,59.14,"13,682",5.03,24.71%,0.02%,0.64,1.34,49.69%,41.35
+960,BKY,BKY Holdings Inc.,Technology,Semiconductor,USA,5833233.03,23.48,1.25,2.32,4.61,32.23,"157,889",0.14,35.56%,2.87%,0.17,1.44,32.10%,27.23
+961,BKZ,BKZ Holdings Inc.,Technology,Software,USA,1925444.99,,,1.58,,34.29,"61,724",10.06,-15.48%,-1.21%,0.82,2.03,24.18%,24.46
+962,BLA,BLA Corp.,Technology,Internet Software,USA,47121887.11,36.47,1.15,0.77,0.85,14.51,"49,776",2.71,-12.12%,-4.04%,0.71,1.10,26.81%,85.16
+963,BLB,BLB Corp.,Technology,Computer Hardware,USA,13177181.79,11.53,1.27,0.81,2.09,81.46,"2,660",1.11,9.23%,15.19%,0.61,1.12,60.95%,47.10
+964,BLC,BLC Corp.,Technology,Semiconductor,USA,3832963.60,16.53,1.87,4.67,0.85,54.72,"730,833",0.25,-2.60%,13.60%,0.51,0.53,29.91%,71.79
+965,BLD,BLD Corp.,Technology,Software,USA,1857484.64,65.46,7.56,3.75,2.51,17.48,"866,125",7.94,-3.54%,-0.17%,0.47,1.42,27.60%,33.58
+966,BLE,BLE Corp.,Technology,Internet Software,USA,4489839.79,42.81,0.43,1.70,8.87,25.55,"21,614",3.36,16.19%,-1.19%,0.43,1.02,63.35%,87.34
+967,BLF,BLF Holdings Inc.,Technology,Computer Hardware,USA,10306338.44,7.01,,4.80,6.00,9.04,"71,599",6.43,18.14%,8.71%,0.13,1.48,27.84%,58.20
+968,BLG,BLG Holdings Inc.,Technology,Semiconductor,USA,595146.79,34.43,2.64,2.04,10.61,17.09,"94,745",2.44,-3.82%,7.95%,0.35,0.44,11.50%,51.01
+969,BLH,BLH Corp.,Technology,Software,USA,2789155.80,39.05,2.57,2.39,1.67,53.32,"444,822",-1.55,11.53%,13.73%,0.27,0.79,11.69%,82.01
+970,BLI,BLI Corp.,Technology,Internet Software,USA,14417920.48,8.64,1.47,0.53,,29.32,"1,073,524",-0.76,18.50%,2.23%,0.22,1.26,58.90%,61.99
+971,BLJ,BLJ Holdings Inc.,Technology,Computer Hardware,USA,127839.96,15.04,2.42,4.31,2.92,26.15,"14,919",3.89,11.19%,-4.13%,0.68,0.88,38.29%,52.34
+972,BLK,BLK Holdings Inc.,Technology,Semiconductor,USA,6393161.50,29.87,1.31,2.07,1.41,103.82,"14,036",4.73,18.83%,26.90%,0.50,1.36,18.64%,65.93
+973,BLL,BLL Holdings Inc.,Technology,Software,USA,3947168.64,32.58,,4.32,3.35,16.47,"502,983",-1.13,-1.53%,32.40%,0.41,1.60,20.36%,33.00
+974,BLM,BLM Holdings Inc.,Technology,Internet Software,USA,31530687.81,9.03,2.28,3.73,1.99,101.23,"13,795",5.64,34.87%,8.27%,0.43,1.23,56.88%,73.53
+975,BLN,BLN Corp.,Technology,Computer Hardware,USA,4597653.48,74.32,2.04,2.44,1.93,25.90,"255,325",8.40,-4.51%,9.09%,0.40,0.86,62.22%,32.89
+976,BLO,BLO Holdings Inc.,Technology,Semiconductor,USA,1257561.78,9.52,1.78,1.60,6.63,69.76,"761,623",1.27,-1.71%,36.56%,0.25,0.38,43.64%,39.84
+977,BLP,BLP Holdings Inc.,Technology,Software,USA,4356971.04,28.18,1.31,1.30,3.45,36.70,"51,557",2.84,-4.32%,18.18%,0.89,1.09,25.76%,26.97
+978,BLQ,BLQ Holdings Inc.,Technology,Internet Software,Canada,10432740.16,15.98,1.83,3.71,0.52,34.41,"64,837",-2.15,-2.56%,8.61%,2.48,1.24,61.44%,59.02
+979,BLR,BLR Holdings Inc.,Technology,Computer Hardware,Canada,883795.90,7.70,1.12,6.56,4.12,8.27,"22,952",6.41,1.61%,-7.73%,0.61,0.84,30.30%,59.86
+980,BLS,BLS Corp.,Technology,Semiconductor,Canada,68676793.62,33.88,1.80,10.82,10.38,103.40,"517,666",3.43,-1.55%,0.95%,0.60,1.14,10.10%,48.49
+981,BLT,BLT Corp.,Technology,Software,Canada,3047872.70,11.66,0.90,2.25,0.62,14.73,"207,929",7.69,23.59%,2.89%,0.26,0.96,37.16%,52.99
+982,BLU,BLU Holdings Inc.,Technology,Internet Software,Canada,1087646.26,14.87,2.92,1.94,3.82,21.69,"132,870",5.29,0.90%,18.55%,1.60,1.75,66.33%,71.64
+983,BLV,BLV Holdings Inc.,Technology,Computer Hardware,Canada,1269704.85,17.77,1.78,1.86,0.71,53.44,"78,117",2.95,25.42%,-15.79%,0.38,0.88,18.45%,49.55
+984,BLW,BLW Holdings Inc.,Technology,Semiconductor,Canada,452282.30,9.49,1.41,0.69,2.42,5.89,"77,352",9.58,-31.54%,-2.17%,0.50,1.09,33.97%,39.32
+985,BLX,BLX Holdings Inc.,Technology,Software,Canada,6322327.78,15.99,3.09,2.06,,13.85,"12,256",1.96,35.72%,16.32%,0.80,0.31,46.05%,35.10
+986,BLY,BLY Corp.,Technology,Internet Software,UK,2189727.67,16.65,2.49,2.20,0.75,25.15,"11,330",2.49,19.49%,20.20%,0.11,1.37,60.43%,35.03
+987,BLZ,BLZ Corp.,Technology,Computer Hardware,UK,448178.04,,0.80,4.51,1.55,12.57,"21,918",-1.08,10.98%,1.56%,0.38,1.17,55.67%,67.84
+988,BMA,BMA Corp.,Technology,Semiconductor,UK,10375006.05,27.65,3.63,0.72,1.34,13.69,"405,324",2.82,17.96%,11.02%,0.78,0.80,10.31%,28.85
+989,BMB,BMB Holdings Inc.,Technology,Software,UK,7076881.69,9.21,0.89,2.45,,23.79,"36,473",1.36,24.73%,-3.12%,1.55,0.57,57.52%,57.42
+990,BMC,BMC Holdings Inc.,Technology,Internet Software,UK,10222184.84,40.70,0.85,5.36,5.51,27.86,"222,657",-0.28,55.71%,6.60%,0.59,1.92,59.93%,47.22
+991,BMD,BMD Holdings Inc.,Technology,Computer Hardware,China,2367234.34,14.44,2.37,2.72,,19.85,"28,920",4.47,37.93%,17.84%,0.32,0.56,17.26%,54.92
+992,BME,BME Corp.,Technology,Semiconductor,China,2663609.30,,3.08,1.59,3.74,22.08,"55,658",2.57,-6.48%,0.84%,4.32,0.60,16.33%,62.72
+993,BMF,BMF Holdings Inc.,Technology,Software,China,4976598.32,15.65,1.37,3.10,1.72,67.09,"1,225,242",-0.22,16.44%,2.50%,1.28,2.11,37.28%,69.44
+994,BMG,BMG Holdings Inc.,Technology,Internet Software,China,1159885.65,11.79,,2.14,2.85,12.84,"13,220",-3.39,1.95%,0.52%,1.07,0.86,43.99%,60.01
+995,BMH,BMH Corp.,Technology,Computer Hardware,Chile,507728.55,37.47,,3.95,2.16,20.55,"181,982",-1.24,-18.46%,12.42%,0.56,0.79,8.51%,61.91
+996,BMI,BMI Holdings Inc.,Technology,Semiconductor,Chile,3951955.72,23.92,2.18,2.13,,10.76,"78,313",4.61,30.90%,6.80%,0.23,1.19,28.89%,68.36
+997,BMJ,BMJ Corp.,Technology,Software,Chile,2082020.07,8.18,1.00,2.33,2.19,41.05,"17,520",-0.75,-6.89%,18.09%,0.56,1.34,67.10%,45.72
+998,BMK,BMK Holdings Inc.,Technology,Internet Software,Switzerland,3096685.30,38.11,,2.00,4.72,20.43,"8,178",5.00,-8.77%,-9.51%,0.50,0.75,32.54%,53.00
+999,BML,BML Holdings Inc.,Technology,Computer Hardware,Switzerland,1397391.12,43.93,5.12,1.76,0.82,54.25,"643,870",-0.43,8.82%,24.39%,0.50,0.58,15.04%,43.86
+1000,BMM,BMM Holdings Inc.,Technology,Semiconductor,USA,147509540.35,56.83,1.39,2.23,7.99,160.91,"68,247",-3.17,0.02%,-13.22%,1.35,1.65,68.65%,57.44
+1001,BMN,BMN Holdings Inc.,Technology,Software,USA,1224794.45,,2.01,1.87,2.31,16.45,"10,471",1.69,10.53%,21.01%,0.33,1.32,36.92%,80.47
+1002,BMO,BMO Holdings Inc.,Technology,Internet Software,USA,9694295.26,17.34,2.63,0.51,3.86,54.19,"47,065",-2.50,4.30%,11.64%,0.20,0.93,72.91%,35.35
+1003,BMP,BMP Corp.,Technology,Computer Hardware,USA,206840.16,11.92,0.70,1.50,3.60,18.22,"132,260",1.67,9.53%,-6.60%,0.41,1.28,47.33%,46.47
+1004,BMQ,BMQ Holdings Inc.,Technology,Semiconductor,USA,2037623.75,,1.44,1.69,3.54,26.48,"52,035",0.15,27.33%,-1.37%,0.13,0.90,45.14%,42.59
+1005,BMR,BMR Corp.,Technology,Software,USA,2601726.19,46.74,1.37,1.17,3.57,19.23,"79,736",-0.55,21.14%,-6.76%,0.74,1.02,54.71%,54.03
+1006,BMS,BMS Corp.,Technology,Internet Software,USA,11850326.67,51.97,1.10,1.27,7.05,82.61,"10,574",2.68,1.86%,14.86%,1.11,1.36,11.54%,35.96
+1007,BMT,BMT Corp.,Technology,Computer Hardware,USA,2795313.59,16.36,,5.26,4.37,5.75,"161,995",0.77,10.39%,12.94%,1.35,1.39,16.18%,55.73
+1008,BMU,BMU Corp.,Technology,Semiconductor,USA,4064602.51,18.98,0.89,3.50,2.59,30.22,"27,627",2.29,2.75%,19.52%,0.84,1.95,32.91%,48.21
+1009,BMV,BMV Holdings Inc.,Technology,Software,USA,2274014.47,14.93,2.51,1.97,3.64,12.91,"24,013",5.11,-17.26%,18.04%,0.35,0.72,46.48%,76.71
+1010,BMW,BMW Holdings Inc.,Technology,Internet Software,USA,544830.91,67.16,1.31,1.73,1.43,21.37,"21,114",3.49,23.34%,-3.24%,0.44,1.19,11.03%,26.48
+1011,BMX,BMX Holdings Inc.,Technology,Computer Hardware,USA,80965214.77,5.47,2.53,1.85,2.23,40.62,"503,345",5.79,12.15%,17.58%,0.50,1.01,46.95%,44.81
+1012,BMY,BMY Corp.,Technology,Semiconductor,USA,18809742.02,10.63,1.70,1.76,1.43,92.42,"38,911",-3.61,12.26%,13.13%,0.33,0.56,60.48%,73.37
+1013,BMZ,BMZ Holdings Inc.,Technology,Software,USA,12333802.82,15.27,,0.91,2.01,92.84,"1,355",7.45,0.92%,-1.99%,0.87,1.13,17.08%,87.85
+1014,BNA,BNA Corp.,Technology,Internet Software,USA,304891.92,,2.71,,4.65,58.85,"22,129",8.34,3.15%,25.11%,0.35,1.43,33.65%,21.77
+1015,BNB,BNB Holdings Inc.,Technology,Computer Hardware,USA,1329695.53,25.54,3.18,2.35,5.78,21.13,"51,230",6.32,-5.87%,-2.64%,0.79,0.45,29.25%,44.76
+1016,BNC,BNC Holdings Inc.,Technology,Semiconductor,USA,10574485.77,12.19,0.84,1.26,1.67,35.61,"112,344",0.95,-10.54%,25.74%,0.66,1.24,67.86%,43.04
+1017,BND,BND Holdings Inc.,Technology,Software,USA,1684265.31,20.76,2.44,7.99,1.86,9.37,"9,185",3.67,19.01%,-0.41%,0.45,1.71,15.17%,52.12
+1018,BNE,BNE Holdings Inc.,Technology,Internet Software,USA,7607966.03,10.40,0.69,3.56,1.36,70.33,"577,643",3.72,23.36%,28.22%,0.97,1.13,31.11%,51.93
+1019,BNF,BNF Corp.,Technology,Computer Hardware,USA,3388036.72,14.74,0.93,4.00,4.32,15.43,"269,066",1.90,9.98%,6.47%,1.46,0.57,73.98%,60.33
+1020,BNG,BNG Corp.,Technology,Semiconductor,USA,25900070.64,19.78,1.83,0.34,2.84,77.74,"15,765",3.60,23.76%,1.74%,1.79,0.91,39.42%,66.65
+1021,BNH,BNH Corp.,Technology,Software,USA,15747923.41,5.01,1.53,1.88,3.71,15.28,"135,527",-1.05,11.64%,19.90%,0.20,2.18,34.67%,52.08
+1022,BNI,BNI Corp.,Technology,Internet Software,USA,5277377.91,29.98,,,2.93,19.59,"15,087,909",1.62,13.04%,-0.84%,0.76,1.13,35.15%,48.67
+1023,BNJ,BNJ Corp.,Technology,Computer Hardware,USA,162115.08,18.53,1.32,2.86,3.09,30.30,"24,395",3.12,5.58%,-0.36%,0.78,1.51,47.68%,36.65
+1024,BNK,BNK Holdings Inc.,Technology,Semiconductor,USA,2445604.22,34.13,1.85,2.03,1.43,34.98,"25,817",1.65,-1.83%,-15.24%,0.70,1.64,14.62%,27.81
+1025,BNL,BNL Corp.,Technology,Software,USA,23248137.15,30.78,1.98,0.32,7.69,6.80,"18,504",8.24,-4.71%,4.25%,0.33,1.09,49.10%,73.96
+1026,BNM,BNM Corp.,Technology,Internet Software,USA,77751339.39,24.41,2.04,,0.91,77.81,"14,606",7.10,7.91%,28.69%,0.46,1.72,48.21%,62.75
+1027,BNN,BNN Corp.,Technology,Computer Hardware,USA,1704899.72,15.49,4.01,0.72,9.66,9.94,"329,621",1.03,-7.02%,31.18%,0.96,1.60,28.15%,58.14
+1028,BNO,BNO Corp.,Technology,Semiconductor,USA,7597838.52,7.93,5.30,2.53,2.52,13.68,"33,341",0.67,23.58%,-1.53%,0.34,1.17,17.01%,58.60
+1029,BNP,BNP Corp.,Technology,Software,USA,746981.33,21.04,0.83,2.46,,24.18,"52,662",0.44,11.19%,19.32%,0.28,1.09,5.27%,60.27
+1030,BNQ,BNQ Holdings Inc.,Technology,Internet Software,USA,8521687.83,32.16,1.52,3.26,2.34,47.80,"258,023",-0.15,24.88%,3.29%,0.21,1.56,46.72%,59.72
+1031,BNR,BNR Corp.,Technology,Computer Hardware,USA,3194702.79,,1.37,5.13,2.96,15.95,"6,882",6.44,28.20%,6.05%,0.39,0.98,57.18%,62.41
+1032,BNS,BNS Holdings Inc.,Technology,Semiconductor,USA,21991099.94,21.06,1.45,2.36,1.58,54.18,"327,551",6.22,-18.03%,1.62%,0.16,1.47,58.46%,54.87
+1033,BNT,BNT Corp.,Technology,Software,USA,9640470.89,12.85,1.94,3.33,3.79,125.93,"103,325",-1.17,8.34%,-2.96%,0.41,1.46,19.88%,46.63
+1034,BNU,BNU Holdings Inc.,Technology,Internet Software,USA,810609.15,30.44,1.61,2.54,1.65,50.52,"95,155",1.14,15.93%,29.72%,0.35,0.73,23.34%,37.20
+1035,BNV,BNV Holdings Inc.,Technology,Computer Hardware,USA,4840540.18,16.19,0.91,1.32,3.68,13.88,"134,168",5.07,3.27%,11.55%,0.41,0.95,34.01%,64.34
+1036,BNW,BNW Holdings Inc.,Technology,Semiconductor,USA,399304.98,12.16,1.42,3.29,2.53,8.96,"325,263",-3.81,-5.60%,16.21%,0.50,0.17,46.89%,48.74
+1037,BNX,BNX Holdings Inc.,Technology,Software,USA,10521155.17,52.84,0.97,2.16,1.27,60.66,"32,980",-0.60,-1.68%,32.07%,0.74,1.47,34.59%,44.62
+1038,BNY,BNY Corp.,Technology,Internet Software,USA,17818634.16,20.02,0.95,0.42,1.32,16.49,"189,406",-5.15,25.12%,-7.30%,1.93,1.02,55.26%,36.39
+1039,BNZ,BNZ Holdings Inc.,Technology,Computer Hardware,USA,1107931.02,,0.83,2.29,0.74,9.76,"63,523",4.04,16.25%,14.37%,0.83,1.07,13.54%,44.91
+1040,BOA,BOA Corp.,Technology,Semiconductor,USA,176641233.62,18.96,2.18,16.59,5.40,37.39,"208,577",4.75,15.07%,12.17%,1.15,0.92,20.47%,41.53
+1041,BOB,BOB Corp.,Technology,Software,USA,3382212.10,24.40,2.44,2.90,5.90,14.39,"86,630",5.85,25.01%,-14.85%,0.36,0.59,21.12%,20.93
+1042,BOC,BOC Corp.,Technology,Internet Software,USA,6173717.81,38.08,0.60,5.88,2.74,31.25,"74,585",6.90,-9.52%,21.68%,0.96,0.78,1.44%,31.76
+1043,BOD,BOD Corp.,Technology,Computer Hardware,USA,62738728.55,21.52,1.89,2.32,1.44,36.81,"76,206",-0.36,-13.50%,-10.50%,1.38,0.84,55.38%,75.01
+1044,BOE,BOE Holdings Inc.,Technology,Semiconductor,USA,9889311.48,30.95,1.77,1.64,1.73,90.61,"2,199",3.79,41.02%,9.90%,0.41,1.02,42.72%,50.75
+1045,BOF,BOF Corp.,Technology,Software,USA,10640230.64,20.81,,0.64,4.62,12.49,"35,785",-1.06,1.75%,25.21%,0.76,1.35,21.70%,46.14
+1046,BOG,BOG Holdings Inc.,Technology,Internet Software,USA,835948.74,46.85,3.21,2.62,2.57,29.27,"264,232",-0.18,22.99%,21.42%,0.96,1.25,43.25%,59.83
+1047,BOH,BOH Corp.,Technology,Computer Hardware,USA,25649407.40,11.66,1.76,1.75,4.00,63.72,"572,002",2.59,-2.75%,4.03%,0.41,1.70,37.36%,32.80
+1048,BOI,BOI Holdings Inc.,Technology,Semiconductor,USA,1067132.89,16.24,0.62,2.66,7.81,12.75,"106,541",3.57,-9.29%,27.08%,0.64,1.84,33.24%,36.92
+1049,BOJ,BOJ Holdings Inc.,Technology,Software,USA,427360.63,19.89,1.19,1.69,4.78,26.21,"19,376",5.49,29.09%,-7.03%,0.43,1.52,36.57%,57.00
+1050,BOK,BOK Corp.,Technology,Internet Software,USA,4943952.59,36.02,,0.87,2.59,29.25,"21,856",5.00,9.62%,4.71%,1.57,1.11,76.01%,58.30
+1051,BOL,BOL Corp.,Technology,Computer Hardware,USA,8079330.26,48.32,,1.51,1.33,68.56,"55,766",3.60,17.03%,23.45%,0.73,1.36,44.41%,63.97
+1052,BOM,BOM Holdings Inc.,Technology,Semiconductor,USA,632158.61,28.72,3.36,3.06,1.69,25.40,"120,548",0.40,4.08%,21.90%,0.27,0.57,31.53%,68.22
+1053,BON,BON Corp.,Technology,Software,USA,2037546.14,18.03,1.69,2.33,2.24,10.61,"412,805",1.46,9.91%,25.59%,0.70,2.14,27.20%,47.22
+1054,BOO,BOO Holdings Inc.,Utilities,Electric Utilities,USA,4023677.77,45.45,1.98,,1.06,5.22,"828,553",4.01,3.79%,7.95%,0.30,1.46,47.72%,57.06
+1055,BOP,BOP Holdings Inc.,Utilities,Gas Utilities,USA,4352881.26,14.15,2.45,2.39,4.16,7.88,"1,050,826",1.41,32.91%,6.67%,0.49,1.86,29.03%,78.46
+1056,BOQ,BOQ Holdings Inc.,Utilities,Water Utilities,USA,1455330.17,16.23,2.16,,7.46,69.21,"50,385",5.79,12.97%,-5.54%,0.34,2.10,42.98%,66.82
+1057,BOR,BOR Corp.,Utilities,Electric Utilities,USA,4571067.77,32.47,2.22,0.56,1.62,15.55,"37,456",4.24,12.63%,12.10%,0.37,0.63,48.48%,32.51
+1058,BOS,BOS Holdings Inc.,Utilities,Gas Utilities,USA,2566714.12,60.32,2.43,3.16,0.81,40.11,"740,303",-0.76,-1.55%,4.45%,0.25,1.63,51.07%,28.13
+1059,BOT,BOT Holdings Inc.,Utilities,Water Utilities,USA,3572035.65,27.94,2.66,1.54,1.92,30.23,"87,567",5.51,-1.33%,-5.79%,0.54,0.75,21.92%,48.19
+1060,BOU,BOU Holdings Inc.,Utilities,Electric Utilities,USA,1923632.94,23.61,2.72,4.45,1.22,21.64,"38,473",0.46,-0.30%,20.36%,0.80,1.46,83.39%,35.05
+1061,BOV,BOV Holdings Inc.,Utilities,Gas Utilities,USA,9631616.48,22.21,0.99,1.24,5.17,59.57,"961,871",-0.57,4.76%,10.74%,0.35,1.94,59.21%,58.14
+1062,BOW,BOW Corp.,Utilities,Water Utilities,USA,317672.21,17.69,,1.05,2.83,27.50,"152,342",9.77,15.55%,-7.53%,0.33,0.77,19.44%,44.19
+1063,BOX,BOX Corp.,Utilities,Electric Utilities,USA,2728010.20,20.17,3.28,2.50,1.80,14.93,"515,816",1.22,11.62%,6.69%,2.64,0.99,17.61%,38.09
+1064,BOY,BOY Holdings Inc.,Utilities,Gas Utilities,USA,6260166.28,43.66,1.55,0.40,2.53,21.02,"266,615",-0.62,34.21%,26.68%,0.87,1.09,9.76%,50.75
+1065,BOZ,BOZ Corp.,Utilities,Water Utilities,USA,7972824.75,37.73,1.31,2.63,1.55,44.42,"299,246",4.16,0.61%,0.68%,0.54,0.87,41.30%,39.03
+1066,BPA,BPA Corp.,Utilities,Electric Utilities,USA,1037303.65,28.56,3.77,2.49,2.15,24.55,"483,720",1.73,3.37%,19.82%,0.52,1.23,33.08%,36.33
+1067,BPB,BPB Holdings Inc.,Utilities,Gas Utilities,USA,351639.99,13.94,2.38,1.28,4.34,46.24,"1,766",6.78,10.68%,12.77%,0.88,1.84,39.18%,45.35
+1068,BPC,BPC Corp.,Utilities,Water Utilities,USA,1772063.82,19.87,3.48,2.20,2.45,42.11,"10,297",-0.61,-6.69%,8.07%,0.43,1.05,39.77%,38.57
+1069,BPD,BPD Holdings Inc.,Utilities,Electric Utilities,USA,27517896.83,25.97,1.23,2.99,2.34,62.90,"44,134",2.30,24.85%,-10.87%,1.22,1.25,27.44%,47.88
+1070,BPE,BPE Holdings Inc.,Utilities,Gas Utilities,USA,22876029.68,8.07,0.85,1.94,3.02,46.35,"20,042",5.41,-0.29%,1.09%,1.00,1.22,22.36%,50.52
+1071,BPF,BPF Holdings Inc.,Utilities,Water Utilities,USA,3556559.81,21.96,6.19,14.48,3.64,23.05,"17,193",0.23,15.71%,-3.32%,0.45,1.03,44.16%,76.35
+1072,BPG,BPG Corp.,Utilities,Electric Utilities,USA,781346.85,24.82,1.95,3.26,1.74,52.73,"195,961",-2.08,28.97%,2.72%,1.10,1.13,17.72%,69.99
+1073,BPH,BPH Corp.,Utilities,Gas Utilities,USA,4946515.79,10.92,2.60,1.48,2.92,22.68,"5,961",0.86,-26.43%,2.95%,0.50,1.21,46.39%,46.69
+1074,BPI,BPI Holdings Inc.,Utilities,Water Utilities,USA,2286181.22,36.45,1.67,1.78,0.57,37.82,"701,250",4.59,4.59%,6.89%,0.55,0.66,67.44%,86.07
+1075,BPJ,BPJ Holdings Inc.,Utilities,Electric Utilities,USA,758073.22,15.80,1.04,3.85,0.83,17.17,"169,167",1.88,-5.92%,23.03%,0.60,0.58,56.25%,87.53
+1076,BPK,BPK Corp.,Utilities,Gas Utilities,USA,1968131.70,,2.62,2.45,6.80,63.90,"90,652",4.43,-9.71%,20.17%,0.22,1.34,32.55%,54.75
+1077,BPL,BPL Corp.,Utilities,Water Utilities,USA,847264.66,14.74,,1.72,0.54,16.84,"137,950",4.67,-11.89%,4.52%,1.27,0.53,31.68%,54.66
+1078,BPM,BPM Corp.,Utilities,Electric Utilities,Canada,11755592.57,,3.26,0.85,8.51,131.23,"67,749",-1.54,-9.89%,11.54%,0.55,0.49,36.73%,48.44
+1079,BPN,BPN Corp.,Utilities,Gas Utilities,Canada,1462603.84,18.65,1.42,2.32,0.77,12.56,"17,123",1.10,-4.88%,18.68%,0.55,0.54,18.88%,56.81
+1080,BPO,BPO Holdings Inc.,Utilities,Water Utilities,Canada,4409137.09,32.94,,1.59,3.54,23.91,"5,269",1.08,-10.51%,15.78%,1.38,2.20,41.03%,51.84
+1081,BPP,BPP Corp.,Utilities,Electric Utilities,Canada,7287549.69,44.26,1.48,4.59,1.98,192.34,"30,040",2.43,7.41%,9.81%,0.19,1.08,18.02%,49.94
+1082,BPQ,BPQ Corp.,Utilities,Gas Utilities,Canada,1810721.66,58.49,3.71,1.56,1.44,18.23,"105,270",1.97,9.32%,3.24%,1.34,0.38,24.28%,51.65
+1083,BPR,BPR Holdings Inc.,Utilities,Water Utilities,Canada,5019301.67,6.92,,0.92,2.15,24.59,"25,954",0.07,25.40%,-10.32%,0.47,1.43,35.84%,36.45
+1084,BPS,BPS Holdings Inc.,Utilities,Electric Utilities,Canada,30540238.57,80.94,,9.04,1.61,40.23,"45,561",-1.41,20.76%,-8.38%,1.07,0.64,25.61%,37.66
+1085,BPT,BPT Corp.,Utilities,Gas Utilities,Canada,1682403.93,11.67,1.17,,2.29,14.31,"30,940",-3.27,26.09%,5.08%,1.63,1.14,49.13%,61.29
+1086,BPU,BPU Corp.,Utilities,Water Utilities,UK,4486945.90,17.88,1.80,4.58,2.04,17.14,"58,374",1.73,3.81%,9.33%,0.22,1.90,33.35%,57.77
+1087,BPV,BPV Holdings Inc.,Utilities,Electric Utilities,UK,24980150.43,17.18,2.44,1.31,1.62,159.76,"115,007",-8.15,24.19%,9.19%,0.34,0.60,37.30%,33.07
+1088,BPW,BPW Corp.,Utilities,Gas Utilities,UK,15201243.83,21.21,2.70,,1.62,50.07,"6,461",-1.15,0.86%,7.23%,0.60,0.67,49.20%,42.72
+1089,BPX,BPX Holdings Inc.,Utilities,Water Utilities,UK,1606572.74,32.11,1.26,1.74,0.78,27.34,"35,838",0.94,23.22%,5.10%,0.13,1.63,77.50%,71.42
+1090,BPY,BPY Corp.,Utilities,Electric Utilities,UK,10997790.99,19.93,0.44,0.98,5.37,67.14,"10,508",3.67,23.63%,5.71%,0.54,1.42,13.75%,49.29
+1091,BPZ,BPZ Holdings Inc.,Utilities,Gas Utilities,China,1296810.14,8.28,0.71,1.94,2.83,24.84,"37,951",8.03,8.91%,21.38%,0.95,0.47,22.55%,74.60
+1092,BQA,BQA Holdings Inc.,Utilities,Water Utilities,China,2486762.42,48.36,7.95,0.97,4.09,22.97,"77,158",2.10,-3.78%,18.10%,0.25,1.18,53.62%,51.65
+1093,BQB,BQB Holdings Inc.,Utilities,Electric Utilities,China,5836905.62,5.73,1.70,1.99,3.30,26.40,"4,306",2.86,-18.07%,22.33%,0.89,0.63,70.67%,54.76
+1094,BQC,BQC Corp.,Utilities,Gas Utilities,China,3623796.06,40.18,9.94,2.92,2.37,18.19,"97,027",8.60,1.93%,8.01%,0.64,0.96,53.66%,33.96
+1095,BQD,BQD Holdings Inc.,Utilities,Water Utilities,Chile,1077387.95,,10.46,1.66,2.54,14.20,"142,080",3.55,8.49%,6.66%,1.25,0.64,33.22%,71.81
+1096,BQE,BQE Corp.,Utilities,Electric Utilities,Chile,18070814.09,16.10,1.40,2.03,3.10,60.25,"130,035",1.53,38.07%,4.47%,1.01,0.83,12.00%,62.53
+1097,BQF,BQF Holdings Inc.,Utilities,Gas Utilities,Chile,60305915.39,18.99,,3.82,1.45,74.66,"46,243",4.09,3.83%,9.14%,0.53,1.18,30.88%,71.99
+1098,BQG,BQG Corp.,Utilities,Water Utilities,Switzerland,17095812.13,37.00,2.45,0.85,0.66,94.64,"94,479",-1.22,23.81%,5.55%,0.64,0.73,69.05%,74.05
+1099,BQH,BQH Corp.,Utilities,Electric Utilities,Switzerland,10545364.12,51.90,3.05,3.32,1.73,18.75,"24,681",3.60,14.16%,-11.57%,0.57,1.24,48.36%,54.13
+1100,BQI,BQI Holdings Inc.,Utilities,Gas Utilities,USA,2411022.64,26.52,1.97,0.89,0.94,33.01,"27,569",-3.31,4.11%,25.64%,0.39,0.64,35.05%,54.37
+1101,BRK-A,Berkshire Hathaway Inc.,Financial,Property & Casualty Insurance,USA,900000.00,22.00,1.80,2.10,1.60,172450.00,"2,500",18000.00,8.00%,7.00%,0.25,0.85,22.00%,55.00
