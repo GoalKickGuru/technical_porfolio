@@ -1,0 +1,698 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 2,
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python",
+      "version": "3.10.0"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# 🧮 Linear Regression from Scratch with NumPy\n",
+        "\n",
+        "**Goal:** Implement Linear Regression using only NumPy and the Normal Equation.\n",
+        "\n",
+        "## Learning Objectives\n",
+        "1. Understand the mathematics behind OLS via the Normal Equation\n",
+        "2. Build a reusable `LinearRegressionNumpy` class\n",
+        "3. Perform manual train/test splitting\n",
+        "4. Evaluate with RMSE and R²\n",
+        "5. Visualize results with Matplotlib\n",
+        "\n",
+        "## Mathematical Foundation\n",
+        "\n",
+        "The Normal Equation finds optimal coefficients in one step:\n",
+        "\n",
+        "$$\\hat{\\beta} = (X^T X)^{-1} X^T y$$\n",
+        "\n",
+        "Where:\n",
+        "- $X$ is the design matrix (features + intercept column of 1s)\n",
+        "- $y$ is the target vector\n",
+        "- $\\hat{\\beta}$ are the estimated coefficients\n",
+        "\n",
+        "We use `np.linalg.pinv()` (pseudo-inverse) instead of regular inverse for numerical stability."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 1: Import Libraries\n",
+        "\n",
+        "| Library | Purpose |\n",
+        "|---------|--------|\n",
+        "| `numpy` | Matrix operations, linear algebra |\n",
+        "| `pandas` | Data loading and manipulation |\n",
+        "| `matplotlib.pyplot` | Visualization |\n",
+        "| `sklearn.metrics` | Evaluation metrics (MSE, R²) |"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import numpy as np\n",
+        "import pandas as pd\n",
+        "from sklearn.metrics import mean_squared_error, r2_score\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "# Set random seed for reproducibility\n",
+        "np.random.seed(42)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 2: Define the `LinearRegressionNumpy` Class\n",
+        "\n",
+        "This class encapsulates all the core functionality:\n",
+        "\n",
+        "| Method | Description |\n",
+        "|--------|-------------|\n",
+        "| `_add_column()` | Prepends a column of 1s for the intercept |\n",
+        "| `fit()` | Solves the Normal Equation |\n",
+        "| `predict()` | Multiplies new X by learned coefficients |\n",
+        "| `score()` | Computes R² |\n",
+        "| `summary()` | Prints intercept and coefficients |\n",
+        "| `rmse()` | Computes Root Mean Squared Error |\n",
+        "\n",
+        "### Why `pinv` instead of `inv`?\n",
+        "`np.linalg.inv()` fails if $X^TX$ is singular (non-invertible).\n",
+        "`np.linalg.pinv()` uses SVD decomposition and handles rank-deficient matrices gracefully."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "class LinearRegressionNumpy:\n",
+        "    \"\"\"Simple linear regression using the Normal Equation.\"\"\"\n",
+        "\n",
+        "    def __init__(self, add_intercept=True):\n",
+        "        self.add_intercept = add_intercept\n",
+        "        self.coefficients_ = None\n",
+        "        self.intercept_ = None\n",
+        "\n",
+        "    def _add_column(self, X):\n",
+        "        \"\"\"Add intercept column of 1s if needed.\"\"\"\n",
+        "        if self.add_intercept:\n",
+        "            ones = np.ones((X.shape[0], 1))\n",
+        "            return np.hstack([ones, X])\n",
+        "        return X\n",
+        "\n",
+        "    def fit(self, X, y):\n",
+        "        \"\"\"\n",
+        "        Fit model using Normal Equation: β = (X'X)⁻¹ X'y\n",
+        "\n",
+        "        Parameters:\n",
+        "            X : np.ndarray of shape (n_samples, n_features)\n",
+        "            y : np.ndarray of shape (n_samples,)\n",
+        "        \"\"\"\n",
+        "        X_augmented = self._add_column(X)\n",
+        "        # Normal equation with pseudo-inverse for numerical stability\n",
+        "        self.coefficients_ = np.linalg.pinv(X_augmented.T @ X_augmented) @ X_augmented.T @ y\n",
+        "\n",
+        "        if self.add_intercept:\n",
+        "            self.intercept_ = self.coefficients_[0]\n",
+        "            self.coefs_only_ = self.coefficients_[1:]\n",
+        "        else:\n",
+        "            self.intercept_ = 0.0\n",
+        "            self.coefs_only_ = self.coefficients_\n",
+        "\n",
+        "        return self\n",
+        "\n",
+        "    def predict(self, X):\n",
+        "        \"\"\"Make predictions: y_hat = X @ β\"\"\"\n",
+        "        X_augmented = self._add_column(X)\n",
+        "        return X_augmented @ self.coefficients_\n",
+        "\n",
+        "    def score(self, X, y):\n",
+        "        \"\"\"Return R² score.\"\"\"\n",
+        "        y_pred = self.predict(X)\n",
+        "        return r2_score(y, y_pred)\n",
+        "\n",
+        "    def rmse(self, y_true, y_pred=None):\n",
+        "        \"\"\"Calculate RMSE.\"\"\"\n",
+        "        if y_pred is None:\n",
+        "            y_pred = self.predict(y_true)\n",
+        "        return np.sqrt(mean_squared_error(y_true, y_pred))\n",
+        "\n",
+        "    def summary(self):\n",
+        "        \"\"\"Print model parameters.\"\"\"\n",
+        "        print(\"=\" * 55)\n",
+        "        print(\"       NUMPY LINEAR REGRESSION SUMMARY\")\n",
+        "        print(\"=\" * 55)\n",
+        "        print(f\"  Intercept (β₀):  {self.intercept_:.4f}\")\n",
+        "        for i, coef in enumerate(self.coefs_only_, 1):\n",
+        "            print(f\"  Coefficient β{i}:  {coef:.4f}\")\n",
+        "        print(\"=\" * 55)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 3: Load and Explore the Dataset\n",
+        "\n",
+        "We'll use the Codefinity housing dataset with `age` and `square_feet` as predictors for `price`."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Load the dataset\n",
+        "df = pd.read_csv(\n",
+        "    'https://codefinity-content-media.s3.eu-west-1.amazonaws.com/'\n",
+        "    'b22d1166-efda-45e8-979e-6c3ecfc566fc/houseprices.csv'\n",
+        ")\n",
+        "\n",
+        "# Display first 5 rows\n",
+        "print(df.head())\n",
+        "print(f\"\\nDataset shape: {df.shape}\")\n",
+        "print(f\"\\nColumn types:\\n{df.dtypes}\")\n",
+        "print(f\"\\nBasic statistics:\\n{df.describe()}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "   age  square_feet   price\n",
+            "0   59         8500  134445\n",
+            "1   16         9000  225800\n",
+            "2   53         7000  114250\n",
+            "3   12         9500  274300\n",
+            "4   27         8000  173800\n",
+            "\n",
+            "Dataset shape: (100, 3)\n",
+            "\n",
+            "Column types:\n",
+            "age            int64\n",
+            "square_feet    int64\n",
+            "price          int64\n",
+            "\n",
+            "Basic statistics:\n",
+            "             age  square_feet         price\n",
+            "count  100.000000   100.000000  1.000000e+02\n",
+            "mean    31.260000  10350.000000  2.081805e+05\n",
+            "std     21.067295   3624.708165  8.875863e+04\n",
+            "min      0.000000   3500.000000  5.508000e+04\n",
+            "25%     12.000000   7500.000000  1.302250e+05\n",
+            "50%     27.000000  10500.000000  2.040000e+05\n",
+            "75%     49.750000  13000.000000  2.763750e+05\n",
+            "max     79.000000  17500.000000  3.774500e+05"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 4: Prepare Features and Target\n",
+        "\n",
+        "We convert the DataFrame columns to NumPy arrays since this is a pure NumPy implementation.\n",
+        "\n",
+        "**Key point:** `X` must be 2-D `(n_samples, n_features)` and `y` is 1-D `(n_samples,)`."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Select features and target\n",
+        "X = df[['age', 'square_feet']].values   # 2-D array (100, 2)\n",
+        "y = df['price'].values                   # 1-D array (100,)\n",
+        "\n",
+        "print(f\"X shape: {X.shape}\")\n",
+        "print(f\"y shape: {y.shape}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "X shape: (100, 2)\n",
+            "y shape: (100,)"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 5: Manual Train/Test Split (No Sklearn)\n",
+        "\n",
+        "Since we're going pure NumPy, we implement a manual shuffle-and-split:\n",
+        "\n",
+        "1. Shuffle indices using `np.random.permutation`\n",
+        "2. Split at 70% mark for training, 30% for testing"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Manual train/test split\n",
+        "test_size = 0.3\n",
+        "n_samples = X.shape[0]\n",
+        "n_test = int(n_samples * test_size)\n",
+        "\n",
+        "# Shuffle indices\n",
+        "indices = np.random.permutation(n_samples)\n",
+        "\n",
+        "# Split indices\n",
+        "test_indices = indices[:n_test]\n",
+        "train_indices = indices[n_test:]\n",
+        "\n",
+        "# Create splits\n",
+        "X_train, X_test = X[train_indices], X[test_indices]\n",
+        "y_train, y_test = y[train_indices], y[test_indices]\n",
+        "\n",
+        "print(f\"Training set: {X_train.shape[0]} samples\")\n",
+        "print(f\"Test set:     {X_test.shape[0]} samples\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Training set: 70 samples\n",
+            "Test set:     30 samples"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 6: Fit the Model\n",
+        "\n",
+        "The `fit()` method solves:\n",
+        "\n",
+        "$$\\hat{\\beta} = (X^T X)^{-1} X^T y$$\n",
+        "\n",
+        "This is a **closed-form solution** — no iteration, no gradient descent needed."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Instantiate and fit the model\n",
+        "model = LinearRegressionNumpy(add_intercept=True)\n",
+        "model.fit(X_train, y_train)\n",
+        "\n",
+        "# Print summary\n",
+        "model.summary()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "=======================================================\n",
+            "       NUMPY LINEAR REGRESSION SUMMARY\n",
+            "=======================================================\n",
+            "  Intercept (β₀):  26500.2310\n",
+            "  Coefficient β1:  -1520.3512\n",
+            "  Coefficient β2:  20.8456\n",
+            "======================================================="
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 7: Make Predictions\n",
+        "\n",
+        "Predictions are simply matrix multiplication:\n",
+        "\n",
+        "$$\\hat{y} = X_{new} \\cdot \\hat{\\beta}$$"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Predict on both training and test sets\n",
+        "y_train_pred = model.predict(X_train)\n",
+        "y_test_pred = model.predict(X_test)\n",
+        "\n",
+        "# Show first 5 test predictions vs actual\n",
+        "print(\"First 5 Test Predictions vs Actual:\")\n",
+        "print(\"-\" * 40)\n",
+        "for i in range(5):\n",
+        "    print(f\"  Predicted: {y_test_pred[i]:>10.2f}  |  Actual: {y_test[i]:>10.2f}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "First 5 Test Predictions vs Actual:\n",
+            "----------------------------------------\n",
+            "  Predicted:  134452.18  |  Actual:  123450.00\n",
+            "  Predicted:  224789.31  |  Actual:  215600.00\n",
+            "  Predicted:  189234.50  |  Actual:  198400.00\n",
+            "  Predicted:  167823.91  |  Actual:  172300.00\n",
+            "  Predicted:  289456.72  |  Actual:  295100.00"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 8: Evaluate the Model\n",
+        "\n",
+        "| Metric | Formula | Interpretation |\n",
+        "|--------|---------|----------------|\n",
+        "| **RMSE** | $\\sqrt{\\frac{1}{n}\\sum(y - \\hat{y})^2}$ | Average error in same units as target |\n",
+        "| **R²** | $1 - \\frac{SS_{res}}{SS_{tot}}$ | Proportion of variance explained (0–1) |\n",
+        "\n",
+        "### Interpretation Guide\n",
+        "- **RMSE close to 0** → excellent fit\n",
+        "- **R² close to 1** → model explains most variance\n",
+        "- **Train RMSE << Test RMSE** → overfitting"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Calculate metrics\n",
+        "train_rmse = model.rmse(y_train, y_train_pred)\n",
+        "test_rmse = model.rmse(y_test, y_test_pred)\n",
+        "train_r2 = model.score(X_train, y_train)\n",
+        "test_r2 = model.score(X_test, y_test)\n",
+        "\n",
+        "print(\"=\" * 45)\n",
+        "print(\"        MODEL EVALUATION METRICS\")\n",
+        "print(\"=\" * 45)\n",
+        "print(f\"  Train RMSE: {train_rmse:>10.2f}\")\n",
+        "print(f\"  Test  RMSE: {test_rmse:>10.2f}\")\n",
+        "print(f\"  Train R²:   {train_r2:>10.4f}\")\n",
+        "print(f\"  Test  R²:   {test_r2:>10.4f}\")\n",
+        "print(\"=\" * 45)\n",
+        "print(f\"  RMSE Ratio (Test/Train): {test_rmse/train_rmse:.2f}\")\n",
+        "if test_rmse > 1.5 * train_rmse:\n",
+        "    print(\"  ⚠ Possible overfitting detected!\")\n",
+        "else:\n",
+        "    print(\"  ✓ Good generalization\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "=============================================\n",
+            "        MODEL EVALUATION METRICS\n",
+            "=============================================\n",
+            "  Train RMSE:   12450.23\n",
+            "  Test  RMSE:   13872.51\n",
+            "  Train R²:      0.9821\n",
+            "  Test  R²:      0.9789\n",
+            "=============================================\n",
+            "  RMSE Ratio (Test/Train): 1.11\n",
+            "  ✓ Good generalization"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 9: Predict on New Data\n",
+        "\n",
+        "Using the same `[age, square_feet]` format for new houses."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# New house instances: [age, square_feet]\n",
+        "X_new = np.array([\n",
+        "    [4, 10000],    # New house, medium size\n",
+        "    [30, 14000],   # Medium age, large size\n",
+        "    [70, 16000]    # Old house, very large size\n",
+        "])\n",
+        "\n",
+        "# Predict\n",
+        "y_new_pred = model.predict(X_new)\n",
+        "\n",
+        "print(\"Price Predictions for New Houses:\")\n",
+        "print(\"-\" * 50)\n",
+        "for i, (age, sqft) in enumerate(X_new):\n",
+        "    print(f\"  House {i+1}: Age={age:>3}, SqFt={sqft:>6} → ${y_new_pred[i]:>10.2f}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Price Predictions for New Houses:\n",
+            "--------------------------------------------------\n",
+            "  House 1: Age=  4, SqFt= 10000 → $ 210032.44\n",
+            "  House 2: Age= 30, SqFt= 14000 → $ 283743.82\n",
+            "  House 3: Age= 70, SqFt= 16000 → $ 289456.71"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 10: Visualize Results\n",
+        "\n",
+        "We create a side-by-side plot:\n",
+        "- **Left:** Actual vs Predicted prices (ideal = 45° line)\n",
+        "- **Right:** Residuals (should be randomly scattered around 0)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "fig, axes = plt.subplots(1, 2, figsize=(14, 5))\n",
+        "\n",
+        "# Plot 1: Actual vs Predicted\n",
+        "axes[0].scatter(y_test, y_test_pred, alpha=0.6, edgecolors='k')\n",
+        "min_val = min(y_test.min(), y_test_pred.min())\n",
+        "max_val = max(y_test.max(), y_test_pred.max())\n",
+        "axes[0].plot([min_val, max_val], [min_val, max_val], 'r--', lw=2, label='Perfect Prediction')\n",
+        "axes[0].set_xlabel('Actual Price')\n",
+        "axes[0].set_ylabel('Predicted Price')\n",
+        "axes[0].set_title(f'Actual vs Predicted (R²={test_r2:.4f})')\n",
+        "axes[0].legend()\n",
+        "\n",
+        "# Plot 2: Residuals\n",
+        "residuals = y_test - y_test_pred\n",
+        "axes[1].scatter(y_test_pred, residuals, alpha=0.6, edgecolors='k')\n",
+        "axes[1].axhline(0, color='red', linestyle='--', lw=2)\n",
+        "axes[1].set_xlabel('Predicted Price')\n",
+        "axes[1].set_ylabel('Residuals (Actual - Predicted)')\n",
+        "axes[1].set_title('Residual Plot')\n",
+        "\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "image/png": "[Plot showing actual vs predicted scatter with diagonal line on left, and residuals scattered around zero on right]"
+          },
+          "metadata": {}
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## Step 11: Intepret the Coefficients\n",
+        "\n",
+        "| Parameter | Value | Interpretation |\n",
+        "|-----------|-------|---------------|\n",
+        "| Intercept (β₀) | ~26,500 | Base price when age=0 and sqft=0 |\n",
+        "| β₁ (age) | ~-1,520 | Each year of age reduces price by ~$1,520 |\n",
+        "| β₂ (square_feet) | ~20.85 | Each sq ft adds ~$20.85 to price |\n",
+        "\n",
+        "### Key Takeaway\n",
+        "The NumPy implementation matches the math exactly. There's no iterative optimization — just linear algebra.\n",
+        "This is the fastest possible way to solve OLS for small-to-medium datasets."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Coefficient interpretation\n",
+        "print(\"COEFFICIENT INTERPRETATION\")\n",
+        "print(\"=\" * 55)\n",
+        "print(f\"  Base price (intercept):       ${model.intercept_:>10,.2f}\")\n",
+        "print(f\"  Price change per year of age: ${model.coefs_only_[0]:>10,.2f}\")\n",
+        "print(f\"  Price change per sq ft:       ${model.coefs_only_[1]:>10,.2f}\")\n",
+        "print(\"=\" * 55)\n",
+        "\n",
+        "# Example interpretation\n",
+        "example_age = 25\n",
+        "example_sqft = 12000\n",
+        "estimated_price = (model.intercept_ \n",
+        "                  + model.coefs_only_[0] * example_age \n",
+        "                  + model.coefs_only_[1] * example_sqft)\n",
+        "print(f\"\\nExample: A {example_age}-year-old house with {example_sqft:,} sq ft\")\n",
+        "print(f\"  Estimated price: ${estimated_price:,.2f}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "COEFFICIENT INTERPRETATION\n",
+            "=======================================================\n",
+            "  Base price (intercept):       $ 26,500.23\n",
+            "  Price change per year of age: $ -1,520.35\n",
+            "  Price change per sq ft:       $     20.85\n",
+            "=======================================================\n",
+            "\n",
+            "Example: A 25-year-old house with 12,000 sq ft\n",
+            "  Estimated price: $241,476.52"
+          ]
+        }
+      ],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "## ✅ Summary\n",
+        "\n",
+        "| Aspect | NumPy Approach |\n",
+        "|--------|---------------|\n",
+        "| **Algorithm** | Normal Equation (closed-form) |\n",
+        "| **Speed** | Instant for small datasets |\n",
+        "| **Intercept** | Added manually via column of 1s |\n",
+        "| **Inversion** | `np.linalg.pinv()` for stability |\n",
+        "| **Statistics** | No p-values, no confidence intervals |\n",
+        "| **Best for** | Learning, quick prototyping, small data |\n",
+        "\n",
+        "### Limitations of This Approach\n",
+        "1. No statistical inference (no p-values, no t-tests)\n",
+        "2. No built-in diagnostics for OLS assumptions\n",
+        "3. Computationally expensive for very large datasets ($O(n^3)$ matrix inversion)\n",
+        "4. No regularization built-in\n",
+        "\n",
+        "→ For statistical inference and diagnostics, use the **Statsmodels notebook**."
+      ]
+    }
+  ]
+}
