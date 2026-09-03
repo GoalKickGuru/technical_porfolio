@@ -1,0 +1,921 @@
+tax_office,filer_channel,income_class,tax_year,wages_usd,deduction_type,business_usd,capgains_usd,filing_status,return_pages,state_rate,complexity,filing_timing,digital_review,paid_preparer,tax_due,compliance_stars,Number of Notices,Number of Workpapers,dependents,deduction_usd,credits_usd,state_resident
+Capitol Desk,Online,Wages,2023 TY,"$112,080",Standard,"$3,650","$6,090",Single,2-page,5.50%,Simple,No filing yet,Yes,Yes,25361.45,4 stars,13,13,0 dependents,"$13,850",$0,Yes
+Central Desk,Online,Mixed,2023 TY,"$35,850",Standard,"$16,290","$13,030",Head of Household,2-page,0.00%,Simple,On time,Yes,Yes,0.0,5 stars,4,7,3 dependents,"$20,800","$4,800",No
+Prairie Desk,Preparer,Wages,2020 TY,"$44,430",Standard,"$1,450","$2,410",Married Joint,8-page,7.00%,Schedule-heavy,On time,No,Yes,2893.95,4 stars,7,10,1 dependent,"$27,700","$1,600",Yes
+River Desk,Preparer,Contract,2021 TY,"$6,060",Standard,"$10,380",$870,Married Joint,2-page,3.00%,Simple,On time,No,No,0.0,4 stars,5,1,3 dependents,"$27,700",$0,Yes
+North Desk,Online,Wages,2019 TY,"$87,870",Standard,"$2,870","$4,780",Single,8-page,0.00%,Schedule-heavy,On time,Yes,No,12685.67,5 stars,7,15,0 dependents,"$13,850",$0,No
+Delta Desk,Online,Self-employed,Not Available,"$15,880",Itemized,"$84,690","$5,290",Single,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,8998.62,5 stars,5,16,1 dependent,"$28,770","$2,000",No
+Capitol Desk,Preparer,Wages,2022 TY,"$110,430",Standard,"$3,600","$6,000",Single,2-page,6.20%,Simple,On time,Yes,No,20114.97,5 stars,0,13,2 dependents,"$13,850","$3,200",Yes
+Capitol Desk,Online,Self-employed,2023 TY,"$3,150",Standard,"$16,780","$1,050",Head of Household,8-page,6.20%,Schedule-heavy,On time,No,Yes,0.0,4 stars,9,7,0 dependents,"$20,800",$0,Yes
+North Desk,Online,Wages,2023 TY,"$89,240",Standard,"$2,910","$4,850",Married Joint,8-page,0.00%,Schedule-heavy,No filing yet,No,No,10318.62,3 stars,9,15,0 dependents,"$27,700",$0,No
+Central Desk,Online,Investment,Not Available,"$20,330",Standard,"$10,160","$71,150",Married Separate,2-page,0.00%,Simple,On time,Yes,No,8601.06,5 stars,3,11,0 dependents,"$13,850",$0,No
+Central Desk,Walk-in,Wages,2020 TY,"$74,840",Standard,"$2,440","$4,070",Single,2-page,4.75%,Simple,On time,Yes,Yes,13701.87,5 stars,1,9,0 dependents,"$13,850",$0,Yes
+Delta Desk,Online,Contract,2023 TY,"$7,300",Itemized,"$12,520","$1,040",Single,2-page,3.00%,Simple,No filing yet,Yes,No,147.58,4 stars,15,2,1 dependent,"$24,810",$0,Yes
+River Desk,Preparer,Mixed,2023 TY,"$67,120",Itemized,"$30,510","$24,410",Married Joint,2-page,5.50%,Simple,On time,No,Yes,9083.07,4 stars,3,13,0 dependents,"$60,680",$800,Yes
+Prairie Desk,Walk-in,Investment,2019 TY,"$27,780",Itemized,"$13,890","$97,230",Married Separate,8-page,0.00%,Schedule-heavy,No filing yet,Yes,No,12431.81,4 stars,13,20,0 dependents,"$23,600",$0,No
+Central Desk,Online,Pension,2023 TY,"$40,270",Standard,$0,"$7,110",Married Separate,2-page,5.50%,Simple,On time,Yes,No,3635.81,5 stars,9,5,1 dependent,"$13,850","$1,600",Yes
+Harbor Desk,Walk-in,Royalty,2021 TY,"$10,910",Standard,"$21,820","$76,370",Single,2-page,4.75%,Simple,No filing yet,Yes,No,13249.22,4 stars,15,12,0 dependents,"$13,850",$0,Yes
+Highland Desk,Online,Wages,2023 TY,"$40,140",Standard,"$1,310","$2,180",Head of Household,2-page,4.75%,Simple,On time,Yes,Yes,4035.88,5 stars,7,4,0 dependents,"$20,800",$0,Yes
+North Desk,Online,Wages,2022 TY,"$44,250",Standard,"$1,440","$2,400",Single,2-page,4.75%,Simple,On time,Yes,No,5051.36,5 stars,2,5,1 dependent,"$13,850",$0,Yes
+Prairie Desk,Online,Wages,2021 TY,"$46,810",Standard,"$1,530","$2,540",Head of Household,8-page,0.00%,Schedule-heavy,No filing yet,No,No,3131.87,3 stars,1,10,0 dependents,"$20,800",$0,No
+River Desk,Preparer,Wages,2020 TY,"$16,130",Standard,$530,$880,Single,8-page,3.00%,Schedule-heavy,On time,Yes,No,240.69,5 stars,2,6,0 dependents,"$13,850",$0,Yes
+Capitol Desk,Walk-in,Mixed,2020 TY,"$57,120",Standard,"$25,960","$20,770",Single,8-page,0.00%,Schedule-heavy,No filing yet,Yes,Yes,12742.09,4 stars,5,16,0 dependents,"$13,850",$800,No
+Central Desk,Preparer,Royalty,2020 TY,"$13,200",Itemized,"$26,410","$92,430",Head of Household,2-page,0.00%,Simple,On time,Yes,No,9239.29,5 stars,7,14,0 dependents,"$32,970",$0,No
+Delta Desk,Preparer,Royalty,2023 TY,"$5,250",Itemized,"$10,510","$36,780",Single,2-page,7.00%,Simple,On time,No,Yes,761.42,4 stars,10,5,1 dependent,"$28,980",$400,Yes
+Prairie Desk,Online,Mixed,2021 TY,"$48,650",Itemized,"$22,110","$17,690",Married Joint,8-page,3.00%,Schedule-heavy,On time,Yes,Yes,3584.09,5 stars,1,14,0 dependents,"$52,500",$0,Yes
+Capitol Desk,Walk-in,Self-employed,2021 TY,"$9,220",Standard,"$49,150","$3,070",Married Joint,2-page,3.00%,Simple,No filing yet,Yes,No,5174.42,4 stars,9,6,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Online,Pension,2023 TY,"$45,260",Standard,$0,"$7,990",Single,8-page,0.00%,Schedule-heavy,No filing yet,Yes,No,4215.32,4 stars,1,10,4 dependents,"$13,850",$0,No
+Central Desk,Online,Contract,2023 TY,"$17,300",Standard,"$29,660","$2,470",Married Joint,2-page,6.20%,Simple,On time,Yes,Yes,0.0,5 stars,5,5,3 dependents,"$27,700","$4,800",Yes
+North Desk,Walk-in,Wages,2022 TY,"$37,530",Itemized,"$1,220","$2,040",Head of Household,2-page,7.00%,Simple,On time,Yes,No,0.0,5 stars,0,4,0 dependents,"$37,600",$0,Yes
+North Desk,Online,Mixed,Not Available,"$60,260",Itemized,"$27,390","$21,910",Head of Household,2-page,6.20%,Simple,On time,No,No,17656.85,4 stars,4,12,0 dependents,"$22,330",$0,Yes
+River Desk,Online,Pension,2022 TY,"$39,930",Standard,$0,"$7,050",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,3457.2,5 stars,7,10,1 dependent,"$13,850",$0,Yes
+Capitol Desk,Online,Wages,2023 TY,"$101,690",Itemized,"$3,320","$5,530",Married Joint,2-page,6.20%,Simple,No filing yet,Yes,No,11558.86,4 stars,12,12,2 dependents,"$38,600","$3,200",Yes
+Delta Desk,Online,Mixed,2019 TY,"$43,660",Itemized,"$19,850","$15,880",Single,8-page,4.75%,Schedule-heavy,On time,Yes,No,2853.7,5 stars,9,13,2 dependents,"$26,330","$3,200",Yes
+Central Desk,Preparer,Royalty,2023 TY,"$4,310",Standard,"$8,620","$30,170",Single,2-page,6.20%,Simple,On time,No,No,2117.75,4 stars,6,4,0 dependents,"$13,850",$400,Yes
+Central Desk,Online,Royalty,Not Available,"$13,350",Standard,"$26,710","$93,470",Single,2-page,6.20%,Simple,On time,Yes,Yes,18980.23,5 stars,3,14,0 dependents,"$13,850",$0,Yes
+Central Desk,Walk-in,Contract,2023 TY,"$29,630",Standard,"$50,800","$4,230",Head of Household,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,8830.93,5 stars,10,14,0 dependents,"$20,800",$0,No
+Harbor Desk,Online,Investment,2022 TY,"$27,160",Itemized,"$13,580","$95,060",Head of Household,2-page,4.75%,Simple,On time,Yes,No,10852.05,5 stars,11,15,2 dependents,"$23,330","$3,200",Yes
+North Desk,Preparer,Wages,2023 TY,"$83,330",Standard,"$2,720","$4,530",Married Separate,2-page,3.00%,Simple,On time,No,Yes,12160.63,4 stars,11,10,3 dependents,"$13,850",$0,Yes
+Central Desk,Preparer,Wages,2021 TY,"$42,630",Standard,"$1,390","$2,320",Married Joint,16-page,0.00%,Audit-ready,On time,No,No,1830.14,3 stars,9,10,0 dependents,"$27,700",$800,No
+Harbor Desk,Preparer,Mixed,2023 TY,"$40,800",Standard,"$18,550","$14,840",Married Joint,8-page,6.20%,Schedule-heavy,3-year amend,Yes,No,5070.02,4 stars,9,13,1 dependent,"$27,700","$1,600",Yes
+River Desk,Online,Mixed,2023 TY,"$40,070",Standard,"$18,210","$14,570",Married Joint,2-page,0.00%,Simple,On time,Yes,Yes,4392.33,5 stars,0,8,0 dependents,"$27,700",$0,No
+Central Desk,Preparer,Mixed,Not Available,"$21,600",Standard,"$9,820","$7,860",Married Joint,8-page,5.50%,Schedule-heavy,No filing yet,Yes,Yes,1074.04,4 stars,7,9,1 dependent,"$27,700",$0,Yes
+Prairie Desk,Preparer,Self-employed,2022 TY,"$9,230",Standard,"$49,210","$3,080",Married Joint,2-page,7.00%,Simple,On time,No,No,5314.88,4 stars,4,6,3 dependents,"$27,700",$0,Yes
+Capitol Desk,Walk-in,Wages,2019 TY,"$86,550",Standard,"$2,820","$4,700",Single,2-page,4.75%,Simple,On time,No,No,16167.27,4 stars,3,10,1 dependent,"$13,850",$0,Yes
+Central Desk,Online,Investment,2022 TY,"$22,070",Standard,"$11,030","$77,240",Single,2-page,4.75%,Simple,No filing yet,No,No,12425.56,3 stars,0,12,0 dependents,"$13,850",$0,Yes
+Prairie Desk,Online,Wages,2020 TY,"$27,320",Standard,$890,"$1,480",Head of Household,2-page,5.50%,Simple,On time,Yes,Yes,0.0,5 stars,2,3,1 dependent,"$20,800","$1,600",Yes
+Capitol Desk,Preparer,Wages,2021 TY,"$22,690",Standard,$740,"$1,230",Married Joint,2-page,6.20%,Simple,On time,Yes,No,0.0,5 stars,10,2,0 dependents,"$27,700",$0,Yes
+Central Desk,Online,Wages,2021 TY,"$93,800",Standard,"$3,060","$5,100",Head of Household,2-page,3.00%,Simple,On time,Yes,Yes,11391.53,5 stars,10,11,2 dependents,"$20,800","$3,200",Yes
+Harbor Desk,Online,Wages,2023 TY,"$55,050",Standard,"$1,790","$2,990",Single,8-page,3.00%,Schedule-heavy,On time,No,No,6179.39,4 stars,8,11,0 dependents,"$13,850",$0,Yes
+River Desk,Walk-in,Pension,2020 TY,"$32,000",Standard,$0,"$5,650",Married Joint,2-page,5.50%,Simple,2-year amend,Yes,Yes,0.0,4 stars,1,4,2 dependents,"$27,700","$4,000",Yes
+North Desk,Online,Mixed,2020 TY,"$38,380",Standard,"$17,450","$13,960",Single,2-page,7.00%,Simple,On time,Yes,Yes,10957.87,5 stars,8,7,0 dependents,"$13,850",$400,Yes
+Harbor Desk,Online,Wages,2019 TY,"$24,420",Standard,$800,"$1,330",Single,8-page,3.00%,Schedule-heavy,On time,Yes,No,1974.03,5 stars,1,7,0 dependents,"$13,850",$0,Yes
+North Desk,Preparer,Investment,2023 TY,"$34,400",Standard,"$17,200","$120,400",Single,16-page,4.75%,Audit-ready,On time,Yes,Yes,24511.98,4 stars,8,24,0 dependents,"$13,850",$0,Yes
+Capitol Desk,Online,Mixed,2023 TY,"$36,410",Standard,"$16,550","$13,240",Single,2-page,7.00%,Simple,On time,No,No,8636.42,4 stars,0,7,0 dependents,"$13,850",$0,Yes
+River Desk,Online,Wages,2019 TY,"$87,230",Itemized,"$2,840","$4,740",Head of Household,16-page,0.00%,Audit-ready,No filing yet,Yes,Yes,6239.44,3 stars,3,15,0 dependents,"$39,830",$0,No
+Capitol Desk,Online,Wages,2019 TY,"$58,180",Standard,"$1,900","$3,160",Single,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,6275.21,5 stars,1,12,1 dependent,"$13,850",$0,No
+Capitol Desk,Online,Wages,2022 TY,"$88,600",Standard,"$2,890","$4,820",Married Joint,2-page,5.50%,Simple,2-year amend,Yes,Yes,13955.49,4 stars,13,10,0 dependents,"$27,700",$0,Yes
+Central Desk,Online,Self-employed,2021 TY,"$12,040",Standard,"$64,190","$4,010",Married Joint,2-page,0.00%,Simple,On time,Yes,No,6082.08,5 stars,6,8,0 dependents,"$27,700",$0,No
+Highland Desk,Preparer,Wages,2022 TY,"$75,880",Standard,"$2,470","$4,120",Married Joint,2-page,3.00%,Simple,On time,Yes,No,7453.29,5 stars,11,9,0 dependents,"$27,700",$400,Yes
+North Desk,Online,Wages,2022 TY,"$72,920",Standard,"$2,380","$3,960",Married Joint,8-page,5.50%,Schedule-heavy,On time,Yes,Yes,8849.59,5 stars,0,13,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Wages,Not Available,"$70,800",Standard,"$2,310","$3,850",Single,2-page,5.50%,Simple,On time,Yes,No,8443.8,5 stars,8,8,2 dependents,"$13,850","$3,200",Yes
+River Desk,Preparer,Mixed,2021 TY,"$48,640",Standard,"$22,110","$17,690",Qualifying Widow,2-page,4.75%,Simple,No filing yet,Yes,No,2735.59,4 stars,6,9,3 dependents,"$27,700","$4,800",Yes
+Central Desk,Online,Wages,2023 TY,"$51,900",Itemized,"$1,690","$2,820",Head of Household,8-page,4.75%,Schedule-heavy,On time,Yes,No,4558.42,5 stars,5,11,0 dependents,"$32,570",$0,Yes
+Highland Desk,Online,Pension,2019 TY,"$66,850",Standard,$0,"$11,800",Married Separate,2-page,5.50%,Simple,On time,No,No,7505.84,4 stars,10,8,2 dependents,"$13,850","$3,200",Yes
+Capitol Desk,Online,Wages,Not Available,"$37,010",Standard,"$1,210","$2,010",Married Joint,2-page,5.50%,Simple,2-year amend,Yes,No,514.23,4 stars,4,4,2 dependents,"$27,700",$0,Yes
+River Desk,Online,Self-employed,Not Available,"$10,670",Standard,"$56,920","$3,560",Single,8-page,6.20%,Schedule-heavy,On time,Yes,No,8659.02,5 stars,11,12,4 dependents,"$13,850",$0,Yes
+Highland Desk,Online,Mixed,2023 TY,"$43,150",Standard,"$19,610","$15,690",Head of Household,16-page,6.20%,Audit-ready,On time,Yes,Yes,10857.42,4 stars,0,13,0 dependents,"$20,800",$0,Yes
+Highland Desk,Online,Mixed,2022 TY,"$49,540",Itemized,"$22,520","$18,010",Single,8-page,5.50%,Schedule-heavy,No filing yet,Yes,No,11474.07,4 stars,6,15,0 dependents,"$19,360",$800,Yes
+Central Desk,Walk-in,Wages,2021 TY,"$47,560",Standard,"$1,550","$2,580",Single,2-page,6.20%,Simple,On time,Yes,No,4326.17,5 stars,1,5,1 dependent,"$13,850","$1,600",Yes
+North Desk,Walk-in,Investment,2023 TY,"$22,870",Standard,"$11,440","$80,060",Single,2-page,6.20%,Simple,No filing yet,Yes,Yes,11232.44,4 stars,9,12,2 dependents,"$13,850","$3,200",Yes
+Central Desk,Walk-in,Contract,2023 TY,"$21,800",Standard,"$37,360","$3,110",Married Separate,2-page,0.00%,Simple,On time,Yes,No,1400.26,5 stars,7,6,2 dependents,"$13,850","$4,000",No
+Harbor Desk,Online,Wages,2021 TY,"$22,110",Itemized,$720,"$1,200",Married Joint,2-page,7.00%,Simple,On time,Yes,No,0.0,5 stars,7,2,1 dependent,"$38,420",$0,Yes
+Central Desk,Preparer,Wages,2022 TY,"$57,250",Standard,"$1,870","$3,110",Married Separate,2-page,6.20%,Simple,On time,No,No,9477.41,4 stars,9,6,0 dependents,"$13,850",$0,Yes
+Prairie Desk,Preparer,Contract,2022 TY,"$12,660",Standard,"$21,710","$1,810",Married Separate,16-page,4.75%,Audit-ready,On time,Yes,Yes,90.23,4 stars,9,9,2 dependents,"$13,850","$3,200",Yes
+Harbor Desk,Online,Mixed,2023 TY,"$14,280",Standard,"$6,490","$5,190",Single,8-page,0.00%,Schedule-heavy,No filing yet,Yes,No,0.0,4 stars,16,7,2 dependents,"$13,850","$3,200",No
+North Desk,Walk-in,Wages,2023 TY,"$60,060",Standard,"$1,960","$3,260",Head of Household,2-page,5.50%,Simple,On time,No,No,6726.5,4 stars,5,7,0 dependents,"$20,800",$0,Yes
+Harbor Desk,Preparer,Wages,2023 TY,"$67,810",Itemized,"$2,210","$3,690",Married Joint,2-page,4.75%,Simple,No filing yet,Yes,No,4241.95,4 stars,7,8,1 dependent,"$35,150","$1,600",Yes
+Harbor Desk,Online,Self-employed,2023 TY,"$13,490",Standard,"$71,970","$4,500",Married Joint,2-page,6.20%,Simple,On time,Yes,Yes,12828.44,5 stars,1,9,0 dependents,"$27,700",$0,Yes
+River Desk,Walk-in,Self-employed,2021 TY,"$13,710",Standard,"$73,130","$4,570",Single,2-page,4.75%,Simple,On time,Yes,Yes,12560.45,5 stars,3,10,1 dependent,"$13,850","$1,600",Yes
+Highland Desk,Online,Mixed,2021 TY,"$11,010",Standard,"$5,010","$4,000",Qualifying Widow,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,788.96,5 stars,7,7,1 dependent,"$27,700",$0,No
+Capitol Desk,Online,Farm,2019 TY,"$3,110",Itemized,"$8,710",$620,Single,2-page,3.00%,Simple,On time,Yes,Yes,0.0,5 stars,0,1,2 dependents,"$27,570","$3,200",Yes
+River Desk,Online,Mixed,2023 TY,"$75,460",Standard,"$34,300","$27,440",Single,8-page,6.20%,Schedule-heavy,On time,Yes,No,18538.07,5 stars,11,20,4 dependents,"$13,850","$6,400",Yes
+Central Desk,Online,Wages,2022 TY,"$33,920",Standard,"$1,110","$1,840",Married Joint,2-page,0.00%,Simple,On time,No,Yes,0.0,4 stars,11,4,1 dependent,"$27,700","$1,600",No
+Capitol Desk,Walk-in,Mixed,2022 TY,"$52,980",Standard,"$24,080","$19,270",Single,2-page,5.50%,Simple,2-year amend,No,No,16384.13,3 stars,5,10,0 dependents,"$13,850",$400,Yes
+Harbor Desk,Preparer,Wages,2021 TY,"$41,870",Standard,"$1,370","$2,280",Single,16-page,3.00%,Audit-ready,On time,No,No,5950.99,3 stars,9,10,0 dependents,"$13,850",$0,Yes
+North Desk,Online,Wages,2021 TY,"$58,800",Itemized,"$1,920","$3,200",Married Joint,2-page,4.75%,Simple,On time,Yes,No,4820.22,5 stars,7,7,0 dependents,"$37,330",$0,Yes
+North Desk,Preparer,Wages,2022 TY,"$43,060",Standard,"$1,400","$2,340",Married Joint,2-page,4.75%,Simple,On time,Yes,Yes,1483.13,5 stars,5,5,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Walk-in,Wages,2021 TY,"$69,440",Standard,"$2,260","$3,770",Head of Household,8-page,3.00%,Schedule-heavy,No filing yet,No,No,8570.98,3 stars,12,13,0 dependents,"$20,800",$0,Yes
+Central Desk,Walk-in,Self-employed,2019 TY,"$11,390",Standard,"$60,740","$3,800",Single,2-page,5.50%,Simple,On time,No,Yes,12042.39,4 stars,6,8,1 dependent,"$13,850",$0,Yes
+Harbor Desk,Walk-in,Wages,2023 TY,"$47,140",Itemized,"$1,540","$2,560",Married Separate,2-page,5.50%,Simple,On time,Yes,No,3975.73,5 stars,3,5,0 dependents,"$26,040",$0,Yes
+Highland Desk,Walk-in,Mixed,2021 TY,"$25,570",Standard,"$11,620","$9,300",Married Joint,2-page,0.00%,Simple,On time,No,Yes,2673.1,4 stars,6,5,0 dependents,"$27,700",$0,No
+North Desk,Preparer,Self-employed,2022 TY,"$12,100",Standard,"$64,510","$4,030",Married Joint,2-page,4.75%,Simple,On time,No,No,8922.59,4 stars,1,8,2 dependents,"$27,700",$0,Yes
+River Desk,Online,Self-employed,2022 TY,"$4,100",Standard,"$21,870","$1,370",Married Joint,2-page,6.20%,Simple,On time,Yes,No,0.0,5 stars,3,3,0 dependents,"$27,700",$0,Yes
+Central Desk,Walk-in,Investment,2023 TY,"$24,050",Standard,"$12,020","$84,160",Married Joint,2-page,5.50%,Simple,On time,Yes,No,9545.53,5 stars,11,13,1 dependent,"$27,700","$1,600",Yes
+Central Desk,Online,Investment,2021 TY,"$46,920",Itemized,"$23,460","$164,200",Head of Household,8-page,5.50%,Schedule-heavy,On time,Yes,No,29067.33,5 stars,2,31,3 dependents,"$25,520","$4,800",Yes
+Central Desk,Online,Self-employed,2023 TY,"$17,940",Itemized,"$95,680","$5,980",Single,8-page,6.20%,Schedule-heavy,On time,Yes,Yes,20634.44,5 stars,7,18,1 dependent,"$17,690","$2,400",Yes
+River Desk,Online,Wages,Not Available,"$72,900",Standard,"$2,380","$3,960",Single,2-page,0.00%,Simple,2-year amend,Yes,No,9314.07,4 stars,5,8,0 dependents,"$13,850",$0,No
+Central Desk,Online,Mixed,2023 TY,"$41,490",Itemized,"$18,860","$15,090",Married Joint,2-page,0.00%,Simple,On time,Yes,Yes,2224.39,5 stars,5,8,0 dependents,"$56,290",$0,No
+North Desk,Preparer,Self-employed,2022 TY,"$1,800",Standard,"$9,600",$600,Head of Household,2-page,5.50%,Simple,On time,Yes,No,0.0,5 stars,2,1,1 dependent,"$20,800",$0,Yes
+North Desk,Walk-in,Wages,2023 TY,"$27,840",Itemized,$910,"$1,510",Single,2-page,5.50%,Simple,No filing yet,No,No,0.0,3 stars,10,3,1 dependent,"$29,090","$1,600",Yes
+Delta Desk,Online,Wages,2022 TY,"$85,360",Standard,"$2,780","$4,640",Married Joint,2-page,6.20%,Simple,On time,No,No,12093.61,4 stars,6,10,0 dependents,"$27,700",$0,Yes
+Prairie Desk,Preparer,Wages,2022 TY,"$39,600",Standard,"$1,290","$2,150",Head of Household,8-page,3.00%,Schedule-heavy,On time,Yes,Yes,284.84,5 stars,7,9,1 dependent,"$20,800","$1,600",Yes
+River Desk,Online,Mixed,2022 TY,"$31,360",Standard,"$14,260","$11,400",Married Separate,2-page,4.75%,Simple,On time,Yes,No,3848.36,5 stars,3,6,1 dependent,"$13,850","$1,600",Yes
+Harbor Desk,Preparer,Wages,2021 TY,"$53,380",Standard,"$1,740","$2,900",Qualifying Widow,2-page,5.50%,Simple,On time,Yes,No,5290.84,5 stars,6,6,0 dependents,"$27,700",$0,Yes
+Delta Desk,Online,Wages,2020 TY,"$33,590",Standard,"$1,100","$1,830",Married Joint,8-page,3.00%,Schedule-heavy,On time,Yes,Yes,0.0,5 stars,8,9,1 dependent,"$27,700","$1,600",Yes
+Capitol Desk,Online,Pension,2022 TY,"$24,120",Standard,$0,"$4,260",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,No,0.0,5 stars,8,8,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Preparer,Contract,2020 TY,"$22,960",Itemized,"$39,350","$3,280",Single,2-page,5.50%,Simple,No filing yet,Yes,Yes,6051.54,4 stars,10,7,0 dependents,"$25,540",$0,Yes
+Central Desk,Online,Wages,2022 TY,"$37,360",Standard,"$1,220","$2,030",Head of Household,2-page,3.00%,Simple,No filing yet,No,Yes,1698.56,3 stars,4,4,2 dependents,"$20,800",$0,Yes
+Harbor Desk,Online,Contract,2022 TY,"$16,190",Itemized,"$27,750","$2,310",Single,16-page,4.75%,Audit-ready,On time,Yes,No,3524.08,4 stars,6,10,0 dependents,"$22,530",$0,Yes
+North Desk,Online,Wages,Not Available,"$39,790",Standard,"$1,300","$2,160",Married Separate,2-page,3.00%,Simple,On time,Yes,Yes,3190.92,5 stars,6,4,1 dependent,"$13,850",$0,Yes
+Prairie Desk,Online,Contract,2019 TY,"$28,570",Itemized,"$48,980","$4,080",Married Joint,8-page,7.00%,Schedule-heavy,On time,Yes,Yes,4300.74,5 stars,11,14,0 dependents,"$57,700",$0,Yes
+Central Desk,Preparer,Farm,2023 TY,"$12,140",Standard,"$34,000","$2,430",Married Joint,8-page,3.00%,Schedule-heavy,On time,No,No,2371.95,4 stars,4,10,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Online,Wages,2022 TY,"$53,100",Standard,"$1,730","$2,890",Married Joint,2-page,0.00%,Simple,On time,Yes,No,0.0,5 stars,3,6,3 dependents,"$27,700","$4,800",No
+Central Desk,Online,Investment,2019 TY,"$25,810",Standard,"$12,900","$90,330",Married Joint,2-page,0.00%,Simple,On time,Yes,Yes,9549.44,5 stars,8,14,0 dependents,"$27,700",$0,No
+Highland Desk,Walk-in,Farm,2021 TY,"$12,860",Standard,"$36,020","$2,570",Head of Household,2-page,0.00%,Simple,On time,Yes,Yes,3786.31,5 stars,7,5,0 dependents,"$20,800",$0,No
+Harbor Desk,Preparer,Contract,2020 TY,"$20,720",Standard,"$35,530","$2,960",Married Joint,2-page,3.00%,Simple,2-year amend,Yes,No,0.0,4 stars,9,6,3 dependents,"$27,700","$5,000",Yes
+Prairie Desk,Online,Farm,2021 TY,"$17,760",Itemized,"$49,740","$3,550",Married Joint,2-page,5.50%,Simple,On time,Yes,No,0.0,5 stars,0,7,2 dependents,"$50,190","$3,200",Yes
+Capitol Desk,Preparer,Mixed,2021 TY,"$53,930",Standard,"$24,510","$19,610",Single,8-page,0.00%,Schedule-heavy,On time,Yes,No,10794.95,5 stars,8,15,1 dependent,"$13,850",$0,No
+Capitol Desk,Online,Wages,2022 TY,"$53,790",Standard,"$1,750","$2,920",Married Joint,8-page,3.00%,Schedule-heavy,On time,Yes,No,4020.88,5 stars,8,11,0 dependents,"$27,700",$0,Yes
+Central Desk,Online,Pension,2022 TY,"$41,900",Itemized,$0,"$7,390",Married Joint,16-page,0.00%,Audit-ready,On time,Yes,No,0.0,4 stars,11,10,0 dependents,"$59,950",$0,No
+River Desk,Preparer,Self-employed,2019 TY,"$6,430",Standard,"$34,280","$2,140",Single,16-page,4.75%,Audit-ready,On time,Yes,No,2524.58,4 stars,6,9,1 dependent,"$13,850",$800,Yes
+River Desk,Online,Self-employed,2020 TY,"$6,000",Standard,"$32,010","$2,000",Single,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,2708.21,5 stars,6,9,0 dependents,"$13,850",$0,No
+River Desk,Online,Wages,2020 TY,"$74,020",Itemized,"$2,410","$4,020",Married Joint,2-page,5.50%,Simple,On time,Yes,Yes,6188.89,5 stars,2,8,0 dependents,"$48,250",$0,Yes
+North Desk,Walk-in,Mixed,2022 TY,"$50,240",Standard,"$22,840","$18,270",Married Joint,2-page,5.50%,Simple,No filing yet,Yes,Yes,9438.38,4 stars,6,10,2 dependents,"$27,700",$0,Yes
+Central Desk,Preparer,Wages,2021 TY,"$67,090",Itemized,"$2,190","$3,650",Married Joint,2-page,5.50%,Simple,2-year amend,Yes,Yes,6495.93,4 stars,2,8,0 dependents,"$34,760",$0,Yes
+North Desk,Walk-in,Self-employed,2022 TY,"$12,170",Itemized,"$64,890","$4,060",Single,2-page,3.00%,Simple,On time,No,No,8574.81,4 stars,6,9,0 dependents,"$22,170",$0,Yes
+Highland Desk,Walk-in,Wages,2021 TY,"$58,060",Standard,"$1,890","$3,160",Single,2-page,6.20%,Simple,On time,No,No,7819.77,4 stars,8,7,0 dependents,"$13,850",$0,Yes
+Central Desk,Online,Self-employed,2019 TY,"$14,410",Itemized,"$76,860","$4,800",Single,2-page,5.50%,Simple,On time,Yes,Yes,14662.48,5 stars,9,10,1 dependent,"$15,200","$1,600",Yes
+North Desk,Preparer,Pension,Not Available,"$53,520",Standard,$0,"$9,440",Married Separate,2-page,0.00%,Simple,On time,Yes,Yes,2900.35,5 stars,7,6,1 dependent,"$13,850","$1,600",No
+North Desk,Online,Mixed,2020 TY,"$57,940",Standard,"$26,330","$21,070",Head of Household,2-page,4.75%,Simple,3-year amend,Yes,No,11374.72,4 stars,9,11,2 dependents,"$20,800","$3,200",Yes
+River Desk,Preparer,Mixed,2020 TY,"$41,240",Standard,"$18,740","$15,000",Single,8-page,6.20%,Schedule-heavy,On time,No,No,10636.13,4 stars,7,13,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Online,Wages,2020 TY,"$87,660",Standard,"$2,860","$4,760",Married Joint,2-page,3.00%,Simple,On time,Yes,Yes,10741.26,5 stars,9,10,0 dependents,"$27,700",$200,Yes
+Delta Desk,Online,Farm,Not Available,"$15,830",Standard,"$44,320","$3,170",Single,2-page,4.75%,Simple,2-year amend,Yes,No,5631.46,4 stars,7,7,1 dependent,"$13,850","$1,800",Yes
+River Desk,Online,Self-employed,2022 TY,"$14,060",Standard,"$75,010","$4,690",Single,2-page,5.50%,Simple,On time,Yes,No,17021.88,5 stars,7,10,0 dependents,"$13,850",$0,Yes
+Central Desk,Preparer,Wages,2022 TY,"$63,270",Standard,"$2,060","$3,440",Single,2-page,0.00%,Simple,On time,No,No,4458.76,4 stars,7,7,1 dependent,"$13,850","$1,600",No
+River Desk,Online,Wages,Not Available,"$62,490",Standard,"$2,040","$3,400",Single,2-page,7.00%,Simple,On time,Yes,No,3928.34,5 stars,6,7,3 dependents,"$13,850","$4,800",Yes
+North Desk,Preparer,Wages,2020 TY,"$40,790",Standard,"$1,330","$2,220",Married Joint,2-page,0.00%,Simple,On time,Yes,No,0.0,5 stars,6,4,1 dependent,"$27,700","$1,600",No
+Delta Desk,Walk-in,Mixed,Not Available,"$54,470",Itemized,"$24,760","$19,810",Head of Household,2-page,0.00%,Simple,On time,Yes,Yes,8752.64,5 stars,9,11,0 dependents,"$27,690",$0,No
+Highland Desk,Preparer,Contract,2021 TY,"$51,330",Standard,"$88,000","$7,330",Single,8-page,0.00%,Schedule-heavy,3-year amend,Yes,No,17083.89,4 stars,3,21,4 dependents,"$13,850","$6,400",No
+Capitol Desk,Online,Self-employed,2023 TY,"$8,630",Standard,"$46,010","$2,880",Married Joint,2-page,4.75%,Simple,On time,Yes,Yes,3427.32,5 stars,3,6,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Wages,2022 TY,"$58,610",Standard,"$1,910","$3,190",Married Joint,16-page,6.20%,Audit-ready,On time,Yes,No,5485.04,4 stars,6,12,3 dependents,"$27,700",$0,Yes
+Highland Desk,Walk-in,Pension,2022 TY,"$34,730",Standard,$0,"$6,130",Head of Household,8-page,6.20%,Schedule-heavy,On time,No,No,2820.72,4 stars,7,9,1 dependent,"$20,800",$0,Yes
+Highland Desk,Preparer,Wages,Not Available,"$46,260",Standard,"$1,510","$2,510",Married Joint,2-page,7.00%,Simple,On time,No,Yes,1899.52,4 stars,6,5,1 dependent,"$27,700","$1,600",Yes
+Delta Desk,Online,Pension,2020 TY,"$61,800",Itemized,$0,"$10,910",Single,2-page,4.75%,Simple,On time,Yes,No,2792.25,5 stars,2,8,3 dependents,"$20,670","$4,800",Yes
+Highland Desk,Walk-in,Wages,Not Available,"$42,180",Standard,"$1,380","$2,290",Married Joint,2-page,4.75%,Simple,No filing yet,No,Yes,2171.62,3 stars,12,5,1 dependent,"$27,700",$0,Yes
+Central Desk,Online,Self-employed,2021 TY,"$8,090",Standard,"$43,150","$2,700",Single,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,5861.51,5 stars,6,10,1 dependent,"$13,850",$0,Yes
+Harbor Desk,Online,Contract,2023 TY,"$7,890",Itemized,"$13,530","$1,130",Qualifying Widow,8-page,0.00%,Schedule-heavy,On time,Yes,No,378.33,5 stars,5,7,0 dependents,"$32,450",$800,No
+Central Desk,Online,Wages,Not Available,"$40,310",Itemized,"$1,310","$2,190",Married Joint,8-page,7.00%,Schedule-heavy,On time,Yes,Yes,0.0,5 stars,10,9,1 dependent,"$57,270","$1,600",Yes
+Highland Desk,Online,Self-employed,2019 TY,"$1,800",Standard,"$9,600",$600,Married Joint,8-page,4.75%,Schedule-heavy,On time,No,No,0.0,4 stars,5,6,1 dependent,"$27,700","$1,600",Yes
+Central Desk,Online,Royalty,Not Available,"$10,850",Standard,"$21,710","$75,980",Single,2-page,4.75%,Simple,On time,Yes,Yes,12483.72,5 stars,1,12,0 dependents,"$13,850",$200,Yes
+North Desk,Preparer,Wages,2022 TY,"$118,860",Standard,"$3,880","$6,460",Married Joint,8-page,4.75%,Schedule-heavy,No filing yet,Yes,No,22104.75,4 stars,16,19,2 dependents,"$27,700",$0,Yes
+Prairie Desk,Online,Wages,2023 TY,"$48,940",Standard,"$1,600","$2,660",Head of Household,2-page,6.20%,Simple,On time,Yes,No,4940.99,5 stars,4,5,1 dependent,"$20,800",$0,Yes
+Prairie Desk,Preparer,Self-employed,2020 TY,"$1,800",Itemized,"$9,600",$600,Married Joint,8-page,3.00%,Schedule-heavy,No filing yet,Yes,No,0.0,4 stars,11,6,0 dependents,"$37,260",$400,Yes
+North Desk,Preparer,Wages,2022 TY,"$76,910",Standard,"$2,510","$4,180",Married Joint,2-page,5.50%,Simple,No filing yet,Yes,No,10925.03,4 stars,8,9,0 dependents,"$27,700",$0,Yes
+Highland Desk,Walk-in,Wages,2023 TY,"$40,990",Standard,"$1,340","$2,230",Head of Household,8-page,5.50%,Schedule-heavy,On time,Yes,No,3027.3,5 stars,2,9,1 dependent,"$20,800",$0,Yes
+North Desk,Online,Mixed,2022 TY,"$64,340",Standard,"$29,250","$23,400",Head of Household,2-page,6.20%,Simple,On time,Yes,Yes,19854.85,5 stars,4,12,0 dependents,"$20,800",$0,Yes
+River Desk,Preparer,Investment,2020 TY,"$16,670",Standard,"$8,330","$58,330",Single,2-page,0.00%,Simple,No filing yet,Yes,No,4771.33,4 stars,14,9,0 dependents,"$13,850",$800,No
+Harbor Desk,Online,Wages,2021 TY,"$43,090",Itemized,"$1,410","$2,340",Married Joint,2-page,0.00%,Simple,2-year amend,No,Yes,0.0,3 stars,15,5,1 dependent,"$42,810","$1,600",No
+River Desk,Preparer,Wages,2023 TY,"$53,110",Standard,"$1,730","$2,890",Married Joint,16-page,4.75%,Audit-ready,On time,Yes,Yes,3902.01,4 stars,1,11,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Online,Pension,2019 TY,"$51,110",Standard,$0,"$9,020",Married Joint,2-page,6.20%,Simple,On time,No,No,4435.7,4 stars,11,6,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Preparer,Mixed,2023 TY,"$39,150",Itemized,"$17,790","$14,240",Single,2-page,7.00%,Simple,On time,No,No,8633.56,4 stars,10,7,1 dependent,"$19,390",$0,Yes
+North Desk,Online,Pension,Not Available,"$34,040",Standard,$0,"$6,010",Single,2-page,5.50%,Simple,No filing yet,Yes,No,4515.71,4 stars,11,4,0 dependents,"$13,850",$0,Yes
+Prairie Desk,Preparer,Mixed,2019 TY,"$39,620",Itemized,"$18,010","$14,410",Head of Household,2-page,3.00%,Simple,2-year amend,Yes,No,0.0,4 stars,5,8,4 dependents,"$30,780","$6,400",Yes
+Harbor Desk,Online,Farm,2020 TY,"$3,830",Itemized,"$10,710",$770,Head of Household,8-page,3.00%,Schedule-heavy,2-year amend,Yes,No,0.0,4 stars,7,6,3 dependents,"$23,710","$4,800",Yes
+North Desk,Online,Self-employed,2023 TY,"$12,790",Standard,"$68,230","$4,260",Head of Household,16-page,5.50%,Audit-ready,On time,No,Yes,10532.99,3 stars,5,14,1 dependent,"$20,800","$1,600",Yes
+Highland Desk,Preparer,Wages,2019 TY,"$17,590",Standard,$570,$960,Qualifying Widow,8-page,3.00%,Schedule-heavy,On time,Yes,Yes,0.0,5 stars,1,7,3 dependents,"$27,700","$4,800",Yes
+Central Desk,Online,Pension,2022 TY,"$34,760",Standard,$0,"$6,130",Married Separate,8-page,5.50%,Schedule-heavy,No filing yet,Yes,Yes,4106.4,4 stars,16,9,2 dependents,"$13,850",$0,Yes
+Prairie Desk,Preparer,Mixed,2023 TY,"$55,430",Standard,"$25,200","$20,160",Married Separate,2-page,6.20%,Simple,On time,Yes,No,17695.75,5 stars,7,11,0 dependents,"$13,850",$0,Yes
+Capitol Desk,Preparer,Wages,2022 TY,"$63,730",Standard,"$2,080","$3,460",Married Separate,2-page,4.75%,Simple,2-year amend,Yes,Yes,7896.4,4 stars,3,7,2 dependents,"$13,850",$0,Yes
+Central Desk,Preparer,Wages,2021 TY,"$70,070",Itemized,"$2,290","$3,810",Married Joint,2-page,4.75%,Simple,On time,No,No,6072.06,4 stars,4,8,0 dependents,"$35,510",$0,Yes
+Delta Desk,Preparer,Self-employed,2023 TY,"$10,300",Standard,"$54,930","$3,430",Married Joint,8-page,0.00%,Schedule-heavy,No filing yet,No,No,3818.23,3 stars,11,12,1 dependent,"$27,700",$0,No
+Harbor Desk,Preparer,Wages,2022 TY,"$82,870",Standard,"$2,700","$4,500",Single,2-page,3.00%,Simple,On time,Yes,No,12868.32,5 stars,5,10,1 dependent,"$13,850","$1,600",Yes
+Highland Desk,Walk-in,Wages,2021 TY,"$77,460",Standard,"$2,530","$4,210",Married Joint,8-page,5.50%,Schedule-heavy,On time,Yes,Yes,11382.96,5 stars,5,14,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Online,Wages,2022 TY,"$66,890",Standard,"$2,180","$3,640",Single,2-page,4.75%,Simple,On time,Yes,Yes,9539.36,5 stars,1,8,0 dependents,"$13,850",$0,Yes
+Delta Desk,Preparer,Mixed,2023 TY,"$58,200",Standard,"$26,460","$21,170",Single,2-page,0.00%,Simple,No filing yet,Yes,No,13176.85,4 stars,5,11,3 dependents,"$13,850",$800,No
+Harbor Desk,Preparer,Wages,2023 TY,"$73,610",Itemized,"$2,400","$4,000",Married Joint,2-page,0.00%,Simple,On time,Yes,No,3012.14,5 stars,11,8,0 dependents,"$54,330",$0,No
+North Desk,Online,Mixed,2022 TY,"$35,650",Itemized,"$16,200","$12,960",Married Joint,8-page,0.00%,Schedule-heavy,No filing yet,Yes,No,2984.54,4 stars,16,12,0 dependents,"$37,460",$0,No
+Central Desk,Online,Wages,2021 TY,"$27,370",Standard,$890,"$1,490",Single,8-page,5.50%,Schedule-heavy,On time,No,No,3037.85,4 stars,1,8,0 dependents,"$13,850",$0,Yes
+Delta Desk,Online,Wages,2020 TY,"$66,320",Standard,"$2,160","$3,600",Head of Household,2-page,5.50%,Simple,On time,Yes,No,9454.65,5 stars,6,8,1 dependent,"$20,800",$0,Yes
+Prairie Desk,Preparer,Self-employed,2021 TY,"$13,600",Itemized,"$72,530","$4,530",Head of Household,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,3791.58,5 stars,8,15,2 dependents,"$42,030","$3,200",Yes
+Capitol Desk,Online,Wages,2019 TY,"$81,120",Itemized,"$2,650","$4,410",Single,8-page,4.75%,Schedule-heavy,3-year amend,Yes,No,7605.28,4 stars,10,14,2 dependents,"$21,890","$3,200",Yes
+Prairie Desk,Preparer,Self-employed,Not Available,"$5,590",Standard,"$29,830","$1,860",Single,2-page,0.00%,Simple,No filing yet,Yes,Yes,0.0,4 stars,11,4,1 dependent,"$13,850","$2,400",No
+Prairie Desk,Preparer,Wages,2021 TY,"$37,030",Itemized,"$1,210","$2,010",Single,8-page,4.75%,Schedule-heavy,No filing yet,Yes,No,2009.67,4 stars,10,9,0 dependents,"$27,580",$0,Yes
+Highland Desk,Preparer,Wages,2023 TY,"$67,190",Itemized,"$2,190","$3,650",Married Separate,2-page,0.00%,Simple,No filing yet,Yes,Yes,7201.03,4 stars,6,8,0 dependents,"$17,830",$0,No
+Central Desk,Online,Wages,2020 TY,"$55,470",Standard,"$1,810","$3,010",Head of Household,2-page,7.00%,Simple,On time,Yes,Yes,5790.31,5 stars,0,6,1 dependent,"$20,800","$1,600",Yes
+Capitol Desk,Preparer,Mixed,2021 TY,"$11,780",Standard,"$5,360","$4,290",Single,2-page,0.00%,Simple,2-year amend,No,Yes,22.39,3 stars,10,2,2 dependents,"$13,850",$0,No
+River Desk,Preparer,Wages,2022 TY,"$65,320",Standard,"$2,130","$3,550",Married Separate,2-page,4.75%,Simple,On time,No,No,5594.08,4 stars,3,7,2 dependents,"$13,850","$3,200",Yes
+Central Desk,Online,Investment,2021 TY,"$2,400",Standard,"$1,200","$8,400",Single,2-page,0.00%,Simple,On time,Yes,No,0.0,5 stars,9,1,0 dependents,"$13,850",$0,No
+North Desk,Online,Wages,2023 TY,"$36,170",Standard,"$1,180","$1,970",Married Joint,2-page,6.20%,Simple,On time,Yes,Yes,0.0,5 stars,4,4,1 dependent,"$27,700","$2,000",Yes
+Capitol Desk,Online,Mixed,Not Available,"$65,200",Standard,"$29,640","$23,710",Qualifying Widow,2-page,0.00%,Simple,On time,Yes,Yes,11179.16,5 stars,4,13,1 dependent,"$27,700","$1,600",No
+Harbor Desk,Walk-in,Mixed,2023 TY,"$73,010",Itemized,"$33,190","$26,550",Single,8-page,7.00%,Schedule-heavy,No filing yet,Yes,Yes,22798.72,4 stars,8,19,1 dependent,"$20,100","$1,600",Yes
+Delta Desk,Online,Wages,2020 TY,"$30,200",Standard,$980,"$1,640",Single,2-page,0.00%,Simple,On time,No,Yes,0.0,4 stars,11,3,1 dependent,"$13,850","$1,600",No
+Harbor Desk,Online,Mixed,2023 TY,"$37,470",Standard,"$17,030","$13,620",Married Joint,2-page,6.20%,Simple,No filing yet,No,No,3374.32,3 stars,2,7,1 dependent,"$27,700","$1,600",Yes
+North Desk,Online,Wages,2020 TY,"$57,980",Standard,"$1,890","$3,150",Married Joint,2-page,5.50%,Simple,2-year amend,Yes,Yes,4921.67,4 stars,8,7,1 dependent,"$27,700",$0,Yes
+Prairie Desk,Online,Mixed,2023 TY,"$72,290",Standard,"$32,860","$26,290",Head of Household,2-page,3.00%,Simple,On time,No,No,14802.99,4 stars,4,14,3 dependents,"$20,800","$4,800",Yes
+North Desk,Online,Wages,2022 TY,"$46,160",Itemized,"$1,510","$2,510",Qualifying Widow,8-page,3.00%,Schedule-heavy,On time,Yes,No,0.0,5 stars,0,10,1 dependent,"$46,280",$0,Yes
+Harbor Desk,Preparer,Investment,2021 TY,"$14,640",Standard,"$7,320","$51,240",Single,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,7031.27,5 stars,9,13,0 dependents,"$13,850",$0,Yes
+River Desk,Online,Contract,2020 TY,"$38,630",Standard,"$66,220","$5,520",Single,2-page,6.20%,Simple,On time,Yes,No,23684.11,5 stars,10,12,0 dependents,"$13,850",$0,Yes
+Prairie Desk,Preparer,Wages,2019 TY,"$48,760",Standard,"$1,590","$2,650",Married Separate,8-page,6.20%,Schedule-heavy,No filing yet,Yes,No,7421.2,4 stars,2,10,1 dependent,"$13,850",$0,Yes
+Harbor Desk,Online,Self-employed,2021 TY,"$14,550",Standard,"$77,600","$4,850",Single,2-page,0.00%,Simple,On time,No,No,13150.66,4 stars,9,10,1 dependent,"$13,850",$0,No
+Central Desk,Online,Investment,2023 TY,"$4,240",Standard,"$2,120","$14,830",Head of Household,16-page,4.75%,Audit-ready,On time,No,No,0.0,3 stars,8,7,1 dependent,"$20,800","$1,800",Yes
+Capitol Desk,Preparer,Wages,2023 TY,"$53,260",Standard,"$1,740","$2,890",Married Joint,2-page,3.00%,Simple,On time,Yes,Yes,2338.97,5 stars,8,6,2 dependents,"$27,700",$200,Yes
+Delta Desk,Preparer,Investment,Not Available,"$2,400",Standard,"$1,200","$8,400",Single,2-page,0.00%,Simple,On time,Yes,Yes,0.0,5 stars,5,1,0 dependents,"$13,850",$0,No
+Highland Desk,Walk-in,Self-employed,2020 TY,"$4,950",Standard,"$26,400","$1,650",Head of Household,2-page,5.50%,Simple,On time,Yes,No,1454.25,5 stars,3,3,1 dependent,"$20,800",$0,Yes
+North Desk,Online,Contract,2022 TY,"$31,670",Standard,"$54,300","$4,520",Single,2-page,4.75%,Simple,On time,Yes,No,11209.91,5 stars,0,10,2 dependents,"$13,850","$3,200",Yes
+North Desk,Online,Royalty,2021 TY,"$7,990",Standard,"$15,980","$55,930",Married Joint,2-page,3.00%,Simple,On time,Yes,No,4754.32,5 stars,0,8,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Preparer,Wages,2022 TY,"$49,990",Itemized,"$1,630","$2,720",Married Joint,2-page,6.20%,Simple,2-year amend,Yes,No,143.19,4 stars,2,6,0 dependents,"$51,880",$0,Yes
+North Desk,Online,Mixed,2021 TY,"$30,550",Itemized,"$13,880","$11,110",Married Joint,2-page,6.20%,Simple,On time,Yes,No,0.0,5 stars,6,6,0 dependents,"$54,770",$0,Yes
+River Desk,Preparer,Mixed,2021 TY,"$39,260",Standard,"$17,850","$14,280",Married Joint,8-page,6.20%,Schedule-heavy,On time,Yes,Yes,6724.31,5 stars,1,12,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Wages,2022 TY,"$63,690",Standard,"$2,080","$3,460",Married Joint,8-page,0.00%,Schedule-heavy,On time,Yes,No,668.87,5 stars,8,12,2 dependents,"$27,700","$3,200",No
+Highland Desk,Online,Wages,2020 TY,"$78,740",Standard,"$2,570","$4,280",Qualifying Widow,2-page,7.00%,Simple,On time,No,No,5111.91,4 stars,7,9,3 dependents,"$27,700","$4,800",Yes
+River Desk,Preparer,Royalty,2022 TY,"$1,200",Itemized,"$2,400","$8,400",Qualifying Widow,8-page,5.50%,Schedule-heavy,On time,Yes,Yes,0.0,5 stars,4,6,1 dependent,"$41,390","$1,600",Yes
+River Desk,Preparer,Wages,2023 TY,"$38,670",Standard,"$1,260","$2,100",Married Joint,2-page,4.75%,Simple,No filing yet,Yes,Yes,2231.86,4 stars,2,4,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Walk-in,Mixed,2020 TY,"$45,530",Standard,"$20,690","$16,550",Single,16-page,0.00%,Audit-ready,On time,Yes,No,7430.46,4 stars,6,14,1 dependent,"$13,850","$1,600",No
+Capitol Desk,Walk-in,Pension,Not Available,"$39,460",Standard,$0,"$6,960",Married Separate,2-page,6.20%,Simple,On time,Yes,No,894.01,5 stars,9,5,2 dependents,"$13,850","$3,200",Yes
+Capitol Desk,Online,Wages,2022 TY,"$65,950",Itemized,"$2,150","$3,580",Qualifying Widow,8-page,5.50%,Schedule-heavy,On time,Yes,No,3443.32,5 stars,4,12,0 dependents,"$50,840",$0,Yes
+Capitol Desk,Preparer,Mixed,2023 TY,"$47,310",Standard,"$21,510","$17,210",Single,16-page,6.20%,Audit-ready,On time,Yes,No,10008.03,4 stars,9,14,2 dependents,"$13,850","$3,200",Yes
+North Desk,Walk-in,Farm,2023 TY,"$11,560",Itemized,"$32,370","$2,310",Married Joint,8-page,5.50%,Schedule-heavy,On time,Yes,No,594.23,5 stars,3,10,0 dependents,"$42,960",$0,Yes
+North Desk,Online,Mixed,2023 TY,"$34,210",Standard,"$15,550","$12,440",Married Joint,8-page,6.20%,Schedule-heavy,No filing yet,Yes,No,4470.67,4 stars,1,11,0 dependents,"$27,700",$0,Yes
+Delta Desk,Online,Wages,2023 TY,"$51,620",Standard,"$1,680","$2,810",Single,2-page,5.50%,Simple,2-year amend,Yes,No,7183.04,4 stars,7,6,0 dependents,"$13,850",$0,Yes
+Central Desk,Walk-in,Wages,2023 TY,"$82,400",Itemized,"$2,690","$4,480",Married Joint,8-page,7.00%,Schedule-heavy,On time,Yes,Yes,7422.33,5 stars,10,14,0 dependents,"$43,650",$400,Yes
+Central Desk,Online,Contract,2022 TY,"$16,280",Itemized,"$27,900","$2,330",Single,2-page,3.00%,Simple,2-year amend,No,No,0.0,3 stars,14,5,2 dependents,"$26,260","$3,200",Yes
+Highland Desk,Walk-in,Wages,2021 TY,"$55,650",Standard,"$1,810","$3,020",Married Separate,2-page,3.00%,Simple,On time,Yes,Yes,4059.3,5 stars,11,6,1 dependent,"$13,850","$1,600",Yes
+River Desk,Online,Mixed,2020 TY,"$45,930",Standard,"$20,880","$16,700",Head of Household,16-page,5.50%,Audit-ready,On time,Yes,No,11474.8,4 stars,1,14,0 dependents,"$20,800",$0,Yes
+Delta Desk,Walk-in,Wages,2022 TY,"$91,490",Standard,"$2,980","$4,970",Head of Household,2-page,4.75%,Simple,No filing yet,Yes,No,14788.68,4 stars,0,11,1 dependent,"$20,800","$1,600",Yes
+Harbor Desk,Preparer,Mixed,2019 TY,"$37,940",Standard,"$17,250","$13,800",Married Joint,2-page,5.50%,Simple,On time,Yes,No,7075.37,5 stars,6,7,0 dependents,"$27,700",$0,Yes
+Delta Desk,Preparer,Contract,2021 TY,"$32,850",Standard,"$56,310","$4,690",Single,16-page,5.50%,Audit-ready,On time,Yes,No,17475.11,4 stars,11,15,0 dependents,"$13,850",$0,Yes
+North Desk,Preparer,Mixed,2019 TY,"$63,230",Standard,"$28,740","$22,990",Married Separate,2-page,5.50%,Simple,On time,Yes,No,20196.72,5 stars,11,12,0 dependents,"$13,850",$0,Yes
+Highland Desk,Online,Farm,2022 TY,"$13,490",Standard,"$37,770","$2,700",Head of Household,2-page,6.20%,Simple,On time,Yes,No,4940.21,5 stars,3,5,1 dependent,"$20,800",$0,Yes
+River Desk,Preparer,Wages,2020 TY,"$52,390",Standard,"$1,710","$2,850",Married Joint,2-page,3.00%,Simple,On time,Yes,No,5057.51,5 stars,4,6,0 dependents,"$27,700",$0,Yes
+North Desk,Walk-in,Mixed,2022 TY,"$37,470",Standard,"$17,030","$13,630",Head of Household,8-page,6.20%,Schedule-heavy,2-year amend,Yes,No,3298.96,4 stars,12,12,2 dependents,"$20,800","$3,200",Yes
+North Desk,Walk-in,Pension,2023 TY,"$37,320",Standard,$0,"$6,590",Single,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,1979.16,5 stars,10,9,0 dependents,"$13,850",$0,No
+Central Desk,Walk-in,Mixed,2023 TY,"$56,990",Standard,"$25,910","$20,730",Head of Household,2-page,5.50%,Simple,2-year amend,Yes,No,11937.05,4 stars,3,11,2 dependents,"$20,800","$4,000",Yes
+Delta Desk,Preparer,Wages,2021 TY,"$62,140",Itemized,"$2,030","$3,380",Single,8-page,6.20%,Schedule-heavy,On time,Yes,No,2613.46,5 stars,11,12,2 dependents,"$29,960","$3,200",Yes
+River Desk,Preparer,Pension,2022 TY,"$44,000",Standard,$0,"$7,760",Single,2-page,3.00%,Simple,On time,Yes,Yes,5908.65,5 stars,9,5,0 dependents,"$13,850",$0,Yes
+Delta Desk,Preparer,Wages,2022 TY,"$32,200",Standard,"$1,050","$1,750",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,No,1131.32,5 stars,0,8,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Preparer,Mixed,2022 TY,"$26,940",Itemized,"$12,240","$9,800",Single,8-page,3.00%,Schedule-heavy,On time,Yes,No,0.0,5 stars,10,10,3 dependents,"$20,790","$4,800",Yes
+Central Desk,Preparer,Farm,2023 TY,"$31,150",Standard,"$87,210","$6,230",Single,16-page,5.50%,Audit-ready,On time,Yes,Yes,25844.58,4 stars,7,18,1 dependent,"$13,850",$200,Yes
+Capitol Desk,Online,Wages,2021 TY,"$53,110",Standard,"$1,730","$2,890",Single,2-page,4.75%,Simple,On time,Yes,No,3868.93,5 stars,11,6,1 dependent,"$13,850","$1,600",Yes
+North Desk,Online,Wages,Not Available,"$39,930",Standard,"$1,300","$2,170",Married Joint,2-page,0.00%,Simple,On time,Yes,Yes,568.11,5 stars,2,4,0 dependents,"$27,700",$400,No
+North Desk,Preparer,Wages,2020 TY,"$88,640",Itemized,"$2,890","$4,820",Married Separate,2-page,6.20%,Simple,On time,Yes,No,14544.86,5 stars,11,10,0 dependents,"$23,410",$0,Yes
+Prairie Desk,Online,Wages,2023 TY,"$63,260",Standard,"$2,060","$3,440",Single,2-page,3.00%,Simple,3-year amend,Yes,No,6897.66,4 stars,1,7,1 dependent,"$13,850",$0,Yes
+Capitol Desk,Online,Wages,2022 TY,"$69,810",Standard,"$2,280","$3,790",Married Joint,2-page,4.75%,Simple,On time,Yes,Yes,2093.45,5 stars,0,8,3 dependents,"$27,700","$5,000",Yes
+Harbor Desk,Online,Self-employed,2021 TY,"$9,900",Standard,"$52,820","$3,300",Head of Household,2-page,5.50%,Simple,On time,Yes,No,7386.35,5 stars,5,7,0 dependents,"$20,800",$0,Yes
+Highland Desk,Preparer,Wages,2023 TY,"$50,000",Standard,"$1,630","$2,720",Single,2-page,0.00%,Simple,On time,No,Yes,4591.83,4 stars,7,6,2 dependents,"$13,850",$0,No
+River Desk,Walk-in,Self-employed,2020 TY,"$9,730",Itemized,"$51,920","$3,240",Single,16-page,0.00%,Audit-ready,On time,Yes,Yes,3083.08,4 stars,2,12,1 dependent,"$22,450","$1,600",No
+Prairie Desk,Preparer,Wages,2023 TY,"$26,510",Standard,$860,"$1,440",Head of Household,2-page,7.00%,Simple,On time,No,No,1494.65,4 stars,3,3,0 dependents,"$20,800",$0,Yes
+River Desk,Walk-in,Wages,2022 TY,"$55,100",Standard,"$1,800","$2,990",Head of Household,2-page,5.50%,Simple,No filing yet,Yes,Yes,6300.79,4 stars,7,6,0 dependents,"$20,800",$0,Yes
+Central Desk,Walk-in,Wages,2020 TY,"$63,580",Standard,"$2,070","$3,460",Married Joint,8-page,0.00%,Schedule-heavy,On time,Yes,No,4336.8,5 stars,1,12,0 dependents,"$27,700",$0,No
+Central Desk,Online,Self-employed,2019 TY,"$20,640",Standard,"$110,090","$6,880",Head of Household,2-page,6.20%,Simple,On time,No,No,27610.7,4 stars,2,15,1 dependent,"$20,800",$0,Yes
+Central Desk,Online,Mixed,2023 TY,"$44,320",Standard,"$20,140","$16,120",Single,2-page,4.75%,Simple,On time,Yes,Yes,10199.34,5 stars,1,8,1 dependent,"$13,850","$1,600",Yes
+River Desk,Online,Wages,2021 TY,"$11,040",Standard,$360,$600,Married Joint,2-page,0.00%,Simple,On time,Yes,No,0.0,5 stars,11,1,1 dependent,"$27,700","$1,600",No
+Prairie Desk,Online,Pension,2023 TY,"$39,520",Standard,$0,"$6,970",Married Separate,2-page,5.50%,Simple,On time,Yes,No,4384.07,5 stars,11,5,0 dependents,"$13,850",$0,Yes
+Central Desk,Preparer,Mixed,2023 TY,"$88,100",Itemized,"$40,050","$32,040",Single,2-page,4.75%,Simple,2-year amend,Yes,No,27902.33,4 stars,12,17,1 dependent,"$20,100","$1,600",Yes
+Harbor Desk,Online,Wages,2023 TY,"$76,170",Itemized,"$2,480","$4,140",Married Separate,8-page,3.00%,Schedule-heavy,On time,Yes,No,7664.88,5 stars,8,14,1 dependent,"$25,180","$1,600",Yes
+Harbor Desk,Walk-in,Contract,2021 TY,"$15,500",Standard,"$26,580","$2,210",Married Joint,2-page,6.20%,Simple,On time,No,No,2236.92,4 stars,1,4,1 dependent,"$27,700",$0,Yes
+Capitol Desk,Preparer,Wages,2023 TY,"$70,090",Standard,"$2,290","$3,810",Married Separate,2-page,3.00%,Simple,No filing yet,Yes,Yes,10251.5,4 stars,4,8,1 dependent,"$13,850",$0,Yes
+Capitol Desk,Online,Wages,Not Available,"$40,660",Standard,"$1,330","$2,210",Married Joint,2-page,3.00%,Simple,On time,Yes,Yes,1801.36,5 stars,4,4,0 dependents,"$27,700",$0,Yes
+North Desk,Walk-in,Mixed,2020 TY,"$20,560",Standard,"$9,350","$7,480",Single,2-page,3.00%,Simple,No filing yet,Yes,No,531.77,4 stars,15,4,1 dependent,"$13,850","$1,600",Yes
+North Desk,Walk-in,Wages,2021 TY,"$49,350",Standard,"$1,610","$2,680",Single,2-page,6.20%,Simple,No filing yet,Yes,Yes,7079.47,4 stars,8,5,0 dependents,"$13,850",$0,Yes
+River Desk,Preparer,Wages,2021 TY,"$59,060",Standard,"$1,930","$3,210",Single,16-page,5.50%,Audit-ready,On time,Yes,No,9089.97,4 stars,9,12,0 dependents,"$13,850",$0,Yes
+North Desk,Preparer,Investment,2022 TY,"$2,400",Standard,"$1,200","$8,400",Married Separate,2-page,7.00%,Simple,On time,Yes,No,1066.19,5 stars,4,1,0 dependents,"$13,850",$0,Yes
+Prairie Desk,Walk-in,Wages,2023 TY,"$31,670",Standard,"$1,030","$1,720",Single,2-page,3.00%,Simple,No filing yet,Yes,No,1256.9,4 stars,8,3,1 dependent,"$13,850","$1,600",Yes
+Central Desk,Preparer,Investment,2022 TY,"$19,710",Standard,"$9,850","$68,980",Single,2-page,6.20%,Simple,On time,Yes,No,12187.87,5 stars,9,10,1 dependent,"$13,850",$0,Yes
+North Desk,Walk-in,Contract,2022 TY,"$19,450",Standard,"$33,340","$2,780",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,6143.07,5 stars,5,11,0 dependents,"$13,850",$0,Yes
+Delta Desk,Online,Self-employed,2021 TY,"$12,780",Standard,"$68,170","$4,260",Single,8-page,3.00%,Schedule-heavy,On time,Yes,Yes,7580.78,5 stars,8,14,2 dependents,"$13,850","$3,200",Yes
+Harbor Desk,Preparer,Self-employed,2020 TY,"$4,090",Standard,"$21,820","$1,360",Head of Household,2-page,0.00%,Simple,No filing yet,Yes,No,518.7,4 stars,8,3,2 dependents,"$20,800",$0,No
+Harbor Desk,Online,Self-employed,2021 TY,"$14,510",Standard,"$77,370","$4,840",Married Joint,8-page,6.20%,Schedule-heavy,On time,Yes,No,15069.08,5 stars,8,15,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Royalty,2023 TY,"$3,230",Standard,"$6,460","$22,600",Qualifying Widow,2-page,3.00%,Simple,On time,Yes,Yes,0.0,5 stars,8,3,1 dependent,"$27,700","$1,600",Yes
+North Desk,Online,Wages,2022 TY,"$93,310",Itemized,"$3,040","$5,070",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,15923.46,5 stars,9,16,0 dependents,"$26,520",$0,Yes
+North Desk,Online,Wages,2021 TY,"$19,160",Standard,$620,"$1,040",Married Joint,2-page,5.50%,Simple,On time,No,No,0.0,4 stars,5,2,4 dependents,"$27,700","$6,400",Yes
+North Desk,Online,Mixed,2023 TY,"$24,870",Standard,"$11,310","$9,040",Married Joint,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,2051.67,5 stars,3,10,0 dependents,"$27,700",$0,No
+Harbor Desk,Online,Mixed,2019 TY,"$49,790",Itemized,"$22,630","$18,100",Married Joint,8-page,7.00%,Schedule-heavy,On time,Yes,No,7297.13,5 stars,6,15,0 dependents,"$46,370",$0,Yes
+North Desk,Online,Wages,2021 TY,"$93,790",Standard,"$3,060","$5,100",Head of Household,8-page,6.20%,Schedule-heavy,On time,No,No,14294.07,4 stars,3,16,1 dependent,"$20,800","$1,600",Yes
+River Desk,Preparer,Self-employed,2021 TY,"$12,350",Standard,"$65,870","$4,120",Qualifying Widow,2-page,4.75%,Simple,On time,Yes,Yes,9882.04,5 stars,0,9,0 dependents,"$27,700",$0,Yes
+River Desk,Preparer,Wages,Not Available,"$69,470",Standard,"$2,270","$3,780",Head of Household,8-page,5.50%,Schedule-heavy,On time,No,No,9483.75,4 stars,4,13,1 dependent,"$20,800",$0,Yes
+Central Desk,Preparer,Contract,2023 TY,"$23,620",Standard,"$40,490","$3,370",Single,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,7709.68,5 stars,6,12,1 dependent,"$13,850","$1,600",Yes
+Central Desk,Online,Wages,2022 TY,"$34,380",Standard,"$1,120","$1,870",Single,2-page,6.20%,Simple,On time,Yes,Yes,4424.37,5 stars,6,4,0 dependents,"$13,850",$400,Yes
+Highland Desk,Preparer,Wages,2019 TY,"$46,220",Itemized,"$1,510","$2,510",Married Joint,2-page,0.00%,Simple,No filing yet,Yes,Yes,0.0,4 stars,5,5,1 dependent,"$48,700","$1,600",No
+Prairie Desk,Online,Wages,2020 TY,"$30,280",Standard,$990,"$1,650",Single,2-page,4.75%,Simple,On time,Yes,No,838.07,5 stars,8,3,3 dependents,"$13,850",$0,Yes
+Prairie Desk,Online,Wages,2023 TY,"$28,810",Standard,$940,"$1,570",Married Separate,2-page,4.75%,Simple,On time,Yes,Yes,0.0,5 stars,3,3,2 dependents,"$13,850","$3,200",Yes
+North Desk,Online,Wages,2021 TY,"$65,910",Standard,"$2,150","$3,580",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,3735.88,5 stars,7,12,1 dependent,"$27,700","$1,600",Yes
+Harbor Desk,Walk-in,Wages,Not Available,"$32,240",Standard,"$1,050","$1,750",Married Joint,2-page,4.75%,Simple,On time,No,No,1687.47,4 stars,3,3,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Walk-in,Wages,2023 TY,"$64,100",Standard,"$2,090","$3,480",Head of Household,8-page,0.00%,Schedule-heavy,On time,Yes,No,6947.52,5 stars,11,12,0 dependents,"$20,800",$0,No
+Harbor Desk,Preparer,Wages,2022 TY,"$28,300",Standard,$920,"$1,540",Married Joint,8-page,7.00%,Schedule-heavy,3-year amend,No,Yes,0.0,3 stars,11,8,2 dependents,"$27,700","$3,600",Yes
+Highland Desk,Preparer,Wages,2023 TY,"$63,580",Standard,"$2,070","$3,460",Single,8-page,0.00%,Schedule-heavy,On time,No,Yes,5857.67,4 stars,6,12,2 dependents,"$13,850",$0,No
+Central Desk,Online,Wages,Not Available,"$46,250",Itemized,"$1,510","$2,510",Single,8-page,0.00%,Schedule-heavy,On time,Yes,No,1547.62,5 stars,5,10,1 dependent,"$16,710","$1,600",No
+North Desk,Preparer,Wages,2022 TY,"$88,100",Standard,"$2,870","$4,790",Married Joint,2-page,4.75%,Simple,No filing yet,Yes,No,8685.26,4 stars,10,10,2 dependents,"$27,700","$3,200",Yes
+Central Desk,Online,Wages,2023 TY,"$64,190",Itemized,"$2,090","$3,490",Married Joint,2-page,5.50%,Simple,On time,No,No,4241.97,4 stars,5,7,0 dependents,"$45,840",$0,Yes
+Highland Desk,Online,Wages,2023 TY,"$84,330",Standard,"$2,750","$4,580",Single,2-page,0.00%,Simple,On time,Yes,Yes,9664.56,5 stars,9,10,1 dependent,"$13,850","$1,600",No
+North Desk,Walk-in,Wages,2021 TY,"$40,360",Standard,"$1,320","$2,190",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,No,2554.65,5 stars,1,9,0 dependents,"$27,700",$0,Yes
+Prairie Desk,Walk-in,Wages,2023 TY,"$58,280",Standard,"$1,900","$3,170",Married Separate,16-page,5.50%,Audit-ready,2-year amend,Yes,No,9271.45,3 stars,10,12,0 dependents,"$13,850",$0,Yes
+North Desk,Online,Investment,2020 TY,"$9,400",Standard,"$4,700","$32,890",Head of Household,2-page,0.00%,Simple,On time,Yes,Yes,1432.98,5 stars,11,5,1 dependent,"$20,800",$200,No
+Delta Desk,Online,Royalty,2023 TY,"$6,460",Standard,"$12,930","$45,240",Married Joint,16-page,7.00%,Audit-ready,On time,No,Yes,2631.53,3 stars,2,12,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Contract,2023 TY,"$20,880",Standard,"$35,800","$2,980",Married Joint,16-page,4.75%,Audit-ready,No filing yet,Yes,No,0.0,3 stars,4,11,3 dependents,"$27,700","$4,800",Yes
+Prairie Desk,Online,Mixed,2022 TY,"$30,920",Standard,"$14,060","$11,240",Single,2-page,5.50%,Simple,No filing yet,Yes,Yes,7037.45,4 stars,16,6,0 dependents,"$13,850",$400,Yes
+Prairie Desk,Online,Mixed,2022 TY,"$22,840",Itemized,"$10,380","$8,310",Married Joint,8-page,0.00%,Schedule-heavy,3-year amend,No,Yes,0.0,3 stars,9,9,2 dependents,"$32,880","$3,200",No
+Delta Desk,Preparer,Wages,2022 TY,"$25,830",Standard,$840,"$1,400",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,1456.61,5 stars,8,8,2 dependents,"$13,850",$0,Yes
+Capitol Desk,Online,Investment,2020 TY,"$2,400",Standard,"$1,200","$8,400",Married Joint,2-page,6.20%,Simple,2-year amend,Yes,No,0.0,4 stars,7,1,1 dependent,"$27,700","$1,600",Yes
+Capitol Desk,Online,Investment,2021 TY,"$8,610",Standard,"$4,310","$30,150",Married Joint,2-page,0.00%,Simple,On time,Yes,No,0.0,5 stars,5,4,3 dependents,"$27,700","$4,800",No
+River Desk,Online,Pension,2021 TY,"$49,330",Itemized,$0,"$8,710",Single,2-page,0.00%,Simple,No filing yet,Yes,Yes,3493.7,4 stars,12,6,0 dependents,"$18,420",$0,No
+Capitol Desk,Preparer,Contract,2022 TY,"$7,780",Standard,"$13,350","$1,110",Single,8-page,3.00%,Schedule-heavy,2-year amend,Yes,No,895.4,4 stars,10,7,0 dependents,"$13,850",$0,Yes
+North Desk,Online,Mixed,2022 TY,"$20,330",Standard,"$9,240","$7,390",Single,2-page,0.00%,Simple,On time,Yes,No,1738.34,5 stars,5,4,0 dependents,"$13,850",$800,No
+Highland Desk,Online,Investment,2021 TY,"$38,230",Itemized,"$19,110","$133,790",Head of Household,8-page,7.00%,Schedule-heavy,On time,Yes,No,23346.72,5 stars,0,26,0 dependents,"$43,600",$0,Yes
+Highland Desk,Preparer,Investment,2023 TY,"$12,980",Standard,"$6,490","$45,430",Married Joint,8-page,5.50%,Schedule-heavy,On time,Yes,No,0.0,5 stars,4,12,2 dependents,"$27,700","$3,200",Yes
+Prairie Desk,Preparer,Wages,2021 TY,"$64,130",Standard,"$2,090","$3,490",Single,8-page,5.50%,Schedule-heavy,No filing yet,Yes,No,9992.79,4 stars,11,12,1 dependent,"$13,850",$0,Yes
+Central Desk,Online,Contract,2022 TY,"$29,740",Standard,"$50,990","$4,250",Head of Household,2-page,7.00%,Simple,On time,Yes,Yes,13609.42,5 stars,10,9,0 dependents,"$20,800",$0,Yes
+Central Desk,Preparer,Wages,2022 TY,"$71,670",Standard,"$2,340","$3,900",Married Joint,2-page,6.20%,Simple,No filing yet,Yes,No,9225.38,4 stars,10,8,0 dependents,"$27,700",$0,Yes
+River Desk,Online,Royalty,2020 TY,"$1,810",Standard,"$3,610","$12,640",Married Joint,2-page,6.20%,Simple,On time,Yes,No,0.0,5 stars,9,2,1 dependent,"$27,700","$1,600",Yes
+Harbor Desk,Preparer,Investment,2023 TY,"$17,200",Itemized,"$8,600","$60,190",Head of Household,2-page,4.75%,Simple,On time,No,No,0.0,4 stars,1,9,2 dependents,"$42,650","$3,200",Yes
+North Desk,Online,Wages,2022 TY,"$21,310",Standard,$690,"$1,160",Single,2-page,4.75%,Simple,On time,No,No,1185.73,4 stars,6,2,0 dependents,"$13,850",$0,Yes
+Central Desk,Walk-in,Self-employed,2019 TY,"$23,860",Standard,"$127,250","$7,950",Single,2-page,3.00%,Simple,2-year amend,Yes,No,31874.96,4 stars,10,17,2 dependents,"$13,850",$0,Yes
+Central Desk,Walk-in,Wages,Not Available,"$21,830",Standard,$710,"$1,190",Married Joint,2-page,4.75%,Simple,On time,Yes,No,0.0,5 stars,5,2,1 dependent,"$27,700","$1,600",Yes
+Harbor Desk,Preparer,Investment,2023 TY,"$8,700",Itemized,"$4,350","$30,460",Single,2-page,4.75%,Simple,On time,Yes,Yes,0.0,5 stars,11,4,2 dependents,"$23,140","$3,200",Yes
+Central Desk,Walk-in,Investment,2023 TY,"$8,780",Standard,"$4,390","$30,720",Married Joint,2-page,0.00%,Simple,On time,Yes,Yes,0.0,5 stars,11,4,0 dependents,"$27,700",$800,No
+Central Desk,Online,Self-employed,2023 TY,"$2,570",Itemized,"$13,700",$860,Single,2-page,4.75%,Simple,2-year amend,No,No,633.06,3 stars,5,1,1 dependent,"$23,370",$200,Yes
+Central Desk,Preparer,Pension,2023 TY,"$59,200",Standard,$0,"$10,450",Single,8-page,4.75%,Schedule-heavy,No filing yet,No,No,9896.91,3 stars,11,12,0 dependents,"$13,850",$0,Yes
+Central Desk,Online,Wages,2021 TY,"$110,530",Standard,"$3,600","$6,010",Single,2-page,3.00%,Simple,On time,Yes,No,21417.16,5 stars,10,13,0 dependents,"$13,850",$0,Yes
+River Desk,Online,Wages,2022 TY,"$46,540",Standard,"$1,520","$2,530",Married Joint,16-page,0.00%,Audit-ready,On time,Yes,Yes,0.0,4 stars,8,10,2 dependents,"$27,700","$3,200",No
+Harbor Desk,Online,Wages,2022 TY,"$27,890",Standard,$910,"$1,520",Single,8-page,4.75%,Schedule-heavy,On time,No,No,2645.47,4 stars,4,8,1 dependent,"$13,850",$0,Yes
+Delta Desk,Preparer,Wages,2021 TY,"$11,040",Standard,$360,$600,Single,2-page,4.75%,Simple,On time,Yes,Yes,703.05,5 stars,9,1,0 dependents,"$13,850",$0,Yes
+Prairie Desk,Preparer,Mixed,2021 TY,"$38,870",Standard,"$17,670","$14,140",Head of Household,16-page,5.50%,Audit-ready,No filing yet,Yes,Yes,6321.0,3 stars,9,12,2 dependents,"$20,800",$0,Yes
+Highland Desk,Walk-in,Wages,2020 TY,"$50,050",Itemized,"$1,630","$2,720",Single,8-page,5.50%,Schedule-heavy,On time,Yes,Yes,6281.24,5 stars,10,11,0 dependents,"$20,660",$0,Yes
+Central Desk,Preparer,Wages,2023 TY,"$42,660",Standard,"$1,390","$2,320",Single,8-page,3.00%,Schedule-heavy,On time,Yes,Yes,2914.3,5 stars,8,10,1 dependent,"$13,850","$1,600",Yes
+Highland Desk,Walk-in,Mixed,2023 TY,"$46,550",Standard,"$21,160","$16,930",Single,2-page,0.00%,Simple,No filing yet,Yes,No,1060.66,4 stars,11,9,4 dependents,"$13,850","$6,400",No
+Prairie Desk,Walk-in,Pension,2023 TY,"$46,170",Standard,$0,"$8,150",Single,2-page,3.00%,Simple,On time,Yes,Yes,2978.84,5 stars,5,6,1 dependent,"$13,850","$1,600",Yes
+River Desk,Preparer,Wages,2021 TY,"$64,170",Standard,"$2,090","$3,490",Single,2-page,0.00%,Simple,On time,Yes,Yes,2184.38,5 stars,0,7,2 dependents,"$13,850","$3,600",No
+Capitol Desk,Online,Contract,2021 TY,"$20,350",Standard,"$34,890","$2,910",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,No,3086.48,5 stars,5,11,1 dependent,"$27,700",$0,Yes
+Highland Desk,Online,Mixed,2022 TY,"$24,720",Standard,"$11,240","$8,990",Single,2-page,7.00%,Simple,On time,No,Yes,1487.97,4 stars,11,4,2 dependents,"$13,850","$3,200",Yes
+River Desk,Preparer,Wages,2022 TY,"$71,740",Itemized,"$2,340","$3,900",Head of Household,2-page,3.00%,Simple,On time,No,No,4502.47,4 stars,7,8,1 dependent,"$40,580","$1,600",Yes
+Harbor Desk,Walk-in,Mixed,2023 TY,"$43,110",Itemized,"$19,590","$15,680",Head of Household,2-page,3.00%,Simple,On time,Yes,Yes,1558.93,5 stars,8,8,1 dependent,"$42,680","$1,600",Yes
+Capitol Desk,Online,Wages,2023 TY,"$76,650",Standard,"$2,500","$4,170",Single,2-page,5.50%,Simple,On time,Yes,Yes,13169.44,5 stars,7,9,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Online,Wages,2023 TY,"$74,480",Standard,"$2,430","$4,050",Single,2-page,4.75%,Simple,On time,No,No,9437.78,4 stars,7,8,2 dependents,"$13,850","$3,200",Yes
+River Desk,Online,Mixed,2023 TY,"$19,440",Itemized,"$8,840","$7,070",Single,2-page,0.00%,Simple,On time,Yes,Yes,0.0,5 stars,0,3,0 dependents,"$25,920",$800,No
+Prairie Desk,Online,Wages,Not Available,"$25,370",Itemized,$830,"$1,380",Married Joint,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,378.6,5 stars,4,8,4 dependents,"$50,020",$0,No
+North Desk,Preparer,Wages,2022 TY,"$40,360",Itemized,"$1,320","$2,190",Single,2-page,7.00%,Simple,On time,Yes,Yes,2595.6,5 stars,1,4,0 dependents,"$24,610",$400,Yes
+River Desk,Online,Mixed,2019 TY,"$25,470",Standard,"$11,580","$9,260",Head of Household,2-page,0.00%,Simple,On time,Yes,Yes,1948.2,5 stars,4,5,0 dependents,"$20,800",$0,No
+North Desk,Online,Wages,2020 TY,"$73,720",Standard,"$2,400","$4,010",Married Separate,2-page,5.50%,Simple,On time,No,Yes,8545.36,4 stars,8,8,2 dependents,"$13,850","$3,200",Yes
+Capitol Desk,Preparer,Pension,2022 TY,"$45,580",Itemized,$0,"$8,040",Head of Household,2-page,6.20%,Simple,On time,Yes,Yes,2436.36,5 stars,9,5,0 dependents,"$26,390",$0,Yes
+North Desk,Online,Wages,2021 TY,"$81,310",Standard,"$2,650","$4,420",Married Joint,2-page,3.00%,Simple,On time,Yes,Yes,9080.99,5 stars,2,9,0 dependents,"$27,700",$0,Yes
+Delta Desk,Online,Farm,2020 TY,"$17,170",Standard,"$48,080","$3,430",Qualifying Widow,2-page,5.50%,Simple,No filing yet,No,Yes,3404.93,3 stars,12,7,2 dependents,"$27,700","$3,400",Yes
+North Desk,Preparer,Investment,Not Available,"$21,770",Itemized,"$10,880","$76,190",Single,16-page,0.00%,Audit-ready,On time,Yes,No,8484.47,4 stars,2,17,0 dependents,"$21,030",$0,No
+Delta Desk,Online,Farm,2020 TY,"$23,600",Itemized,"$66,070","$4,720",Married Joint,16-page,3.00%,Audit-ready,No filing yet,No,Yes,7277.97,2 stars,2,15,0 dependents,"$50,240",$0,Yes
+Capitol Desk,Walk-in,Pension,Not Available,"$47,190",Standard,$0,"$8,330",Single,8-page,3.00%,Schedule-heavy,On time,Yes,Yes,4981.43,5 stars,11,11,1 dependent,"$13,850",$400,Yes
+River Desk,Preparer,Wages,2023 TY,"$58,540",Standard,"$1,910","$3,180",Head of Household,8-page,7.00%,Schedule-heavy,On time,Yes,No,6138.46,5 stars,7,12,0 dependents,"$20,800",$0,Yes
+Capitol Desk,Walk-in,Mixed,2023 TY,"$67,330",Standard,"$30,600","$24,480",Married Joint,2-page,3.00%,Simple,On time,No,Yes,15958.41,4 stars,2,13,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Online,Wages,2023 TY,"$59,580",Itemized,"$1,940","$3,240",Head of Household,2-page,0.00%,Simple,On time,No,No,3251.27,4 stars,1,7,0 dependents,"$40,330",$0,No
+Delta Desk,Preparer,Investment,2021 TY,"$16,430",Itemized,"$8,220","$57,520",Single,2-page,7.00%,Simple,No filing yet,No,Yes,7987.5,3 stars,2,9,0 dependents,"$22,920",$0,Yes
+Harbor Desk,Preparer,Mixed,2023 TY,"$29,080",Itemized,"$13,220","$10,570",Qualifying Widow,8-page,0.00%,Schedule-heavy,No filing yet,No,No,1171.9,3 stars,8,10,0 dependents,"$59,350",$0,No
+River Desk,Preparer,Wages,2020 TY,"$72,560",Standard,"$2,370","$3,940",Married Joint,2-page,6.20%,Simple,No filing yet,Yes,No,9440.05,4 stars,3,8,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Contract,Not Available,"$35,570",Itemized,"$60,980","$5,080",Married Joint,2-page,5.50%,Simple,On time,Yes,Yes,6245.88,5 stars,7,11,1 dependent,"$54,790",$0,Yes
+River Desk,Online,Wages,2021 TY,"$55,920",Standard,"$1,820","$3,040",Qualifying Widow,2-page,5.50%,Simple,On time,Yes,Yes,3343.68,5 stars,5,6,1 dependent,"$27,700","$1,600",Yes
+Harbor Desk,Online,Mixed,2021 TY,"$64,480",Standard,"$29,310","$23,450",Married Joint,2-page,6.20%,Simple,On time,No,No,18208.42,4 stars,7,13,0 dependents,"$27,700",$0,Yes
+Highland Desk,Preparer,Self-employed,2023 TY,"$1,800",Standard,"$9,600",$600,Married Joint,8-page,5.50%,Schedule-heavy,On time,Yes,No,943.51,5 stars,2,6,0 dependents,"$27,700",$0,Yes
+Highland Desk,Preparer,Wages,2023 TY,"$55,820",Standard,"$1,820","$3,030",Married Joint,2-page,0.00%,Simple,On time,Yes,No,2832.92,5 stars,1,6,2 dependents,"$27,700",$400,No
+Central Desk,Online,Mixed,2022 TY,"$42,240",Itemized,"$19,200","$15,360",Single,2-page,7.00%,Simple,On time,No,No,7229.32,4 stars,1,8,1 dependent,"$23,130","$1,600",Yes
+Highland Desk,Preparer,Investment,2023 TY,"$12,040",Standard,"$6,020","$42,140",Single,2-page,7.00%,Simple,On time,No,Yes,5357.53,4 stars,1,6,0 dependents,"$13,850",$0,Yes
+Capitol Desk,Preparer,Wages,2020 TY,"$109,680",Itemized,"$3,580","$5,960",Single,8-page,6.20%,Schedule-heavy,No filing yet,No,No,19885.25,3 stars,2,18,1 dependent,"$25,240","$1,600",Yes
+Capitol Desk,Preparer,Mixed,2023 TY,"$41,810",Standard,"$19,000","$15,200",Single,2-page,5.50%,Simple,On time,Yes,Yes,10970.85,5 stars,3,8,0 dependents,"$13,850",$0,Yes
+Highland Desk,Online,Wages,2021 TY,"$48,040",Standard,"$1,570","$2,610",Head of Household,2-page,4.75%,Simple,On time,Yes,No,3719.93,5 stars,9,5,2 dependents,"$20,800",$0,Yes
+River Desk,Walk-in,Self-employed,2021 TY,"$10,790",Itemized,"$57,550","$3,600",Married Joint,8-page,4.75%,Schedule-heavy,On time,No,Yes,0.0,4 stars,7,12,3 dependents,"$61,760","$4,800",Yes
+Delta Desk,Preparer,Wages,2020 TY,"$12,820",Standard,$420,$700,Single,2-page,0.00%,Simple,2-year amend,Yes,No,0.0,4 stars,3,1,3 dependents,"$13,850","$4,800",No
+North Desk,Preparer,Contract,2021 TY,"$16,000",Itemized,"$27,430","$2,290",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,0.0,5 stars,11,10,0 dependents,"$58,920",$0,Yes
+North Desk,Preparer,Contract,2021 TY,"$33,090",Itemized,"$56,720","$4,730",Married Joint,2-page,5.50%,Simple,On time,No,No,9349.24,4 stars,9,10,0 dependents,"$44,690",$0,Yes
+North Desk,Preparer,Wages,2022 TY,"$43,150",Standard,"$1,410","$2,350",Married Joint,16-page,5.50%,Audit-ready,On time,Yes,No,1524.07,4 stars,9,10,0 dependents,"$27,700",$0,Yes
+River Desk,Online,Wages,2020 TY,"$38,740",Standard,"$1,260","$2,110",Head of Household,2-page,4.75%,Simple,On time,Yes,No,2356.99,5 stars,10,4,0 dependents,"$20,800",$400,Yes
+Central Desk,Walk-in,Mixed,2020 TY,"$64,510",Standard,"$29,320","$23,460",Head of Household,2-page,4.75%,Simple,On time,Yes,No,19490.5,5 stars,8,13,0 dependents,"$20,800",$0,Yes
+Capitol Desk,Online,Self-employed,2022 TY,"$17,890",Standard,"$95,400","$5,960",Married Joint,16-page,5.50%,Audit-ready,2-year amend,Yes,No,17922.2,3 stars,16,18,1 dependent,"$27,700","$1,600",Yes
+River Desk,Preparer,Mixed,2020 TY,"$51,430",Standard,"$23,380","$18,700",Single,2-page,4.75%,Simple,2-year amend,No,No,13981.14,3 stars,6,10,0 dependents,"$13,850",$0,Yes
+Central Desk,Walk-in,Wages,2023 TY,"$46,990",Standard,"$1,530","$2,550",Married Joint,8-page,7.00%,Schedule-heavy,2-year amend,Yes,Yes,3588.13,4 stars,13,10,3 dependents,"$27,700",$0,Yes
+Prairie Desk,Preparer,Wages,Not Available,"$51,750",Itemized,"$1,690","$2,810",Married Joint,2-page,5.50%,Simple,On time,Yes,No,238.76,5 stars,1,6,0 dependents,"$52,810",$0,Yes
+Capitol Desk,Preparer,Royalty,2022 TY,"$4,820",Standard,"$9,650","$33,760",Married Joint,2-page,0.00%,Simple,No filing yet,Yes,No,216.44,4 stars,4,5,0 dependents,"$27,700",$200,No
+Harbor Desk,Online,Mixed,2023 TY,"$26,490",Itemized,"$12,040","$9,630",Married Joint,2-page,0.00%,Simple,On time,No,No,0.0,4 stars,10,5,2 dependents,"$49,980",$0,No
+Central Desk,Online,Pension,2020 TY,"$26,600",Standard,$0,"$4,690",Married Joint,2-page,5.50%,Simple,On time,No,No,0.0,4 stars,1,3,2 dependents,"$27,700","$3,200",Yes
+Central Desk,Preparer,Mixed,2019 TY,"$32,700",Standard,"$14,860","$11,890",Single,8-page,4.75%,Schedule-heavy,On time,Yes,No,6493.56,5 stars,6,11,0 dependents,"$13,850",$0,Yes
+North Desk,Online,Contract,2023 TY,"$13,310",Standard,"$22,820","$1,900",Single,2-page,6.20%,Simple,On time,Yes,No,3486.04,5 stars,4,4,1 dependent,"$13,850","$1,600",Yes
+North Desk,Online,Wages,2023 TY,"$22,510",Standard,$730,"$1,220",Single,2-page,0.00%,Simple,On time,Yes,No,644.95,5 stars,1,2,0 dependents,"$13,850",$0,No
+Delta Desk,Walk-in,Wages,2023 TY,"$61,880",Standard,"$2,020","$3,360",Single,2-page,0.00%,Simple,2-year amend,Yes,No,6654.21,4 stars,7,7,0 dependents,"$13,850",$0,No
+Central Desk,Online,Contract,2019 TY,"$25,750",Standard,"$44,140","$3,680",Single,2-page,4.75%,Simple,No filing yet,Yes,No,10722.01,4 stars,8,8,1 dependent,"$13,850",$0,Yes
+Central Desk,Online,Contract,2023 TY,"$40,120",Standard,"$68,770","$5,730",Married Separate,2-page,5.50%,Simple,On time,Yes,No,23856.47,5 stars,7,12,0 dependents,"$13,850",$0,Yes
+Capitol Desk,Online,Wages,2021 TY,"$42,280",Standard,"$1,380","$2,300",Married Joint,16-page,7.00%,Audit-ready,On time,Yes,No,0.0,4 stars,8,10,1 dependent,"$27,700","$1,600",Yes
+Highland Desk,Preparer,Wages,2021 TY,"$63,580",Standard,"$2,070","$3,460",Single,2-page,6.20%,Simple,On time,Yes,No,10660.06,5 stars,1,7,0 dependents,"$13,850",$0,Yes
+Delta Desk,Online,Mixed,2020 TY,"$48,060",Itemized,"$21,850","$17,480",Married Joint,2-page,4.75%,Simple,On time,Yes,No,931.82,5 stars,3,9,1 dependent,"$61,240","$1,600",Yes
+Capitol Desk,Preparer,Wages,Not Available,"$51,440",Standard,"$1,680","$2,800",Married Separate,2-page,6.20%,Simple,On time,Yes,No,5486.66,5 stars,1,6,2 dependents,"$13,850",$0,Yes
+Central Desk,Online,Wages,2019 TY,"$73,470",Standard,"$2,400","$3,990",Single,2-page,0.00%,Simple,On time,Yes,No,9196.62,5 stars,0,8,0 dependents,"$13,850",$0,No
+Central Desk,Online,Contract,2023 TY,"$31,050",Standard,"$53,220","$4,440",Head of Household,2-page,5.50%,Simple,On time,Yes,No,13950.81,5 stars,4,9,0 dependents,"$20,800",$0,Yes
+Delta Desk,Online,Wages,2023 TY,"$64,270",Itemized,"$2,100","$3,490",Head of Household,8-page,7.00%,Schedule-heavy,No filing yet,Yes,No,7570.48,4 stars,7,12,1 dependent,"$24,350",$0,Yes
+Capitol Desk,Online,Self-employed,2023 TY,"$9,270",Standard,"$49,440","$3,090",Married Joint,2-page,4.75%,Simple,No filing yet,Yes,No,1543.87,4 stars,9,6,2 dependents,"$27,700","$3,200",Yes
+Delta Desk,Preparer,Wages,2023 TY,"$49,150",Standard,"$1,600","$2,670",Married Joint,8-page,7.00%,Schedule-heavy,On time,No,No,3645.72,4 stars,0,10,1 dependent,"$27,700","$1,600",Yes
+North Desk,Online,Wages,2023 TY,"$26,840",Standard,$880,"$1,460",Single,2-page,3.00%,Simple,No filing yet,Yes,Yes,0.0,4 stars,3,3,2 dependents,"$13,850","$3,600",Yes
+Prairie Desk,Online,Self-employed,2020 TY,"$6,300",Itemized,"$33,590","$2,100",Head of Household,2-page,0.00%,Simple,On time,No,No,0.0,4 stars,5,4,0 dependents,"$44,650",$0,No
+River Desk,Online,Wages,2019 TY,"$43,310",Standard,"$1,410","$2,350",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,No,2245.5,5 stars,4,10,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Self-employed,2022 TY,"$4,580",Standard,"$24,430","$1,530",Head of Household,8-page,7.00%,Schedule-heavy,On time,Yes,No,849.0,5 stars,9,8,1 dependent,"$20,800",$0,Yes
+River Desk,Online,Wages,2021 TY,"$66,750",Standard,"$2,180","$3,630",Married Joint,16-page,3.00%,Audit-ready,On time,Yes,No,5191.14,4 stars,7,13,0 dependents,"$27,700",$800,Yes
+River Desk,Online,Contract,2020 TY,"$35,180",Itemized,"$60,300","$5,030",Single,2-page,6.20%,Simple,On time,Yes,Yes,12224.75,5 stars,11,11,2 dependents,"$22,240","$3,600",Yes
+North Desk,Walk-in,Investment,2020 TY,"$10,160",Standard,"$5,080","$35,550",Single,16-page,0.00%,Audit-ready,On time,No,Yes,2498.25,3 stars,2,10,0 dependents,"$13,850",$0,No
+Central Desk,Online,Pension,2021 TY,"$44,650",Standard,$0,"$7,880",Married Joint,8-page,6.20%,Schedule-heavy,On time,No,No,5100.68,4 stars,4,10,0 dependents,"$27,700",$0,Yes
+Prairie Desk,Preparer,Wages,2019 TY,"$34,210",Standard,"$1,120","$1,860",Married Joint,8-page,5.50%,Schedule-heavy,2-year amend,Yes,No,931.98,4 stars,4,9,1 dependent,"$27,700",$0,Yes
+Harbor Desk,Preparer,Wages,2019 TY,"$50,310",Standard,"$1,640","$2,730",Single,8-page,0.00%,Schedule-heavy,On time,Yes,No,2269.81,5 stars,0,11,1 dependent,"$13,850","$1,600",No
+Central Desk,Online,Wages,2023 TY,"$41,800",Standard,"$1,360","$2,270",Married Separate,16-page,5.50%,Audit-ready,On time,Yes,Yes,5833.02,4 stars,11,10,1 dependent,"$13,850",$0,Yes
+Central Desk,Preparer,Mixed,2021 TY,"$52,830",Standard,"$24,010","$19,210",Head of Household,2-page,5.50%,Simple,3-year amend,No,No,12394.35,3 stars,10,10,1 dependent,"$20,800","$2,400",Yes
+Central Desk,Walk-in,Wages,Not Available,"$42,050",Standard,"$1,370","$2,290",Married Joint,8-page,4.75%,Schedule-heavy,On time,No,No,0.0,4 stars,7,10,3 dependents,"$27,700","$4,800",Yes
+Prairie Desk,Preparer,Wages,Not Available,"$79,380",Standard,"$2,590","$4,310",Married Joint,8-page,3.00%,Schedule-heavy,On time,Yes,No,8297.58,5 stars,3,14,2 dependents,"$27,700",$0,Yes
+Capitol Desk,Walk-in,Wages,2020 TY,"$51,610",Itemized,"$1,680","$2,810",Single,8-page,0.00%,Schedule-heavy,2-year amend,No,Yes,945.8,3 stars,0,11,2 dependents,"$17,100","$3,200",No
+North Desk,Preparer,Wages,2023 TY,"$42,700",Standard,"$1,390","$2,320",Married Separate,8-page,7.00%,Schedule-heavy,On time,No,Yes,5099.64,4 stars,10,10,1 dependent,"$13,850",$0,Yes
+Delta Desk,Online,Wages,2022 TY,"$29,370",Itemized,$960,"$1,600",Single,2-page,5.50%,Simple,On time,Yes,No,0.0,5 stars,7,3,1 dependent,"$23,560","$1,600",Yes
+Prairie Desk,Walk-in,Wages,2023 TY,"$62,630",Standard,"$2,040","$3,400",Head of Household,2-page,6.20%,Simple,On time,Yes,No,6410.51,5 stars,8,7,1 dependent,"$20,800","$1,600",Yes
+Harbor Desk,Online,Wages,2020 TY,"$76,810",Itemized,"$2,500","$4,170",Single,2-page,5.50%,Simple,On time,No,No,10144.69,4 stars,6,9,1 dependent,"$23,390","$1,600",Yes
+Prairie Desk,Preparer,Self-employed,2020 TY,"$12,130",Standard,"$64,670","$4,040",Married Joint,8-page,6.20%,Schedule-heavy,No filing yet,Yes,No,10795.7,4 stars,7,13,0 dependents,"$27,700",$200,Yes
+North Desk,Preparer,Wages,2019 TY,"$106,470",Standard,"$3,470","$5,790",Single,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,14377.12,5 stars,5,17,1 dependent,"$13,850","$1,800",No
+Delta Desk,Walk-in,Wages,2022 TY,"$88,610",Standard,"$2,890","$4,820",Single,8-page,4.75%,Schedule-heavy,On time,No,No,16999.38,4 stars,9,15,0 dependents,"$13,850",$0,Yes
+River Desk,Walk-in,Mixed,Not Available,"$37,830",Standard,"$17,190","$13,750",Married Separate,8-page,5.50%,Schedule-heavy,No filing yet,Yes,No,9343.88,4 stars,4,12,0 dependents,"$13,850",$0,Yes
+River Desk,Online,Investment,2023 TY,"$16,290",Standard,"$8,150","$57,020",Married Joint,2-page,0.00%,Simple,3-year amend,No,No,0.0,3 stars,4,9,2 dependents,"$27,700","$3,200",No
+North Desk,Preparer,Wages,2023 TY,"$67,410",Standard,"$2,200","$3,660",Married Joint,2-page,0.00%,Simple,On time,Yes,No,4936.13,5 stars,3,8,0 dependents,"$27,700",$0,No
+Prairie Desk,Online,Mixed,Not Available,"$29,070",Itemized,"$13,210","$10,570",Qualifying Widow,8-page,5.50%,Schedule-heavy,On time,Yes,No,0.0,5 stars,6,10,1 dependent,"$40,840","$1,600",Yes
+North Desk,Preparer,Farm,2023 TY,"$23,330",Standard,"$65,320","$4,670",Qualifying Widow,8-page,6.20%,Schedule-heavy,2-year amend,No,No,11123.92,3 stars,13,15,1 dependent,"$27,700","$1,800",Yes
+Harbor Desk,Preparer,Mixed,2019 TY,"$48,870",Standard,"$22,210","$17,770",Head of Household,8-page,5.50%,Schedule-heavy,On time,Yes,No,12434.17,5 stars,11,14,0 dependents,"$20,800",$400,Yes
+North Desk,Online,Contract,2023 TY,"$25,960",Standard,"$44,510","$3,710",Single,8-page,0.00%,Schedule-heavy,On time,Yes,No,7647.56,5 stars,6,13,3 dependents,"$13,850",$0,No
+Capitol Desk,Preparer,Investment,2021 TY,"$26,740",Itemized,"$13,370","$93,610",Married Joint,16-page,7.00%,Audit-ready,On time,Yes,No,10303.49,4 stars,2,19,0 dependents,"$39,540",$800,Yes
+Harbor Desk,Online,Wages,2019 TY,"$95,080",Standard,"$3,100","$5,170",Head of Household,2-page,0.00%,Simple,No filing yet,Yes,Yes,7480.74,4 stars,15,11,3 dependents,"$20,800","$4,800",No
+Prairie Desk,Online,Mixed,2022 TY,"$45,720",Standard,"$20,780","$16,630",Single,8-page,3.00%,Schedule-heavy,On time,Yes,No,8826.04,5 stars,3,14,2 dependents,"$13,850",$800,Yes
+River Desk,Walk-in,Self-employed,Not Available,"$10,040",Itemized,"$53,540","$3,350",Single,2-page,7.00%,Simple,On time,Yes,No,9383.2,5 stars,4,7,0 dependents,"$15,540",$0,Yes
+North Desk,Preparer,Royalty,2021 TY,"$14,540",Itemized,"$29,070","$101,760",Head of Household,2-page,6.20%,Simple,No filing yet,No,No,13574.18,3 stars,14,16,0 dependents,"$37,440",$0,Yes
+North Desk,Preparer,Mixed,2022 TY,"$58,860",Standard,"$26,760","$21,410",Married Joint,2-page,7.00%,Simple,On time,No,No,15634.14,4 stars,3,11,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Wages,2020 TY,"$49,950",Standard,"$1,630","$2,710",Married Joint,2-page,6.20%,Simple,On time,Yes,Yes,4522.41,5 stars,5,6,0 dependents,"$27,700",$0,Yes
+River Desk,Online,Mixed,2019 TY,"$42,990",Standard,"$19,540","$15,630",Qualifying Widow,2-page,5.50%,Simple,On time,Yes,No,7344.47,5 stars,11,8,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Online,Wages,2020 TY,"$61,350",Itemized,"$2,000","$3,330",Married Joint,8-page,3.00%,Schedule-heavy,2-year amend,Yes,No,0.0,4 stars,3,12,4 dependents,"$61,970","$6,400",Yes
+Harbor Desk,Online,Investment,2023 TY,"$23,360",Standard,"$11,680","$81,770",Married Joint,2-page,4.75%,Simple,On time,Yes,No,10953.19,5 stars,7,12,0 dependents,"$27,700",$0,Yes
+Prairie Desk,Online,Mixed,2023 TY,"$20,520",Standard,"$9,330","$7,460",Single,2-page,7.00%,Simple,On time,No,Yes,3739.9,4 stars,0,4,2 dependents,"$13,850",$0,Yes
+North Desk,Online,Self-employed,2020 TY,"$2,320",Standard,"$12,380",$770,Married Joint,2-page,6.20%,Simple,On time,Yes,Yes,0.0,5 stars,11,1,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Preparer,Pension,2021 TY,"$28,730",Standard,$0,"$5,070",Single,2-page,4.75%,Simple,On time,No,No,654.11,4 stars,5,3,4 dependents,"$13,850",$0,Yes
+Delta Desk,Online,Self-employed,2020 TY,"$5,440",Standard,"$29,020","$1,810",Married Separate,8-page,4.75%,Schedule-heavy,2-year amend,Yes,No,3423.47,4 stars,11,9,0 dependents,"$13,850",$0,Yes
+Capitol Desk,Preparer,Self-employed,2019 TY,"$7,170",Itemized,"$38,260","$2,390",Head of Household,2-page,3.00%,Simple,On time,Yes,No,1477.08,5 stars,6,5,1 dependent,"$30,140","$1,600",Yes
+River Desk,Walk-in,Investment,2022 TY,"$26,200",Standard,"$13,100","$91,700",Single,2-page,4.75%,Simple,On time,No,Yes,13926.03,4 stars,5,14,1 dependent,"$13,850","$1,600",Yes
+Prairie Desk,Online,Pension,2023 TY,"$38,500",Standard,$0,"$6,790",Single,16-page,6.20%,Audit-ready,No filing yet,Yes,No,5466.9,3 stars,8,10,0 dependents,"$13,850",$0,Yes
+North Desk,Preparer,Pension,2023 TY,"$43,470",Standard,$0,"$7,670",Head of Household,8-page,0.00%,Schedule-heavy,On time,No,Yes,0.0,4 stars,0,10,2 dependents,"$20,800","$3,200",No
+Harbor Desk,Online,Wages,2022 TY,"$30,010",Standard,$980,"$1,630",Single,8-page,4.75%,Schedule-heavy,On time,No,No,1563.34,4 stars,3,8,0 dependents,"$13,850",$0,Yes
+North Desk,Online,Mixed,2022 TY,"$35,280",Standard,"$16,040","$12,830",Married Joint,8-page,7.00%,Schedule-heavy,No filing yet,Yes,Yes,3995.36,4 stars,6,12,1 dependent,"$27,700","$1,600",Yes
+Highland Desk,Preparer,Wages,2020 TY,"$70,010",Standard,"$2,280","$3,800",Married Joint,2-page,5.50%,Simple,On time,Yes,No,6419.86,5 stars,4,8,1 dependent,"$27,700","$1,600",Yes
+Capitol Desk,Online,Pension,2020 TY,"$48,890",Itemized,$0,"$8,630",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,0.0,5 stars,3,11,1 dependent,"$48,860","$1,600",Yes
+River Desk,Online,Self-employed,Not Available,"$6,740",Standard,"$35,930","$2,250",Single,2-page,3.00%,Simple,On time,No,No,3814.2,4 stars,7,4,0 dependents,"$13,850",$0,Yes
+Prairie Desk,Walk-in,Mixed,2023 TY,"$45,570",Standard,"$20,710","$16,570",Married Joint,2-page,0.00%,Simple,On time,No,Yes,5234.64,4 stars,9,9,0 dependents,"$27,700",$200,No
+North Desk,Online,Wages,Not Available,"$105,590",Standard,"$3,440","$5,740",Single,2-page,3.00%,Simple,On time,Yes,No,19603.67,5 stars,10,12,0 dependents,"$13,850",$0,Yes
+Capitol Desk,Preparer,Wages,2023 TY,"$56,650",Standard,"$1,850","$3,080",Married Joint,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,3335.56,5 stars,11,11,0 dependents,"$27,700",$0,No
+Harbor Desk,Preparer,Self-employed,2023 TY,"$6,910",Standard,"$36,840","$2,300",Single,2-page,0.00%,Simple,No filing yet,Yes,No,3642.11,4 stars,11,5,0 dependents,"$13,850",$0,No
+Harbor Desk,Online,Wages,Not Available,"$53,200",Standard,"$1,730","$2,890",Married Joint,2-page,0.00%,Simple,2-year amend,Yes,No,0.0,4 stars,7,6,3 dependents,"$27,700","$4,800",No
+Capitol Desk,Preparer,Wages,2022 TY,"$59,080",Standard,"$1,930","$3,210",Married Joint,2-page,3.00%,Simple,No filing yet,No,Yes,5595.4,3 stars,12,7,1 dependent,"$27,700",$0,Yes
+Delta Desk,Online,Pension,2019 TY,"$38,740",Itemized,$0,"$6,840",Single,8-page,0.00%,Schedule-heavy,On time,No,Yes,0.0,4 stars,1,10,1 dependent,"$27,010","$1,600",No
+River Desk,Online,Investment,2019 TY,"$19,270",Standard,"$9,640","$67,460",Single,2-page,7.00%,Simple,On time,Yes,Yes,10204.94,5 stars,9,10,0 dependents,"$13,850",$0,Yes
+North Desk,Walk-in,Wages,2020 TY,"$25,170",Standard,$820,"$1,370",Single,2-page,0.00%,Simple,2-year amend,Yes,No,1935.32,4 stars,11,3,0 dependents,"$13,850",$0,No
+River Desk,Online,Wages,2020 TY,"$35,790",Standard,"$1,170","$1,940",Single,2-page,4.75%,Simple,On time,Yes,No,3348.47,5 stars,1,4,1 dependent,"$13,850",$0,Yes
+North Desk,Preparer,Farm,2021 TY,"$12,810",Itemized,"$35,850","$2,560",Single,8-page,6.20%,Schedule-heavy,No filing yet,Yes,Yes,3804.14,4 stars,5,10,0 dependents,"$26,440",$0,Yes
+Prairie Desk,Online,Self-employed,2023 TY,"$9,760",Standard,"$52,040","$3,250",Head of Household,2-page,0.00%,Simple,No filing yet,Yes,No,4895.3,4 stars,5,7,0 dependents,"$20,800",$0,No
+Capitol Desk,Online,Self-employed,2023 TY,"$7,590",Standard,"$40,490","$2,530",Married Joint,16-page,4.75%,Audit-ready,On time,No,No,3116.61,3 stars,4,10,1 dependent,"$27,700",$0,Yes
+Harbor Desk,Preparer,Wages,2022 TY,"$53,130",Standard,"$1,730","$2,890",Head of Household,2-page,6.20%,Simple,On time,Yes,No,4312.45,5 stars,0,6,1 dependent,"$20,800","$1,600",Yes
+North Desk,Preparer,Wages,2020 TY,"$58,390",Standard,"$1,900","$3,170",Qualifying Widow,2-page,5.50%,Simple,On time,Yes,No,0.0,5 stars,0,7,4 dependents,"$27,700","$6,400",Yes
+Harbor Desk,Online,Wages,2023 TY,"$76,680",Standard,"$2,500","$4,170",Single,2-page,3.00%,Simple,On time,Yes,No,11926.21,5 stars,4,9,0 dependents,"$13,850",$0,Yes
+Delta Desk,Preparer,Self-employed,2021 TY,"$10,110",Standard,"$53,940","$3,370",Married Joint,2-page,5.50%,Simple,On time,Yes,No,5983.8,5 stars,3,7,1 dependent,"$27,700",$0,Yes
+Central Desk,Online,Wages,2019 TY,"$65,850",Standard,"$2,150","$3,580",Head of Household,2-page,5.50%,Simple,On time,Yes,No,7689.09,5 stars,11,7,0 dependents,"$20,800",$0,Yes
+Capitol Desk,Online,Wages,2021 TY,"$45,080",Standard,"$1,470","$2,450",Married Joint,2-page,4.75%,Simple,No filing yet,No,Yes,3907.06,3 stars,3,5,0 dependents,"$27,700",$0,Yes
+River Desk,Preparer,Self-employed,2021 TY,"$13,740",Standard,"$73,280","$4,580",Married Joint,8-page,0.00%,Schedule-heavy,On time,Yes,No,7984.89,5 stars,3,15,2 dependents,"$27,700",$0,No
+Highland Desk,Preparer,Contract,2021 TY,"$27,130",Standard,"$46,510","$3,880",Married Joint,2-page,0.00%,Simple,On time,Yes,No,6287.92,5 stars,10,8,0 dependents,"$27,700",$0,No
+North Desk,Online,Investment,2023 TY,"$28,600",Itemized,"$14,300","$100,120",Single,2-page,6.20%,Simple,No filing yet,Yes,No,15922.47,4 stars,11,15,1 dependent,"$27,740",$800,Yes
+Delta Desk,Preparer,Mixed,2023 TY,"$54,670",Standard,"$24,850","$19,880",Married Joint,2-page,4.75%,Simple,No filing yet,Yes,Yes,13211.76,4 stars,2,11,0 dependents,"$27,700",$0,Yes
+Central Desk,Online,Mixed,2023 TY,"$52,610",Itemized,"$23,920","$19,130",Qualifying Widow,2-page,0.00%,Simple,2-year amend,Yes,No,5249.67,4 stars,4,10,0 dependents,"$45,290",$0,No
+Highland Desk,Walk-in,Mixed,2020 TY,"$41,280",Itemized,"$18,760","$15,010",Head of Household,2-page,4.75%,Simple,On time,Yes,Yes,5320.92,5 stars,1,8,3 dependents,"$31,630",$0,Yes
+River Desk,Preparer,Wages,2023 TY,"$62,450",Standard,"$2,040","$3,390",Single,2-page,7.00%,Simple,2-year amend,Yes,No,10098.67,4 stars,9,7,0 dependents,"$13,850",$0,Yes
+River Desk,Online,Mixed,2023 TY,"$60,450",Standard,"$27,480","$21,980",Married Joint,2-page,0.00%,Simple,No filing yet,No,Yes,6933.78,3 stars,7,12,2 dependents,"$27,700","$3,200",No
+Delta Desk,Online,Mixed,2020 TY,"$32,140",Standard,"$14,610","$11,690",Single,2-page,0.00%,Simple,No filing yet,Yes,No,4686.64,4 stars,4,6,0 dependents,"$13,850",$0,No
+North Desk,Walk-in,Mixed,2023 TY,"$32,530",Standard,"$14,790","$11,830",Head of Household,16-page,4.75%,Audit-ready,On time,Yes,No,3853.42,4 stars,0,11,3 dependents,"$20,800",$0,Yes
+Highland Desk,Walk-in,Contract,2022 TY,"$25,230",Standard,"$43,250","$3,600",Single,8-page,5.50%,Schedule-heavy,On time,Yes,Yes,11377.2,5 stars,2,13,0 dependents,"$13,850",$400,Yes
+Central Desk,Online,Royalty,2022 TY,"$9,940",Standard,"$19,890","$69,610",Head of Household,16-page,4.75%,Audit-ready,On time,No,Yes,9189.72,3 stars,7,16,0 dependents,"$20,800",$200,Yes
+Central Desk,Online,Wages,2020 TY,"$38,840",Standard,"$1,270","$2,110",Head of Household,2-page,6.20%,Simple,On time,Yes,Yes,0.0,5 stars,4,4,2 dependents,"$20,800","$3,200",Yes
+North Desk,Online,Wages,2022 TY,"$55,390",Itemized,"$1,810","$3,010",Single,8-page,0.00%,Schedule-heavy,On time,No,No,3631.38,4 stars,1,11,0 dependents,"$23,680",$0,No
+North Desk,Walk-in,Wages,2020 TY,"$54,960",Standard,"$1,790","$2,990",Single,2-page,4.75%,Simple,2-year amend,Yes,No,7286.78,4 stars,7,6,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Walk-in,Wages,2020 TY,"$11,040",Itemized,$360,$600,Head of Household,2-page,4.75%,Simple,On time,No,No,241.97,4 stars,7,1,4 dependents,"$39,640",$0,Yes
+Central Desk,Preparer,Wages,2020 TY,"$52,190",Itemized,"$1,700","$2,840",Single,8-page,4.75%,Schedule-heavy,2-year amend,Yes,No,3250.94,4 stars,7,11,1 dependent,"$26,400","$1,600",Yes
+Central Desk,Online,Wages,Not Available,"$53,570",Itemized,"$1,750","$2,910",Married Joint,2-page,4.75%,Simple,On time,Yes,No,295.07,5 stars,11,6,1 dependent,"$58,530",$0,Yes
+River Desk,Walk-in,Investment,2021 TY,"$17,930",Standard,"$8,970","$62,770",Head of Household,2-page,6.20%,Simple,No filing yet,Yes,No,6738.73,4 stars,14,9,1 dependent,"$20,800",$0,Yes
+River Desk,Online,Mixed,2021 TY,"$66,260",Standard,"$30,120","$24,100",Married Joint,8-page,3.00%,Schedule-heavy,On time,Yes,No,10523.3,5 stars,0,18,2 dependents,"$27,700","$3,200",Yes
+Central Desk,Online,Contract,2021 TY,"$11,540",Standard,"$19,770","$1,650",Married Joint,2-page,6.20%,Simple,On time,Yes,No,0.0,5 stars,10,3,2 dependents,"$27,700","$3,200",Yes
+Central Desk,Online,Wages,2023 TY,"$38,830",Standard,"$1,270","$2,110",Married Joint,2-page,0.00%,Simple,On time,Yes,Yes,218.68,5 stars,0,4,1 dependent,"$27,700","$1,600",No
+Harbor Desk,Online,Wages,2022 TY,"$11,040",Standard,$360,$600,Single,2-page,5.50%,Simple,2-year amend,Yes,No,50.64,4 stars,5,1,0 dependents,"$13,850",$0,Yes
+River Desk,Preparer,Wages,2023 TY,"$46,420",Itemized,"$1,510","$2,520",Qualifying Widow,2-page,4.75%,Simple,On time,Yes,No,1157.75,5 stars,10,5,0 dependents,"$46,560",$0,Yes
+Central Desk,Online,Wages,2021 TY,"$48,300",Standard,"$1,580","$2,630",Single,16-page,4.75%,Audit-ready,On time,Yes,No,4397.81,4 stars,11,10,1 dependent,"$13,850","$1,600",Yes
+North Desk,Online,Wages,2020 TY,"$45,780",Standard,"$1,490","$2,490",Single,2-page,0.00%,Simple,2-year amend,Yes,No,1015.37,4 stars,4,5,2 dependents,"$13,850","$3,200",No
+Central Desk,Preparer,Royalty,2022 TY,"$12,850",Standard,"$25,700","$89,970",Single,2-page,7.00%,Simple,On time,No,Yes,17002.46,4 stars,0,14,1 dependent,"$13,850","$1,600",Yes
+Central Desk,Online,Wages,2021 TY,"$76,040",Itemized,"$2,480","$4,130",Qualifying Widow,2-page,7.00%,Simple,On time,Yes,No,6198.7,5 stars,2,9,0 dependents,"$52,130",$0,Yes
+Harbor Desk,Online,Wages,2023 TY,"$58,760",Itemized,"$1,920","$3,190",Single,16-page,6.20%,Audit-ready,On time,Yes,Yes,5958.56,4 stars,3,12,0 dependents,"$25,920",$0,Yes
+Highland Desk,Online,Mixed,2023 TY,"$36,780",Standard,"$16,720","$13,380",Head of Household,8-page,6.20%,Schedule-heavy,On time,No,No,5201.93,4 stars,3,12,1 dependent,"$20,800","$1,600",Yes
+Highland Desk,Online,Mixed,2022 TY,"$59,830",Itemized,"$27,200","$21,760",Married Joint,2-page,0.00%,Simple,On time,Yes,Yes,1841.02,5 stars,5,12,2 dependents,"$58,650","$3,200",No
+Capitol Desk,Online,Mixed,Not Available,"$42,570",Standard,"$19,350","$15,480",Head of Household,16-page,4.75%,Audit-ready,On time,Yes,No,8802.83,4 stars,3,13,0 dependents,"$20,800",$0,Yes
+River Desk,Preparer,Wages,2022 TY,"$38,970",Standard,"$1,270","$2,120",Qualifying Widow,2-page,3.00%,Simple,On time,Yes,No,1871.02,5 stars,6,4,1 dependent,"$27,700",$0,Yes
+River Desk,Online,Pension,2021 TY,"$17,460",Itemized,$0,"$3,080",Head of Household,8-page,6.20%,Schedule-heavy,On time,Yes,Yes,0.0,5 stars,10,7,2 dependents,"$25,890",$0,Yes
+Central Desk,Online,Wages,2022 TY,"$47,300",Itemized,"$1,540","$2,570",Head of Household,2-page,3.00%,Simple,No filing yet,Yes,No,2338.87,4 stars,6,5,3 dependents,"$38,760",$0,Yes
+Capitol Desk,Preparer,Mixed,2019 TY,"$55,350",Standard,"$25,160","$20,130",Single,2-page,3.00%,Simple,3-year amend,Yes,Yes,14761.53,4 stars,7,11,0 dependents,"$13,850",$0,Yes
+Highland Desk,Online,Self-employed,2023 TY,"$22,940",Standard,"$122,360","$7,650",Married Separate,2-page,5.50%,Simple,On time,No,No,30568.32,4 stars,6,16,3 dependents,"$13,850",$0,Yes
+Central Desk,Preparer,Pension,2020 TY,"$41,640",Standard,$0,"$7,350",Married Joint,16-page,0.00%,Audit-ready,On time,Yes,No,188.21,4 stars,7,10,1 dependent,"$27,700","$1,600",No
+River Desk,Online,Wages,2021 TY,"$40,140",Standard,"$1,310","$2,180",Married Joint,16-page,5.50%,Audit-ready,On time,Yes,Yes,0.0,4 stars,10,9,2 dependents,"$27,700","$3,200",Yes
+Central Desk,Walk-in,Mixed,2022 TY,"$23,350",Standard,"$10,610","$8,490",Head of Household,2-page,3.00%,Simple,No filing yet,Yes,No,2163.93,4 stars,14,4,0 dependents,"$20,800",$0,Yes
+Highland Desk,Online,Wages,2019 TY,"$69,230",Standard,"$2,260","$3,760",Qualifying Widow,2-page,5.50%,Simple,On time,Yes,No,7511.98,5 stars,3,8,1 dependent,"$27,700","$1,600",Yes
+Capitol Desk,Preparer,Wages,2019 TY,"$18,080",Standard,$590,$980,Married Joint,2-page,6.20%,Simple,On time,No,No,0.0,4 stars,11,2,1 dependent,"$27,700",$0,Yes
+Prairie Desk,Preparer,Wages,2023 TY,"$69,190",Itemized,"$2,260","$3,760",Married Joint,2-page,5.50%,Simple,On time,Yes,No,5517.72,5 stars,9,8,0 dependents,"$34,680",$0,Yes
+Delta Desk,Preparer,Self-employed,2019 TY,"$15,070",Standard,"$80,350","$5,020",Married Joint,2-page,3.00%,Simple,On time,Yes,No,12556.83,5 stars,1,11,1 dependent,"$27,700",$0,Yes
+Highland Desk,Preparer,Wages,2022 TY,"$66,670",Standard,"$2,170","$3,620",Married Joint,2-page,0.00%,Simple,No filing yet,Yes,No,2630.22,4 stars,6,8,1 dependent,"$27,700","$1,600",No
+Highland Desk,Online,Self-employed,2021 TY,"$9,460",Standard,"$50,470","$3,150",Single,8-page,0.00%,Schedule-heavy,On time,No,Yes,5952.73,4 stars,1,12,1 dependent,"$13,850",$0,No
+Capitol Desk,Online,Wages,2021 TY,"$69,510",Standard,"$2,270","$3,780",Married Joint,2-page,0.00%,Simple,On time,Yes,Yes,4760.02,5 stars,5,8,0 dependents,"$27,700",$0,No
+Central Desk,Walk-in,Pension,2020 TY,"$43,120",Standard,$0,"$7,610",Single,16-page,5.50%,Audit-ready,On time,No,No,5012.72,3 stars,0,10,1 dependent,"$13,850",$800,Yes
+Prairie Desk,Walk-in,Pension,2023 TY,"$30,220",Itemized,$0,"$5,330",Single,2-page,4.75%,Simple,On time,Yes,No,1570.41,5 stars,3,3,0 dependents,"$17,300",$0,Yes
+Highland Desk,Online,Wages,Not Available,"$97,900",Itemized,"$3,190","$5,320",Married Separate,2-page,3.00%,Simple,On time,Yes,Yes,10378.27,5 stars,7,11,3 dependents,"$25,860","$4,800",Yes
+North Desk,Preparer,Wages,2020 TY,"$49,270",Standard,"$1,610","$2,680",Married Joint,2-page,3.00%,Simple,No filing yet,Yes,No,0.0,4 stars,5,5,4 dependents,"$27,700","$6,400",Yes
+North Desk,Preparer,Wages,Not Available,"$74,170",Standard,"$2,420","$4,030",Head of Household,2-page,7.00%,Simple,On time,Yes,No,11882.0,5 stars,0,8,0 dependents,"$20,800",$0,Yes
+Prairie Desk,Preparer,Pension,2022 TY,"$10,200",Standard,$0,"$1,800",Married Joint,8-page,0.00%,Schedule-heavy,On time,Yes,No,0.0,5 stars,4,6,0 dependents,"$27,700",$0,No
+North Desk,Walk-in,Wages,2023 TY,"$85,220",Standard,"$2,780","$4,630",Single,8-page,3.00%,Schedule-heavy,On time,Yes,No,13968.42,5 stars,6,15,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Preparer,Mixed,2023 TY,"$67,130",Itemized,"$30,520","$24,410",Single,2-page,4.75%,Simple,On time,Yes,No,16554.19,5 stars,9,13,1 dependent,"$30,290",$0,Yes
+Central Desk,Online,Mixed,2023 TY,"$43,390",Itemized,"$19,720","$15,780",Single,2-page,0.00%,Simple,2-year amend,Yes,No,1671.66,4 stars,4,8,2 dependents,"$24,680","$3,200",No
+Harbor Desk,Preparer,Investment,2023 TY,"$25,410",Itemized,"$12,710","$88,940",Qualifying Widow,8-page,7.00%,Schedule-heavy,On time,Yes,Yes,12233.45,5 stars,5,19,1 dependent,"$30,550","$1,600",Yes
+Central Desk,Online,Mixed,2022 TY,"$52,120",Itemized,"$23,690","$18,950",Single,2-page,0.00%,Simple,On time,Yes,Yes,8304.14,5 stars,2,10,0 dependents,"$27,610",$0,No
+Capitol Desk,Online,Mixed,2022 TY,"$32,290",Standard,"$14,680","$11,740",Married Joint,2-page,5.50%,Simple,On time,Yes,Yes,2834.99,5 stars,1,6,0 dependents,"$27,700",$0,Yes
+North Desk,Preparer,Royalty,2021 TY,"$10,500",Standard,"$21,000","$73,490",Head of Household,8-page,5.50%,Schedule-heavy,3-year amend,Yes,No,9718.0,4 stars,5,16,0 dependents,"$20,800",$0,Yes
+Prairie Desk,Preparer,Wages,2020 TY,"$39,190",Standard,"$1,280","$2,130",Qualifying Widow,2-page,6.20%,Simple,No filing yet,Yes,Yes,2199.53,4 stars,13,4,2 dependents,"$27,700",$0,Yes
+Prairie Desk,Online,Pension,2023 TY,"$32,520",Standard,$0,"$5,740",Single,2-page,5.50%,Simple,On time,No,No,1407.17,4 stars,11,4,1 dependent,"$13,850","$1,600",Yes
+Central Desk,Preparer,Wages,2019 TY,"$81,920",Standard,"$2,670","$4,450",Single,8-page,6.20%,Schedule-heavy,On time,Yes,Yes,14064.81,5 stars,7,14,1 dependent,"$13,850","$1,600",Yes
+North Desk,Online,Mixed,2021 TY,"$58,980",Itemized,"$26,810","$21,450",Single,16-page,4.75%,Audit-ready,No filing yet,Yes,No,17855.39,3 stars,6,16,0 dependents,"$18,910",$0,Yes
+River Desk,Online,Pension,2020 TY,"$31,190",Standard,$0,"$5,500",Single,2-page,4.75%,Simple,No filing yet,Yes,No,0.0,4 stars,16,4,3 dependents,"$13,850","$4,800",Yes
+North Desk,Preparer,Self-employed,2020 TY,"$6,690",Standard,"$35,670","$2,230",Single,2-page,5.50%,Simple,On time,No,No,5203.23,4 stars,5,4,0 dependents,"$13,850",$0,Yes
+Central Desk,Preparer,Self-employed,2023 TY,"$7,160",Standard,"$38,210","$2,390",Married Joint,8-page,5.50%,Schedule-heavy,No filing yet,Yes,No,2409.25,4 stars,10,10,2 dependents,"$27,700",$0,Yes
+Delta Desk,Online,Wages,2023 TY,"$73,220",Standard,"$2,390","$3,980",Head of Household,2-page,4.75%,Simple,On time,Yes,No,4737.68,5 stars,7,8,3 dependents,"$20,800","$4,800",Yes
+Delta Desk,Online,Wages,2022 TY,"$34,960",Standard,"$1,140","$1,900",Married Joint,2-page,3.00%,Simple,On time,Yes,No,0.0,5 stars,7,4,1 dependent,"$27,700","$1,600",Yes
+Capitol Desk,Preparer,Wages,2020 TY,"$64,920",Standard,"$2,120","$3,530",Married Joint,2-page,3.00%,Simple,On time,Yes,No,65.86,5 stars,5,7,3 dependents,"$27,700","$4,800",Yes
+Central Desk,Online,Mixed,2022 TY,"$55,220",Itemized,"$25,100","$20,080",Single,8-page,4.75%,Schedule-heavy,On time,No,Yes,16663.92,4 stars,5,16,0 dependents,"$15,460",$0,Yes
+River Desk,Walk-in,Mixed,2021 TY,"$41,440",Standard,"$18,840","$15,070",Head of Household,2-page,0.00%,Simple,On time,Yes,No,3601.45,5 stars,3,8,1 dependent,"$20,800","$2,400",No
+Capitol Desk,Online,Wages,2023 TY,"$79,340",Itemized,"$2,590","$4,310",Married Joint,2-page,4.75%,Simple,On time,Yes,No,7667.09,5 stars,8,9,0 dependents,"$37,290",$0,Yes
+Central Desk,Walk-in,Wages,2022 TY,"$50,320",Itemized,"$1,640","$2,730",Head of Household,2-page,0.00%,Simple,No filing yet,Yes,No,0.0,4 stars,13,6,1 dependent,"$44,130","$2,400",No
+River Desk,Online,Wages,2022 TY,"$52,320",Itemized,"$1,710","$2,840",Head of Household,2-page,5.50%,Simple,No filing yet,No,No,4649.62,3 stars,6,6,0 dependents,"$34,250",$0,Yes
+North Desk,Online,Wages,2022 TY,"$35,460",Standard,"$1,160","$1,930",Single,16-page,5.50%,Audit-ready,On time,No,Yes,4139.22,3 stars,8,9,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Online,Wages,Not Available,"$79,500",Standard,"$2,590","$4,320",Single,2-page,5.50%,Simple,On time,No,No,14418.23,4 stars,1,9,0 dependents,"$13,850",$400,Yes
+Highland Desk,Preparer,Pension,2023 TY,"$30,380",Standard,$0,"$5,360",Single,2-page,5.50%,Simple,On time,No,No,2736.94,4 stars,4,3,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Walk-in,Self-employed,2022 TY,"$12,540",Standard,"$66,870","$4,180",Married Joint,16-page,0.00%,Audit-ready,On time,No,Yes,7791.82,3 stars,11,14,1 dependent,"$27,700",$0,No
+Harbor Desk,Online,Wages,2022 TY,"$55,470",Itemized,"$1,810","$3,010",Head of Household,2-page,0.00%,Simple,On time,Yes,No,243.51,5 stars,8,6,1 dependent,"$43,100","$1,600",No
+Prairie Desk,Online,Self-employed,2019 TY,"$4,960",Standard,"$26,480","$1,650",Single,2-page,5.50%,Simple,No filing yet,Yes,No,2882.68,4 stars,8,3,0 dependents,"$13,850",$0,Yes
+Delta Desk,Online,Pension,Not Available,"$32,520",Standard,$0,"$5,740",Married Separate,2-page,6.20%,Simple,On time,Yes,Yes,0.0,5 stars,10,4,4 dependents,"$13,850","$6,400",Yes
+Highland Desk,Preparer,Wages,2021 TY,"$87,570",Itemized,"$2,860","$4,760",Married Joint,8-page,5.50%,Schedule-heavy,On time,Yes,No,75.51,5 stars,7,15,3 dependents,"$59,600","$4,800",Yes
+Prairie Desk,Online,Wages,2021 TY,"$61,490",Standard,"$2,010","$3,340",Single,8-page,5.50%,Schedule-heavy,No filing yet,Yes,No,9692.23,4 stars,8,12,0 dependents,"$13,850",$0,Yes
+Delta Desk,Walk-in,Wages,Not Available,"$34,760",Itemized,"$1,130","$1,890",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,3023.49,5 stars,5,9,0 dependents,"$22,960",$0,Yes
+North Desk,Online,Wages,2023 TY,"$63,780",Itemized,"$2,080","$3,470",Married Joint,2-page,5.50%,Simple,On time,Yes,Yes,263.14,5 stars,9,7,1 dependent,"$58,040","$1,600",Yes
+Central Desk,Preparer,Investment,2019 TY,"$18,080",Standard,"$9,040","$63,280",Married Joint,2-page,5.50%,Simple,On time,Yes,No,6289.07,5 stars,8,10,2 dependents,"$27,700",$0,Yes
+Central Desk,Preparer,Royalty,2019 TY,"$22,710",Itemized,"$45,410","$158,950",Married Joint,2-page,5.50%,Simple,2-year amend,Yes,No,27074.7,4 stars,11,25,0 dependents,"$54,940",$0,Yes
+North Desk,Online,Wages,2019 TY,"$63,340",Itemized,"$2,070","$3,440",Single,16-page,0.00%,Audit-ready,On time,Yes,No,2302.06,4 stars,1,12,2 dependents,"$16,600","$3,200",No
+Capitol Desk,Online,Investment,2022 TY,"$15,640",Standard,"$7,820","$54,750",Married Separate,2-page,0.00%,Simple,On time,Yes,No,5158.08,5 stars,9,8,0 dependents,"$13,850",$0,No
+Central Desk,Walk-in,Wages,2019 TY,"$88,390",Standard,"$2,880","$4,800",Single,8-page,4.75%,Schedule-heavy,On time,Yes,No,17691.09,5 stars,3,15,0 dependents,"$13,850",$0,Yes
+Central Desk,Online,Mixed,Not Available,"$12,520",Itemized,"$5,690","$4,550",Head of Household,8-page,4.75%,Schedule-heavy,On time,Yes,No,912.82,5 stars,4,7,2 dependents,"$24,800",$0,Yes
+North Desk,Preparer,Investment,Not Available,"$20,580",Itemized,"$10,290","$72,030",Single,2-page,6.20%,Simple,On time,Yes,Yes,6133.17,5 stars,1,11,1 dependent,"$30,700","$1,600",Yes
+Harbor Desk,Walk-in,Wages,2022 TY,"$101,080",Standard,"$3,300","$5,490",Single,2-page,4.75%,Simple,On time,Yes,No,20138.87,5 stars,2,12,2 dependents,"$13,850",$0,Yes
+Prairie Desk,Online,Wages,2022 TY,"$54,470",Standard,"$1,780","$2,960",Married Joint,2-page,3.00%,Simple,On time,Yes,Yes,5437.27,5 stars,1,6,0 dependents,"$27,700",$0,Yes
+North Desk,Walk-in,Mixed,2021 TY,"$14,300",Standard,"$6,500","$5,200",Married Joint,2-page,6.20%,Simple,No filing yet,Yes,No,0.0,4 stars,2,2,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Online,Royalty,2019 TY,"$6,540",Standard,"$13,070","$45,760",Married Joint,16-page,3.00%,Audit-ready,On time,Yes,No,2870.18,4 stars,0,12,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Preparer,Wages,2023 TY,"$89,160",Itemized,"$2,910","$4,850",Married Joint,2-page,6.20%,Simple,2-year amend,No,Yes,10818.17,3 stars,7,10,0 dependents,"$41,240",$0,Yes
+Highland Desk,Online,Wages,2020 TY,"$65,340",Standard,"$2,130","$3,550",Qualifying Widow,16-page,0.00%,Audit-ready,On time,No,No,4494.65,3 stars,9,12,0 dependents,"$27,700",$0,No
+River Desk,Online,Wages,2020 TY,"$38,520",Standard,"$1,260","$2,090",Married Joint,2-page,4.75%,Simple,No filing yet,Yes,Yes,416.61,4 stars,15,4,1 dependent,"$27,700",$0,Yes
+Highland Desk,Online,Mixed,2021 TY,"$31,590",Itemized,"$14,360","$11,490",Married Joint,2-page,4.75%,Simple,On time,Yes,No,0.0,5 stars,2,6,1 dependent,"$47,310","$1,600",Yes
+North Desk,Online,Mixed,2019 TY,"$33,660",Standard,"$15,300","$12,240",Married Joint,16-page,3.00%,Audit-ready,On time,Yes,No,2922.43,4 stars,5,11,1 dependent,"$27,700",$0,Yes
+Harbor Desk,Online,Investment,2022 TY,"$23,360",Itemized,"$11,680","$81,750",Single,8-page,0.00%,Schedule-heavy,No filing yet,Yes,No,7857.83,4 stars,11,17,0 dependents,"$30,150",$0,No
+Prairie Desk,Online,Investment,2023 TY,"$33,520",Standard,"$16,760","$117,310",Married Joint,2-page,3.00%,Simple,No filing yet,Yes,No,18202.98,4 stars,12,18,0 dependents,"$27,700",$0,Yes
+River Desk,Preparer,Contract,2023 TY,"$33,760",Standard,"$57,880","$4,820",Single,8-page,4.75%,Schedule-heavy,On time,No,No,15140.79,4 stars,10,15,1 dependent,"$13,850","$1,600",Yes
+River Desk,Online,Investment,2022 TY,"$24,340",Standard,"$12,170","$85,200",Married Joint,8-page,3.00%,Schedule-heavy,On time,No,No,9308.38,4 stars,5,18,0 dependents,"$27,700",$400,Yes
+River Desk,Online,Wages,2023 TY,"$27,640",Standard,$900,"$1,500",Single,8-page,6.20%,Schedule-heavy,On time,Yes,No,1152.69,5 stars,2,8,2 dependents,"$13,850",$0,Yes
+Capitol Desk,Online,Mixed,2022 TY,"$20,990",Standard,"$9,540","$7,630",Qualifying Widow,8-page,0.00%,Schedule-heavy,On time,Yes,No,501.29,5 stars,1,9,0 dependents,"$27,700",$200,No
+North Desk,Online,Wages,2023 TY,"$68,810",Itemized,"$2,240","$3,740",Married Joint,2-page,4.75%,Simple,On time,No,Yes,3177.12,4 stars,8,8,1 dependent,"$37,680","$1,600",Yes
+Central Desk,Online,Wages,2022 TY,"$27,330",Standard,$890,"$1,490",Head of Household,2-page,0.00%,Simple,No filing yet,Yes,No,180.29,4 stars,2,3,3 dependents,"$20,800",$0,No
+Highland Desk,Online,Contract,2021 TY,"$21,240",Standard,"$36,410","$3,030",Married Joint,2-page,7.00%,Simple,On time,No,No,3911.48,4 stars,5,6,1 dependent,"$27,700","$1,600",Yes
+Central Desk,Preparer,Self-employed,Not Available,"$12,290",Itemized,"$65,560","$4,100",Single,2-page,6.20%,Simple,On time,Yes,No,12342.64,5 stars,4,9,1 dependent,"$15,160","$1,600",Yes
+Prairie Desk,Preparer,Farm,2021 TY,"$4,900",Standard,"$13,720",$980,Head of Household,2-page,7.00%,Simple,On time,Yes,No,0.0,5 stars,11,2,1 dependent,"$20,800","$1,600",Yes
+Highland Desk,Preparer,Wages,2019 TY,"$34,420",Standard,"$1,120","$1,870",Married Joint,2-page,7.00%,Simple,3-year amend,No,No,438.87,3 stars,11,4,0 dependents,"$27,700",$400,Yes
+Capitol Desk,Online,Mixed,2021 TY,"$41,350",Standard,"$18,790","$15,040",Married Separate,2-page,3.00%,Simple,On time,No,No,8535.43,4 stars,5,8,1 dependent,"$13,850",$0,Yes
+Prairie Desk,Walk-in,Mixed,2021 TY,"$51,210",Standard,"$23,280","$18,620",Married Joint,2-page,5.50%,Simple,On time,Yes,No,4348.8,5 stars,6,10,3 dependents,"$27,700","$5,600",Yes
+Highland Desk,Preparer,Wages,2021 TY,"$80,480",Standard,"$2,620","$4,370",Married Joint,2-page,3.00%,Simple,On time,Yes,No,2489.69,5 stars,4,9,4 dependents,"$27,700","$6,400",Yes
+Prairie Desk,Preparer,Wages,2022 TY,"$70,440",Standard,"$2,300","$3,830",Head of Household,2-page,6.20%,Simple,On time,Yes,No,7634.88,5 stars,9,8,1 dependent,"$20,800","$1,600",Yes
+River Desk,Online,Mixed,2023 TY,"$44,120",Itemized,"$20,050","$16,040",Married Joint,2-page,4.75%,Simple,On time,Yes,Yes,3050.53,5 stars,3,8,0 dependents,"$52,610",$0,Yes
+Prairie Desk,Online,Wages,2021 TY,"$40,560",Standard,"$1,320","$2,200",Single,8-page,4.75%,Schedule-heavy,On time,No,No,4693.62,4 stars,8,9,2 dependents,"$13,850",$0,Yes
+Central Desk,Online,Contract,2022 TY,"$12,960",Itemized,"$22,210","$1,850",Married Joint,2-page,7.00%,Simple,On time,Yes,No,0.0,5 stars,10,4,1 dependent,"$59,200","$1,600",Yes
+Highland Desk,Online,Wages,2021 TY,"$45,760",Itemized,"$1,490","$2,490",Married Joint,2-page,6.20%,Simple,2-year amend,Yes,No,0.0,4 stars,2,5,0 dependents,"$50,110",$0,Yes
+Highland Desk,Preparer,Wages,2023 TY,"$66,090",Standard,"$2,160","$3,590",Qualifying Widow,2-page,7.00%,Simple,On time,Yes,Yes,7339.43,5 stars,2,7,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Investment,2020 TY,"$23,100",Standard,"$11,550","$80,850",Single,2-page,0.00%,Simple,On time,Yes,No,10592.17,5 stars,4,12,0 dependents,"$13,850",$0,No
+Central Desk,Online,Wages,2020 TY,"$11,040",Standard,$360,$600,Married Joint,2-page,3.00%,Simple,On time,No,Yes,0.0,4 stars,9,1,1 dependent,"$27,700","$2,000",Yes
+Prairie Desk,Online,Contract,2022 TY,"$15,750",Itemized,"$27,000","$2,250",Head of Household,2-page,3.00%,Simple,On time,Yes,Yes,0.0,5 stars,7,5,0 dependents,"$44,850",$0,Yes
+River Desk,Online,Self-employed,2023 TY,"$17,150",Itemized,"$91,490","$5,720",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,No,9394.1,5 stars,2,17,0 dependents,"$59,740",$0,Yes
+Harbor Desk,Online,Wages,2023 TY,"$58,790",Standard,"$1,920","$3,200",Married Separate,8-page,4.75%,Schedule-heavy,On time,No,No,9449.45,4 stars,4,12,0 dependents,"$13,850",$200,Yes
+Central Desk,Online,Self-employed,2022 TY,"$3,000",Itemized,"$15,990","$1,000",Married Joint,2-page,3.00%,Simple,On time,Yes,Yes,0.0,5 stars,7,2,3 dependents,"$41,260","$4,800",Yes
+Harbor Desk,Online,Self-employed,2023 TY,"$23,370",Standard,"$124,650","$7,790",Single,2-page,6.20%,Simple,On time,Yes,No,36590.98,5 stars,11,17,0 dependents,"$13,850",$0,Yes
+North Desk,Online,Investment,2022 TY,"$19,300",Itemized,"$9,650","$67,550",Married Separate,2-page,3.00%,Simple,On time,Yes,No,7095.16,5 stars,5,10,0 dependents,"$19,190",$200,Yes
+Delta Desk,Preparer,Pension,2019 TY,"$46,030",Standard,$0,"$8,120",Single,2-page,5.50%,Simple,On time,Yes,No,4573.76,5 stars,0,6,1 dependent,"$13,850","$1,600",Yes
+Central Desk,Walk-in,Self-employed,2020 TY,"$12,810",Standard,"$68,310","$4,270",Single,2-page,6.20%,Simple,On time,Yes,No,16284.62,5 stars,1,9,0 dependents,"$13,850",$0,Yes
+Central Desk,Walk-in,Mixed,2019 TY,"$36,830",Standard,"$16,740","$13,390",Married Joint,8-page,5.50%,Schedule-heavy,On time,Yes,No,430.1,5 stars,0,12,3 dependents,"$27,700","$4,800",Yes
+River Desk,Preparer,Wages,2021 TY,"$40,980",Standard,"$1,340","$2,230",Married Separate,2-page,4.75%,Simple,On time,Yes,No,3603.86,5 stars,1,4,3 dependents,"$13,850",$0,Yes
+North Desk,Online,Self-employed,2022 TY,"$22,110",Itemized,"$117,900","$7,370",Head of Household,8-page,3.00%,Schedule-heavy,On time,Yes,No,25948.11,5 stars,4,21,0 dependents,"$24,830",$0,Yes
+Harbor Desk,Preparer,Farm,2021 TY,"$22,030",Itemized,"$61,670","$4,410",Single,2-page,0.00%,Simple,On time,Yes,No,7408.44,5 stars,3,9,1 dependent,"$21,240","$2,000",No
+Capitol Desk,Walk-in,Mixed,2022 TY,"$56,460",Standard,"$25,660","$20,530",Single,2-page,6.20%,Simple,2-year amend,Yes,Yes,18567.03,4 stars,4,11,0 dependents,"$13,850",$0,Yes
+River Desk,Online,Self-employed,2022 TY,"$13,760",Itemized,"$73,400","$4,590",Head of Household,8-page,4.75%,Schedule-heavy,On time,Yes,No,12414.34,5 stars,9,15,0 dependents,"$25,200",$0,Yes
+Delta Desk,Online,Mixed,2023 TY,"$26,350",Itemized,"$11,980","$9,580",Single,2-page,0.00%,Simple,On time,Yes,No,2768.2,5 stars,5,5,0 dependents,"$23,840",$0,No
+River Desk,Preparer,Investment,2023 TY,"$32,890",Itemized,"$16,440","$115,100",Single,2-page,7.00%,Simple,3-year amend,Yes,Yes,23314.88,4 stars,10,18,0 dependents,"$21,020",$0,Yes
+Central Desk,Online,Royalty,2021 TY,"$4,660",Itemized,"$9,320","$32,610",Single,2-page,5.50%,Simple,3-year amend,Yes,No,2300.6,4 stars,8,5,0 dependents,"$17,260",$0,Yes
+Capitol Desk,Preparer,Wages,2021 TY,"$63,290",Itemized,"$2,060","$3,440",Married Joint,8-page,6.20%,Schedule-heavy,On time,Yes,Yes,3565.55,5 stars,2,12,1 dependent,"$30,080","$1,600",Yes
+Prairie Desk,Online,Wages,2022 TY,"$20,840",Itemized,$680,"$1,130",Head of Household,2-page,4.75%,Simple,On time,Yes,No,0.0,5 stars,11,2,0 dependents,"$28,380",$0,Yes
+Capitol Desk,Online,Mixed,2022 TY,"$9,230",Standard,"$4,190","$3,350",Married Separate,16-page,7.00%,Audit-ready,No filing yet,Yes,No,0.0,3 stars,9,6,0 dependents,"$13,850",$0,Yes
+Delta Desk,Preparer,Mixed,2021 TY,"$48,150",Standard,"$21,890","$17,510",Married Joint,16-page,3.00%,Audit-ready,3-year amend,Yes,No,6213.27,3 stars,15,14,1 dependent,"$27,700","$1,600",Yes
+Capitol Desk,Preparer,Mixed,2021 TY,"$29,550",Standard,"$13,430","$10,750",Single,8-page,3.00%,Schedule-heavy,No filing yet,Yes,No,4155.17,4 stars,5,10,1 dependent,"$13,850",$0,Yes
+Prairie Desk,Preparer,Wages,2023 TY,"$13,120",Standard,$430,$710,Single,2-page,6.20%,Simple,On time,Yes,No,818.43,5 stars,10,1,0 dependents,"$13,850",$0,Yes
+North Desk,Preparer,Wages,2023 TY,"$68,980",Standard,"$2,250","$3,750",Married Joint,8-page,6.20%,Schedule-heavy,On time,Yes,No,7362.27,5 stars,8,13,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Walk-in,Mixed,2020 TY,"$77,880",Standard,"$35,400","$28,320",Single,2-page,4.75%,Simple,3-year amend,No,Yes,26675.38,3 stars,2,15,0 dependents,"$13,850",$0,Yes
+Central Desk,Online,Mixed,2022 TY,"$65,830",Standard,"$29,920","$23,940",Single,8-page,0.00%,Schedule-heavy,On time,Yes,No,16915.22,5 stars,9,18,0 dependents,"$13,850",$0,No
+Highland Desk,Walk-in,Self-employed,2023 TY,"$9,260",Standard,"$49,390","$3,090",Single,2-page,3.00%,Simple,On time,Yes,No,4060.43,5 stars,8,6,2 dependents,"$13,850","$3,200",Yes
+River Desk,Online,Self-employed,2019 TY,"$10,700",Standard,"$57,050","$3,570",Single,2-page,6.20%,Simple,No filing yet,Yes,Yes,4833.53,4 stars,10,7,3 dependents,"$13,850","$4,800",Yes
+Delta Desk,Online,Self-employed,2023 TY,"$15,440",Standard,"$82,370","$5,150",Married Joint,2-page,6.20%,Simple,On time,Yes,Yes,15924.62,5 stars,2,11,0 dependents,"$27,700",$0,Yes
+Delta Desk,Preparer,Investment,2020 TY,"$31,270",Itemized,"$15,640","$109,450",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,No,13967.23,5 stars,10,22,0 dependents,"$45,960",$0,Yes
+Harbor Desk,Online,Self-employed,2022 TY,"$8,790",Standard,"$46,910","$2,930",Single,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,5437.98,5 stars,9,11,2 dependents,"$13,850",$0,No
+Capitol Desk,Walk-in,Mixed,2022 TY,"$43,460",Itemized,"$19,760","$15,810",Married Joint,2-page,5.50%,Simple,On time,Yes,No,4529.24,5 stars,4,8,1 dependent,"$44,400",$0,Yes
+Capitol Desk,Online,Self-employed,2019 TY,"$12,270",Standard,"$65,460","$4,090",Married Separate,2-page,5.50%,Simple,On time,No,Yes,13004.99,4 stars,4,9,0 dependents,"$13,850",$0,Yes
+Central Desk,Online,Wages,2023 TY,"$69,270",Itemized,"$2,260","$3,760",Married Separate,8-page,4.75%,Schedule-heavy,On time,Yes,No,7598.99,5 stars,3,13,0 dependents,"$30,370",$0,Yes
+North Desk,Online,Wages,2022 TY,"$54,100",Itemized,"$1,760","$2,940",Head of Household,8-page,5.50%,Schedule-heavy,On time,Yes,No,4043.45,5 stars,5,11,1 dependent,"$25,200",$0,Yes
+North Desk,Preparer,Mixed,Not Available,"$40,920",Standard,"$18,600","$14,880",Married Joint,8-page,7.00%,Schedule-heavy,On time,Yes,No,4963.49,5 stars,10,13,1 dependent,"$27,700","$1,600",Yes
+Capitol Desk,Preparer,Pension,2021 TY,"$59,570",Standard,$0,"$10,510",Head of Household,2-page,3.00%,Simple,On time,Yes,No,7341.12,5 stars,10,7,0 dependents,"$20,800",$0,Yes
+Highland Desk,Online,Self-employed,2023 TY,"$17,180",Standard,"$91,630","$5,730",Single,8-page,5.50%,Schedule-heavy,2-year amend,Yes,Yes,23648.15,4 stars,5,17,0 dependents,"$13,850",$0,Yes
+Delta Desk,Online,Wages,Not Available,"$67,580",Standard,"$2,200","$3,670",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,11378.06,5 stars,1,13,0 dependents,"$13,850",$200,Yes
+Central Desk,Online,Mixed,2022 TY,"$71,270",Standard,"$32,390","$25,910",Single,2-page,5.50%,Simple,3-year amend,Yes,No,24210.78,4 stars,4,14,0 dependents,"$13,850",$0,Yes
+Delta Desk,Online,Wages,2021 TY,"$48,510",Standard,"$1,580","$2,640",Married Joint,2-page,6.20%,Simple,On time,Yes,No,1430.21,5 stars,7,5,1 dependent,"$27,700","$1,600",Yes
+Central Desk,Preparer,Self-employed,2023 TY,"$19,410",Standard,"$103,540","$6,470",Married Joint,2-page,5.50%,Simple,On time,Yes,No,20321.73,5 stars,3,14,1 dependent,"$27,700","$1,600",Yes
+Capitol Desk,Preparer,Pension,2022 TY,"$48,180",Standard,$0,"$8,500",Single,2-page,4.75%,Simple,No filing yet,Yes,Yes,4384.91,4 stars,14,6,1 dependent,"$13,850","$1,600",Yes
+North Desk,Online,Mixed,Not Available,"$96,870",Itemized,"$44,030","$35,230",Married Separate,8-page,0.00%,Schedule-heavy,No filing yet,Yes,No,27846.72,4 stars,14,24,0 dependents,"$18,870",$0,No
+Highland Desk,Online,Mixed,2022 TY,"$23,220",Standard,"$10,560","$8,450",Single,2-page,5.50%,Simple,On time,Yes,No,3920.79,5 stars,2,4,0 dependents,"$13,850",$0,Yes
+Capitol Desk,Preparer,Wages,2021 TY,"$41,820",Standard,"$1,360","$2,270",Single,2-page,0.00%,Simple,On time,Yes,Yes,813.95,5 stars,8,5,2 dependents,"$13,850","$3,200",No
+Delta Desk,Online,Mixed,2020 TY,"$49,810",Standard,"$22,640","$18,110",Single,2-page,0.00%,Simple,On time,Yes,No,8854.45,5 stars,9,10,1 dependent,"$13,850","$1,600",No
+Prairie Desk,Online,Pension,2023 TY,"$46,200",Standard,$0,"$8,150",Married Joint,8-page,4.75%,Schedule-heavy,On time,No,Yes,3676.29,4 stars,11,11,0 dependents,"$27,700",$0,Yes
+North Desk,Preparer,Self-employed,Not Available,"$21,180",Itemized,"$112,960","$7,060",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,25126.62,5 stars,8,20,0 dependents,"$27,870",$0,Yes
+Central Desk,Online,Mixed,2019 TY,"$31,870",Standard,"$14,490","$11,590",Single,2-page,7.00%,Simple,On time,No,No,2579.26,4 stars,4,6,2 dependents,"$13,850","$3,200",Yes
+North Desk,Online,Wages,2023 TY,"$77,020",Standard,"$2,510","$4,190",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,12061.28,5 stars,11,14,2 dependents,"$13,850",$0,Yes
+North Desk,Online,Wages,Not Available,"$82,710",Standard,"$2,700","$4,490",Married Separate,2-page,6.20%,Simple,No filing yet,Yes,Yes,14538.36,4 stars,3,9,2 dependents,"$13,850",$0,Yes
+River Desk,Preparer,Wages,2019 TY,"$72,600",Standard,"$2,370","$3,950",Head of Household,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,8328.11,5 stars,9,13,1 dependent,"$20,800","$1,600",Yes
+Capitol Desk,Online,Wages,2020 TY,"$35,820",Standard,"$1,170","$1,950",Married Joint,8-page,4.75%,Schedule-heavy,No filing yet,Yes,No,0.0,4 stars,9,9,1 dependent,"$27,700","$2,400",Yes
+Capitol Desk,Preparer,Wages,2023 TY,"$88,120",Standard,"$2,870","$4,790",Married Joint,2-page,7.00%,Simple,No filing yet,Yes,Yes,13738.71,4 stars,15,10,1 dependent,"$27,700",$0,Yes
+Prairie Desk,Online,Contract,2023 TY,"$35,500",Standard,"$60,850","$5,070",Head of Household,16-page,4.75%,Audit-ready,3-year amend,Yes,No,16753.17,3 stars,9,16,0 dependents,"$20,800",$0,Yes
+Capitol Desk,Online,Mixed,2019 TY,"$52,790",Itemized,"$24,000","$19,200",Qualifying Widow,2-page,6.20%,Simple,On time,No,No,9071.33,4 stars,7,10,1 dependent,"$40,500",$0,Yes
+Capitol Desk,Preparer,Wages,2023 TY,"$61,550",Standard,"$2,010","$3,350",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,No,6128.39,5 stars,2,12,1 dependent,"$27,700",$800,Yes
+North Desk,Online,Wages,2022 TY,"$62,030",Standard,"$2,020","$3,370",Head of Household,2-page,3.00%,Simple,On time,Yes,No,6115.02,5 stars,2,7,0 dependents,"$20,800",$800,Yes
+Harbor Desk,Online,Wages,2023 TY,"$55,300",Standard,"$1,800","$3,010",Head of Household,8-page,5.50%,Schedule-heavy,On time,Yes,Yes,876.08,5 stars,11,11,3 dependents,"$20,800","$4,800",Yes
+River Desk,Online,Investment,2023 TY,"$26,260",Itemized,"$13,130","$91,920",Married Separate,2-page,3.00%,Simple,On time,No,Yes,14639.16,4 stars,9,14,0 dependents,"$18,850",$0,Yes
+Prairie Desk,Preparer,Wages,2023 TY,"$57,730",Standard,"$1,880","$3,140",Married Joint,2-page,0.00%,Simple,No filing yet,Yes,No,4703.6,4 stars,9,6,0 dependents,"$27,700",$0,No
+North Desk,Online,Investment,2022 TY,"$10,780",Standard,"$5,390","$37,710",Single,2-page,3.00%,Simple,On time,Yes,No,1605.96,5 stars,10,5,0 dependents,"$13,850",$400,Yes
+Highland Desk,Preparer,Investment,2021 TY,"$8,690",Standard,"$4,350","$30,430",Single,16-page,3.00%,Audit-ready,On time,Yes,No,0.0,4 stars,9,9,2 dependents,"$13,850","$3,200",Yes
+River Desk,Online,Wages,2022 TY,"$40,440",Standard,"$1,320","$2,200",Married Joint,2-page,4.75%,Simple,No filing yet,Yes,No,0.0,4 stars,9,4,3 dependents,"$27,700","$4,800",Yes
+North Desk,Online,Self-employed,2020 TY,"$11,850",Standard,"$63,200","$3,950",Married Joint,2-page,6.20%,Simple,No filing yet,Yes,No,6950.81,4 stars,13,8,1 dependent,"$27,700","$1,600",Yes
+Central Desk,Online,Farm,2023 TY,"$13,780",Standard,"$38,600","$2,760",Married Joint,2-page,4.75%,Simple,On time,Yes,No,0.0,5 stars,9,6,3 dependents,"$27,700","$4,800",Yes
+Prairie Desk,Online,Wages,2020 TY,"$61,790",Itemized,"$2,020","$3,360",Married Joint,8-page,6.20%,Schedule-heavy,On time,No,No,0.0,4 stars,5,12,2 dependents,"$48,900","$3,200",Yes
+River Desk,Preparer,Wages,2022 TY,"$68,100",Itemized,"$2,220","$3,700",Married Joint,2-page,5.50%,Simple,On time,Yes,No,0.0,5 stars,0,8,2 dependents,"$51,920","$3,200",Yes
+Harbor Desk,Online,Contract,2019 TY,"$17,300",Standard,"$29,660","$2,470",Head of Household,2-page,0.00%,Simple,No filing yet,Yes,No,2872.69,4 stars,13,5,2 dependents,"$20,800",$0,No
+Prairie Desk,Walk-in,Pension,2021 TY,"$60,730",Itemized,$0,"$10,720",Single,16-page,3.00%,Audit-ready,On time,Yes,No,5923.46,4 stars,4,12,0 dependents,"$27,390",$0,Yes
+Central Desk,Online,Mixed,2021 TY,"$38,480",Standard,"$17,490","$13,990",Single,2-page,7.00%,Simple,On time,Yes,No,6105.07,5 stars,4,7,2 dependents,"$13,850","$3,200",Yes
+Prairie Desk,Online,Mixed,2023 TY,"$35,750",Standard,"$16,250","$13,000",Married Separate,2-page,5.50%,Simple,On time,Yes,No,5990.01,5 stars,8,7,1 dependent,"$13,850","$1,600",Yes
+Harbor Desk,Online,Wages,2023 TY,"$67,690",Itemized,"$2,210","$3,680",Head of Household,8-page,7.00%,Schedule-heavy,On time,Yes,Yes,2157.62,5 stars,9,13,2 dependents,"$39,550","$3,200",Yes
+River Desk,Preparer,Investment,2019 TY,"$2,400",Standard,"$1,200","$8,400",Qualifying Widow,2-page,3.00%,Simple,No filing yet,Yes,No,0.0,4 stars,1,1,0 dependents,"$27,700",$400,Yes
+Central Desk,Online,Mixed,2023 TY,"$29,860",Standard,"$13,570","$10,860",Head of Household,2-page,5.50%,Simple,On time,Yes,No,1987.66,5 stars,9,6,2 dependents,"$20,800","$3,200",Yes
+Harbor Desk,Preparer,Wages,2023 TY,"$78,700",Standard,"$2,570","$4,280",Head of Household,2-page,6.20%,Simple,On time,Yes,No,12495.28,5 stars,3,9,3 dependents,"$20,800",$0,Yes
+Prairie Desk,Walk-in,Self-employed,2021 TY,"$1,800",Standard,"$9,600",$600,Single,8-page,7.00%,Schedule-heavy,On time,No,Yes,114.18,4 stars,6,6,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Preparer,Farm,2023 TY,"$22,940",Standard,"$64,230","$4,590",Married Joint,16-page,0.00%,Audit-ready,On time,Yes,No,1909.24,4 stars,10,15,4 dependents,"$27,700","$6,400",No
+North Desk,Online,Pension,2022 TY,"$61,350",Itemized,$0,"$10,830",Single,8-page,7.00%,Schedule-heavy,No filing yet,Yes,No,7927.0,4 stars,7,13,0 dependents,"$28,370",$0,Yes
+Central Desk,Preparer,Wages,2020 TY,"$48,880",Itemized,"$1,590","$2,660",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,No,4067.6,5 stars,2,10,0 dependents,"$38,350",$0,Yes
+Capitol Desk,Online,Wages,2022 TY,"$63,480",Standard,"$2,070","$3,450",Head of Household,2-page,6.20%,Simple,No filing yet,Yes,No,9477.08,4 stars,16,7,0 dependents,"$20,800",$0,Yes
+Capitol Desk,Online,Contract,2020 TY,"$34,420",Standard,"$59,000","$4,920",Single,2-page,5.50%,Simple,No filing yet,Yes,No,14139.97,4 stars,6,10,2 dependents,"$13,850","$3,200",Yes
+Delta Desk,Online,Contract,2023 TY,"$18,880",Standard,"$32,360","$2,700",Married Joint,2-page,5.50%,Simple,On time,Yes,No,1675.3,5 stars,11,5,1 dependent,"$27,700","$1,600",Yes
+Harbor Desk,Preparer,Mixed,Not Available,"$57,220",Itemized,"$26,010","$20,810",Single,2-page,4.75%,Simple,No filing yet,Yes,No,14047.01,4 stars,7,11,0 dependents,"$28,100",$0,Yes
+Central Desk,Online,Self-employed,2023 TY,"$7,030",Standard,"$37,470","$2,340",Single,2-page,6.20%,Simple,On time,Yes,No,3721.01,5 stars,7,5,1 dependent,"$13,850","$1,600",Yes
+North Desk,Preparer,Mixed,2022 TY,"$35,020",Itemized,"$15,920","$12,730",Single,8-page,3.00%,Schedule-heavy,On time,Yes,No,5429.88,5 stars,6,12,0 dependents,"$21,720",$0,Yes
+Highland Desk,Preparer,Wages,2022 TY,"$39,390",Standard,"$1,280","$2,140",Single,2-page,4.75%,Simple,On time,Yes,No,2056.65,5 stars,11,4,1 dependent,"$13,850","$1,600",Yes
+Delta Desk,Online,Wages,Not Available,"$64,610",Standard,"$2,110","$3,510",Head of Household,2-page,5.50%,Simple,On time,No,Yes,5129.36,4 stars,6,7,2 dependents,"$20,800","$3,200",Yes
+Capitol Desk,Online,Wages,2021 TY,"$82,610",Standard,"$2,690","$4,490",Married Joint,2-page,6.20%,Simple,On time,Yes,No,8733.76,5 stars,6,9,1 dependent,"$27,700","$2,000",Yes
+River Desk,Preparer,Wages,2019 TY,"$52,970",Standard,"$1,730","$2,880",Head of Household,2-page,4.75%,Simple,On time,Yes,No,812.44,5 stars,5,6,2 dependents,"$20,800","$3,200",Yes
+Central Desk,Online,Pension,2022 TY,"$23,510",Itemized,$0,"$4,150",Married Joint,2-page,5.50%,Simple,No filing yet,Yes,No,0.0,4 stars,5,3,1 dependent,"$51,240","$2,000",Yes
+Prairie Desk,Online,Wages,2021 TY,"$33,130",Standard,"$1,080","$1,800",Single,2-page,4.75%,Simple,On time,Yes,No,0.0,5 stars,5,4,4 dependents,"$13,850","$6,600",Yes
+Highland Desk,Online,Wages,2021 TY,"$65,750",Standard,"$2,140","$3,570",Single,2-page,5.50%,Simple,2-year amend,Yes,Yes,10080.75,4 stars,10,7,0 dependents,"$13,850",$0,Yes
+North Desk,Walk-in,Mixed,2019 TY,"$73,330",Itemized,"$33,330","$26,660",Head of Household,2-page,5.50%,Simple,On time,Yes,No,17726.06,5 stars,9,14,0 dependents,"$38,860",$0,Yes
+Central Desk,Online,Wages,2022 TY,"$65,730",Standard,"$2,140","$3,570",Single,8-page,5.50%,Schedule-heavy,On time,Yes,Yes,10507.53,5 stars,0,12,0 dependents,"$13,850",$0,Yes
+North Desk,Online,Wages,2021 TY,"$48,500",Standard,"$1,580","$2,640",Head of Household,8-page,6.20%,Schedule-heavy,On time,Yes,No,3264.99,5 stars,6,10,1 dependent,"$20,800","$1,600",Yes
+Harbor Desk,Online,Mixed,2020 TY,"$55,540",Itemized,"$25,250","$20,200",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,12958.12,5 stars,6,16,1 dependent,"$26,500",$0,Yes
+North Desk,Online,Wages,2019 TY,"$51,750",Standard,"$1,690","$2,810",Married Joint,8-page,3.00%,Schedule-heavy,On time,Yes,No,0.0,5 stars,9,11,2 dependents,"$27,700","$3,200",Yes
+Central Desk,Walk-in,Self-employed,2021 TY,"$8,610",Itemized,"$45,910","$2,870",Head of Household,16-page,5.50%,Audit-ready,2-year amend,Yes,No,5758.44,3 stars,12,11,0 dependents,"$24,110",$0,Yes
+River Desk,Online,Contract,2023 TY,"$14,060",Standard,"$24,100","$2,010",Single,2-page,0.00%,Simple,2-year amend,No,No,3486.9,3 stars,7,4,0 dependents,"$13,850",$0,No
+Central Desk,Preparer,Wages,2021 TY,"$88,140",Itemized,"$2,870","$4,790",Single,8-page,3.00%,Schedule-heavy,On time,Yes,Yes,12867.43,5 stars,1,15,1 dependent,"$26,670",$0,Yes
+Central Desk,Preparer,Contract,2023 TY,"$4,200",Standard,"$7,200",$600,Qualifying Widow,2-page,6.20%,Simple,On time,No,No,346.49,4 stars,4,1,4 dependents,"$27,700",$0,Yes
+Delta Desk,Online,Contract,2023 TY,"$31,270",Standard,"$53,600","$4,470",Single,2-page,4.75%,Simple,On time,No,No,15169.28,4 stars,3,9,0 dependents,"$13,850",$0,Yes
+Capitol Desk,Preparer,Pension,2021 TY,"$34,490",Standard,$0,"$6,090",Married Joint,2-page,4.75%,Simple,On time,Yes,No,455.58,5 stars,2,4,0 dependents,"$27,700",$800,Yes
+Highland Desk,Walk-in,Self-employed,2023 TY,"$8,430",Standard,"$44,980","$2,810",Married Joint,2-page,7.00%,Simple,On time,Yes,Yes,5223.95,5 stars,8,6,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Preparer,Self-employed,2023 TY,"$19,790",Standard,"$105,540","$6,600",Single,8-page,3.00%,Schedule-heavy,On time,No,Yes,23022.62,4 stars,5,19,1 dependent,"$13,850","$1,600",Yes
+Prairie Desk,Preparer,Self-employed,2022 TY,"$6,790",Standard,"$36,230","$2,260",Married Separate,2-page,0.00%,Simple,No filing yet,Yes,No,4278.88,4 stars,11,5,0 dependents,"$13,850",$0,No
+Harbor Desk,Online,Self-employed,2019 TY,"$6,980",Standard,"$37,210","$2,330",Married Separate,8-page,0.00%,Schedule-heavy,On time,Yes,No,2647.08,5 stars,1,10,0 dependents,"$13,850",$0,No
+Central Desk,Preparer,Wages,2019 TY,"$54,160",Itemized,"$1,770","$2,940",Single,8-page,3.00%,Schedule-heavy,On time,Yes,No,3008.12,5 stars,11,11,1 dependent,"$24,360","$1,600",Yes
+Prairie Desk,Online,Farm,Not Available,"$17,310",Standard,"$48,470","$3,460",Head of Household,2-page,5.50%,Simple,On time,Yes,No,8304.61,5 stars,5,7,0 dependents,"$20,800",$0,Yes
+Highland Desk,Preparer,Mixed,2023 TY,"$35,610",Itemized,"$16,190","$12,950",Single,2-page,6.20%,Simple,2-year amend,No,Yes,5842.09,3 stars,4,7,0 dependents,"$26,400",$0,Yes
+Capitol Desk,Online,Investment,Not Available,"$3,230",Standard,"$1,620","$11,310",Single,2-page,5.50%,Simple,On time,Yes,No,0.0,5 stars,4,1,0 dependents,"$13,850",$0,Yes
+River Desk,Preparer,Wages,2023 TY,"$37,930",Standard,"$1,240","$2,060",Married Joint,2-page,3.00%,Simple,On time,No,No,34.08,4 stars,10,4,3 dependents,"$27,700",$0,Yes
+River Desk,Walk-in,Wages,2019 TY,"$85,330",Standard,"$2,780","$4,640",Qualifying Widow,16-page,4.75%,Audit-ready,On time,Yes,Yes,12664.89,4 stars,8,15,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Preparer,Mixed,2023 TY,"$44,130",Standard,"$20,060","$16,050",Single,8-page,0.00%,Schedule-heavy,No filing yet,Yes,Yes,8635.11,4 stars,6,13,0 dependents,"$13,850",$0,No
+Harbor Desk,Online,Mixed,2022 TY,"$50,340",Standard,"$22,880","$18,310",Single,8-page,5.50%,Schedule-heavy,No filing yet,Yes,Yes,14387.11,4 stars,15,15,0 dependents,"$13,850",$0,Yes
+Central Desk,Preparer,Mixed,2023 TY,"$38,590",Itemized,"$17,540","$14,030",Married Joint,2-page,5.50%,Simple,On time,No,Yes,2268.11,4 stars,1,7,1 dependent,"$44,000","$1,600",Yes
+North Desk,Walk-in,Wages,2019 TY,"$42,480",Itemized,"$1,390","$2,310",Head of Household,8-page,0.00%,Schedule-heavy,On time,No,No,583.7,4 stars,3,10,2 dependents,"$36,690",$0,No
+Prairie Desk,Preparer,Wages,2021 TY,"$94,080",Standard,"$3,070","$5,110",Single,8-page,6.20%,Schedule-heavy,No filing yet,No,No,19794.13,3 stars,13,16,0 dependents,"$13,850",$400,Yes
+Harbor Desk,Walk-in,Mixed,2023 TY,"$39,790",Itemized,"$18,090","$14,470",Married Joint,2-page,6.20%,Simple,On time,Yes,No,555.64,5 stars,6,8,0 dependents,"$58,760",$400,Yes
+Highland Desk,Preparer,Wages,2023 TY,"$47,250",Itemized,"$1,540","$2,570",Married Separate,2-page,3.00%,Simple,On time,Yes,No,4003.46,5 stars,5,5,0 dependents,"$21,190",$0,Yes
+Capitol Desk,Walk-in,Farm,2022 TY,"$22,770",Standard,"$63,750","$4,550",Single,2-page,5.50%,Simple,3-year amend,Yes,No,14784.22,4 stars,11,10,1 dependent,"$13,850","$1,800",Yes
+Capitol Desk,Online,Wages,2021 TY,"$41,090",Standard,"$1,340","$2,230",Single,2-page,5.50%,Simple,On time,No,No,2855.26,4 stars,9,4,3 dependents,"$13,850",$0,Yes
+Central Desk,Online,Wages,2021 TY,"$43,910",Standard,"$1,430","$2,390",Single,8-page,0.00%,Schedule-heavy,On time,Yes,No,1148.74,5 stars,11,10,1 dependent,"$13,850","$1,600",No
+Central Desk,Preparer,Wages,Not Available,"$57,270",Standard,"$1,870","$3,110",Married Joint,2-page,3.00%,Simple,On time,Yes,No,4418.29,5 stars,3,6,0 dependents,"$27,700",$200,Yes
+Delta Desk,Walk-in,Mixed,2022 TY,"$42,900",Standard,"$19,500","$15,600",Married Joint,2-page,5.50%,Simple,No filing yet,Yes,No,7117.49,4 stars,14,8,2 dependents,"$27,700",$0,Yes
+River Desk,Online,Mixed,2022 TY,"$47,180",Itemized,"$21,450","$17,160",Head of Household,16-page,7.00%,Audit-ready,No filing yet,Yes,No,7132.51,3 stars,4,14,2 dependents,"$36,080",$0,Yes
+Capitol Desk,Online,Self-employed,2022 TY,"$21,950",Standard,"$117,040","$7,320",Married Joint,2-page,5.50%,Simple,On time,Yes,No,27778.19,5 stars,9,16,0 dependents,"$27,700",$0,Yes
+Prairie Desk,Online,Farm,2022 TY,"$16,690",Standard,"$46,730","$3,340",Married Joint,2-page,5.50%,Simple,On time,Yes,No,6925.67,5 stars,6,7,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Preparer,Wages,2022 TY,"$11,040",Standard,$360,$600,Qualifying Widow,16-page,5.50%,Audit-ready,2-year amend,Yes,No,15.37,3 stars,8,6,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Walk-in,Self-employed,2022 TY,"$12,410",Standard,"$66,200","$4,140",Married Joint,16-page,4.75%,Audit-ready,No filing yet,Yes,No,6294.95,3 stars,4,14,2 dependents,"$27,700","$3,200",Yes
+Highland Desk,Preparer,Wages,2023 TY,"$57,880",Standard,"$1,890","$3,150",Married Joint,8-page,0.00%,Schedule-heavy,On time,Yes,Yes,3741.96,5 stars,10,11,1 dependent,"$27,700",$0,No
+North Desk,Online,Wages,2023 TY,"$58,000",Itemized,"$1,890","$3,150",Head of Household,2-page,4.75%,Simple,On time,Yes,No,363.49,5 stars,3,7,1 dependent,"$45,720","$1,600",Yes
+River Desk,Online,Mixed,Not Available,"$46,960",Standard,"$21,340","$17,080",Single,16-page,7.00%,Audit-ready,2-year amend,Yes,No,9110.51,3 stars,9,14,2 dependents,"$13,850","$3,200",Yes
+Delta Desk,Walk-in,Wages,2022 TY,"$56,410",Standard,"$1,840","$3,070",Married Separate,8-page,6.20%,Schedule-heavy,On time,Yes,No,7679.44,5 stars,1,11,0 dependents,"$13,850",$0,Yes
+Highland Desk,Online,Self-employed,2022 TY,"$10,370",Standard,"$55,280","$3,460",Married Separate,8-page,7.00%,Schedule-heavy,On time,Yes,No,9979.34,5 stars,11,12,0 dependents,"$13,850",$0,Yes
+Central Desk,Online,Self-employed,2023 TY,"$13,960",Itemized,"$74,460","$4,650",Single,2-page,0.00%,Simple,On time,Yes,Yes,10799.81,5 stars,3,10,0 dependents,"$21,490",$0,No
+North Desk,Online,Investment,2023 TY,"$13,960",Itemized,"$6,980","$48,870",Married Joint,2-page,4.75%,Simple,No filing yet,Yes,Yes,0.0,4 stars,11,7,2 dependents,"$52,260","$3,200",Yes
+Delta Desk,Preparer,Mixed,2022 TY,"$27,260",Standard,"$12,390","$9,910",Single,8-page,5.50%,Schedule-heavy,On time,No,No,2478.42,4 stars,9,10,1 dependent,"$13,850","$1,600",Yes
+North Desk,Online,Self-employed,2023 TY,"$26,980",Itemized,"$143,880","$8,990",Single,8-page,3.00%,Schedule-heavy,On time,Yes,No,36609.82,5 stars,6,24,0 dependents,"$15,610",$0,Yes
+North Desk,Online,Wages,2023 TY,"$41,230",Standard,"$1,340","$2,240",Married Joint,2-page,3.00%,Simple,On time,Yes,Yes,1431.97,5 stars,1,4,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Online,Wages,2023 TY,"$59,250",Itemized,"$1,930","$3,220",Single,2-page,6.20%,Simple,On time,Yes,Yes,6582.4,5 stars,3,7,2 dependents,"$19,890",$0,Yes
+North Desk,Walk-in,Wages,2023 TY,"$24,020",Standard,$780,"$1,310",Married Separate,8-page,5.50%,Schedule-heavy,On time,Yes,Yes,0.0,5 stars,7,7,2 dependents,"$13,850","$3,200",Yes
+Central Desk,Online,Self-employed,2021 TY,"$11,280",Itemized,"$60,150","$3,760",Head of Household,2-page,5.50%,Simple,On time,No,No,4954.78,4 stars,6,8,1 dependent,"$26,340","$2,400",Yes
+Highland Desk,Online,Royalty,2022 TY,"$4,280",Itemized,"$8,560","$29,960",Head of Household,2-page,3.00%,Simple,On time,No,Yes,0.0,4 stars,7,4,0 dependents,"$37,600",$800,Yes
+Central Desk,Online,Wages,2022 TY,"$47,270",Standard,"$1,540","$2,570",Single,2-page,4.75%,Simple,3-year amend,Yes,No,5280.51,4 stars,4,5,3 dependents,"$13,850",$0,Yes
+North Desk,Online,Mixed,2019 TY,"$60,140",Itemized,"$27,340","$21,870",Single,2-page,0.00%,Simple,On time,No,No,12553.39,4 stars,6,12,2 dependents,"$20,060",$0,No
+North Desk,Preparer,Investment,2023 TY,"$24,510",Standard,"$12,250","$85,780",Single,8-page,0.00%,Schedule-heavy,No filing yet,Yes,No,9562.13,4 stars,1,18,1 dependent,"$13,850","$1,600",No
+Central Desk,Preparer,Pension,2022 TY,"$48,530",Itemized,$0,"$8,560",Single,2-page,4.75%,Simple,On time,Yes,No,3003.48,5 stars,5,6,1 dependent,"$22,990","$1,600",Yes
+North Desk,Online,Mixed,2020 TY,"$13,680",Itemized,"$6,220","$4,970",Head of Household,2-page,3.00%,Simple,On time,Yes,Yes,1006.46,5 stars,1,2,3 dependents,"$42,680",$0,Yes
+River Desk,Walk-in,Self-employed,2023 TY,"$20,570",Standard,"$109,700","$6,860",Married Joint,16-page,7.00%,Audit-ready,On time,Yes,No,18872.56,4 stars,7,20,3 dependents,"$27,700","$4,800",Yes
+Harbor Desk,Online,Self-employed,2023 TY,"$4,210",Standard,"$22,470","$1,400",Single,8-page,4.75%,Schedule-heavy,On time,Yes,No,1289.31,5 stars,6,8,1 dependent,"$13,850","$1,600",Yes
+Central Desk,Walk-in,Pension,2023 TY,"$61,590",Standard,$0,"$10,870",Head of Household,2-page,0.00%,Simple,On time,Yes,Yes,7042.02,5 stars,10,8,0 dependents,"$20,800",$0,No
+Central Desk,Online,Wages,2022 TY,"$79,600",Standard,"$2,600","$4,330",Married Joint,2-page,0.00%,Simple,On time,Yes,No,8617.28,5 stars,5,9,0 dependents,"$27,700",$0,No
+Central Desk,Online,Contract,2023 TY,"$29,110",Itemized,"$49,900","$4,160",Single,8-page,5.50%,Schedule-heavy,2-year amend,Yes,No,6124.93,4 stars,2,14,2 dependents,"$26,770","$3,400",Yes
+North Desk,Walk-in,Wages,2022 TY,"$38,160",Standard,"$1,240","$2,070",Single,2-page,0.00%,Simple,On time,Yes,Yes,1095.28,5 stars,2,4,1 dependent,"$13,850","$2,400",No
+North Desk,Walk-in,Pension,2022 TY,"$42,860",Standard,$0,"$7,560",Married Joint,2-page,3.00%,Simple,2-year amend,Yes,Yes,2368.7,4 stars,9,5,0 dependents,"$27,700",$0,Yes
+Prairie Desk,Preparer,Wages,2019 TY,"$46,640",Standard,"$1,520","$2,530",Married Separate,2-page,4.75%,Simple,On time,Yes,No,5158.66,5 stars,11,5,0 dependents,"$13,850",$0,Yes
+North Desk,Preparer,Wages,2023 TY,"$57,680",Itemized,"$1,880","$3,130",Single,2-page,3.00%,Simple,On time,Yes,No,2923.58,5 stars,0,6,3 dependents,"$31,990",$0,Yes
+Highland Desk,Preparer,Wages,2023 TY,"$51,520",Standard,"$1,680","$2,800",Head of Household,8-page,5.50%,Schedule-heavy,On time,Yes,No,0.0,5 stars,8,11,3 dependents,"$20,800","$4,800",Yes
+Highland Desk,Preparer,Mixed,2022 TY,"$9,260",Standard,"$4,210","$3,370",Head of Household,2-page,4.75%,Simple,On time,Yes,Yes,0.0,5 stars,5,1,3 dependents,"$20,800","$5,600",Yes
+Central Desk,Online,Wages,2022 TY,"$81,810",Standard,"$2,670","$4,450",Head of Household,2-page,0.00%,Simple,On time,Yes,No,8880.45,5 stars,3,9,1 dependent,"$20,800","$1,600",No
+Central Desk,Online,Wages,2023 TY,"$55,250",Standard,"$1,800","$3,000",Single,2-page,6.20%,Simple,On time,Yes,Yes,3862.5,5 stars,6,6,2 dependents,"$13,850","$3,200",Yes
+Capitol Desk,Preparer,Mixed,2023 TY,"$34,900",Standard,"$15,860","$12,690",Single,2-page,4.75%,Simple,On time,Yes,No,3249.67,5 stars,11,7,2 dependents,"$13,850","$3,200",Yes
+Prairie Desk,Preparer,Wages,2021 TY,"$44,670",Standard,"$1,460","$2,430",Head of Household,2-page,5.50%,Simple,No filing yet,No,No,3544.4,3 stars,2,5,0 dependents,"$20,800",$0,Yes
+Harbor Desk,Walk-in,Investment,Not Available,"$23,330",Standard,"$11,660","$81,650",Single,8-page,0.00%,Schedule-heavy,On time,Yes,No,10842.3,5 stars,10,17,0 dependents,"$13,850",$200,No
+Central Desk,Online,Contract,2023 TY,"$14,690",Standard,"$25,180","$2,100",Married Joint,2-page,5.50%,Simple,3-year amend,Yes,No,0.0,4 stars,3,4,4 dependents,"$27,700","$6,400",Yes
+Harbor Desk,Online,Self-employed,Not Available,"$1,800",Standard,"$9,600",$600,Married Separate,2-page,3.00%,Simple,On time,Yes,No,0.0,5 stars,8,1,0 dependents,"$13,850",$0,Yes
+Central Desk,Online,Wages,Not Available,"$66,030",Standard,"$2,150","$3,590",Single,2-page,4.75%,Simple,On time,Yes,Yes,8514.88,5 stars,0,7,1 dependent,"$13,850","$1,600",Yes
+River Desk,Preparer,Wages,2023 TY,"$68,500",Itemized,"$2,230","$3,720",Married Separate,8-page,3.00%,Schedule-heavy,On time,Yes,No,6850.72,5 stars,0,13,1 dependent,"$28,130",$0,Yes
+Harbor Desk,Online,Contract,2023 TY,"$21,490",Standard,"$36,850","$3,070",Head of Household,2-page,7.00%,Simple,On time,Yes,Yes,5893.02,5 stars,0,6,1 dependent,"$20,800","$1,600",Yes
+Central Desk,Walk-in,Wages,2022 TY,"$31,690",Standard,"$1,030","$1,720",Married Separate,16-page,3.00%,Audit-ready,No filing yet,Yes,No,3457.28,3 stars,11,8,0 dependents,"$13,850",$0,Yes
+Delta Desk,Online,Wages,2020 TY,"$59,000",Standard,"$1,920","$3,210",Married Joint,8-page,7.00%,Schedule-heavy,No filing yet,No,Yes,5920.13,3 stars,8,12,2 dependents,"$27,700",$0,Yes
+North Desk,Online,Contract,2022 TY,"$9,100",Standard,"$15,600","$1,300",Head of Household,2-page,7.00%,Simple,On time,Yes,No,0.0,5 stars,8,2,0 dependents,"$20,800",$400,Yes
+Central Desk,Preparer,Farm,2023 TY,"$5,780",Standard,"$16,190","$1,160",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,764.68,5 stars,1,7,2 dependents,"$27,700",$0,Yes
+Capitol Desk,Online,Wages,2022 TY,"$40,460",Standard,"$1,320","$2,200",Married Separate,2-page,3.00%,Simple,No filing yet,No,No,3802.3,3 stars,15,4,0 dependents,"$13,850",$0,Yes
+North Desk,Preparer,Self-employed,2023 TY,"$15,210",Standard,"$81,110","$5,070",Head of Household,16-page,4.75%,Audit-ready,On time,Yes,Yes,16172.47,4 stars,9,16,1 dependent,"$20,800",$0,Yes
+North Desk,Online,Mixed,2020 TY,"$36,920",Standard,"$16,780","$13,420",Married Separate,16-page,7.00%,Audit-ready,On time,No,No,8789.5,3 stars,5,12,2 dependents,"$13,850",$0,Yes
+North Desk,Online,Investment,2022 TY,"$14,940",Itemized,"$7,470","$52,300",Single,2-page,5.50%,Simple,On time,Yes,No,5512.61,5 stars,10,8,0 dependents,"$16,700",$0,Yes
+Prairie Desk,Preparer,Wages,2022 TY,"$100,200",Standard,"$3,270","$5,450",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,20237.09,5 stars,1,17,0 dependents,"$13,850",$0,Yes
+North Desk,Walk-in,Wages,2022 TY,"$64,820",Itemized,"$2,110","$3,520",Single,2-page,0.00%,Simple,On time,No,No,2106.4,4 stars,3,7,2 dependents,"$17,420","$3,200",No
+Harbor Desk,Online,Self-employed,2020 TY,"$12,480",Standard,"$66,560","$4,160",Married Joint,2-page,6.20%,Simple,On time,Yes,Yes,9821.9,5 stars,0,9,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Wages,2020 TY,"$48,880",Standard,"$1,590","$2,660",Married Joint,8-page,0.00%,Schedule-heavy,2-year amend,No,No,2241.64,3 stars,1,10,0 dependents,"$27,700",$0,No
+North Desk,Preparer,Self-employed,2023 TY,"$7,430",Standard,"$39,620","$2,480",Married Joint,16-page,0.00%,Audit-ready,On time,Yes,No,1099.26,4 stars,10,10,1 dependent,"$27,700","$1,600",No
+River Desk,Walk-in,Wages,2022 TY,"$11,040",Standard,$360,$600,Married Joint,2-page,3.00%,Simple,2-year amend,No,Yes,0.0,3 stars,9,1,3 dependents,"$27,700",$0,Yes
+Harbor Desk,Preparer,Pension,2019 TY,"$53,970",Itemized,$0,"$9,520",Married Separate,8-page,4.75%,Schedule-heavy,No filing yet,Yes,No,5859.02,4 stars,12,12,1 dependent,"$19,970","$1,600",Yes
+Highland Desk,Preparer,Investment,2019 TY,"$24,260",Standard,"$12,130","$84,920",Head of Household,8-page,6.20%,Schedule-heavy,On time,Yes,No,13716.5,5 stars,10,18,0 dependents,"$20,800",$0,Yes
+River Desk,Online,Mixed,2022 TY,"$39,940",Standard,"$18,160","$14,530",Single,2-page,6.20%,Simple,On time,Yes,No,3117.09,5 stars,9,8,4 dependents,"$13,850","$6,400",Yes
+Prairie Desk,Preparer,Investment,2020 TY,"$18,170",Itemized,"$9,090","$63,600",Married Separate,8-page,3.00%,Schedule-heavy,On time,No,No,3951.05,4 stars,4,15,1 dependent,"$21,100","$1,600",Yes
+North Desk,Walk-in,Wages,2023 TY,"$73,290",Standard,"$2,390","$3,980",Married Joint,8-page,4.75%,Schedule-heavy,No filing yet,Yes,No,6662.59,4 stars,6,13,1 dependent,"$27,700","$1,600",Yes
+Prairie Desk,Walk-in,Mixed,2023 TY,"$17,250",Standard,"$7,840","$6,270",Married Joint,8-page,6.20%,Schedule-heavy,On time,Yes,No,0.0,5 stars,1,8,0 dependents,"$27,700",$0,Yes
+River Desk,Preparer,Wages,2021 TY,"$44,020",Standard,"$1,440","$2,390",Single,16-page,4.75%,Audit-ready,2-year amend,No,No,4903.05,2 stars,9,10,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Preparer,Pension,2022 TY,"$25,350",Standard,$0,"$4,470",Married Separate,2-page,0.00%,Simple,On time,Yes,No,2637.83,5 stars,11,3,0 dependents,"$13,850",$0,No
+Capitol Desk,Walk-in,Pension,2020 TY,"$64,890",Standard,$0,"$11,450",Qualifying Widow,2-page,4.75%,Simple,On time,Yes,Yes,6801.17,5 stars,6,8,1 dependent,"$27,700",$200,Yes
+Prairie Desk,Online,Contract,2021 TY,"$32,030",Standard,"$54,910","$4,580",Married Separate,2-page,5.50%,Simple,On time,Yes,No,16667.91,5 stars,5,10,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Online,Pension,2023 TY,"$10,840",Standard,$0,"$1,910",Head of Household,2-page,7.00%,Simple,On time,Yes,No,0.0,5 stars,10,1,1 dependent,"$20,800","$1,600",Yes
+Prairie Desk,Walk-in,Farm,2022 TY,"$3,000",Standard,"$8,400",$600,Qualifying Widow,2-page,5.50%,Simple,On time,Yes,Yes,261.87,5 stars,4,1,0 dependents,"$27,700",$0,Yes
+Central Desk,Online,Wages,2023 TY,"$54,120",Standard,"$1,760","$2,940",Single,8-page,0.00%,Schedule-heavy,On time,Yes,No,4454.28,5 stars,4,11,0 dependents,"$13,850",$200,No
+River Desk,Online,Contract,2021 TY,"$18,820",Itemized,"$32,260","$2,690",Married Joint,2-page,5.50%,Simple,On time,Yes,No,0.0,5 stars,10,5,0 dependents,"$55,210",$0,Yes
+Delta Desk,Online,Mixed,2021 TY,"$21,050",Standard,"$9,570","$7,650",Married Joint,8-page,3.00%,Schedule-heavy,On time,Yes,No,0.0,5 stars,4,9,1 dependent,"$27,700","$2,400",Yes
+Central Desk,Preparer,Mixed,2022 TY,"$74,990",Itemized,"$34,090","$27,270",Qualifying Widow,2-page,6.20%,Simple,On time,Yes,No,9058.08,5 stars,11,15,2 dependents,"$61,730","$3,600",Yes
+Capitol Desk,Preparer,Mixed,2022 TY,"$48,060",Standard,"$21,840","$17,480",Single,2-page,4.75%,Simple,On time,Yes,No,12975.26,5 stars,1,9,0 dependents,"$13,850",$0,Yes
+Central Desk,Preparer,Wages,Not Available,"$67,520",Standard,"$2,200","$3,670",Married Joint,8-page,3.00%,Schedule-heavy,On time,Yes,No,7130.16,5 stars,5,13,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Online,Wages,2020 TY,"$41,760",Standard,"$1,360","$2,270",Head of Household,8-page,4.75%,Schedule-heavy,On time,Yes,No,4148.72,5 stars,5,10,0 dependents,"$20,800",$0,Yes
+River Desk,Online,Wages,2023 TY,"$72,990",Itemized,"$2,380","$3,970",Single,2-page,3.00%,Simple,No filing yet,Yes,No,5374.93,4 stars,7,8,2 dependents,"$25,310","$3,200",Yes
+Harbor Desk,Online,Wages,2023 TY,"$48,640",Standard,"$1,590","$2,640",Married Separate,16-page,3.00%,Audit-ready,On time,Yes,Yes,4987.05,4 stars,11,10,0 dependents,"$13,850",$0,Yes
+Central Desk,Walk-in,Mixed,2022 TY,"$38,220",Standard,"$17,370","$13,900",Married Joint,2-page,5.50%,Simple,On time,Yes,No,3517.0,5 stars,5,7,2 dependents,"$27,700","$3,200",Yes
+Central Desk,Online,Pension,2021 TY,"$49,110",Standard,$0,"$8,670",Qualifying Widow,2-page,6.20%,Simple,On time,Yes,No,6097.33,5 stars,10,6,0 dependents,"$27,700",$0,Yes
+North Desk,Preparer,Self-employed,2022 TY,"$1,850",Standard,"$9,880",$620,Head of Household,2-page,6.20%,Simple,On time,Yes,Yes,0.0,5 stars,2,1,0 dependents,"$20,800",$0,Yes
+North Desk,Preparer,Mixed,2021 TY,"$69,250",Standard,"$31,480","$25,180",Single,8-page,4.75%,Schedule-heavy,No filing yet,No,No,21258.25,3 stars,6,18,2 dependents,"$13,850",$0,Yes
+Central Desk,Preparer,Mixed,2023 TY,"$45,910",Standard,"$20,870","$16,690",Married Separate,2-page,0.00%,Simple,On time,Yes,No,6510.35,5 stars,5,9,1 dependent,"$13,850","$1,600",No
+North Desk,Preparer,Mixed,2022 TY,"$64,040",Standard,"$29,110","$23,290",Single,8-page,4.75%,Schedule-heavy,On time,No,No,19746.85,4 stars,6,17,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Preparer,Wages,Not Available,"$33,290",Standard,"$1,090","$1,810",Married Joint,2-page,4.75%,Simple,On time,Yes,No,0.0,5 stars,2,4,3 dependents,"$27,700","$4,800",Yes
+Capitol Desk,Preparer,Pension,2023 TY,"$28,240",Itemized,$0,"$4,980",Married Joint,2-page,3.00%,Simple,On time,Yes,No,0.0,5 stars,3,3,0 dependents,"$51,760",$0,Yes
+Capitol Desk,Online,Wages,2022 TY,"$31,390",Standard,"$1,020","$1,710",Head of Household,8-page,6.20%,Schedule-heavy,On time,No,No,1512.75,4 stars,7,8,0 dependents,"$20,800",$0,Yes
+Capitol Desk,Online,Self-employed,2023 TY,"$12,000",Standard,"$64,010","$4,000",Single,2-page,7.00%,Simple,On time,No,No,13418.55,4 stars,3,8,0 dependents,"$13,850",$0,Yes
+Central Desk,Online,Investment,2022 TY,"$20,290",Standard,"$10,140","$71,000",Single,2-page,0.00%,Simple,On time,Yes,No,5721.77,5 stars,9,11,1 dependent,"$13,850","$1,600",No
+Prairie Desk,Online,Mixed,2023 TY,"$35,240",Standard,"$16,020","$12,810",Married Joint,2-page,6.20%,Simple,3-year amend,Yes,No,2064.63,4 stars,5,7,2 dependents,"$27,700","$3,200",Yes
+River Desk,Preparer,Pension,2020 TY,"$27,010",Standard,$0,"$4,770",Married Joint,2-page,5.50%,Simple,On time,Yes,No,205.7,5 stars,11,3,0 dependents,"$27,700",$0,Yes
+North Desk,Online,Wages,Not Available,"$29,070",Standard,$950,"$1,580",Married Joint,2-page,3.00%,Simple,On time,Yes,Yes,0.0,5 stars,2,3,3 dependents,"$27,700","$4,800",Yes
+North Desk,Preparer,Pension,2023 TY,"$40,140",Standard,$0,"$7,080",Single,2-page,5.50%,Simple,2-year amend,Yes,No,3470.43,4 stars,14,5,1 dependent,"$13,850","$1,600",Yes
+River Desk,Online,Self-employed,2023 TY,"$8,140",Standard,"$43,390","$2,710",Single,2-page,0.00%,Simple,3-year amend,Yes,No,0.0,4 stars,8,6,3 dependents,"$13,850","$4,800",No
+Harbor Desk,Preparer,Investment,2022 TY,"$12,470",Standard,"$6,230","$43,640",Head of Household,2-page,0.00%,Simple,On time,Yes,No,0.0,5 stars,1,6,2 dependents,"$20,800","$3,200",No
+Highland Desk,Online,Self-employed,2023 TY,"$19,000",Standard,"$101,360","$6,330",Single,2-page,7.00%,Simple,2-year amend,Yes,No,20760.64,4 stars,12,14,3 dependents,"$13,850","$4,800",Yes
+Delta Desk,Online,Pension,2021 TY,"$39,680",Standard,$0,"$7,000",Married Joint,2-page,5.50%,Simple,On time,Yes,No,128.56,5 stars,2,5,1 dependent,"$27,700","$1,600",Yes
+North Desk,Online,Royalty,2023 TY,"$13,530",Standard,"$27,070","$94,740",Head of Household,2-page,3.00%,Simple,No filing yet,Yes,No,13945.99,4 stars,6,15,0 dependents,"$20,800",$0,Yes
+North Desk,Preparer,Mixed,2020 TY,"$34,100",Standard,"$15,500","$12,400",Single,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,5493.34,5 stars,6,11,1 dependent,"$13,850","$1,600",Yes
+Delta Desk,Online,Investment,2021 TY,"$22,150",Standard,"$11,070","$77,510",Married Separate,8-page,7.00%,Schedule-heavy,On time,No,No,13639.24,4 stars,9,17,1 dependent,"$13,850",$0,Yes
+River Desk,Preparer,Investment,2022 TY,"$19,020",Standard,"$9,510","$66,580",Single,2-page,4.75%,Simple,On time,Yes,No,8387.0,5 stars,3,10,1 dependent,"$13,850","$1,600",Yes
+North Desk,Preparer,Mixed,2021 TY,"$14,890",Standard,"$6,770","$5,410",Head of Household,2-page,7.00%,Simple,No filing yet,No,Yes,0.0,3 stars,10,3,2 dependents,"$20,800","$3,200",Yes
+Prairie Desk,Walk-in,Contract,2022 TY,"$37,450",Standard,"$64,200","$5,350",Married Separate,2-page,6.20%,Simple,On time,Yes,No,20618.22,5 stars,0,11,0 dependents,"$13,850",$0,Yes
+Prairie Desk,Preparer,Wages,2023 TY,"$54,060",Standard,"$1,760","$2,940",Head of Household,2-page,4.75%,Simple,On time,Yes,No,1214.31,5 stars,2,6,2 dependents,"$20,800","$3,200",Yes
+Highland Desk,Preparer,Mixed,2021 TY,"$55,220",Standard,"$25,100","$20,080",Single,2-page,5.50%,Simple,On time,Yes,No,17021.91,5 stars,9,11,0 dependents,"$13,850",$0,Yes
+River Desk,Preparer,Wages,2023 TY,"$40,440",Standard,"$1,320","$2,200",Married Joint,8-page,5.50%,Schedule-heavy,On time,No,No,0.0,4 stars,0,9,3 dependents,"$27,700","$4,800",Yes
+Harbor Desk,Online,Wages,2019 TY,"$53,400",Standard,"$1,740","$2,900",Married Separate,8-page,6.20%,Schedule-heavy,2-year amend,No,Yes,8636.28,3 stars,4,11,0 dependents,"$13,850",$0,Yes
+North Desk,Preparer,Pension,2023 TY,"$29,010",Standard,$0,"$5,120",Single,2-page,4.75%,Simple,On time,Yes,No,2157.6,5 stars,6,3,0 dependents,"$13,850",$0,Yes
+River Desk,Online,Wages,2023 TY,"$84,330",Standard,"$2,750","$4,580",Single,16-page,0.00%,Audit-ready,On time,Yes,No,8360.02,4 stars,0,15,2 dependents,"$13,850","$3,200",No
+Harbor Desk,Preparer,Wages,2022 TY,"$63,920",Standard,"$2,080","$3,470",Single,2-page,0.00%,Simple,On time,Yes,No,7799.27,5 stars,11,7,2 dependents,"$13,850",$0,No
+River Desk,Online,Wages,2023 TY,"$65,140",Itemized,"$2,120","$3,540",Head of Household,8-page,5.50%,Schedule-heavy,On time,Yes,Yes,3611.5,5 stars,6,12,2 dependents,"$26,210","$3,200",Yes
+Prairie Desk,Online,Mixed,2023 TY,"$65,310",Standard,"$29,690","$23,750",Married Joint,8-page,6.20%,Schedule-heavy,On time,Yes,No,17128.47,5 stars,4,18,3 dependents,"$27,700",$0,Yes
+North Desk,Preparer,Investment,2023 TY,"$31,630",Itemized,"$15,810","$110,690",Married Joint,2-page,6.20%,Simple,On time,Yes,Yes,11165.23,5 stars,11,17,0 dependents,"$58,190",$0,Yes
+River Desk,Online,Contract,2022 TY,"$30,950",Standard,"$53,060","$4,420",Married Separate,2-page,5.50%,Simple,On time,No,Yes,12303.45,4 stars,6,9,2 dependents,"$13,850","$3,200",Yes
+Harbor Desk,Online,Wages,2022 TY,"$25,650",Standard,$840,"$1,390",Married Joint,2-page,0.00%,Simple,On time,Yes,No,527.69,5 stars,8,3,0 dependents,"$27,700",$0,No
+Prairie Desk,Online,Mixed,2023 TY,"$31,420",Standard,"$14,280","$11,430",Married Joint,16-page,0.00%,Audit-ready,On time,Yes,No,1238.17,4 stars,1,11,1 dependent,"$27,700","$1,600",No
+Harbor Desk,Preparer,Mixed,2021 TY,"$26,340",Standard,"$11,970","$9,580",Married Joint,2-page,6.20%,Simple,No filing yet,No,No,1125.33,3 stars,6,5,1 dependent,"$27,700","$1,600",Yes
+River Desk,Online,Self-employed,2023 TY,"$14,580",Standard,"$77,750","$4,860",Married Joint,8-page,5.50%,Schedule-heavy,On time,Yes,Yes,13108.19,5 stars,0,15,0 dependents,"$27,700",$200,Yes
+Highland Desk,Online,Mixed,2021 TY,"$45,720",Itemized,"$20,780","$16,620",Single,2-page,6.20%,Simple,On time,Yes,No,8434.79,5 stars,6,9,1 dependent,"$19,400","$1,600",Yes
+Central Desk,Walk-in,Wages,2023 TY,"$26,340",Standard,$860,"$1,430",Head of Household,2-page,0.00%,Simple,2-year amend,Yes,No,0.0,4 stars,10,3,2 dependents,"$20,800","$3,200",No
+River Desk,Walk-in,Mixed,2020 TY,"$39,790",Standard,"$18,080","$14,470",Head of Household,2-page,4.75%,Simple,On time,No,No,6819.62,4 stars,10,8,0 dependents,"$20,800",$0,Yes
+Capitol Desk,Online,Mixed,2019 TY,"$18,250",Standard,"$8,290","$6,640",Single,2-page,7.00%,Simple,On time,Yes,No,1441.04,5 stars,6,3,3 dependents,"$13,850",$800,Yes
+Highland Desk,Online,Mixed,Not Available,"$42,020",Itemized,"$19,100","$15,280",Married Joint,2-page,0.00%,Simple,2-year amend,Yes,No,957.02,4 stars,5,8,1 dependent,"$61,030",$0,No
+Capitol Desk,Online,Mixed,2023 TY,"$15,590",Standard,"$7,080","$5,670",Single,16-page,0.00%,Audit-ready,On time,Yes,Yes,1677.37,4 stars,7,8,0 dependents,"$13,850",$0,No
+Delta Desk,Walk-in,Investment,2023 TY,"$25,100",Standard,"$12,550","$87,850",Qualifying Widow,2-page,5.50%,Simple,3-year amend,Yes,Yes,10422.65,4 stars,11,13,1 dependent,"$27,700","$1,600",Yes
+Central Desk,Online,Investment,Not Available,"$23,530",Itemized,"$11,770","$82,360",Head of Household,16-page,5.50%,Audit-ready,On time,Yes,No,6718.77,4 stars,7,18,0 dependents,"$43,560",$0,Yes
+Highland Desk,Online,Wages,2022 TY,"$99,170",Standard,"$3,230","$5,390",Head of Household,16-page,7.00%,Audit-ready,On time,No,No,20081.2,3 stars,8,16,0 dependents,"$20,800",$0,Yes
+North Desk,Online,Investment,2021 TY,"$28,420",Standard,"$14,210","$99,460",Single,2-page,7.00%,Simple,On time,Yes,No,20036.48,5 stars,6,15,1 dependent,"$13,850",$0,Yes
+Capitol Desk,Preparer,Pension,2020 TY,"$35,050",Standard,$0,"$6,190",Single,2-page,6.20%,Simple,On time,Yes,No,3348.35,5 stars,8,4,0 dependents,"$13,850",$0,Yes
+Highland Desk,Online,Wages,2022 TY,"$75,100",Standard,"$2,450","$4,080",Single,2-page,0.00%,Simple,3-year amend,Yes,No,11341.8,4 stars,6,9,0 dependents,"$13,850",$0,No
+Central Desk,Preparer,Mixed,2021 TY,"$19,840",Standard,"$9,020","$7,210",Single,8-page,4.75%,Schedule-heavy,On time,Yes,No,0.0,5 stars,1,9,2 dependents,"$13,850","$3,200",Yes
+North Desk,Online,Wages,Not Available,"$35,790",Itemized,"$1,170","$1,950",Single,16-page,6.20%,Audit-ready,3-year amend,Yes,No,926.69,3 stars,2,9,0 dependents,"$23,010",$800,Yes
+Prairie Desk,Preparer,Self-employed,2019 TY,"$12,450",Standard,"$66,390","$4,150",Single,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,12074.24,5 stars,10,14,2 dependents,"$13,850",$0,Yes
+Central Desk,Preparer,Wages,2020 TY,"$11,040",Standard,$360,$600,Qualifying Widow,16-page,7.00%,Audit-ready,2-year amend,No,No,0.0,2 stars,7,6,2 dependents,"$27,700","$3,200",Yes
+River Desk,Online,Self-employed,2021 TY,"$10,450",Itemized,"$55,730","$3,480",Single,2-page,5.50%,Simple,3-year amend,Yes,No,5718.05,4 stars,7,7,0 dependents,"$27,080",$0,Yes
+North Desk,Online,Wages,2020 TY,"$34,510",Standard,"$1,130","$1,880",Single,2-page,0.00%,Simple,On time,Yes,Yes,1263.34,5 stars,3,4,1 dependent,"$13,850","$1,600",No
+Delta Desk,Online,Mixed,2021 TY,"$44,570",Itemized,"$20,260","$16,210",Head of Household,2-page,4.75%,Simple,3-year amend,Yes,Yes,5823.03,4 stars,5,9,0 dependents,"$31,280",$800,Yes
+Harbor Desk,Preparer,Contract,2023 TY,"$12,890",Itemized,"$22,090","$1,840",Married Joint,8-page,5.50%,Schedule-heavy,No filing yet,No,No,458.12,3 stars,11,9,1 dependent,"$42,010",$0,Yes
+Harbor Desk,Online,Wages,2021 TY,"$66,410",Standard,"$2,170","$3,610",Married Separate,2-page,0.00%,Simple,On time,No,No,7671.39,4 stars,0,8,0 dependents,"$13,850",$0,No
+Prairie Desk,Preparer,Pension,2022 TY,"$41,060",Standard,$0,"$7,250",Married Joint,2-page,4.75%,Simple,On time,Yes,Yes,0.0,5 stars,2,5,3 dependents,"$27,700","$4,800",Yes
+Prairie Desk,Online,Royalty,2023 TY,"$14,080",Itemized,"$28,160","$98,570",Head of Household,2-page,5.50%,Simple,On time,Yes,Yes,13034.29,5 stars,5,15,0 dependents,"$36,620",$0,Yes
+Harbor Desk,Preparer,Pension,2022 TY,"$40,890",Standard,$0,"$7,220",Married Joint,2-page,0.00%,Simple,On time,Yes,Yes,0.0,5 stars,4,5,1 dependent,"$27,700","$1,600",No
+Central Desk,Preparer,Wages,2023 TY,"$40,070",Standard,"$1,310","$2,180",Married Joint,2-page,4.75%,Simple,On time,Yes,Yes,2345.22,5 stars,0,4,0 dependents,"$27,700",$0,Yes
+Capitol Desk,Online,Investment,2021 TY,"$17,030",Standard,"$8,520","$59,610",Married Joint,2-page,5.50%,Simple,On time,Yes,No,5555.23,5 stars,3,9,0 dependents,"$27,700",$0,Yes
+Prairie Desk,Online,Wages,2020 TY,"$27,360",Itemized,$890,"$1,490",Married Joint,8-page,6.20%,Schedule-heavy,On time,Yes,No,0.0,5 stars,9,8,1 dependent,"$60,610","$1,800",Yes
+Central Desk,Preparer,Wages,2021 TY,"$66,010",Standard,"$2,150","$3,590",Single,8-page,4.75%,Schedule-heavy,On time,No,No,8865.76,4 stars,3,12,1 dependent,"$13,850","$1,600",Yes
+Highland Desk,Online,Pension,Not Available,"$48,820",Standard,$0,"$8,620",Married Joint,2-page,7.00%,Simple,On time,Yes,Yes,0.0,5 stars,10,6,4 dependents,"$27,700","$6,400",Yes
+Capitol Desk,Preparer,Self-employed,2023 TY,"$23,980",Itemized,"$127,910","$7,990",Single,8-page,7.00%,Schedule-heavy,On time,Yes,No,36168.05,5 stars,4,22,0 dependents,"$15,300",$0,Yes
+Capitol Desk,Walk-in,Mixed,2021 TY,"$32,640",Itemized,"$14,840","$11,870",Married Separate,2-page,4.75%,Simple,2-year amend,Yes,Yes,6132.38,4 stars,0,6,0 dependents,"$15,130",$0,Yes
+Capitol Desk,Online,Wages,2022 TY,"$51,130",Itemized,"$1,670","$2,780",Single,8-page,0.00%,Schedule-heavy,3-year amend,Yes,No,4163.26,4 stars,4,11,0 dependents,"$20,800",$0,No
+Highland Desk,Online,Investment,2023 TY,"$13,610",Standard,"$6,810","$47,640",Single,2-page,6.20%,Simple,2-year amend,Yes,No,5792.06,4 stars,9,7,0 dependents,"$13,850",$0,Yes
+North Desk,Online,Self-employed,2023 TY,"$11,800",Itemized,"$62,910","$3,930",Single,2-page,3.00%,Simple,On time,No,No,1759.27,4 stars,4,8,3 dependents,"$27,980","$4,800",Yes
+Prairie Desk,Online,Mixed,2022 TY,"$49,200",Standard,"$22,360","$17,890",Head of Household,2-page,6.20%,Simple,On time,Yes,No,10982.86,5 stars,11,9,3 dependents,"$20,800",$0,Yes
+Prairie Desk,Walk-in,Contract,2023 TY,"$22,930",Standard,"$39,300","$3,280",Single,2-page,5.50%,Simple,2-year amend,Yes,Yes,7516.27,4 stars,11,7,3 dependents,"$13,850",$0,Yes
+Capitol Desk,Walk-in,Wages,2023 TY,"$81,030",Itemized,"$2,640","$4,400",Married Joint,2-page,4.75%,Simple,On time,Yes,Yes,7688.33,5 stars,0,9,0 dependents,"$42,740",$0,Yes
+North Desk,Online,Wages,2023 TY,"$43,420",Standard,"$1,420","$2,360",Head of Household,8-page,5.50%,Schedule-heavy,On time,No,No,2893.77,4 stars,3,10,0 dependents,"$20,800",$0,Yes
+Harbor Desk,Walk-in,Self-employed,2020 TY,"$15,980",Itemized,"$85,200","$5,330",Single,8-page,4.75%,Schedule-heavy,On time,Yes,No,16086.06,5 stars,8,16,2 dependents,"$22,530",$0,Yes
+Capitol Desk,Online,Farm,2020 TY,"$18,310",Itemized,"$51,260","$3,660",Married Separate,2-page,7.00%,Simple,On time,Yes,No,11560.99,5 stars,0,8,0 dependents,"$17,910",$0,Yes
+North Desk,Walk-in,Wages,Not Available,"$56,770",Standard,"$1,850","$3,090",Single,2-page,3.00%,Simple,On time,Yes,Yes,7491.79,5 stars,11,6,1 dependent,"$13,850",$0,Yes
+Delta Desk,Preparer,Wages,2022 TY,"$50,090",Standard,"$1,630","$2,720",Single,8-page,7.00%,Schedule-heavy,On time,Yes,No,8571.17,5 stars,1,11,0 dependents,"$13,850",$200,Yes
+Central Desk,Online,Wages,2022 TY,"$110,620",Standard,"$3,610","$6,010",Married Joint,2-page,0.00%,Simple,No filing yet,Yes,Yes,16026.09,4 stars,11,13,0 dependents,"$27,700",$0,No
+Capitol Desk,Preparer,Pension,2022 TY,"$29,690",Standard,$0,"$5,240",Head of Household,2-page,6.20%,Simple,On time,Yes,Yes,0.0,5 stars,10,3,2 dependents,"$20,800","$3,200",Yes
+Prairie Desk,Preparer,Wages,2019 TY,"$63,620",Itemized,"$2,070","$3,460",Single,2-page,7.00%,Simple,On time,Yes,No,7532.1,5 stars,6,7,0 dependents,"$28,900",$0,Yes
+Central Desk,Online,Mixed,2023 TY,"$30,520",Standard,"$13,870","$11,100",Married Joint,2-page,4.75%,Simple,On time,Yes,No,0.0,5 stars,9,6,3 dependents,"$27,700","$4,800",Yes
+Central Desk,Online,Royalty,2021 TY,"$15,700",Itemized,"$31,400","$109,900",Single,2-page,0.00%,Simple,On time,No,No,15719.85,4 stars,10,17,0 dependents,"$22,320",$0,No
+River Desk,Preparer,Wages,2023 TY,"$76,620",Standard,"$2,500","$4,160",Married Joint,2-page,6.20%,Simple,No filing yet,No,No,11463.17,3 stars,13,9,0 dependents,"$27,700",$0,Yes
+River Desk,Online,Mixed,2022 TY,"$31,710",Standard,"$14,410","$11,530",Married Joint,2-page,6.20%,Simple,On time,No,Yes,4219.26,4 stars,8,6,0 dependents,"$27,700",$400,Yes
+Central Desk,Online,Mixed,2021 TY,"$51,360",Standard,"$23,340","$18,680",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,11468.03,5 stars,4,15,0 dependents,"$27,700",$0,Yes
+River Desk,Online,Investment,2019 TY,"$22,280",Standard,"$11,140","$77,980",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,7803.84,5 stars,3,17,1 dependent,"$27,700",$400,Yes
+Delta Desk,Preparer,Wages,2023 TY,"$45,630",Standard,"$1,490","$2,480",Single,8-page,6.20%,Schedule-heavy,No filing yet,Yes,No,6136.1,4 stars,10,10,0 dependents,"$13,850",$0,Yes
+Central Desk,Online,Wages,2020 TY,"$73,780",Standard,"$2,410","$4,010",Married Joint,2-page,3.00%,Simple,3-year amend,Yes,Yes,6071.59,4 stars,3,8,1 dependent,"$27,700","$1,600",Yes
+Harbor Desk,Online,Wages,2019 TY,"$65,640",Itemized,"$2,140","$3,570",Married Joint,16-page,5.50%,Audit-ready,On time,Yes,Yes,648.99,4 stars,4,12,2 dependents,"$40,290","$3,200",Yes
+Central Desk,Online,Investment,2023 TY,"$21,840",Itemized,"$10,920","$76,450",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,No,4390.6,5 stars,6,17,0 dependents,"$46,190",$0,Yes
+Central Desk,Online,Investment,2021 TY,"$19,160",Itemized,"$9,580","$67,070",Single,2-page,0.00%,Simple,2-year amend,No,No,6191.52,3 stars,5,10,0 dependents,"$19,950",$0,No
+North Desk,Preparer,Wages,2022 TY,"$66,560",Standard,"$2,170","$3,620",Married Joint,2-page,6.20%,Simple,On time,No,No,7260.0,4 stars,4,8,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Online,Wages,2021 TY,"$62,100",Standard,"$2,030","$3,380",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,2773.17,5 stars,7,12,2 dependents,"$27,700","$3,200",Yes
+River Desk,Preparer,Contract,2023 TY,"$24,030",Itemized,"$41,190","$3,430",Single,2-page,7.00%,Simple,On time,Yes,No,9595.34,5 stars,3,7,1 dependent,"$17,210",$0,Yes
+Central Desk,Online,Wages,2021 TY,"$42,890",Standard,"$1,400","$2,330",Single,8-page,5.50%,Schedule-heavy,On time,Yes,No,5724.37,5 stars,11,10,0 dependents,"$13,850",$0,Yes
+Delta Desk,Preparer,Wages,2021 TY,"$94,440",Standard,"$3,080","$5,130",Married Joint,8-page,4.75%,Schedule-heavy,On time,Yes,Yes,14159.11,5 stars,2,16,1 dependent,"$27,700",$0,Yes
+Harbor Desk,Online,Mixed,2021 TY,"$25,570",Itemized,"$11,620","$9,300",Married Separate,16-page,4.75%,Audit-ready,On time,Yes,No,0.0,4 stars,4,10,1 dependent,"$30,320","$1,600",Yes
+North Desk,Preparer,Wages,2021 TY,"$66,480",Standard,"$2,170","$3,610",Single,16-page,4.75%,Audit-ready,On time,Yes,Yes,10904.76,4 stars,10,13,0 dependents,"$13,850",$0,Yes
+Capitol Desk,Online,Wages,2021 TY,"$49,970",Standard,"$1,630","$2,720",Head of Household,8-page,6.20%,Schedule-heavy,On time,Yes,No,5450.61,5 stars,5,11,0 dependents,"$20,800",$0,Yes
+Prairie Desk,Walk-in,Mixed,2020 TY,"$71,930",Itemized,"$32,700","$26,160",Married Joint,16-page,5.50%,Audit-ready,On time,Yes,No,7545.67,4 stars,8,19,4 dependents,"$43,730","$6,400",Yes
+Harbor Desk,Online,Wages,2020 TY,"$37,090",Standard,"$1,210","$2,020",Married Separate,16-page,6.20%,Audit-ready,On time,Yes,Yes,4615.46,4 stars,7,9,0 dependents,"$13,850",$0,Yes
+Harbor Desk,Online,Mixed,2022 TY,"$30,770",Standard,"$13,990","$11,190",Married Joint,2-page,4.75%,Simple,No filing yet,No,No,3722.52,3 stars,8,6,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Preparer,Self-employed,2023 TY,"$5,410",Standard,"$28,870","$1,800",Married Joint,8-page,3.00%,Schedule-heavy,No filing yet,Yes,No,976.87,4 stars,12,9,0 dependents,"$27,700",$0,Yes
+Highland Desk,Online,Mixed,2019 TY,"$48,240",Standard,"$21,930","$17,540",Married Joint,2-page,0.00%,Simple,On time,Yes,No,6130.48,5 stars,2,9,1 dependent,"$27,700",$0,No
+Central Desk,Online,Wages,2021 TY,"$26,720",Standard,$870,"$1,450",Head of Household,2-page,6.20%,Simple,On time,Yes,No,0.0,5 stars,8,3,1 dependent,"$20,800","$1,600",Yes
+Harbor Desk,Preparer,Pension,2023 TY,"$34,290",Standard,$0,"$6,050",Married Joint,2-page,4.75%,Simple,On time,Yes,No,2219.87,5 stars,1,4,0 dependents,"$27,700",$0,Yes
+North Desk,Preparer,Wages,2023 TY,"$11,040",Standard,$360,$600,Married Joint,2-page,4.75%,Simple,On time,Yes,Yes,0.0,5 stars,8,1,1 dependent,"$27,700","$1,600",Yes
+Highland Desk,Preparer,Investment,2023 TY,"$22,100",Standard,"$11,050","$77,350",Married Joint,2-page,4.75%,Simple,On time,Yes,Yes,8029.83,5 stars,1,12,1 dependent,"$27,700","$1,600",Yes
+Delta Desk,Walk-in,Wages,2021 TY,"$46,000",Standard,"$1,500","$2,500",Married Separate,2-page,4.75%,Simple,On time,No,No,6055.14,4 stars,10,5,0 dependents,"$13,850",$400,Yes
+River Desk,Online,Investment,2022 TY,"$4,120",Standard,"$2,060","$14,430",Single,2-page,5.50%,Simple,No filing yet,Yes,No,1200.56,4 stars,12,2,3 dependents,"$13,850",$0,Yes
+Highland Desk,Online,Wages,2021 TY,"$81,010",Standard,"$2,640","$4,400",Married Joint,8-page,5.50%,Schedule-heavy,No filing yet,Yes,No,12165.89,4 stars,2,14,0 dependents,"$27,700",$0,Yes
+North Desk,Preparer,Wages,2020 TY,"$28,170",Standard,$920,"$1,530",Married Joint,8-page,7.00%,Schedule-heavy,No filing yet,Yes,No,549.83,4 stars,2,8,0 dependents,"$27,700",$0,Yes
+Harbor Desk,Online,Mixed,2021 TY,"$56,050",Standard,"$25,480","$20,380",Head of Household,16-page,0.00%,Audit-ready,On time,No,No,10139.62,3 stars,2,16,3 dependents,"$20,800",$0,No
+Harbor Desk,Online,Wages,2022 TY,"$41,560",Standard,"$1,360","$2,260",Married Joint,2-page,5.50%,Simple,No filing yet,Yes,No,2955.92,4 stars,12,5,2 dependents,"$27,700",$0,Yes
+Capitol Desk,Online,Wages,2021 TY,"$92,400",Itemized,"$3,010","$5,020",Married Joint,2-page,0.00%,Simple,No filing yet,Yes,No,8219.34,4 stars,8,11,0 dependents,"$38,580",$0,No
+Prairie Desk,Online,Self-employed,2022 TY,"$14,700",Itemized,"$78,390","$4,900",Qualifying Widow,8-page,6.20%,Schedule-heavy,2-year amend,No,No,1959.98,3 stars,4,15,2 dependents,"$57,050","$3,200",Yes
+Prairie Desk,Online,Pension,2021 TY,"$27,090",Standard,$0,"$4,780",Married Joint,2-page,5.50%,Simple,No filing yet,Yes,No,0.0,4 stars,7,3,1 dependent,"$27,700","$1,600",Yes
+Delta Desk,Online,Wages,2021 TY,"$36,790",Standard,"$1,200","$2,000",Single,16-page,4.75%,Audit-ready,No filing yet,Yes,No,2957.35,3 stars,0,9,0 dependents,"$13,850",$400,Yes
+Delta Desk,Preparer,Pension,2023 TY,"$49,040",Standard,$0,"$8,650",Single,8-page,6.20%,Schedule-heavy,No filing yet,Yes,No,3482.06,4 stars,4,11,2 dependents,"$13,850","$3,400",Yes
+Delta Desk,Preparer,Investment,2023 TY,"$16,870",Standard,"$8,440","$59,050",Single,2-page,4.75%,Simple,On time,Yes,No,3258.75,5 stars,10,9,2 dependents,"$13,850","$3,200",Yes
+North Desk,Walk-in,Pension,2021 TY,"$38,500",Standard,$0,"$6,790",Single,2-page,3.00%,Simple,On time,No,No,4609.69,4 stars,7,5,0 dependents,"$13,850",$0,Yes
+North Desk,Online,Self-employed,2022 TY,"$17,520",Standard,"$93,440","$5,840",Married Joint,2-page,4.75%,Simple,On time,Yes,Yes,18645.04,5 stars,4,12,1 dependent,"$27,700",$0,Yes
+Central Desk,Online,Self-employed,2021 TY,"$6,610",Standard,"$35,240","$2,200",Married Separate,2-page,0.00%,Simple,On time,Yes,No,3892.81,5 stars,0,4,0 dependents,"$13,850",$0,No
+Highland Desk,Preparer,Mixed,2019 TY,"$44,410",Standard,"$20,180","$16,150",Married Separate,2-page,6.20%,Simple,On time,Yes,No,13084.79,5 stars,4,8,0 dependents,"$13,850",$0,Yes

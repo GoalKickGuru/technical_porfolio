@@ -1,0 +1,276 @@
+{
+  "project": {
+    "title": "Predicting GDP per Capita Using Feature Engineering",
+    "domain": "Economics Science (Macroeconomics)",
+    "objective": "Build a machine learning model to predict a country's GDP per capita based on macroeconomic and socioeconomic indicators, following a complete data science pipeline from raw data inspection to model evaluation.",
+    "dataset_file": "macro_indicators.csv",
+    "target_variable": "gdp_per_capita",
+    "note": "No dataset is provided. Either collect one from public sources (World Bank Open Data, IMF WEO, OECD.Stat, Our World in Data) or create a synthetic CSV matching the schema below, then apply the pipeline in order.",
+    "rationale": "Real-world economic datasets rarely arrive clean. Numeric indicators are commonly stored as text with units and symbols (e.g., '$ 21,430', '3.2 %', '68.5 years'), and macro panels frequently contain sentinel strings like 'Not Available' or '..' for missing observations. This mirrors real-world data imperfection and motivates systematic feature extraction."
+  },
+  "dataset_schema": {
+    "columns": [
+      { "name": "country", "description": "Country name (Germany, Brazil, Japan, etc.)" },
+      { "name": "region", "description": "Geographic region (Europe & Central Asia, Sub-Saharan Africa, East Asia & Pacific, etc.)" },
+      { "name": "population", "description": "Total population (text, e.g., '83.2 million')" },
+      { "name": "unemployment_rate", "description": "Unemployment rate (text, e.g., '5.4 %')" },
+      { "name": "inflation_rate", "description": "Annual CPI inflation (text, e.g., '2.1 %')" },
+      { "name": "life_expectancy", "description": "Average life expectancy (text, e.g., '81.3 years')" },
+      { "name": "literacy_rate", "description": "Adult literacy rate (text, e.g., '99.0 %')" },
+      { "name": "internet_penetration", "description": "Share of population using the internet (text, e.g., '88.7 %')" },
+      { "name": "exports_gdp_share", "description": "Exports as % of GDP (text, e.g., '47.2 %')" },
+      { "name": "gov_spending_gdp_share", "description": "Government expenditure as % of GDP (text, e.g., '44.1 %')" },
+      { "name": "trade_openness_index", "description": "Trade openness index (numeric already, or text with units)" },
+      { "name": "hdi", "description": "Human Development Index (numeric, e.g., 0.94)" },
+      { "name": "currency_regime", "description": "Exchange rate regime (Floating, Fixed, Pegged, Currency Union)" },
+      { "name": "income_group", "description": "World Bank income classification (Low, Lower-Middle, Upper-Middle, High)" },
+      { "name": "resource_dependent", "description": "Natural-resource-dependent economy (Yes / No)" },
+      { "name": "democracy_index", "description": "Democracy index score (text with artifacts, e.g., '8.53 pts', 'Not Available')" },
+      { "name": "gdp_per_capita", "description": "GDP per capita in USD (TARGET, text, e.g., '$ 51,204')" }
+    ],
+    "notes": "Several numeric columns are object-typed. The country and region columns have high cardinality; income_group and currency_regime have low cardinality. 'population' mixes magnitudes (million/billion) and requires unit-aware parsing, unlike the laptop project's single-unit columns."
+  },
+  "background_theory": {
+    "economics_fundamentals": [
+      "Definition and components of GDP; difference between GDP total, GDP per capita, and GDP growth",
+      "Purchasing power parity (PPP) vs. nominal exchange-rate conversion; why PPP-adjusted figures are preferred for cross-country comparison",
+      "Relationships explored in EDA: Solow-style associations between investment/productivity and income, Okun's law intuition (unemployment vs. output), human capital proxies (literacy, life expectancy) and development levels",
+      "Structural features of economies: export dependence, government spending share, resource curse hypothesis, income classification systems",
+      "Right-skew of income/GDP distributions (a few very rich countries, many middle- and low-income ones) and implications for regression metrics"
+    ],
+    "data_science_fundamentals": [
+      "Pandas loading, inspection (.head, .info, .describe), dtype auditing",
+      "String parsing and unit stripping with .str.replace and .str.extract",
+      "Magnitude rescaling ('million'/'billion' multipliers) as an extension of simple unit stripping",
+      "Missing data strategies: sentinel encoding ('Not Available' -> 0 or NaN) and its trade-offs",
+      "Feature engineering: composites (e.g., exports per capita), keeping dimensionality low",
+      "Correlation analysis and multicollinearity among macro aggregates (many indicators co-move with development level)",
+      "Categorical encoding: one-hot for low cardinality, target (mean) encoding for high cardinality",
+      "Target leakage: computing encodings on the full dataset before splitting inflates test scores",
+      "Train/test splitting with fixed random_state for reproducibility",
+      "Decision trees and Random Forests: bagging, feature subsampling, robustness to non-linearities",
+      "Evaluation metrics: MAE (interpretable in USD), RMSE (outlier-sensitive), R-squared (variance explained)",
+      "Feature importance: impurity-based bias toward high-cardinality encoded features; permutation importance as debiased alternative"
+    ]
+  },
+  "pipeline_tasks": [
+    {
+      "step": 1,
+      "title": "Data Loading and Initial Inspection",
+      "task": "Load and inspect the macroeconomic dataset:",
+      "steps": [
+        "Import the pandas library as pd",
+        "Load the dataset 'macro_indicators.csv' into a DataFrame named df",
+        "Print the first 5 rows of the DataFrame using .head()",
+        "Inspect the data types and non-null counts by calling .info() on df",
+        "Check df.columns for naming inconsistencies",
+        "Scan for sentinel values ('Not Available', '..', 'No data')"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Extracting Percentage-Based Economic Indicators",
+      "task": "Parse percentage indicators stored as text:",
+      "steps": [
+        "Iterate over the columns ['unemployment_rate', 'inflation_rate', 'literacy_rate', 'internet_penetration', 'exports_gdp_share', 'gov_spending_gdp_share'] using a for loop",
+        "For each column, remove the string ' %' using .str.replace(' %', ''), then also strip any ',' thousands separator, and convert the result to float using .astype(float)",
+        "Verify with df[list_of_columns].head() and df[...].describe()"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Cleaning Population, Life Expectancy and Other Text Columns",
+      "task": "Extract numeric data from the remaining string-based columns, casting each to string first for idempotency:",
+      "steps": [
+        "Clean population: .astype(str), replace ' million' with '' and multiply by 1e6 OR use a mapping {'million': 1e6, 'billion': 1e9}; handle rows with plain numbers; convert to float. Alternative: parse with a regex extracting number and unit, then compute the scaled value",
+        "Clean life_expectancy: .astype(str), replace ' years' with '', convert to float",
+        "Clean democracy_index: .astype(str), replace 'Not Available' with '0', replace ' pts' with '', convert to float",
+        "Confirm no ValueError from unexpected strings using .unique() checks"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Feature Engineering for Economic Structure",
+      "task": "Engineer economically meaningful composite features:",
+      "steps": [
+        "Create 'exports_intensity' interaction: exports_gdp_share * trade_openness_index (composite intensity measure)",
+        "Create 'digital_readiness' = internet_penetration * literacy_rate / 100 (interaction of human and digital capital)",
+        "Drop intermediate columns that are fully represented by the new features",
+        "Document each transformation"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Exploratory Data Analysis for GDP Drivers",
+      "task": "Perform EDA using Seaborn and Matplotlib:",
+      "steps": [
+        "Create numeric_df using df.select_dtypes(include='number')",
+        "Create a correlation heatmap with sns.heatmap(numeric_df.corr(), annot=True, cmap='coolwarm')",
+        "Identify features with the highest absolute correlation with 'gdp_per_capita'",
+        "Boxplot: income_group on x-axis vs gdp_per_capita on y-axis",
+        "Boxplot: unemployment_rate (rounded to integer bins) on x-axis vs gdp_per_capita on y-axis",
+        "Note: expect strong right skew; consider a log transform of the target for diagnostics (log(gdp_per_capita))"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Encoding Categorical Variables and Splitting Data",
+      "task": "Encode categorical features and perform a train/test split:",
+      "steps": [
+        "Identify categorical columns using df.select_dtypes(include=['object']).columns",
+        "For each column: if fewer than 5 unique values, one-hot encode with pd.get_dummies(..., drop_first=True); otherwise target encode with .map(df.groupby(col)['gdp_per_capita'].mean())",
+        "Expected behavior: 'currency_regime' and 'resource_dependent' fall below the threshold; 'region' and 'country' exceed it (note: target-encoding 'country' is borderline circular for this target - prefer dropping 'country' or using frequency encoding, and discuss why)",
+        "Define X as all columns except 'gdp_per_capita', and y as 'gdp_per_capita'",
+        "Split into X_train, X_test, y_train, y_test with an 80/20 split and random_state=42",
+        "Recommended stretch: fit target encoders on the training set only and fill unseen test categories with the training mean"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Building the Random Forest Regressor",
+      "task": "Initialize and train the regression model:",
+      "steps": [
+        "Import RandomForestRegressor from sklearn.ensemble",
+        "Initialize the model as rf_model with random_state=42",
+        "Fit the model using X_train and y_train",
+        "Generate predictions on X_test and store them in y_pred"
+      ]
+    },
+    {
+      "step": 8,
+      "title": "Evaluating Model Performance and Feature Importance",
+      "task": "Evaluate the model and visualize feature importances:",
+      "steps": [
+        "Import mean_absolute_error and r2_score from sklearn.metrics",
+        "Compute both metrics using y_test and y_pred and print the results",
+        "Extract feature importances from rf_model.feature_importances_",
+        "Identify the top 5 most important features using np.argsort()",
+        "Plot them with a horizontal sns.barplot()",
+        "Interpret: do life expectancy, internet penetration, or export intensity dominate? Compare against economic intuition"
+      ]
+    }
+  ],
+  "checklists": {
+    "completion_checklist": {
+      "step_1_load_inspect": [
+        "Import pandas as pd",
+        "Load 'macro_indicators.csv' into df",
+        "Print df.head()",
+        "Run df.info() and list object-typed columns that should be numeric",
+        "Check df.columns for naming issues",
+        "Count nulls and sentinel strings per column"
+      ],
+      "step_2_percentage_features": [
+        "Loop over the six percentage columns",
+        "Apply .str.replace(' %', '') and .astype(float)",
+        "Handle decimal-comma variants if present",
+        "Verify with .describe() (values should lie in plausible ranges, e.g., 0-100)"
+      ],
+      "step_3_text_numeric_cleaning": [
+        "Clean population with million/billion scaling",
+        "Clean life_expectancy by removing ' years'",
+        "Clean democracy_index by sentinel-replacing 'Not Available' with '0' and removing ' pts'",
+        "Confirm all conversions run without ValueError"
+      ],
+      "step_4_feature_engineering": [
+        "Create exports_intensity composite",
+        "Create digital_readiness interaction feature",
+        "Drop superseded intermediate columns",
+        "Record transformations in a pipeline log"
+      ],
+      "step_5_eda": [
+        "Build numeric_df via select_dtypes",
+        "Plot correlation heatmap with annot=True",
+        "Rank features by |correlation| with gdp_per_capita",
+        "Boxplot income_group vs gdp_per_capita",
+        "Boxplot unemployment bins vs gdp_per_capita",
+        "Optionally inspect distribution of log(gdp_per_capita)"
+      ],
+      "step_6_encoding_split": [
+        "List categorical columns",
+        "Apply cardinality rule (<5 unique: one-hot; >=5: target encoding)",
+        "Decide explicitly on 'country' column handling (leakage discussion)",
+        "Define X and y",
+        "Split 80/20 with random_state=42",
+        "Ensure all target-dependent computations happen after the split (or refactored to train-only)"
+      ],
+      "step_7_modeling": [
+        "Initialize RandomForestRegressor with random_state=42",
+        "Fit on X_train, y_train",
+        "Predict on X_test as y_pred"
+      ],
+      "step_8_evaluation": [
+        "Print MAE and R-squared",
+        "Extract rf_model.feature_importances_",
+        "Plot top-5 features with a horizontal barplot",
+        "Cross-check top features against economic theory (human capital, trade openness, institutions)"
+      ]
+    },
+    "transferable_checklist_for_similar_economics_projects": {
+      "phase_1_problem_understanding": [
+        "Define the continuous target (GDP per capita, household income, inflation, consumption, wages)",
+        "Choose stakeholder-relevant metrics (currency units, percentage points)",
+        "Ground expectations in domain theory before looking at data"
+      ],
+      "phase_2_data_audit": [
+        "Source from reputable providers (World Bank, IMF, OECD) or document synthetic generation",
+        "Audit dtypes: expected vs. actual per column",
+        "List all unit-bearing strings ('%', '$', 'years', 'million')",
+        "Identify sentinel values and disguised missing data"
+      ],
+      "phase_3_feature_engineering": [
+        "Strip units idempotently (.astype(str) first)",
+        "Rescale magnitudes (million/billion, per-capita normalization)",
+        "Impute vs sentinel vs drop - justify per column",
+        "Build theory-motivated composites (ratios, per-capita intensities, interaction indices)"
+      ],
+      "phase_4_eda": [
+        "Correlation heatmap on numeric features",
+        "Examine target skew; consider log transformation",
+        "Boxplots of discrete/grouped features vs target",
+        "Flag leakage-prone columns (identifiers, target-derived aggregates)"
+      ],
+      "phase_5_encoding_and_splitting": [
+        "Split categorical columns by cardinality threshold (~5)",
+        "One-hot low cardinality; target/frequency encode high cardinality, fitted on train only",
+        "Define fallback for unseen categories",
+        "Fix random_state everywhere"
+      ],
+      "phase_6_modeling": [
+        "Baseline: mean predictor or linear regression",
+        "Fit Random Forest with defaults",
+        "Compare train vs test metrics for over/underfitting diagnosis"
+      ],
+      "phase_7_evaluation": [
+        "Report MAE, RMSE, and R-squared together",
+        "Plot predicted vs actual; examine residuals by region/income group",
+        "Compare impurity-based vs permutation importance",
+        "Sanity-check features against economic reasoning"
+      ],
+      "phase_8_iteration_communication": [
+        "Hyperparameter tuning with GridSearchCV or RandomizedSearchCV",
+        "Cross-validation (k-fold, ideally grouped by region or year for panel data)",
+        "Compare Gradient Boosting / XGBoost against Random Forest",
+        "Translate findings into policy-relevant language for non-technical readers"
+      ]
+    },
+    "common_pitfalls_checklist": [
+      "Target leakage: target encoding or scaling fitted on the full dataset before splitting",
+      "Leaky identifiers: encoding 'country' names with target means when the target is a per-country statistic",
+      "Non-idempotent cleaning: rerunning cells crashes on already-numeric columns",
+      "Mixed magnitudes in text ('million' vs 'billion' vs raw numbers) breaking .astype(float)",
+      "Decimal comma vs decimal point conventions in European-format data",
+      "Comparing nominal GDP across countries without acknowledging PPP and exchange-rate distortion",
+      "Outlier dominance: a handful of microstates or oil economies distorting RMSE and impurity importances",
+      "Ignoring temporal structure: cross-sectional rules differ from panel/time-series splits (data snooping across years)",
+      "Treating suspiciously high R-squared as success rather than a leakage warning"
+    ]
+  },
+  "extensions_after_modeling": [
+    "Log-transform the target and compare MAE/R2 against the raw-scale model",
+    "Add a second model family (GradientBoostingRegressor) and benchmark",
+    "If the data includes multiple years, add year as a feature or use grouped cross-validation by year",
+    "Permutation importance for debiased rankings",
+    "SHAP values for per-country explanation of predictions"
+  ]
+}
